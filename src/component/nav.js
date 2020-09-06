@@ -13,7 +13,7 @@ export default function Navigation() {
       <Navbar.Brand href="#home">Loopy doodles</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav fill={true} className="mr-auto">
+        <Nav fill={true} className="">
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#link">Link</Nav.Link>
           <Nav.Link href="#link">Link</Nav.Link>

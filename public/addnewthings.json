@@ -1,0 +1,70 @@
+{
+   
+      "puppies": [
+        {
+          "title":"hot doge",
+          "description":" he great",
+          "price": 10,
+          "image": ""
+        },
+        {
+          "title":"",
+          "description":"",
+          "fulldescription": "",
+          "price": 35,
+          "image": ""
+          
+        },
+        {
+          "title":"",
+          "description":"",
+          "fulldescription": "",
+          "price": 5,
+          "image": ""
+        },
+        {
+          "title":"",
+          "description":"",
+          "fulldescription": "",
+          "price": 175,
+          "image": "",
+          "amount": 1
+        },
+        {
+          "title":"",
+          "description":"",
+          "fulldescription": "",
+          "price": 100,
+          "image": ""
+        },
+        {
+          "title":"",
+          "description":"",
+          "fulldescription": "",
+          "price": 195,
+          "image": "",
+          "onotherwebsite": ""
+  
+  
+        }
+      ],
+    
+    "parents": [
+ {
+     "name": "", 
+     "age": "",
+     "description": "",
+     "breed": ""
+ }
+    ],
+    
+    "reviews": [
+        {
+            "title":"",
+            "description":"",
+            "image": ""
+    
+    
+          }
+    ]
+  }
