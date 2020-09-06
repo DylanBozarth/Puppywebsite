@@ -2,7 +2,7 @@
    
       "puppies": [
         {
-          "title":"hot doge",
+          "name":"hot doge",
           "description":" he great",
           "price": 10,
           "image": ""

@@ -1,8 +1,18 @@
 import React from "react";
 
-function Puppies(props, propdata) {
-  return <div>{props.puppies.map( puppies => 
-      <h1>{puppies.name}</h1>
-  )}</div>;
+
+
+import _ from 'lodash';
+
+function Puppies({ propdata }) {
+  const puppies = _.get(propdata, 'puppies', []);
+
+  return (
+    <div>
+      {puppies.map(puppies => 
+        <h1 className="black">{puppies.name}</h1>
+      )}
+    </div>
+  );
 }
-export default Puppies;
+export default Puppies
