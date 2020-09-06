@@ -1,6 +1,8 @@
 import React from "react";
 
-function Puppies() {
-  return <div>HERE THERE BE PUPPERS</div>;
+function Puppies(props, propdata) {
+  return <div>{props.puppies.map( puppies => 
+      <h1>{puppies.name}</h1>
+  )}</div>;
 }
 export default Puppies;

@@ -1,20 +1,20 @@
 import React from "react";
 
-import {
-  Nav,
-  NavDropdown,
-  Navbar,
-  
-} from "react-bootstrap";
+import { NavLink } from "react-router-dom";
+import { Nav, NavDropdown, Navbar } from "react-bootstrap";
 
 export default function Navigation() {
   return (
-    <Navbar   bg="light" expand="lg">
-      <Navbar.Brand href="#home">Loopy doodles</Navbar.Brand>
+    <Navbar bg="light" expand="lg">
+      <NavLink to="/">
+        <Navbar.Brand href="#home">Loopy doodles</Navbar.Brand>
+      </NavLink>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav fill={true} className="">
-          <Nav.Link href="#home">Home</Nav.Link>
+          <NavLink to="/puppies">
+            <Nav.Link href="puppies">puppies</Nav.Link>
+          </NavLink>
           <Nav.Link href="#link">Link</Nav.Link>
           <Nav.Link href="#link">Link</Nav.Link>
           <Nav.Link href="#link">Link</Nav.Link>
@@ -32,7 +32,6 @@ export default function Navigation() {
             </NavDropdown.Item>
           </NavDropdown>
         </Nav>
-        
       </Navbar.Collapse>
     </Navbar>
   );
