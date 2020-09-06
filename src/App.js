@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
-
+import Navigation from "./component/nav";
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
-   
-      <div className="App-header">
-        wewew
-      </div>
+    <div>
+      <Navigation />
+      <div className="page">wewew</div>
+    </div>
   );
 }
 
