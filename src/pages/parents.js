@@ -2,11 +2,12 @@ import React from "react";
 
 import { Card, Container } from "react-bootstrap";
 
+import useTitle from "../hooks/useTitle";
 import _ from "lodash";
 
 function Parents({ propdata }) {
   const parents = _.get(propdata, "parents", []);
-
+useTitle('JYMR doodles');
   return (
     <div className="page">
       <Container className="card-page">

@@ -8,6 +8,8 @@ import { Route, BrowserRouter } from "react-router-dom";
 import Parents from "./pages/parents";
 import About from "./pages/about";
 import { Footer } from "./component/footer";
+import Application from "./pages/application";
+
 
 class App extends Component {
   constructor(props) {
@@ -54,6 +56,7 @@ class App extends Component {
           )}
         />
         <Route exact path="/about" component={About} />
+        <Route exact path="/application" component={Application} />
       </BrowserRouter><Footer /></div>
     );
   }
