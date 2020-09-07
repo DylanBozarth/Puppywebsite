@@ -2,10 +2,12 @@ import React, { Component } from "react";
 import "./App.css";
 import Navigation from "./component/nav";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Puppies from './pages/puppies'
-import Home from './pages/home'
+import Puppies from "./pages/puppies";
+import Home from "./pages/home";
 import { Route, BrowserRouter } from "react-router-dom";
 import Parents from "./pages/parents";
+import About from "./pages/about";
+import { Footer } from "./component/footer";
 
 class App extends Component {
   constructor(props) {
@@ -27,33 +29,32 @@ class App extends Component {
   }
   render() {
     return (
-      <BrowserRouter>
-      <div>
-      <Navigation /></div>
-      <Route
-              exact
-              path="/"
-              render={props => (
-                <Home {...props} propdata={this.state.propdata} />
-              )}
-            />
-        <Route
-              exact
-              path="/puppies"
-              render={props => (
-                <Puppies {...props} propdata={this.state.propdata} />
-              )}
-            />
-          <Route
-              exact
-              path="/parents"
-              render={props => (
-                <Parents {...props} propdata={this.state.propdata} />
-              )}
-            />
+      <div><BrowserRouter>
+        
+          <Navigation />
           
         
-      </BrowserRouter>
+        <Route
+          exact
+          path="/"
+          render={(props) => <Home {...props} propdata={this.state.propdata} />}
+        />
+        <Route
+          exact
+          path="/puppies"
+          render={(props) => (
+            <Puppies {...props} propdata={this.state.propdata} />
+          )}
+        />
+        <Route
+          exact
+          path="/parents"
+          render={(props) => (
+            <Parents {...props} propdata={this.state.propdata} />
+          )}
+        />
+        <Route exact path="/about" component={About} />
+      </BrowserRouter><Footer /></div>
     );
   }
 }

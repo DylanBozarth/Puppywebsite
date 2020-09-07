@@ -11,8 +11,17 @@ text-align: center;
 .black {
   color: black;
 }
+/* puppies and parents page */ 
 .card-page {
   margin-top: 1rem;
   display: flex;
 }
+/* end of puppies */ 
+
+/* footer */ 
+.footer {
+  
+  text-align: center;
+}
+/* end of footer */ 
 /* navbar */ 
