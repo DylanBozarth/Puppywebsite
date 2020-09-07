@@ -15,11 +15,15 @@ export default function Navigation() {
           <NavLink to="/puppies">
             <Nav.Link href="puppies">puppies</Nav.Link>
           </NavLink>
-          <Nav.Link href="#link">Link</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
+          <NavLink to="/parents">
+            <Nav.Link href="puppies">Parents</Nav.Link>
+          </NavLink>
+          <NavLink to="/about">
+            <Nav.Link href="puppies">About us</Nav.Link>
+          </NavLink>
+          <NavLink to="/puppies">
+            <Nav.Link href="puppies">puppies</Nav.Link>
+          </NavLink>
           <NavDropdown title="Dropdown" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">

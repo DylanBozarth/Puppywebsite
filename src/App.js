@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Puppies from './pages/puppies'
 import Home from './pages/home'
 import { Route, BrowserRouter } from "react-router-dom";
+import Parents from "./pages/parents";
 
 class App extends Component {
   constructor(props) {
@@ -43,7 +44,13 @@ class App extends Component {
                 <Puppies {...props} propdata={this.state.propdata} />
               )}
             />
-          
+          <Route
+              exact
+              path="/parents"
+              render={props => (
+                <Parents {...props} propdata={this.state.propdata} />
+              )}
+            />
           
         
       </BrowserRouter>

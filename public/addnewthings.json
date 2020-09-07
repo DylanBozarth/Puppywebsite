@@ -5,56 +5,17 @@
           "name":"hot doge",
           "description":" he great",
           "price": 10,
-          "image": ""
-        },
-        {
-          "title":"",
-          "description":"",
-          "fulldescription": "",
-          "price": 35,
-          "image": ""
-          
-        },
-        {
-          "title":"",
-          "description":"",
-          "fulldescription": "",
-          "price": 5,
-          "image": ""
-        },
-        {
-          "title":"",
-          "description":"",
-          "fulldescription": "",
-          "price": 175,
-          "image": "",
-          "amount": 1
-        },
-        {
-          "title":"",
-          "description":"",
-          "fulldescription": "",
-          "price": 100,
-          "image": ""
-        },
-        {
-          "title":"",
-          "description":"",
-          "fulldescription": "",
-          "price": 195,
-          "image": "",
-          "onotherwebsite": ""
-  
-  
+          "image": "./puppies/shiba.jpg"
         }
+        
       ],
     
     "parents": [
  {
-     "name": "", 
-     "age": "",
-     "description": "",
-     "breed": ""
+     "name": "Greg", 
+     "age": "55",
+     "description": "A big doge",
+     "breed": "Labradoodle"
  }
     ],
     
