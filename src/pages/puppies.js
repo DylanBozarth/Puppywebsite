@@ -8,6 +8,7 @@ function Puppies({ propdata }) {
   const puppies = _.get(propdata, "puppies", []);
 
   return (
+    <div className="page">
     <Container className="card-page">
       {puppies.map((puppies) => (
         <Card style={{ width: '18rem' }}>
@@ -20,7 +21,7 @@ function Puppies({ propdata }) {
         </Card.Body>
       </Card>
       ))}
-    </Container>
+    </Container></div>
   );
 }
 export default Puppies;
