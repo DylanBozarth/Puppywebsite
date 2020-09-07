@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Card } from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
 
 import _ from "lodash";
 
@@ -8,7 +8,7 @@ function Puppies({ propdata }) {
   const puppies = _.get(propdata, "puppies", []);
 
   return (
-    <div>
+    <Container className="card-page">
       {puppies.map((puppies) => (
         <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={puppies.image} alt={puppies.name} />
@@ -20,7 +20,7 @@ function Puppies({ propdata }) {
         </Card.Body>
       </Card>
       ))}
-    </div>
+    </Container>
   );
 }
 export default Puppies;

@@ -1,5 +1,6 @@
 import React from "react";
 
+import { Card, Container } from "react-bootstrap";
 
 import _ from "lodash";
 
@@ -7,11 +8,19 @@ function Parents({ propdata }) {
   const parents = _.get(propdata, "parents", []);
 
   return (
-    <div>
+    <Container className="card-page">
       {parents.map((parents) => (
-        <h1>{parents.name}</h1>
+        <Card style={{ width: '18rem' }}>
+        <Card.Img variant="top" src={parents.image} alt={parents.name} />
+        <Card.Body>
+          <Card.Title>{parents.name}</Card.Title>
+          <Card.Text>
+            {parents.description}
+          </Card.Text>
+        </Card.Body>
+      </Card>
       ))}
-    </div>
+    </Container>
   );
 }
 export default Parents;

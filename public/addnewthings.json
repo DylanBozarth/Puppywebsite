@@ -6,6 +6,18 @@
           "description":" he great",
           "price": 10,
           "image": "./puppies/shiba.jpg"
+        },
+        {
+          "name":"hot doge",
+          "description":" he great",
+          "price": 10,
+          "image": "./puppies/shiba.jpg"
+        },
+        {
+          "name":"hot doge",
+          "description":" he great",
+          "price": 10,
+          "image": "./puppies/shiba.jpg"
         }
         
       ],
@@ -15,7 +27,9 @@
      "name": "Greg", 
      "age": "55",
      "description": "A big doge",
-     "breed": "Labradoodle"
+     "breed": "Labradoodle",
+     "image": "./puppies/shiba.jpg"
+     
  }
     ],
     
