@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.css";
+import "./App.scss";
 import Navigation from "./component/nav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Puppies from "./pages/puppies";
@@ -26,7 +26,6 @@ class App extends Component {
           ...this,
           propdata: res,
         });
-        console.log(this.state.propdata);
       });
   }
   render() {

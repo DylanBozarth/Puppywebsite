@@ -15,8 +15,8 @@ useTitle('JYMR doodles');
           <Card style={{ width: "18rem" }}>
             <Card.Img variant="top" src={parents.image} alt={parents.name} />
             <Card.Body>
-              <Card.Title>{parents.name}</Card.Title>
-              <Card.Text>{parents.description}</Card.Text>
+              <Card.Title className="black">{parents.name}</Card.Title>
+              <Card.Text className="black">{parents.description}</Card.Text>
             </Card.Body>
           </Card>
         ))}

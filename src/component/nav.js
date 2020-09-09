@@ -6,11 +6,11 @@ import { Nav, NavDropdown, Navbar, Container } from "react-bootstrap";
 export default function Navigation() {
   return (
     <Navbar bg="light" expand="lg">
-      <Container>
-        <NavLink to="/">
+      <NavLink to="/">
           <img src="./logo192.png" width="50vw" height="50px" alt="aa"></img>
           <Navbar.Brand href="#home">Loopy doodles</Navbar.Brand>
-        </NavLink>
+        </NavLink><Container>
+        
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav fill={true} className="">
