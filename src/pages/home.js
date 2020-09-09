@@ -4,8 +4,8 @@ function Home() {
   return (
     <div>
       <h1 className="homeh1">
-        <small>Fullscreen</small> Ken Burns effect{" "}
-        <small>without javascript</small>
+        <small>JYMR DOODLES</small> Super cute puppies{" "}
+        
       </h1>
       {/* You can add more ".slideshow-image" elements, but remember to update the "$items" variable on SCSS */}
       <div className="slideshow">

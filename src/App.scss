@@ -26,12 +26,16 @@ text-align: center;
 
 /* footer */ 
 .footer {
-  
   text-align: center;
+  z-index: 1;
+  width: 100vw;
+  bottom: 0;
 }
 /* end of footer */ 
 /* navbar */ 
-
+.navbarmaster {
+  position: absolute
+}
 
 
 /* end of navbar */ 
@@ -122,7 +126,6 @@ $scale-base-1: (1 + $scale / 100%);
   text-align: center;
   font-family: Raleway, sans-serif;
   font-weight: 300;
-  text-transform: uppercase;
   background-color: rgba(255,255,255,.75);
   box-shadow: 0 1em 2em -1em rgba(0,0,0,.5);
   padding: 1em 2em;
@@ -130,7 +133,7 @@ $scale-base-1: (1 + $scale / 100%);
   
   small {
     display: block;
-    text-transform: lowercase;
+    
     font-size: .7em;
     
     &:first-child {
