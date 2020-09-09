@@ -14,25 +14,22 @@ export default function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav fill={true} className="">
-            <NavLink to="/puppies">
+            <NavLink to="/puppies" className="navItem">
               <Nav.Link href="puppies">puppies</Nav.Link>
             </NavLink>
-            <NavLink to="/parents">
+            <NavLink to="/parents"  className="navItem">
               <Nav.Link href="puppies">Parents</Nav.Link>
             </NavLink>
-            <NavLink to="/about">
+            <NavLink to="/about" className="navItem">
               <Nav.Link href="puppies">About us</Nav.Link>
             </NavLink>
-            <NavLink to="/application">
+            <NavLink to="/application" className="navItem">
               <Nav.Link href="puppies">Adoption Application</Nav.Link>
             </NavLink>
-            <NavDropdown title="Affiliate Links" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            </NavDropdown>
+            <NavLink to="/affliates" className="navItem">
+              <Nav.Link href="puppies">Affliates</Nav.Link>
+            </NavLink>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
