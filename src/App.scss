@@ -1,11 +1,12 @@
+$teal: #008080;
+$grey: #989292;
+$blue: #4f5fdb;
 body {
-  background-color: grey;
+  background-color: $grey !important;
   color: white;
 }
 body::-webkit-scrollbar {
   display: none;
-  
-
 }
 @media only screen and (max-width: 600px) {
   .homeh1 {
@@ -14,48 +15,56 @@ body::-webkit-scrollbar {
 }
 
 .page {
-  background-color: grey;
-height: 100vh;
-color: white;
-text-align: center;
+  background-color: $grey;
+  height: 100vh;
+  color: white;
+  text-align: center;
 }
 .black {
   color: black;
 }
-/* puppies and parents page */ 
-.card-page {
-  
-  display: flex;
+.white {
+  color: white;
 }
-/* end of puppies */ 
+/* puppies and parents page */
+.card-page {
+  display: flex;
+  
+}
 
-/* footer */ 
+/* end of puppies */
+
+/* footer */
 .footer {
   text-align: center;
   z-index: 1;
   width: 100vw;
   bottom: 0;
 }
-/* end of footer */ 
-/* navbar */ 
+/* end of footer */
+/* navbar */
 .navbarmaster {
   position: absolute;
   z-index: 99;
 }
 .navItem {
-  background-color: red;
-  padding: 10px
+  background-color: $teal;
+
+  padding: 7px;
+  margin-left: 50px;
+  border-radius: 15%;
+  text-align: center;
+}
+.navtext {
+  color: white !important;
 }
 
+/* end of navbar */
 
-/* end of navbar */ 
-
-
-
-/* homepage effects */ 
+/* homepage effects */
 $items: 4;
 $animation-time: 4s;
-$transition-time: .5s;
+$transition-time: 0.5s;
 $scale: 20%;
 
 $total-time: ($animation-time * $items);
@@ -64,7 +73,7 @@ $scale-base-1: (1 + $scale / 100%);
 .slideshow {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 75vh;
   overflow: hidden;
 }
 .slideshow-image {
@@ -92,39 +101,64 @@ $scale-base-1: (1 + $scale / 100%);
   @keyframes kenburns-#{$i} {
     $animation-time-percent: percentage($animation-time / $total-time);
     $transition-time-percent: percentage($transition-time / $total-time);
-    
+
     $t1: ($animation-time-percent * ($i - 1) - $transition-time-percent / 2);
     $t2: ($animation-time-percent * ($i - 1) + $transition-time-percent / 2);
-    @if($t1 < 0%) { $t1: 0%; }
-    @if($t2 < 0%) { $t2: 0%; }
+    @if ($t1 < 0%) {
+      $t1: 0%;
+    }
+    @if ($t2 < 0%) {
+      $t2: 0%;
+    }
 
     $t3: ($animation-time-percent * ($i) - $transition-time-percent / 2);
     $t4: ($animation-time-percent * ($i) + $transition-time-percent / 2);
-    @if($t3 > 100%) { $t3: 100%; }
-    @if($t4 > 100%) { $t4: 100%; }
+    @if ($t3 > 100%) {
+      $t3: 100%;
+    }
+    @if ($t4 > 100%) {
+      $t4: 100%;
+    }
 
     $t5: (100% - $transition-time-percent / 2);
     $t6: (($t4 - $t1) * 100% / $t5);
 
-    #{$t1} { opacity: 1; transform: scale($scale-base-1); }
-    #{$t2} { opacity: 1; }
-    #{$t3} { opacity: 1; }
-    #{$t4} { opacity: 0; transform: scale(1); }
-    
-    @if($i != $items) {
-      100% { opacity: 0; transform: scale($scale-base-1); }
+    #{$t1} {
+      opacity: 1;
+      transform: scale($scale-base-1);
     }
-    
-    @if($i == 1) {
+    #{$t2} {
+      opacity: 1;
+    }
+    #{$t3} {
+      opacity: 1;
+    }
+    #{$t4} {
+      opacity: 0;
+      transform: scale(1);
+    }
+
+    @if ($i != $items) {
+      100% {
+        opacity: 0;
+        transform: scale($scale-base-1);
+      }
+    }
+
+    @if ($i == 1) {
       $scale-plus: ($scale * (100% - $t5) / $t4);
       $scale-plus-base-1: (1 + ($scale + $scale-plus) / 100%);
-    
-      #{$t5} { opacity: 0; transform: scale($scale-plus-base-1); }
-      100% { opacity: 1; }
+
+      #{$t5} {
+        opacity: 0;
+        transform: scale($scale-plus-base-1);
+      }
+      100% {
+        opacity: 1;
+      }
     }
   }
 }
-
 
 // Presentational stuff
 .homeh1 {
@@ -132,29 +166,50 @@ $scale-base-1: (1 + $scale / 100%);
   top: 50%;
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
- z-index: 50;
+  z-index: 50;
   text-align: center;
   font-family: Raleway, sans-serif;
   font-weight: 300;
-  background-color: rgba(255,255,255,.75);
-  box-shadow: 0 1em 2em -1em rgba(0,0,0,.5);
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 1em 2em -1em rgba(0, 0, 0, 0.5);
   padding: 1em 2em;
   line-height: 1.5;
-  
+
   small {
     display: block;
-    
-    font-size: .7em;
-    
+
+    font-size: 0.7em;
+
     &:first-child {
-      border-bottom: 1px solid rgba(0,0,0,.25);
-      padding-bottom: .5em;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+      padding-bottom: 0.5em;
     }
-    
+
     &:last-child {
-      border-top: 1px solid rgba(0,0,0,.25);
-      padding-top: .5em;
+      border-top: 1px solid rgba(0, 0, 0, 0.25);
+      padding-top: 0.5em;
     }
   }
 }
-/* end of homepage stuff */ 
+/* end of homepage stuff */
+/* puppy segments */ 
+.puppysegment {
+position: absolute;
+margin-top: 80vh;
+
+}
+.puppytitle {
+  color: white;
+  text-align: center;
+  margin-left: 40vw;
+  margin-right: 40vw;
+  
+}
+.homepuppies {
+  display: flex;
+ align-items: center;
+ 
+}
+
+
+/* end of puppy sgements */ 

@@ -10,7 +10,7 @@ function Puppies({ propdata }) {
   useTitle("Your Next Dog");
   return (
     <div className="page">
-    <Container className="card-page">
+    <Container className="card-page ">
       {puppies.map((puppies) => (
         <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={puppies.image} alt={puppies.name} />

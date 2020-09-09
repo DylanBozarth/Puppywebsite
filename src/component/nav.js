@@ -15,19 +15,19 @@ export default function Navigation() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav fill={true} className="">
             <NavLink to="/puppies" className="navItem">
-              <Nav.Link href="puppies">puppies</Nav.Link>
+              <Nav.Link href="puppies" className="navtext">puppies</Nav.Link>
             </NavLink>
             <NavLink to="/parents"  className="navItem">
-              <Nav.Link href="puppies">Parents</Nav.Link>
+              <Nav.Link href="puppies" className="navtext">Parents</Nav.Link>
             </NavLink>
             <NavLink to="/about" className="navItem">
-              <Nav.Link href="puppies">About us</Nav.Link>
+              <Nav.Link href="puppies" className="navtext">About us</Nav.Link>
             </NavLink>
             <NavLink to="/application" className="navItem">
-              <Nav.Link href="puppies">Adoption Application</Nav.Link>
+              <Nav.Link href="puppies" className="navtext">Adoption Application</Nav.Link>
             </NavLink>
             <NavLink to="/affliates" className="navItem">
-              <Nav.Link href="puppies">Affliates</Nav.Link>
+              <Nav.Link href="puppies" className="navtext">Affliates</Nav.Link>
             </NavLink>
             
           </Nav>
