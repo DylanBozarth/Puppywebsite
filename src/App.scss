@@ -233,26 +233,27 @@ $taupe: #D0B2AF;
 
 $font: 'Questrial', sans-serif;
 
-
+.puppypage {
+  height: 100vh;
+  display: flex;
+  overflow: none;
+}
 .box {
-  width: 800px;  
-  margin: 10% auto;
+  display: flex;
   position: relative;
 }
 
 #card-container {
   position: relative;
-  margin: 30px;
-  width: 200px;
-  height: 200px;
+  margin: 1rem;
+  width: 45vw;
+  height: 35vh;
   z-index: 1;
-  float: left;
-  perspective: 1000px;
+  
 }
-
-img {
-  width: 200px;
-  height: 200px;
+.cardimage {
+  width: 35vw;
+  height: 30vh;
 }
 
 #card, #card2, #card3 {

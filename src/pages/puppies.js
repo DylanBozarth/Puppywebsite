@@ -9,7 +9,7 @@ function Puppies({ propdata }) {
   const puppies = _.get(propdata, "puppies", []);
   useTitle("Your Next Dog");
   return (
-    <div className="page">
+    <div className="puppypage">
     
       
       {puppies.map((puppies) => (
