@@ -1,13 +1,12 @@
 import React from "react";
-import Puppies from "./puppies";
 
-import { Card, Container } from "react-bootstrap";
+import { Card, Container, Row } from "react-bootstrap";
 import useTitle from "../hooks/useTitle";
 import _ from "lodash";
 
 function Home({ propdata }) {
   useTitle("JYMR doodles");
-  const puppies = _.get(propdata, "puppies", []);
+  const goldendoodles = _.get(propdata, "goldendoodles", []);
   return (
     <div>
       <h1 className="homeh1">
@@ -39,19 +38,19 @@ function Home({ propdata }) {
  
 
     <div className="homepuppies">
-    
-      {puppies.map((puppies) => (
+    <Row>
+      {goldendoodles.map((goldendoodles) => (
         <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={puppies.image} alt={puppies.name} />
+        <Card.Img variant="top" src={goldendoodles.image} alt={goldendoodles.name} />
         <Card.Body>
-          <Card.Title className="black">{puppies.name}</Card.Title>
+          <Card.Title className="black">{goldendoodles.name}</Card.Title>
           <Card.Text className="black">
-            {puppies.description}
+            {goldendoodles.description}
           </Card.Text>
         </Card.Body>
       </Card>
       ))}
-    </div>
+    </Row></div>
       </div>
       ;
     </div>

@@ -1,6 +1,6 @@
 {
    
-  "puppies": [
+  "poodles": [
     {
       "name":"hot doge 1",
       "description":"Traces his DNA back to George washington's dog",
@@ -37,6 +37,83 @@
       "price": 10,
       "image": "./puppies/shiba.jpg"
     }
+    
+  ],
+  "labradoodles": [
+    {
+      "name":"hot doge 1",
+      "description":"Traces his DNA back to George washington's dog",
+      "price": 10,
+      "image": "./puppies/doodle.jpg"
+    },
+    {
+      "name":"hot doge 2",
+      "description":" he great",
+      "price": 10,
+      "image": "./puppies/doodle.jpg"
+    },
+    {
+      "name":"hot doge 3",
+      "description":" he great",
+      "price": 10,
+      "image": "./puppies/doodle.jpg"
+    },
+    {
+      "name":"hot doge 4",
+      "description":" he great",
+      "price": 10,
+      "image": "./puppies/doodle.jpg"
+    },
+    {
+      "name":"WEWEWE",
+      "description":" he great",
+      "price": 10,
+      "image": "./puppies/doodle.jpg"
+    },
+    {
+      "name":"haaaaa",
+      "description":" he great",
+      "price": 10,
+      "image": "./puppies/doodle.jpg"
+    }
+  ],
+    "goldendoodles": [
+      {
+        "name":"hot doge 1",
+        "description":"Traces his DNA back to George washington's dog",
+        "price": 10,
+        "image": "./puppies/golddoodle.jpg"
+      },
+      {
+        "name":"hot doge 2",
+        "description":" he great",
+        "price": 10,
+        "image": "./puppies/golddoodle.jpg"
+      },
+      {
+        "name":"hot doge 3",
+        "description":" he great",
+        "price": 10,
+        "image": "./puppies/golddoodle.jpg"
+      },
+      {
+        "name":"hot doge 4",
+        "description":" he great",
+        "price": 10,
+        "image": "./puppies/golddoodle.jpg"
+      },
+      {
+        "name":"WEWEWE",
+        "description":" he great",
+        "price": 10,
+        "image": "./puppies/golddoodle.jpg"
+      },
+      {
+        "name":"haaaaa",
+        "description":" he great",
+        "price": 10,
+        "image": "./puppies/golddoodle.jpg"
+      }
     
   ],
 

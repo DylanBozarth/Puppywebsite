@@ -223,6 +223,9 @@ margin-top: 75vh;
 
 
 /* puppy grid */ 
+.wrapper {
+  display: flexbox;
+}
 .cardimage {
   width: 300px;
   height: 250px;
