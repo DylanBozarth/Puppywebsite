@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Card, Container, Row } from "react-bootstrap";
+import { Card, Container, Row, Col} from "react-bootstrap";
 import useTitle from "../hooks/useTitle";
 import _ from "lodash";
 
@@ -39,8 +39,9 @@ function Home({ propdata }) {
 
     <div className="homepuppies">
     <Row>
-      {goldendoodles.map((goldendoodles) => (
-        <Card style={{ width: '18rem' }}>
+    { goldendoodles.slice(0, 3).map((goldendoodles) => (
+        <Col>
+        <Card style={{ width: '25rem' }}>
         <Card.Img variant="top" src={goldendoodles.image} alt={goldendoodles.name} />
         <Card.Body>
           <Card.Title className="black">{goldendoodles.name}</Card.Title>
@@ -48,9 +49,15 @@ function Home({ propdata }) {
             {goldendoodles.description}
           </Card.Text>
         </Card.Body>
-      </Card>
+      </Card></Col>
       ))}
     </Row></div>
+    <div className="seemorepuppies">See More Puppies!</div>
+    <div className="pageline"></div>
+    <div className="aboutsegment">
+      <h1>Good pups come from good Hoomans</h1>
+      <img className="banner" src="./puppies/family.jpg"></img>
+    </div>
       </div>
       ;
     </div>

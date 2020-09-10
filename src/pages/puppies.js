@@ -12,6 +12,7 @@ function Puppies({ propdata }) {
   useTitle("Your Next Dog");
   
   return (
+    <div>
     <Container className="wrapper"> 
     <Row>
     {poodles.map((poodles) => (
@@ -56,7 +57,7 @@ function Puppies({ propdata }) {
     
     
     
-    </Container>
+    </Container><div className="pageline"></div></div>
   );
 }
 export default Puppies;
