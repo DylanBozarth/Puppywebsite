@@ -6,7 +6,9 @@ import { Card, Container } from "react-bootstrap";
 import _ from "lodash";
 
 function Puppies({ propdata }) {
-  const puppies = _.get(propdata, "puppies", []);
+  const SmallPuppies = _.get(propdata, "SmallPuppies", []);
+  const MediumPuppies = _.get(propdata, "MediumPuppies", []);
+  const LargePuppies = _.get(propdata, "LargePuppies", []);
   useTitle("Your Next Dog");
   const settings = {
     dots: true,
@@ -17,24 +19,54 @@ function Puppies({ propdata }) {
   };
   return (
     <div className="wrapper">
-    <h2>Puppies</h2>
+    <h2 className="puppytitle">SmallPuppies</h2>
        <Slider {...settings}>
-      {puppies.map((puppies) => (
+      {SmallPuppies.map((SmallPuppies) => (
        <div>
         
         
         <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={puppies.image} alt={puppies.name} />
+            <Card.Img variant="top" src={SmallPuppies.image} alt={SmallPuppies.name} />
             <Card.Body>
-              <Card.Title className="black">{puppies.name}</Card.Title>
-              <Card.Text className="black">{puppies.description}</Card.Text>
+              <Card.Title className="black">{SmallPuppies.name}</Card.Title>
+              <Card.Text className="black">{SmallPuppies.description}</Card.Text>
             </Card.Body>
           </Card>
          
         </div>
       ))}</Slider>
-      
-      
+      <h1>Medium dogs</h1>
+       <Slider {...settings}>
+      {MediumPuppies.map((MediumPuppies) => (
+       <div>
+        
+        
+        <Card style={{ width: "18rem" }}>
+            <Card.Img variant="top" src={MediumPuppies.image} alt={MediumPuppies.name} />
+            <Card.Body>
+              <Card.Title className="black">{MediumPuppies.name}</Card.Title>
+              <Card.Text className="black">{MediumPuppies.description}</Card.Text>
+            </Card.Body>
+          </Card>
+         
+        </div>
+      ))}</Slider>
+      <h1>Large doogles</h1>
+       <Slider {...settings}>
+      {LargePuppies.map((LargePuppies) => (
+       <div>
+        
+        
+        <Card style={{ width: "18rem" }}>
+            <Card.Img variant="top" src={LargePuppies.image} alt={LargePuppies.name} />
+            <Card.Body>
+              <Card.Title className="black">{LargePuppies.name}</Card.Title>
+              <Card.Text className="black">{LargePuppies.description}</Card.Text>
+            </Card.Body>
+          </Card>
+         
+        </div>
+      ))}</Slider>
         
   
     </div>

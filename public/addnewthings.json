@@ -1,6 +1,6 @@
 {
    
-      "puppies": [
+      "SmallPuppies": [
         {
           "name":"hot doge 1",
           "description":"Traces his DNA back to George washington's dog",
@@ -33,6 +33,84 @@
         },
         {
           "name":"haaaaa",
+          "description":" he great",
+          "price": 10,
+          "image": "./puppies/shiba.jpg"
+        }
+        
+      ],
+      "MediumPuppies": [
+        {
+          "name":"hot doge 1",
+          "description":"Traces his DNA back to George washington's dog",
+          "price": 10,
+          "image": "./puppies/shiba.jpg"
+        },
+        {
+          "name":"hot doge 2",
+          "description":" he great",
+          "price": 10,
+          "image": "./puppies/shiba.jpg"
+        },
+        {
+          "name":"hot doge 3",
+          "description":" he great",
+          "price": 10,
+          "image": "./puppies/shiba.jpg"
+        },
+        {
+          "name":"hot doge 1",
+          "description":"Traces his DNA back to George washington's dog",
+          "price": 10,
+          "image": "./puppies/shiba.jpg"
+        },
+        {
+          "name":"hot doge 2",
+          "description":" he great",
+          "price": 10,
+          "image": "./puppies/shiba.jpg"
+        },
+        {
+          "name":"hot doge 3",
+          "description":" he great",
+          "price": 10,
+          "image": "./puppies/shiba.jpg"
+        }
+        
+      ],
+      "LargePuppies": [
+        {
+          "name":"hot doge 1",
+          "description":"Traces his DNA back to George washington's dog",
+          "price": 10,
+          "image": "./puppies/shiba.jpg"
+        },
+        {
+          "name":"hot doge 2",
+          "description":" he great",
+          "price": 10,
+          "image": "./puppies/shiba.jpg"
+        },
+        {
+          "name":"hot doge 3",
+          "description":" he great",
+          "price": 10,
+          "image": "./puppies/shiba.jpg"
+        },
+        {
+          "name":"hot doge 1",
+          "description":"Traces his DNA back to George washington's dog",
+          "price": 10,
+          "image": "./puppies/shiba.jpg"
+        },
+        {
+          "name":"hot doge 2",
+          "description":" he great",
+          "price": 10,
+          "image": "./puppies/shiba.jpg"
+        },
+        {
+          "name":"hot doge 3",
           "description":" he great",
           "price": 10,
           "image": "./puppies/shiba.jpg"
