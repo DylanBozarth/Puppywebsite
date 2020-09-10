@@ -32,7 +32,8 @@ function Home({ propdata }) {
           style={{ backgroundImage: "url(../puppies/labs.jpg)" }}
         ></div>
       </div>
-      <div className="puppysegment">
+      
+      <div className="puppysegment"><div className="pageline"></div>
         <h1 className="puppytitle">Your next dog</h1>
         
  

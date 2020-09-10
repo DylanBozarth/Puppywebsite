@@ -10,19 +10,26 @@ function Puppies({ propdata }) {
   useTitle("Your Next Dog");
   return (
     <div className="page">
-    <Container className="card-page ">
+    
+      
       {puppies.map((puppies) => (
-        <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={puppies.image} alt={puppies.name} />
-        <Card.Body>
-          <Card.Title className="black">{puppies.name}</Card.Title>
-          <Card.Text className="black">
-            {puppies.description}
-          </Card.Text>
-        </Card.Body>
-      </Card>
+        <div className="box">
+        <div id="card-container">
+      <div id="card">
+        <div className="front face">
+          
+          <img className="cardimage" src={puppies.image} alt={puppies.name} />
+          <h1>{puppies.name}</h1>
+          <p>{puppies.price}</p>
+        </div>
+        <div className="back face">
+        <h1>{puppies.description}</h1>
+          </div></div></div></div>
       ))}
-    </Container></div>
+      
+        
+  
+    </div>
   );
 }
 export default Puppies;
