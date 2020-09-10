@@ -1,4 +1,4 @@
-$teal: #008080;
+$teal: #1dd6d6;
 $grey: #989292;
 $blue: #4f5fdb;
 body {
@@ -64,9 +64,7 @@ body::-webkit-scrollbar {
 /* end of navbar */
 
 /* homepage effects */
-.homepagemaster {
-  
-}
+
 $items: 4;
 $animation-time: 4s;
 $transition-time: 0.5s;
@@ -204,6 +202,9 @@ $scale-base-1: (1 + $scale / 100%);
   background-color: $blue
 }
 /* puppy segments */ 
+.homecardimage {
+  
+}
 .puppysegment {
 position: absolute;
 margin-top: 75vh;
@@ -247,9 +248,7 @@ margin-top: 75vh;
 
 
 /* puppy grid */ 
-.wrapper {
-  
-}
+
 .cardimage {
   width: 300px;
   height: 250px;

@@ -2,7 +2,7 @@
    
   "poodles": [
     {
-      "name":"hot doge 1",
+      "name":"Featured dog 1",
       "description":"Traces his DNA back to George washington's dog",
       "price": 10,
       "image": "./puppies/shiba.jpg"
@@ -41,8 +41,8 @@
   ],
   "labradoodles": [
     {
-      "name":"hot doge 1",
-      "description":"Traces his DNA back to George washington's dog",
+      "name":"Featured doge 2",
+      "description":"Can read and write Chinese",
       "price": 10,
       "image": "./puppies/doodle.jpg"
     },
@@ -79,8 +79,8 @@
   ],
     "goldendoodles": [
       {
-        "name":"hot doge 1",
-        "description":"Traces his DNA back to George washington's dog",
+        "name":"Featured dog 3",
+        "description":"Can move objects with his mind",
         "price": 10,
         "image": "./puppies/golddoodle.jpg"
       },

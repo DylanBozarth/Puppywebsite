@@ -1,11 +1,13 @@
 import React from "react";
 
-import { Card, Container, Row, Col} from "react-bootstrap";
+import { Card, Container, Row, Col, Jumbotron, Image} from "react-bootstrap";
 import useTitle from "../hooks/useTitle";
 import _ from "lodash";
 
 function Home({ propdata }) {
   useTitle("JYMR doodles");
+  const poodles = _.get(propdata, "poodles", []);
+  const labradoodles = _.get(propdata, "labradoodles", []);
   const goldendoodles = _.get(propdata, "goldendoodles", []);
   return (
     <div>
@@ -39,14 +41,44 @@ function Home({ propdata }) {
 
     <div className="homepuppies">
     <Row>
-    { goldendoodles.slice(0, 3).map((goldendoodles) => (
+    { goldendoodles.slice(0, 1).map((goldendoodles) => (
         <Col>
-        <Card style={{ width: '25rem' }}>
-        <Card.Img variant="top" src={goldendoodles.image} alt={goldendoodles.name} />
+        <Card style={{ width: '25rem', height: '28rem' }}>
+       
+        <Card.Img className="homecardimage" fluid={true} variant="top" src={goldendoodles.image} alt={goldendoodles.name}  rounded />
+        
         <Card.Body>
           <Card.Title className="black">{goldendoodles.name}</Card.Title>
           <Card.Text className="black">
             {goldendoodles.description}
+          </Card.Text>
+        </Card.Body>
+      </Card></Col>
+      ))}
+      { poodles.slice(0, 1).map((poodles) => (
+        <Col>
+        <Card style={{ width: '25rem' }}>
+        <Col xs={25} md={25}>
+        <Card.Img  className="homecardimage" variant="top" src={poodles.image} alt={poodles.name} />
+        </Col>
+        <Card.Body>
+          <Card.Title className="black">{poodles.name}</Card.Title>
+          <Card.Text className="black">
+            {poodles.description}
+          </Card.Text>
+        </Card.Body>
+      </Card></Col>
+      ))}
+      { labradoodles.slice(0, 1).map((labradoodles) => (
+        <Col>
+        <Card style={{ width: '25rem' }}>
+        <Col xs={25} md={25}>
+        <Card.Img className="homecardimage"  variant="top" src={labradoodles.image} alt={labradoodles.name} />
+        </Col>
+        <Card.Body>
+          <Card.Title className="black">{labradoodles.name}</Card.Title>
+          <Card.Text className="black">
+            {labradoodles.description}
           </Card.Text>
         </Card.Body>
       </Card></Col>
@@ -56,10 +88,15 @@ function Home({ propdata }) {
     <div className="pageline"></div>
     <div className="aboutsegment">
       <h1>Good pups come from good Hoomans</h1>
+      
       <img className="banner" src="./puppies/family.jpg"></img>
+      <Jumbotron>
+        <h1>wewewe</h1>
+      </Jumbotron>
     </div>
       </div>
       ;
+      <div className="pageline"></div>
     </div>
   );
 }
