@@ -205,7 +205,14 @@ $scale-base-1: (1 + $scale / 100%);
   background-color: $teal
 }
 /* puppy segments */ 
-.carddesc {
+.homecard {
+  border: 2px solid $teal;
+  
+}
+.homecardbot {
+  border: 2px solid $grey;
+}
+.cardesc {
 height: 75px;
 
 border-bottom: solid 1px $teal;
