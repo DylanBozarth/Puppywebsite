@@ -121,15 +121,9 @@ function Home({ propdata }) {
             ))}
           </Row>
         </Container>
-        <div className="seemorepuppies">See More Puppies!</div>
         <div className="pageline"></div>
         <div className="aboutsegment">
-          <h1>Good pups come from good Hoomans</h1>
-
-          <img className="banner" src="./puppies/family.jpg"></img>
-          <Jumbotron>
-            <h1>wewewe</h1>
-          </Jumbotron>
+          
         </div>
       </div>
       ;<div className="pageline"></div>
