@@ -51,7 +51,7 @@ function Home({ propdata }) {
                     src={goldendoodles.image}
                     alt={goldendoodles.name}
                     
-                    className="homecard"
+                    className="homecard2"
                   />
 
                   <Card.Body className="homecardbot">
@@ -74,7 +74,7 @@ function Home({ propdata }) {
                     <Card.Img
                       height="300px"
                       width="280px"
-                      className="homecard"
+                      className="homecard2"
                       variant="top"
                       src={poodles.image}
                       alt={poodles.name}
@@ -99,7 +99,7 @@ function Home({ propdata }) {
                     <Card.Img
                       height="300px"
                       width="280px"
-                      className="homecard"
+                      className="homecard2"
                       variant="top"
                       src={labradoodles.image}
                       alt={labradoodles.name}
