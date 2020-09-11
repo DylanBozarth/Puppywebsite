@@ -39,17 +39,17 @@ function Home({ propdata }) {
         
  
 
-    <div className="homepuppies">
+    <Container className="homepuppies">
     <Row>
     { goldendoodles.slice(0, 1).map((goldendoodles) => (
         <Col>
-        <Card style={{ width: '25rem', height: '28rem' }}>
+        <Card style={{ width: '20rem' }}>
        
-        <Card.Img className="homecardimage" fluid={true} variant="top" src={goldendoodles.image} alt={goldendoodles.name}  rounded />
+        <Card.Img height="300px" width="250px" className=""fluid={true} variant="top" src={goldendoodles.image} alt={goldendoodles.name}  rounded />
         
         <Card.Body>
           <Card.Title className="black">{goldendoodles.name}</Card.Title>
-          <Card.Text className="black">
+          <Card.Text className="carddesc">
             {goldendoodles.description}
           </Card.Text>
         </Card.Body>
@@ -57,13 +57,13 @@ function Home({ propdata }) {
       ))}
       { poodles.slice(0, 1).map((poodles) => (
         <Col>
-        <Card style={{ width: '25rem' }}>
-        <Col xs={25} md={25}>
-        <Card.Img  className="homecardimage" variant="top" src={poodles.image} alt={poodles.name} />
+        <Card style={{ width: '20rem' }}>
+        <Col >
+        <Card.Img height="300px" width="250px" className="" variant="top" src={poodles.image} alt={poodles.name} />
         </Col>
         <Card.Body>
           <Card.Title className="black">{poodles.name}</Card.Title>
-          <Card.Text className="black">
+          <Card.Text className="carddesc">
             {poodles.description}
           </Card.Text>
         </Card.Body>
@@ -71,19 +71,20 @@ function Home({ propdata }) {
       ))}
       { labradoodles.slice(0, 1).map((labradoodles) => (
         <Col>
-        <Card style={{ width: '25rem' }}>
-        <Col xs={25} md={25}>
-        <Card.Img className="homecardimage"  variant="top" src={labradoodles.image} alt={labradoodles.name} />
+        <Card style={{ width: '20rem' }} className="homecard">
+        <Col >
+        <Card.Img height="300px" width="250px" className="" variant="top" src={labradoodles.image} alt={labradoodles.name} />
         </Col>
         <Card.Body>
           <Card.Title className="black">{labradoodles.name}</Card.Title>
+          <div className="cardesc">
           <Card.Text className="black">
             {labradoodles.description}
-          </Card.Text>
+          </Card.Text></div>
         </Card.Body>
       </Card></Col>
       ))}
-    </Row></div>
+    </Row></Container>
     <div className="seemorepuppies">See More Puppies!</div>
     <div className="pageline"></div>
     <div className="aboutsegment">
