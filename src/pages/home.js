@@ -1,8 +1,10 @@
 import React from "react";
 
+import { NavLink } from "react-router-dom";
 import { Card, Container, Row, Col, Jumbotron, Image } from "react-bootstrap";
 import useTitle from "../hooks/useTitle";
 import _ from "lodash";
+import Aboutseg from "../component/aboutseg";
 
 function Home({ propdata }) {
   useTitle("JYMR doodles");
@@ -35,6 +37,7 @@ function Home({ propdata }) {
       </div>
       <div className="puppysegment">
         <div className="pageline"></div>
+        <NavLink className="nohighlight" to="/puppies">
         <h1 className="puppytitle">Your next dog</h1>
 
         <Container className="homepuppies">
@@ -46,7 +49,7 @@ function Home({ propdata }) {
                     height="300px"
                     width="280px"
                    
-                    fluid={true}
+                    fluid="true"
                     variant="top"
                     src={goldendoodles.image}
                     alt={goldendoodles.name}
@@ -120,10 +123,12 @@ function Home({ propdata }) {
               </Col>
             ))}
           </Row>
-        </Container>
+        </Container></NavLink>
         <div className="pageline"></div>
         <div className="aboutsegment">
-          
+          <NavLink className="nohighlight" to="/about">
+          <Aboutseg /></NavLink>
+          <div className="pageline"></div>
         </div>
       </div>
       ;<div className="pageline"></div>

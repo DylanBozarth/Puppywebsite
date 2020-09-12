@@ -20,7 +20,7 @@ function Puppies({ propdata }) {
       <Col>
         <Row>
           {poodles.map((poodles) => (
-            <Card style={{ width: "20rem" }}>
+            <Card style={{ width: "20rem" }} key={poodles.name}>
               <img
                 className="homecard"
                 height="300px"
@@ -43,7 +43,7 @@ function Puppies({ propdata }) {
       <Col>
         <Row>
           {labradoodles.map((labradoodles) => (
-            <Card style={{ width: "20rem" }}>
+            <Card style={{ width: "20rem" }} key={labradoodles.name}>
               <img
                 className="homecard"
                 height="300px"
@@ -66,7 +66,7 @@ function Puppies({ propdata }) {
       <Col>
         <Row>
           {goldendoodles.map((goldendoodles) => (
-            <Card style={{ width: "20rem" }}>
+            <Card style={{ width: "20rem" }} key={goldendoodles.name}>
               <img
                 className="homecard"
                 height="300px"

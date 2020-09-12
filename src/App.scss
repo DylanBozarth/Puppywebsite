@@ -63,6 +63,9 @@ body::-webkit-scrollbar {
 .navtext {
   color: white !important;
 }
+.nohighlight:hover {
+  text-decoration: none;
+}
 
 /* end of navbar */
 
@@ -258,8 +261,15 @@ margin-top: 75vh;
   margin-top: 2rem;
 }
 /* about segment */ 
-
-
+.abouttitle {
+  color: white;
+text-align: center;
+}
+.aboutdesc {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
 /* end of about segments */ 
 
 
