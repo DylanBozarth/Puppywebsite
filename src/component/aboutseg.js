@@ -1,6 +1,5 @@
 import React from "react";
 
-import { Container, Col, Row, Image } from "react-bootstrap";
 import useTitle from "../hooks/useTitle";
 
 function Aboutseg() {
