@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Card, Container } from "react-bootstrap";
+import { Card, Container, Col } from "react-bootstrap";
 
 import useTitle from "../hooks/useTitle";
 import _ from "lodash";
@@ -9,19 +9,28 @@ function Parents({ propdata }) {
   const parents = _.get(propdata, "parents", []);
 useTitle('JYMR doodles');
   return (
-    <div className="page">
+   
       <Container className="card-page">
+        <Col></Col>
+        <Col>
         {parents.map((parents) => (
-          <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={parents.image} alt={parents.name} />
-            <Card.Body>
-              <Card.Title className="black">{parents.name}</Card.Title>
-              <Card.Text className="black">{parents.description}</Card.Text>
-            </Card.Body>
-          </Card>
-        ))}
+            <Card className="parentcard" key={parents.name}>
+              <img
+                className="homecard"
+                height="350px"
+                width="370px"
+                src={parents.image}
+                alt={parents.name}
+              />
+              <h1>{parents.name}</h1>
+              <p>{parents.price}</p>
+
+              <p className="cardesc">{parents.description}</p>
+            </Card>
+          ))}</Col>
+          <Col></Col>
       </Container>
-    </div>
+    
   );
 }
 export default Parents;

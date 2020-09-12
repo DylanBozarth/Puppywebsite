@@ -23,6 +23,7 @@ function Aboutseg() {
         </Col>
         <Col></Col>
       </Row>
+      <h1 className="puppytitle">Some of our past greats</h1>
     </Container>
   );
 }

@@ -56,7 +56,7 @@ class App extends Component {
         />
         <Route exact path="/about" component={About} />
         <Route exact path="/application" component={Application} />
-      </BrowserRouter><Footer /></div>
+      </BrowserRouter></div>
     );
   }
 }

@@ -9,11 +9,11 @@ function Aboutseg() {
     <Container fluid>
       <Col><h1 className="abouttitle">Good pups are raised by good hoomans</h1></Col><Row>
         
-        <Col>
+        
           <Image src="./puppies/family.jpg" fluid="true"></Image>
-        </Col>
+       
         <Col>
-          <h1 className="abouttitle">About us</h1>{" "}
+          <h1 className="abouttitle">My family</h1>{" "}
          <p className="aboutdesc">We have a pretty good job, breeding little cute doggos is certainly not a stressful occupation.</p>
           
         </Col>

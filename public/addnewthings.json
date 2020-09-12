@@ -120,13 +120,21 @@
     
     "parents": [
  {
-     "name": "Greg", 
-     "age": "55",
+     "name": "Greg (dad)", 
+     "age": "14",
      "description": "A big doge",
      "breed": "Labradoodle",
      "image": "./puppies/shiba.jpg"
      
- }
+ },
+ {
+  "name": "Linda (mom)", 
+  "age": "12",
+  "description": "A big doge",
+  "breed": "Labradoodle",
+  "image": "./puppies/golddoodle.jpg"
+  
+}
     ],
     
     "reviews": [

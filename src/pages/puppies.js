@@ -12,12 +12,13 @@ function Puppies({ propdata }) {
   useTitle("Your Next Dog");
 
   return (
-    <Container className="puppypage" fluid>
-      <div className="puppyseperator">
-        <h1>Poodles!</h1>
-        <p>Our best sellers</p>
-      </div>
+    <Container className="puppypage" fluid="true">
       <Col>
+        <div className="puppyseperator">
+          <h1>Poodles!</h1>
+          <p>Our best sellers</p>
+        </div>
+
         <Row>
           {poodles.map((poodles) => (
             <Card style={{ width: "20rem" }} key={poodles.name}>
@@ -36,11 +37,12 @@ function Puppies({ propdata }) {
           ))}
         </Row>
       </Col>
-      <div className="puppyseperator">
-        <h1>Labradoodles</h1>
-        <p>50% poodle, 50% labrador, 100% love</p>
-      </div>
       <Col>
+        <div className="puppyseperator">
+          <h1>Labradoodles</h1>
+          <p>50% poodle, 50% labrador, 100% love</p>
+        </div>
+
         <Row>
           {labradoodles.map((labradoodles) => (
             <Card style={{ width: "20rem" }} key={labradoodles.name}>
@@ -59,11 +61,12 @@ function Puppies({ propdata }) {
           ))}
         </Row>
       </Col>
-      <div className="puppyseperator">
-        <h1>Goldendoodles! </h1>
-        <p>I don't know how to describe them, but they sure are cute.</p>
-      </div>
       <Col>
+        <div className="puppyseperator">
+          <h1>Goldendoodles! </h1>
+          <p>I don't know how to describe them, but they sure are cute.</p>
+        </div>
+
         <Row>
           {goldendoodles.map((goldendoodles) => (
             <Card style={{ width: "20rem" }} key={goldendoodles.name}>
