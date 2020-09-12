@@ -14,33 +14,37 @@ export default function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav fill={true} className="">
-            <NavLink to="/puppies" className="navItem">
-              <Nav.Link href="puppies" className="navtext">
-                puppies
-              </Nav.Link>
-            </NavLink>
-            <NavLink to="/parents" className="navItem">
-              <Nav.Link href="puppies" className="navtext">
-                Parents
-              </Nav.Link>
-            </NavLink>
-            
-              <NavDropdown title="About">
+            <NavDropdown title="Puppies">
               <NavDropdown.Item href="#action/3.1" className="">
-               <NavLink to="/about" className=""> 
+                <NavLink to="/puppies" className="">
+                  puppies
+                </NavLink>
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1" className="">
+                <NavLink to="/parents" className="">
+                  
+                    Parents
+                  
+                </NavLink>
+              </NavDropdown.Item>
+            </NavDropdown>
+
+            <NavDropdown title="About and Info">
+              <NavDropdown.Item href="#action/3.1" className="">
+                <NavLink to="/about" className="">
                   About us
-                  </NavLink>
-                  <br />
-                  <NavLink to="/about" className=""> 
+                </NavLink>
+                <br />
+                <NavLink to="/breedinfo" className="">
                   Breed Info
-                  </NavLink>
-                  <br />
-                  <NavLink to="/about" className=""> 
+                </NavLink>
+                <br />
+                <NavLink to="/TheRainbowBridge" className="">
                   Our Past pups
-                  </NavLink>
-                </NavDropdown.Item>
-              </NavDropdown>
-            
+                </NavLink>
+              </NavDropdown.Item>
+            </NavDropdown>
+
             <NavLink to="/application" className="navItem">
               <Nav.Link href="puppies" className="navtext">
                 Adoption Application

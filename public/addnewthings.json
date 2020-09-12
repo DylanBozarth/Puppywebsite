@@ -134,6 +134,38 @@
   "breed": "Labradoodle",
   "image": "./puppies/golddoodle.jpg"
   
+},
+{
+  "name": "Samatha (mom)", 
+  "age": "12",
+  "description": "A big doge",
+  "breed": "Labradoodle",
+  "image": "./puppies/golddoodle.jpg"
+  
+},
+{
+  "name": "Thomas (dad)", 
+  "age": "12",
+  "description": "A big doge",
+  "breed": "Labradoodle",
+  "image": "./puppies/golddoodle.jpg"
+  
+},
+{
+  "name": "Stacy (dad)", 
+  "age": "12",
+  "description": "A big doge",
+  "breed": "Labradoodle",
+  "image": "./puppies/golddoodle.jpg"
+  
+},
+{
+  "name": "Brad (dad)", 
+  "age": "12",
+  "description": "A big doge",
+  "breed": "Labradoodle",
+  "image": "./puppies/golddoodle.jpg"
+  
 }
     ],
     

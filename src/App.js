@@ -9,6 +9,8 @@ import Parents from "./pages/parents";
 import About from "./pages/about";
 import { Footer } from "./component/footer";
 import Application from "./pages/application";
+import BreedInfo from "./pages/breedinfo";
+import RainbowBridge from "./pages/rainbowbridge";
 
 
 class App extends Component {
@@ -56,6 +58,8 @@ class App extends Component {
         />
         <Route exact path="/about" component={About} />
         <Route exact path="/application" component={Application} />
+        <Route exact path="/breedinfo" component={BreedInfo} />
+        <Route exact path="/TheRainbowBridge" component={RainbowBridge} />
       </BrowserRouter></div>
     );
   }

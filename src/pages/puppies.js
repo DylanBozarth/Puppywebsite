@@ -1,7 +1,6 @@
 import React from "react";
 import useTitle from "../hooks/useTitle";
 
-import { Card, Container, Row, Col } from "react-bootstrap";
 import _ from "lodash";
 
 function Puppies({ propdata }) {
@@ -12,16 +11,16 @@ function Puppies({ propdata }) {
   useTitle("Your Next Dog");
 
   return (
-    <Container className="puppypage" fluid="true">
-      <Col>
+    <div className="container-fluid" fluid="true">
+      
         <div className="puppyseperator">
           <h1>Poodles!</h1>
           <p>Our best sellers</p>
         </div>
 
-        <Row>
+        <div className="row puppyrow">
           {poodles.map((poodles) => (
-            <Card style={{ width: "20rem" }} key={poodles.name}>
+            <div className="col-sm-4" style={{ width: "20rem" }} key={poodles.name}>
               <img
                 className="homecard"
                 height="300px"
@@ -33,19 +32,18 @@ function Puppies({ propdata }) {
               <p>{poodles.price}</p>
 
               <p className="cardesc">{poodles.description}</p>
-            </Card>
+            </div>
           ))}
-        </Row>
-      </Col>
-      <Col>
+        </div>
+      
         <div className="puppyseperator">
           <h1>Labradoodles</h1>
           <p>50% poodle, 50% labrador, 100% love</p>
         </div>
 
-        <Row>
+        <div className="row puppyrow">
           {labradoodles.map((labradoodles) => (
-            <Card style={{ width: "20rem" }} key={labradoodles.name}>
+            <div className="col-sm-4" style={{ width: "20rem" }} key={labradoodles.name}>
               <img
                 className="homecard"
                 height="300px"
@@ -57,19 +55,18 @@ function Puppies({ propdata }) {
               <p>{labradoodles.price}</p>
 
               <p className="cardesc">{labradoodles.description}</p>
-            </Card>
+            </div>
           ))}
-        </Row>
-      </Col>
-      <Col>
+        </div>
+      
         <div className="puppyseperator">
           <h1>Goldendoodles! </h1>
           <p>I don't know how to describe them, but they sure are cute.</p>
         </div>
 
-        <Row>
+        <div className="row puppyrow">
           {goldendoodles.map((goldendoodles) => (
-            <Card style={{ width: "20rem" }} key={goldendoodles.name}>
+            <div className="col-sm-4" style={{ width: "20rem" }} key={goldendoodles.name}>
               <img
                 className="homecard"
                 height="300px"
@@ -81,11 +78,11 @@ function Puppies({ propdata }) {
               <p>{goldendoodles.price}</p>
 
               <p className="cardesc">{goldendoodles.description}</p>
-            </Card>
+            </div>
           ))}
-        </Row>
-      </Col>
-    </Container>
+        </div>
+      
+    </div>
   );
 }
 export default Puppies;

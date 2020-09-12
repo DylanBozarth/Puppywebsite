@@ -283,13 +283,24 @@ text-align: center;
 .puppypage {
  width: 100%;
  margin-top: 1rem;
+ display: flex;
+ justify-content: center;
 }
 .puppyseperator {
   color: white;
   text-align: center;
 }
+.puppyrow {
+  
+ display: flex;
+ justify-content: center;
+}
 /* end of puppypage */
 /* parent page */ 
+.parent-page {
+ display: flex;
+ justify-content: center;
+}
 .parentcard {
-  width: "30rem";
+  
 }
