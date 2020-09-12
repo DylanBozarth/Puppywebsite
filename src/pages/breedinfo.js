@@ -1,15 +1,18 @@
 import React from "react";
 
-import { Container, Col, Row, Image } from "react-bootstrap";
 
 import useTitle from "../hooks/useTitle";
 
 function BreedInfo() {
   useTitle("JYMR Doodles");
   return (
-    <Container fluid>
-      <h1>Doodle facts</h1>
-    </Container>
+    <div className="container-fluid">
+        <div className="row">
+      <h1 className="puppytitle">Doodle facts</h1>
+      <div className="col-sm-4">doodles</div>
+      <div className="col-sm-4">doodles</div>
+      <div className="col-sm-4">doodles</div>
+    </div></div>
   );
 }
 export default BreedInfo;

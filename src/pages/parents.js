@@ -1,6 +1,5 @@
 import React from "react";
 
-import { Card, Container, Col, Row } from "react-bootstrap";
 
 import useTitle from "../hooks/useTitle";
 import _ from "lodash";
@@ -9,12 +8,12 @@ function Parents({ propdata }) {
   const parents = _.get(propdata, "parents", []);
   useTitle("JYMR doodles");
   return (
-    <Container className="parent-page" fluid="true">
-      <Row>
-        <Col>
-          <h1>Goldendoogles</h1>
+    <div className="container-fluid" >
+       <h1 className="puppytitle">Goldendoogles</h1>
+      <div className="row puppyrow no-gutters prva">
+         
           {parents.slice(0, 2).map((parents) => (
-            <Card
+            <div
               className="parentcard"
               style={{ width: "16rem" }}
               key={parents.name}
@@ -27,16 +26,16 @@ function Parents({ propdata }) {
                 alt={parents.name}
               />
               <h1>{parents.name}</h1>
-              <p>{parents.price}</p>
+              <p>{parents.age}</p>
 
               <p className="cardesc">{parents.description}</p>
-            </Card>
+            </div>
           ))}
-        </Col>
-        <Col>
-          <h1>Poodles</h1>
+        </div>
+          <h1 className="puppytitle">Poodles</h1>
+          <div className="row puppyrow no-gutters prva">
           {parents.slice(2, 4).map((parents) => (
-            <Card
+            <div
               className="parentcard"
               style={{ width: "16rem" }}
               key={parents.name}
@@ -49,16 +48,16 @@ function Parents({ propdata }) {
                 alt={parents.name}
               />
               <h1>{parents.name}</h1>
-              <p>{parents.price}</p>
+              <p>{parents.age}</p>
 
               <p className="cardesc">{parents.description}</p>
-            </Card>
+            </div>
           ))}
-        </Col>
-        <Col>
-          <h1>Labradoodles</h1>
+        </div>
+          <h1 className="puppytitle">Labradoodles</h1>
+          <div className="row puppyrow no-gutters prva">
           {parents.slice(4, 6).map((parents) => (
-            <Card
+            <div
               className="parentcard"
               style={{ width: "16rem" }}
               key={parents.name}
@@ -71,14 +70,13 @@ function Parents({ propdata }) {
                 alt={parents.name}
               />
               <h1>{parents.name}</h1>
-              <p>{parents.price}</p>
+              <p>{parents.age}</p>
 
               <p className="cardesc">{parents.description}</p>
-            </Card>
+            </div>
           ))}
-        </Col>
-      </Row>
-    </Container>
+        </div>
+    </div>
   );
 }
 export default Parents;
