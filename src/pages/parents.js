@@ -15,7 +15,7 @@ function Parents({ propdata }) {
           {parents.slice(0, 2).map((parents) => (
             <div
               className="parentcard"
-              style={{ width: "16rem" }}
+              style={{ width: "20rem" }}
               key={parents.name}
             >
               <img
@@ -37,7 +37,7 @@ function Parents({ propdata }) {
           {parents.slice(2, 4).map((parents) => (
             <div
               className="parentcard"
-              style={{ width: "16rem" }}
+              style={{ width: "20rem" }}
               key={parents.name}
             >
               <img
@@ -59,7 +59,7 @@ function Parents({ propdata }) {
           {parents.slice(4, 6).map((parents) => (
             <div
               className="parentcard"
-              style={{ width: "16rem" }}
+              style={{ width: "20rem" }}
               key={parents.name}
             >
               <img

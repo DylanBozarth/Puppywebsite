@@ -6,19 +6,19 @@ import useTitle from "../hooks/useTitle";
 function Aboutseg() {
   useTitle("Reputable Breeders");
   return (
-    <Container fluid>
-      <Col><h1 className="abouttitle">Good pups are raised by good hoomans</h1></Col><Row>
+    <div className="container-fluid">
+      <h1 className="abouttitle">Good pups are raised by good hoomans</h1>
         
         
-          <Image src="./puppies/family.jpg" fluid="true"></Image>
+          <img className="aboutimage" src="./puppies/family.jpg" fluid="true" />
        
-        <Col>
+        <div className="aboutbox">
           <h1 className="abouttitle">My family</h1>{" "}
          <p className="aboutdesc">We have a pretty good job, breeding little cute doggos is certainly not a stressful occupation.</p>
           
-        </Col>
-      </Row>
-    </Container>
+        </div>
+     
+    </div>
   );
 }
 export default Aboutseg;

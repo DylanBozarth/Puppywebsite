@@ -219,11 +219,6 @@ $scale-base-1: (1 + $scale / 100%);
 .homecardbot {
   border: 2px solid $grey;
 }
-.cardesc {
-height: 75px;
-
-border-bottom: solid 1px $teal;
-}
 .homecard:hover {
   box-shadow: 0 20px 60px 0 rgba(0,0,0,.4);
   -webkit-transform: translate(0,-10px);
@@ -242,8 +237,7 @@ margin-top: 75vh;
 .puppytitle {
   color: white;
   text-align: center;
-  margin-left: 40vw;
-  margin-right: 40vw;
+ 
   
 }
 .homepuppies {
@@ -265,6 +259,13 @@ margin-top: 75vh;
   color: white;
 text-align: center;
 }
+.aboutimage {
+  border-radius: 10%;
+  text-align: left;
+}
+.aboutbox {
+  text-align: right;
+}
 .aboutdesc {
   color: white;
   text-align: center;
@@ -279,6 +280,12 @@ text-align: center;
 
 
 /* puppy page */ 
+.cardbox {
+  text-align: center;
+  color: white;
+  width: 280px;
+  height: 150px;
+}
 .col-sm-4 {
   align-items: center;
   text-align: center;
@@ -303,7 +310,4 @@ text-align: center;
 .parent-page {
  display: flex;
  justify-content: center;
-}
-.parentcard {
-  
 }
