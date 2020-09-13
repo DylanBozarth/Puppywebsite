@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.scss";
-import Navigation from "./component/nav";
+import {Navigation} from "./component/nav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Puppies from "./pages/puppies";
 import Home from "./pages/home";
@@ -20,6 +20,7 @@ class App extends Component {
       propdata: null,
     };
   }
+  
   componentDidMount() {
     fetch("/addnewthings.json")
       .then((res) => res.json())
@@ -30,7 +31,9 @@ class App extends Component {
         });
       });
   }
-  render() {
+  
+  render()
+   {
     return (
       <div><BrowserRouter>
         
