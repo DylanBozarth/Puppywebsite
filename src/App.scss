@@ -48,7 +48,10 @@ body::-webkit-scrollbar {
 }
 /* end of footer */
 /* navbar */
-
+.navbarmaster {
+  background-color: $blue !important;
+  z-index: 99;
+}
 /* end of navbar */
 
 /* homepage effects */

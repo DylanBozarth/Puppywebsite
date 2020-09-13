@@ -11,6 +11,9 @@ import { Footer } from "./component/footer";
 import Application from "./pages/application";
 import BreedInfo from "./pages/breedinfo";
 import RainbowBridge from "./pages/rainbowbridge";
+import Poodles from "./component/poodles";
+import Labradoodles from "./component/labradoodles";
+import Goldendoodles from "./component/goldendoodles";
 
 
 class App extends Component {
@@ -57,6 +60,27 @@ class App extends Component {
           path="/parents"
           render={(props) => (
             <Parents {...props} propdata={this.state.propdata} />
+          )}
+        />
+        <Route
+          exact
+          path="/poodles"
+          render={(props) => (
+            <Poodles {...props} propdata={this.state.propdata} />
+          )}
+        />
+        <Route
+          exact
+          path="/labradoodles"
+          render={(props) => (
+            <Labradoodles {...props} propdata={this.state.propdata} />
+          )}
+        />
+        <Route
+          exact
+          path="/goldendoodles"
+          render={(props) => (
+            <Goldendoodles {...props} propdata={this.state.propdata} />
           )}
         />
         <Route exact path="/about" component={About} />

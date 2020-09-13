@@ -21,36 +21,82 @@ export const Navigation = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+      <Navbar color="light" className="navbarmaster" light expand="md">
+        <NavbarBrand href="/"><img width="50px" height="50px" src="./assets/doglogo.png"></img>JYMR DOODLES</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/components/">Components</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
-            </NavItem>
-            <UncontrolledDropdown nav inNavbar>
+          <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                Options
+               Doggos
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  Option 1
+                <NavItem>
+              <NavLink href="/puppies">All Puppies</NavLink>
+            </NavItem>
+            
                 </DropdownItem>
                 <DropdownItem>
-                  Option 2
+                <NavItem>
+              <NavLink href="/parents">Parents</NavLink>
+            </NavItem>
                 </DropdownItem>
-                <DropdownItem divider />
                 <DropdownItem>
-                  Reset
+                <NavItem>
+              <NavLink href="/poodles">Poodles</NavLink>
+            </NavItem>
+                </DropdownItem>
+                <DropdownItem>
+                <NavItem>
+              <NavLink href="/labradoodles">Labradoodles</NavLink>
+            </NavItem>
+                </DropdownItem>
+                <DropdownItem>
+                <NavItem>
+              <NavLink href="/goldendoodles">Goldendoodles</NavLink>
+            </NavItem>
+                </DropdownItem>
+
+              </DropdownMenu>
+
+            </UncontrolledDropdown>
+            
+            
+            
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                Info 
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                <NavItem>
+              <NavLink href="/about">About us</NavLink>
+            </NavItem>
+            
+                </DropdownItem>
+                <DropdownItem>
+                <NavItem>
+              <NavLink href="/breedinfo">About Doodles</NavLink>
+            </NavItem>
+                </DropdownItem>
+              
+                <DropdownItem>
+                <NavItem>
+              <NavLink href="/rainbowbridge">Our past greats</NavLink>
+            </NavItem>
                 </DropdownItem>
               </DropdownMenu>
+
             </UncontrolledDropdown>
+            <NavItem>
+              <NavLink href="/application">Adoption application</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/affliates">Our affliates</NavLink>
+            </NavItem>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
+          
         </Collapse>
       </Navbar>
     </div>

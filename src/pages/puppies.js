@@ -2,6 +2,9 @@ import React from "react";
 import useTitle from "../hooks/useTitle";
 
 import _ from "lodash";
+import Poodles from "../component/poodles";
+import Labradoodles from "../component/labradoodles";
+import Goldendoodles from "../component/goldendoodles";
 
 function Puppies({ propdata }) {
   const poodles = _.get(propdata, "poodles", []);
@@ -12,8 +15,7 @@ function Puppies({ propdata }) {
 
   return (
     <div className="container-fluid" >
-      
-        <div className="puppyseperator">
+      <div className="puppyseperator">
           <h1>Poodles!</h1>
           <p>Our best sellers</p>
         </div>
