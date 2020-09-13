@@ -48,24 +48,6 @@ body::-webkit-scrollbar {
 }
 /* end of footer */
 /* navbar */
-.navbarmaster {
-  position: absolute;
-  z-index: 99;
-}
-.navItem {
-  background-color: $teal;
-
-  padding: 7px;
-  margin-left: 50px;
-  border-radius: 15%;
-  text-align: center;
-}
-.navtext {
-  color: white !important;
-}
-.nohighlight:hover {
-  text-decoration: none;
-}
 
 /* end of navbar */
 

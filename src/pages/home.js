@@ -34,7 +34,7 @@ function Home({ propdata }) {
           style={{ backgroundImage: "url(../puppies/labs.jpg)" }}
         ></div>
       </div>
-      <div className="puppysegment">
+      <div className="puppysegment container-fluid">
         <div className="pageline"></div>
         <NavLink className="nohighlight" to="/puppies">
           <h1 className="puppytitle">Your next dog</h1>
@@ -111,13 +111,13 @@ function Home({ propdata }) {
           </div>
         </NavLink>
         <div className="pageline"></div>
-        <div className="aboutsegment">
-          <NavLink className="nohighlight" to="/about">
+        
+          <NavLink className="nohighlight container-fluid" to="/about">
             <Aboutseg />
           </NavLink>
           <div className="pageline"></div>
         </div>
-      </div>
+      
       ;<div className="pageline"></div>
     </div>
   );

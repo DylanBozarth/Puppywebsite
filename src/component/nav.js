@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 
 export default function Navigation() {
   return (
-    <div className="container-fluid">
-      aasdsd
-    </div>
+    <div>
+    aaaaa
+        </div>
   );
 }

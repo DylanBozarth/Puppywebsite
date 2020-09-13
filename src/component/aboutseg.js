@@ -9,7 +9,7 @@ function Aboutseg() {
       <h1 className="abouttitle">Good pups are raised by good hoomans</h1>
         
         
-          <img className="aboutimage" src="./puppies/family.jpg" fluid="true" />
+          <img className="aboutimage img-fluid" src="./puppies/family.jpg" fluid="true" />
        
         <div className="aboutbox">
           <h1 className="abouttitle">My family</h1>{" "}
