@@ -1,6 +1,51 @@
-import React from 'react';
-
-
+import React from "react";
+import {
+    
+    NavLink
+    
+  } from 'reactstrap';
+  import { FaFacebook, FaInstagram } from "react-icons/fa";
 export const Footer = () => (
-    <div className="footer">I am the footer</div>
-)
+    <footer className="site-footer">
+    <div className="container">
+      <div className="row">
+        <div className="col-sm-12 col-md-6">
+          <h6>Great Doodles from great Hoomans</h6>
+          <img src="./puppies/doodle.jpg" width="100px" height="100px"></img>
+          <p className="text-justify"></p>
+        </div>
+
+        
+
+        <div className="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul className="footer-links">
+            <li><NavLink href="/puppies">All Puppies</NavLink></li>
+            <li><NavLink href="/goldendoodles">goldendoodles</NavLink></li>
+            <li><NavLink href="/Poodles">Poodles</NavLink></li>
+            <li><NavLink href="/Labradoodles">Labradoodles</NavLink></li>
+            <li><NavLink href="/application">Adoption Application</NavLink></li>
+          </ul>
+        </div>
+      </div>
+      
+    <div className="container">
+      <div className="row">
+        <div className="col-md-8 col-sm-6 col-xs-12">
+          <p className="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+       <a href="#">JYMR doodles</a>.
+          </p>
+        </div>
+
+        <div className="col-md-4 col-sm-6 col-xs-12">
+          <ul className="social-icons">
+            <li><a className="facebook" target="_blank" href="https://www.facebook.com/JYMRdoodles/"><FaFacebook size={30} /></a></li>
+            <li><a className="dribbble" target="_blank" href="https://www.instagram.com/jymr_doodles/"><FaInstagram size={30} /></a></li>
+              
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+</footer>
+);

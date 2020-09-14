@@ -14,6 +14,7 @@ import RainbowBridge from "./pages/rainbowbridge";
 import Poodles from "./component/poodles";
 import Labradoodles from "./component/labradoodles";
 import Goldendoodles from "./component/goldendoodles";
+import Affliates from "./pages/affliates";
 
 
 class App extends Component {
@@ -86,6 +87,7 @@ class App extends Component {
         <Route exact path="/about" component={About} />
         <Route exact path="/application" component={Application} />
         <Route exact path="/breedinfo" component={BreedInfo} />
+        <Route exact path="/affliates" component={Affliates} />
         <Route
           exact
           path="/rainbowbridge"
@@ -93,7 +95,8 @@ class App extends Component {
             <RainbowBridge {...props} propdata={this.state.propdata} />
           )}
         />
-      </BrowserRouter></div>
+      </BrowserRouter>
+      <Footer /></div>
     );
   }
 }

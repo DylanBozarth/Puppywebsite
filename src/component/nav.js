@@ -94,6 +94,9 @@ export const Navigation = (props) => {
             <NavItem>
               <NavLink href="/affliates">Our affliates</NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink href="https://www.pawtree.com/jymrdoodles" target="_blank">Pawtree food</NavLink>
+            </NavItem>
           </Nav>
           
         </Collapse>
