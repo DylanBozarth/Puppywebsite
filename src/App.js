@@ -86,7 +86,13 @@ class App extends Component {
         <Route exact path="/about" component={About} />
         <Route exact path="/application" component={Application} />
         <Route exact path="/breedinfo" component={BreedInfo} />
-        <Route exact path="/rainbowbridge" component={RainbowBridge} />
+        <Route
+          exact
+          path="/rainbowbridge"
+          render={(props) => (
+            <RainbowBridge {...props} propdata={this.state.propdata} />
+          )}
+        />
       </BrowserRouter></div>
     );
   }

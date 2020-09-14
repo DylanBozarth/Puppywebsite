@@ -1,40 +1,24 @@
-
 import React from "react";
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
+import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css";
 
-function RainbowBridge() {
+import _ from "lodash";
+
+function RainbowBridge({ propdata }) {
+  const pastdogs = _.get(propdata, "pastdogs", []);
   return (
-    <AwesomeSlider  className="slidermaster">
-    <div><div className="slidertab"> 
-          <h1 className="slidertext">Molly 1955-2019</h1></div>
-          <img
-            className=""
-            
-            src="./puppies/shiba.jpg"
-          /></div>
-    <div><div className="slidertab"> 
-          <h1 className="slidertext">Steve 1955-2019</h1></div>
-          <img
-            className=""
-            
-            src="./puppies/shiba.jpg"
-          /></div>
-    <div><div className="slidertab"> 
-          <h1 className="slidertext">Craig 1955-2019</h1></div>
-          <img
-            className=""
-            
-            src="./puppies/shiba.jpg"
-          /></div>
-    <div><div className="slidertab"> 
-          <h1 className="slidertext">Ramses II 1955-2019</h1></div>
-          <img
-            className=""
-            
-            src="./puppies/shiba.jpg"
-          /></div>
-  </AwesomeSlider>
-  )
+    <AwesomeSlider className="slidermaster">
+      {pastdogs.map((pastdogs) => (
+        <div className="slidertab">
+          <div>
+            <h1 className="slidertext">{pastdogs.name}</h1>
+            <img className="" src={pastdogs.image} />
+            <p>{pastdogs.description}</p>
+            <p>{pastdogs.year}</p>
+          </div>
+        </div>
+      ))}
+    </AwesomeSlider>
+  );
 }
 export default RainbowBridge;

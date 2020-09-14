@@ -1,5 +1,5 @@
 {
-   
+  
   "poodles": [
     {
       "name":"Featured dog 1",
@@ -116,6 +116,26 @@
       }
     
   ],
+  "pastdogs": [
+    {
+      "name":"Buddy",
+      "description":"Wonderful dog to a wonderful family in Spokane Washington",
+      "year": "1999-2020",
+      "image": "./puppies/shiba.jpg"
+    },
+    {
+      "name":"Steve",
+      "description":"Wonderful dog to a wonderful family in Spokane Washington",
+      "year": "1999-2020",
+      "image": "./puppies/shiba.jpg"
+    },
+    {
+      "name":"Craig",
+      "description":"Wonderful dog to a wonderful family in Spokane Washington",
+      "year": "1999-2020",
+      "image": "./puppies/shiba.jpg"
+    }
+  ],
 
     
     "parents": [
@@ -167,8 +187,9 @@
   "image": "./puppies/golddoodle.jpg"
   
 }
+
     ],
-    
+
     "reviews": [
         {
             "title":"",
@@ -178,4 +199,6 @@
     
           }
     ]
-  }
+ 
+ }
+  
