@@ -2,9 +2,6 @@ import React from "react";
 import useTitle from "../hooks/useTitle";
 
 import _ from "lodash";
-import Poodles from "../component/poodles";
-import Labradoodles from "../component/labradoodles";
-import Goldendoodles from "../component/goldendoodles";
 
 function Puppies({ propdata }) {
   const poodles = _.get(propdata, "poodles", []);

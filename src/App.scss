@@ -311,12 +311,17 @@ text-align: center;
 /* end of breed info */ 
 
 /* slider on rainbow bridge */
+.slidermaster {
+  height: 100vh;
+  margin-bottom: 1rem;
+}
 .slider {
   background-color: $teal;
 }
 .slidertext {
   color: white;
   text-align: center;
+  margin-top: 10rem;
   z-index: 99;
 }
 .slidertab {

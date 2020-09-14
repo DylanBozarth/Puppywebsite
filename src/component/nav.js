@@ -10,8 +10,7 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem,
-  NavbarText
+  DropdownItem
 } from 'reactstrap';
 
 export const Navigation = (props) => {
@@ -22,7 +21,7 @@ export const Navigation = (props) => {
   return (
     <div>
       <Navbar color="light" className="navbarmaster" light expand="md">
-        <NavbarBrand href="/"><img width="50px" height="50px" src="./assets/doglogo.png"></img>JYMR DOODLES</NavbarBrand>
+        <NavbarBrand href="/"><img width="50px" height="50px" src="./assets/doglogo.png" alt="logo"></img>JYMR DOODLES</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>

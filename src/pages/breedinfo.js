@@ -22,6 +22,7 @@ function BreedInfo() {
             height="300px"
             width="280px"
             src="./puppies/shiba.jpg"
+            alt="poodle"
           />
         </div>
         <div className="col-sm-4">
@@ -41,6 +42,7 @@ function BreedInfo() {
             height="300px"
             width="280px"
             src="./puppies/shiba.jpg"
+            alt="Labradoodle"
           />
         </div>
         <div className="col-sm-4">
@@ -57,6 +59,7 @@ function BreedInfo() {
             height="300px"
             width="280px"
             src="./puppies/shiba.jpg"
+            alt="Goldendoodle"
           />
         </div>
       </div>

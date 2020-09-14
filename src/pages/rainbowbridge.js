@@ -5,7 +5,7 @@ import 'react-awesome-slider/dist/styles.css';
 
 function RainbowBridge() {
   return (
-    <AwesomeSlider >
+    <AwesomeSlider  className="slidermaster">
     <div><div className="slidertab"> 
           <h1 className="slidertext">Molly 1955-2019</h1></div>
           <img
