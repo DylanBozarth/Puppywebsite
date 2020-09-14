@@ -1,31 +1,45 @@
 
 import React from "react";
 
-export default class MyForm extends React.Component {
+import { Badge } from 'reactstrap';
+
+
+export default class Application extends React.Component {
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
     this.state = {
-      status: ""
+      status: "",
+      dogSize: "No preference",
+
     };
   }
-
+setDogSize = () => {
+  this.setState({ })
+}
   render() {
     const { status } = this.state;
     return (
+      <div className="form">
       <form
         onSubmit={this.submitForm}
         action="https://formspree.io/xoqpajbk"
         method="POST"
       >
         
-        <label>Email:</label>
-        <input type="email" name="email" />
-        <label>Message:</label>
-        <input type="text" name="message" />
+  
+        <label className="formtitle">Name:</label>
+        <input type="name" name="Name" />
+        <label className="formtitle">Address</label>
+        <input type="text" name="Address" />
+        <label className="formtitle">Phone:</label>
+        <input type="text" name="Phone" />
+        <label className="formtitle">Interested in:</label>
+        <Badge color="primary" pill className="Badge">Big Dogs</Badge> <Badge color="primary" className="Badge" pill>Small Dogs</Badge> <Badge className="Badge" color="primary" pill>No preference</Badge>
+        <input type="text" name="Dog size" value={this.state.dogSize} />
         {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
-      </form>
+      </form></div>
     );
   }
 
