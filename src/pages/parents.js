@@ -10,7 +10,7 @@ function Parents({ propdata }) {
   return (
     <div className="container-fluid" >
        <h1 className="puppytitle">Goldendoogles</h1>
-      <div className="row puppyrow no-gutters prva">
+      <div className=" puppyrow no-gutters prva  col-lg-12">
          
           {parents.slice(0, 2).map((parents) => (
             <div
@@ -33,7 +33,7 @@ function Parents({ propdata }) {
           ))}
         </div>
           <h1 className="puppytitle">Poodles</h1>
-          <div className="row puppyrow no-gutters prva">
+          <div className=" puppyrow no-gutters prva  col-lg-12">
           {parents.slice(2, 4).map((parents) => (
             <div
               className="parentcard"

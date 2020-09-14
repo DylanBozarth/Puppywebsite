@@ -21,7 +21,7 @@ function Aboutseg() {
           <p className="aboutdesc">Extreme conditioning</p>
         </div>
       </div>
-      <h1 className="puppytitle">Some of our past greats</h1>
+     
     </div>
   );
 }
