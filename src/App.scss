@@ -212,6 +212,7 @@ body::-webkit-scrollbar {
   background-color: $blue !important;
   z-index: 99;
 }
+
 /* end of navbar */
 
 /* homepage effects */
@@ -345,7 +346,14 @@ $scale-base-1: (1 + $scale / 100%);
     }
   }
 }
-
+.homepagemaster {
+  height: 270vh;
+}
+@media only screen and (max-width: 600px) {
+  .homepagemaster {
+    height: 430vh;
+  }
+}
 /* end of homepage stuff */
 .pageline {
   width: 100vw;

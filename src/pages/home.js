@@ -11,7 +11,7 @@ function Home({ propdata }) {
   const labradoodles = _.get(propdata, "labradoodles", []);
   const goldendoodles = _.get(propdata, "goldendoodles", []);
   return (
-    <div>
+    <div className="homepagemaster">
       <h1 className="homeh1">
         <small>JYMR DOODLES</small> Super cute puppies{" "}
       </h1>
