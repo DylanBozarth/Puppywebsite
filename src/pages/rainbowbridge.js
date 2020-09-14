@@ -1,60 +1,40 @@
 
-import React, { Component } from "react";
-import M from "materialize-css";
-import "materialize-css/dist/css/materialize.min.css";
+import React from "react";
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 
-
-class RainbowBridge extends Component {
-  componentDidMount() {
-    const options = {
-      duration: 300,
-      onCycleTo: () => {
-        console.log("aa");
-      }
-    };
-    M.Carousel.init(this.Carousel, options);
-
-    //Instance Plugin
-    // let instance = M.Carousel.getInstance(this.Carousel);
-    // instance.next(2);
-  }
-
-  render() {
-    return (
-      <div
-        ref={Carousel => {
-          this.Carousel = Carousel;
-        }}
-        className="carousel"
-      >
-        <a className="carousel-item">
-          
-          <img alt="1" src={'./puppies/shiba.jpg'} />
-        </a>
-        <a className="carousel-item">
-          
-          <img alt="1" src={'./puppies/shiba.jpg'} />
-        </a>
-        <a className="carousel-item">
-          
-          <img alt="1" src={'./puppies/shiba.jpg'} />
-        </a>
-        <a className="carousel-item">
-          
-          <img alt="1" src={'./puppies/shiba.jpg'} />
-        </a>
-        <a className="carousel-item">
-          
-          <img alt="1" src={'./puppies/shiba.jpg'} />
-        </a>
-        <a className="carousel-item">
-          
-          <img alt="1" src={'./puppies/shiba.jpg'} />
-        </a>
-        
-      </div>
-    );
-  }
+function RainbowBridge() {
+  return (
+    <AwesomeSlider >
+    <div><div className="slidertab"> 
+          <h1 className="slidertext">Molly 1955-2019</h1></div>
+          <img
+            className=""
+            
+            src="./puppies/shiba.jpg"
+          /></div>
+    <div><div className="slidertab"> 
+          <h1 className="slidertext">Steve 1955-2019</h1></div>
+          <img
+            className=""
+            
+            src="./puppies/shiba.jpg"
+          /></div>
+    <div><div className="slidertab"> 
+          <h1 className="slidertext">Craig 1955-2019</h1></div>
+          <img
+            className=""
+            
+            src="./puppies/shiba.jpg"
+          /></div>
+    <div><div className="slidertab"> 
+          <h1 className="slidertext">Ramses II 1955-2019</h1></div>
+          <img
+            className=""
+            
+            src="./puppies/shiba.jpg"
+          /></div>
+  </AwesomeSlider>
+  )
 }
-  
 export default RainbowBridge;
