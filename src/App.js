@@ -34,6 +34,8 @@ class App extends Component {
           propdata: res,
         });
       });
+      fetch("0")
+      
   }
   
   render()

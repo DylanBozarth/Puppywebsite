@@ -34,7 +34,7 @@ function Home({ propdata }) {
       </div>
 
       <div className="puppysegment container-fluid">
-        {/*<div className="pageline"></div> */}
+        <div className="pageline"></div> 
 
         <h1 className="puppytitle">Inspirational dog quote</h1>
 
@@ -95,6 +95,7 @@ function Home({ propdata }) {
               <button>Learn more</button>
             </a>
           </div>
+          <div className="pageline"></div>
         </div>
         <NavLink to="/application" className="nohighlight">
           <Button color="primary" size="lg" block>
@@ -103,7 +104,7 @@ function Home({ propdata }) {
         </NavLink>
         <div className="instagrambox">
           {" "}
-          <h1>Fullow us on Instagram</h1>
+          <h1 className="puppytitle">Follow us on Instagram</h1>
           <div className="container-fluid">
             <div className="row">
               

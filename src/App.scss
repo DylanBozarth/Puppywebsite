@@ -368,14 +368,11 @@ $scale-base-1: (1 + $scale / 100%);
 }
 /* end of homepage stuff */
 .pageline {
-  position: absolute;
   width: 100vw;
   height: 10vh;
   margin-left: -2vw;
-  margin-top: -2vh;
-  margin-bottom: -2vh;
   background-image: url('./pawborder.png');
-  background-size: 50%;
+  background-size: 45%;
   background-repeat: repeat-x;
   z-index: 99;
 }
