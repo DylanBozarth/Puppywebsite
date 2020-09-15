@@ -20,12 +20,47 @@ export const Navigation = (props) => {
 
   return (
     <div>
-      <Navbar color="light" className="navbarmaster" light expand="md">
+      <Navbar className="navbarmaster" light expand="md">
         <NavbarBrand href="/"><img width="50px" height="50px" src="./assets/doglogo.png" alt="logo"></img>JYMR DOODLES</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-          <UncontrolledDropdown nav inNavbar>
+          
+            
+            
+            
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                Info 
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                <NavItem>
+              <NavLink href="/about">About us</NavLink>
+            </NavItem>
+            
+                </DropdownItem>
+                <DropdownItem>
+                <NavItem>
+              <NavLink href="/breedinfo">About Doodles</NavLink>
+            </NavItem>
+                </DropdownItem>
+              
+                <DropdownItem>
+                <NavItem>
+              <NavLink href="/rainbowbridge">Our past greats</NavLink>
+            </NavItem>
+          
+                </DropdownItem>
+                <DropdownItem>
+                <NavItem>
+              <NavLink href="/application">Adopt</NavLink>
+            </NavItem>
+                </DropdownItem>
+              </DropdownMenu>
+
+            </UncontrolledDropdown>
+            <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                Doggos
               </DropdownToggle>
@@ -59,41 +94,10 @@ export const Navigation = (props) => {
 
               </DropdownMenu>
 
-            </UncontrolledDropdown>
-            
-            
-            
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Info 
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                <NavItem>
-              <NavLink href="/about">About us</NavLink>
+            </UncontrolledDropdown><NavItem>
+              <NavLink href="/reviews">Customer Reviews</NavLink>
             </NavItem>
-            
-                </DropdownItem>
-                <DropdownItem>
-                <NavItem>
-              <NavLink href="/breedinfo">About Doodles</NavLink>
-            </NavItem>
-                </DropdownItem>
-              
-                <DropdownItem>
-                <NavItem>
-              <NavLink href="/rainbowbridge">Our past greats</NavLink>
-            </NavItem>
-                </DropdownItem>
-              </DropdownMenu>
-
-            </UncontrolledDropdown>
-            <NavItem>
-              <NavLink href="/application">Adoption application</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/affliates">Our affliates</NavLink>
-            </NavItem>
+           
             <NavItem>
               <NavLink href="https://www.pawtree.com/jymrdoodles" target="_blank">Pawtree food</NavLink>
             </NavItem>

@@ -1,5 +1,5 @@
-$teal: #1dd6d6;
-$grey: #989292;
+$teal: #bdeaee;
+$grey:#BDBDBD;
 $blue: #3737ec;
 body {
   background-color: $grey !important;
@@ -10,6 +10,7 @@ body {
   
   max-width: 100vw;
 }
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -18,6 +19,7 @@ body::-webkit-scrollbar {
     margin-top: 1rem;
   }
 }
+
 
 .page {
   background-color: $grey;
@@ -209,8 +211,11 @@ body::-webkit-scrollbar {
 /* end of footer */
 /* navbar */
 .navbarmaster {
-  background-color: $blue !important;
+  background-color: $grey !important;
   z-index: 99;
+  text-align: center;
+  justify-content: center;
+  margin-left: 25vw;
 }
 
 /* end of navbar */
@@ -353,14 +358,31 @@ $scale-base-1: (1 + $scale / 100%);
   .homepagemaster {
     height: 430vh;
   }
+  .navbarmaster {
+    background-color: $grey !important;
+  z-index: 99;
+  text-align: center;
+  justify-content: center;
+  margin-left: 0;
+  }
 }
 /* end of homepage stuff */
 .pageline {
+  position: absolute;
   width: 100vw;
-  height: 2vh;
-  background-color: $teal
+  height: 10vh;
+  margin-left: -2vw;
+  margin-top: -2vh;
+  margin-bottom: -2vh;
+  background-image: url('./pawborder.png');
+  background-size: 50%;
+  background-repeat: repeat-x;
+  z-index: 99;
 }
 /* puppy segments */ 
+.portrait {
+  border-radius: 250px !important;
+}
 .homecard {
   border: 2px solid $teal;
   

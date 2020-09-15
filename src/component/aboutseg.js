@@ -6,9 +6,10 @@ function Aboutseg() {
   useTitle("Reputable Breeders");
   return (
     <div className="container-fluid">
+      
       <h1 className="abouttitle">Good pups are raised by good hoomans</h1>
         
-        
+      
           <img className="aboutimage img-fluid" src="./puppies/family.jpg" alt="JYMR family " fluid="true" />
        
         <div className="aboutbox">
