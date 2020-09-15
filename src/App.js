@@ -34,7 +34,11 @@ class App extends Component {
           propdata: res,
         });
       });
-      fetch("0")
+      fetch("/instagram_oembed?url={https://www.instagram.com/p/CFIGr73hELF/}&access_token={315930192969808|f04e547a48a352adb21891fe8ded31a7}")
+      console.log(Response)
+      // app id 315930192969808
+      //  clinet id f04e547a48a352adb21891fe8ded31a7
+
       
   }
   

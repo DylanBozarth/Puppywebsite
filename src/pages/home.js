@@ -107,7 +107,7 @@ function Home({ propdata }) {
           <h1 className="puppytitle">Follow us on Instagram</h1>
           <div className="container-fluid">
             <div className="row">
-              
+            <div className="elfsight-app-343de7b1-10c9-4569-80a1-2e487a1d8b07 instafeed"></div>
             </div>
           </div>
         </div>

@@ -352,7 +352,7 @@ $scale-base-1: (1 + $scale / 100%);
   }
 }
 .homepagemaster {
-  height: 270vh;
+  height: 285vh;
 }
 @media only screen and (max-width: 600px) {
   .homepagemaster {
@@ -425,6 +425,9 @@ margin-top: 75vh;
   background-color: $teal;
   height: 5rem;
   margin-top: 2rem;
+}
+.instafeed {
+  height: 95vh !important;
 }
 /* about segment */ 
 .abouttitle {
