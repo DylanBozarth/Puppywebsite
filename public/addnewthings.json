@@ -1,204 +1,202 @@
 {
-  
   "poodles": [
     {
-      "name":"Featured dog 1",
-      "description":"Traces his DNA back to George washington's dog",
+      "name": "Featured dog 1",
+      "description": "Traces his DNA back to George washington's dog",
       "price": 10,
       "image": "./puppies/shiba.jpg"
     },
     {
-      "name":"hot doge 2",
-      "description":" he great",
+      "name": "hot doge 2",
+      "description": " he great",
       "price": 10,
       "image": "./puppies/shiba.jpg"
     },
     {
-      "name":"hot doge 3",
-      "description":" he great",
+      "name": "hot doge 3",
+      "description": " he great",
       "price": 10,
       "image": "./puppies/shiba.jpg"
     },
     {
-      "name":"hot doge 4",
-      "description":" he great",
+      "name": "hot doge 4",
+      "description": " he great",
       "price": 10,
       "image": "./puppies/shiba.jpg"
     },
     {
-      "name":"WEWEWE",
-      "description":" he great",
+      "name": "WEWEWE",
+      "description": " he great",
       "price": 10,
       "image": "./puppies/shiba.jpg"
     },
     {
-      "name":"haaaaa",
-      "description":" he great",
+      "name": "haaaaa",
+      "description": " he great",
       "price": 10,
       "image": "./puppies/shiba.jpg"
     }
-    
   ],
   "labradoodles": [
     {
-      "name":"Featured dog 2",
-      "description":"Can read and write Chinese",
+      "name": "Featured dog 2",
+      "description": "Can read and write Chinese",
       "price": 10,
       "image": "./puppies/doodle.jpg"
     },
     {
-      "name":"hot doge 2",
-      "description":" he great",
+      "name": "hot doge 2",
+      "description": " he great",
       "price": 10,
       "image": "./puppies/doodle.jpg"
     },
     {
-      "name":"hot doge 3",
-      "description":" he great",
+      "name": "hot doge 3",
+      "description": " he great",
       "price": 10,
       "image": "./puppies/doodle.jpg"
     },
     {
-      "name":"hot doge 4",
-      "description":" he great",
+      "name": "hot doge 4",
+      "description": " he great",
       "price": 10,
       "image": "./puppies/doodle.jpg"
     },
     {
-      "name":"WEWEWE",
-      "description":" he great",
+      "name": "WEWEWE",
+      "description": " he great",
       "price": 10,
       "image": "./puppies/doodle.jpg"
     },
     {
-      "name":"haaaaa",
-      "description":" he great",
+      "name": "haaaaa",
+      "description": " he great",
       "price": 10,
       "image": "./puppies/doodle.jpg"
     }
   ],
-    "goldendoodles": [
-      {
-        "name":"Featured dog 3",
-        "description":"Can move objects with his mind",
-        "price": 10,
-        "image": "./puppies/golddoodle.jpg"
-      },
-      {
-        "name":"hot doge 2",
-        "description":" he great",
-        "price": 10,
-        "image": "./puppies/golddoodle.jpg"
-      },
-      {
-        "name":"hot doge 3",
-        "description":" he great",
-        "price": 10,
-        "image": "./puppies/golddoodle.jpg"
-      },
-      {
-        "name":"hot doge 4",
-        "description":" he great",
-        "price": 10,
-        "image": "./puppies/golddoodle.jpg"
-      },
-      {
-        "name":"WEWEWE",
-        "description":" he great",
-        "price": 10,
-        "image": "./puppies/golddoodle.jpg"
-      },
-      {
-        "name":"haaaaa",
-        "description":" he great",
-        "price": 10,
-        "image": "./puppies/golddoodle.jpg"
-      }
-    
+  "goldendoodles": [
+    {
+      "name": "Featured dog 3",
+      "description": "Can move objects with his mind",
+      "price": 10,
+      "image": "./puppies/golddoodle.jpg"
+    },
+    {
+      "name": "hot doge 2",
+      "description": " he great",
+      "price": 10,
+      "image": "./puppies/golddoodle.jpg"
+    },
+    {
+      "name": "hot doge 3",
+      "description": " he great",
+      "price": 10,
+      "image": "./puppies/golddoodle.jpg"
+    },
+    {
+      "name": "hot doge 4",
+      "description": " he great",
+      "price": 10,
+      "image": "./puppies/golddoodle.jpg"
+    },
+    {
+      "name": "WEWEWE",
+      "description": " he great",
+      "price": 10,
+      "image": "./puppies/golddoodle.jpg"
+    },
+    {
+      "name": "haaaaa",
+      "description": " he great",
+      "price": 10,
+      "image": "./puppies/golddoodle.jpg"
+    }
   ],
   "pastdogs": [
     {
-      "name":"Buddy",
-      "description":"Wonderful dog to a wonderful family in Spokane Washington",
+      "name": "Buddy",
+      "description": "Wonderful dog to a wonderful family in Spokane Washington",
       "year": "1999-2020",
       "image": "./puppies/shiba.jpg"
     },
     {
-      "name":"Steve",
-      "description":"Wonderful dog to a wonderful family in Spokane Washington",
+      "name": "Steve",
+      "description": "Wonderful dog to a wonderful family in Spokane Washington",
       "year": "1999-2020",
       "image": "./puppies/shiba.jpg"
     },
     {
-      "name":"Craig",
-      "description":"Wonderful dog to a wonderful family in Spokane Washington",
+      "name": "Craig",
+      "description": "Wonderful dog to a wonderful family in Spokane Washington",
       "year": "1999-2020",
       "image": "./puppies/shiba.jpg"
     }
   ],
 
-    
-    "parents": [
- {
-     "name": "Greg (dad)", 
-     "age": "14",
-     "description": "A big doge",
-     "breed": "Labradoodle",
-     "image": "./puppies/shiba.jpg"
-     
- },
- {
-  "name": "Linda (mom)", 
-  "age": "12",
-  "description": "A big doge",
-  "breed": "Labradoodle",
-  "image": "./puppies/golddoodle.jpg"
-  
-},
-{
-  "name": "Samatha (mom)", 
-  "age": "12",
-  "description": "A big doge",
-  "breed": "Labradoodle",
-  "image": "./puppies/golddoodle.jpg"
-  
-},
-{
-  "name": "Thomas (dad)", 
-  "age": "12",
-  "description": "A big doge",
-  "breed": "Labradoodle",
-  "image": "./puppies/golddoodle.jpg"
-  
-},
-{
-  "name": "Stacy (dad)", 
-  "age": "12",
-  "description": "A big doge",
-  "breed": "Labradoodle",
-  "image": "./puppies/golddoodle.jpg"
-  
-},
-{
-  "name": "Brad (dad)", 
-  "age": "12",
-  "description": "A big doge",
-  "breed": "Labradoodle",
-  "image": "./puppies/golddoodle.jpg"
-  
+  "parents": [
+    {
+      "name": "Greg (dad)",
+      "age": "14",
+      "description": "A big doge",
+      "breed": "Labradoodle",
+      "image": "./puppies/shiba.jpg"
+    },
+    {
+      "name": "Linda (mom)",
+      "age": "12",
+      "description": "A big doge",
+      "breed": "Labradoodle",
+      "image": "./puppies/golddoodle.jpg"
+    },
+    {
+      "name": "Samatha (mom)",
+      "age": "12",
+      "description": "A big doge",
+      "breed": "Labradoodle",
+      "image": "./puppies/golddoodle.jpg"
+    },
+    {
+      "name": "Thomas (dad)",
+      "age": "12",
+      "description": "A big doge",
+      "breed": "Labradoodle",
+      "image": "./puppies/golddoodle.jpg"
+    },
+    {
+      "name": "Stacy (dad)",
+      "age": "12",
+      "description": "A big doge",
+      "breed": "Labradoodle",
+      "image": "./puppies/golddoodle.jpg"
+    },
+    {
+      "name": "Brad (dad)",
+      "age": "12",
+      "description": "A big doge",
+      "breed": "Labradoodle",
+      "image": "./puppies/golddoodle.jpg"
+    }
+  ],
+
+  "reviews": [
+    {
+      "testimonial": "I love my Doodle",
+
+      "image": "./puppies/shiba.jpg",
+      "owner": "Steve Billingsworth"
+    },
+    {
+      "testimonial": "I love my Doodle",
+
+      "image": "./puppies/shiba.jpg",
+      "owner": "Steve Billingsworth"
+    },
+    {
+      "testimonial": "I love my Doodle",
+
+      "image": "./puppies/shiba.jpg",
+      "owner": "Steve Billingsworth"
+    }
+  ]
 }
-
-    ],
-
-    "reviews": [
-        {
-            "title":"",
-            "description":"",
-            "image": ""
-    
-    
-          }
-    ]
- 
- }
-  

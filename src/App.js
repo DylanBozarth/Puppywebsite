@@ -15,6 +15,7 @@ import Poodles from "./component/poodles";
 import Labradoodles from "./component/labradoodles";
 import Goldendoodles from "./component/goldendoodles";
 import Affliates from "./pages/affliates";
+import Reviews from "./pages/reviews";
 
 
 class App extends Component {
@@ -34,10 +35,7 @@ class App extends Component {
           propdata: res,
         });
       });
-      fetch("/instagram_oembed?url={https://www.instagram.com/p/CFIGr73hELF/}&access_token={315930192969808|f04e547a48a352adb21891fe8ded31a7}")
-      console.log(Response)
-      // app id 315930192969808
-      //  clinet id f04e547a48a352adb21891fe8ded31a7
+      
 
       
   }
@@ -88,6 +86,13 @@ class App extends Component {
           path="/goldendoodles"
           render={(props) => (
             <Goldendoodles {...props} propdata={this.state.propdata} />
+          )}
+        />
+         <Route
+          exact
+          path="/reviews"
+          render={(props) => (
+            <Reviews {...props} propdata={this.state.propdata} />
           )}
         />
         <Route exact path="/about" component={About} />
