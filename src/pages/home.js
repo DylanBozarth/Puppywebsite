@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "reactstrap";
 
 import { NavLink } from "react-router-dom";
 import useTitle from "../hooks/useTitle";
@@ -6,7 +7,7 @@ import _ from "lodash";
 
 function Home({ propdata }) {
   useTitle("JYMR doodles");
-  
+
   return (
     <div className="homepagemaster">
       <h1 className="homeh1">
@@ -38,8 +39,8 @@ function Home({ propdata }) {
         <h1 className="puppytitle">Inspirational dog quote</h1>
 
         <div className="row puppyrow no-gutters prva">
-          
-            <div className="col-sm-4"><NavLink to="/about" className="nohighlight">
+          <div className="col-sm-4">
+            <NavLink to="/about" className="nohighlight">
               <img
                 className="homecard portrait"
                 height="300px"
@@ -53,9 +54,11 @@ function Home({ propdata }) {
                 infoMore infoMore infoMore infoMore info{" "}
               </p>
               <button>Learn more</button>
-            </NavLink></div>
-          
-            <div className="col-sm-4"><NavLink to="/puppies" className="nohighlight">
+            </NavLink>
+          </div>
+
+          <div className="col-sm-4">
+            <NavLink to="/puppies" className="nohighlight">
               <img
                 className="homecard portrait"
                 height="300px"
@@ -69,13 +72,19 @@ function Home({ propdata }) {
                 infoMore infoMore infoMore infoMore info{" "}
               </p>
               <button>Learn more</button>
-            </NavLink></div>
-            <div className="col-sm-4"><a href="https://www.pawtree.com/jymrdoodles" target="_blank"  className="nohighlight">
+            </NavLink>
+          </div>
+          <div className="col-sm-4">
+            <a
+              href="https://www.pawtree.com/jymrdoodles"
+              target="_blank"
+              className="nohighlight"
+            >
               <img
                 className="homecard portrait"
                 height="300px"
                 width="280px"
-                src="./puppies/shiba.jpg" 
+                src="./puppies/shiba.jpg"
               ></img>
               <h1>Info</h1>
               <p>
@@ -84,13 +93,24 @@ function Home({ propdata }) {
                 infoMore infoMore infoMore infoMore info{" "}
               </p>
               <button>Learn more</button>
-            </a></div>
-            
+            </a>
+          </div>
         </div>
-<div className="seemorepuppies container-fluid">Learn how to get your own pup <button>Apply</button></div>
-       <div className="instagrambox"> <h1>Fullow us on Instagram</h1> </div>
+        <NavLink to="/application" className="nohighlight">
+          <Button color="primary" size="lg" block>
+            Apply to get your own puppy
+          </Button>{" "}
+        </NavLink>
+        <div className="instagrambox">
+          {" "}
+          <h1>Fullow us on Instagram</h1>
+          <div className="container-fluid">
+            <div className="row">
+              
+            </div>
+          </div>
+        </div>
       </div>
-      
     </div>
   );
 }
