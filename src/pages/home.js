@@ -10,9 +10,11 @@ function Home({ propdata }) {
 
   return (
     <div className="homepagemaster">
+       <div className="alyonasegment">
       <h1 className="homeh1">
         <small>JYMR DOODLES</small> Super cute puppies{" "}
       </h1>
+     
       {/* You can add more ".slideshow-image" elements, but remember to update the "$items" variable on SCSS */}
       <div className="slideshow">
         <div
@@ -32,9 +34,9 @@ function Home({ propdata }) {
           style={{ backgroundImage: "url(../puppies/labs.jpg)" }}
         ></div>
       </div>
-
-      <div className="puppysegment container-fluid">
-        <div className="pageline"></div> 
+</div>
+      <div className="puppysegment">
+        
 
         <h1 className="puppytitle">Inspirational dog quote</h1>
 
@@ -95,8 +97,8 @@ function Home({ propdata }) {
               <button>Learn more</button>
             </a>
           </div>
-          <div className="pageline"></div>
         </div>
+        
         <NavLink to="/application" className="nohighlight">
           <Button color="primary" size="lg" block>
             Apply to get your own puppy

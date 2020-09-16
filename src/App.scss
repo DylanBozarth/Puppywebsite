@@ -1,5 +1,5 @@
 $teal: #bdeaee;
-$grey:#BDBDBD;
+$grey:#CDCDCD;
 $blue: #3737ec;
 body {
   background-color: $grey !important;
@@ -210,8 +210,11 @@ body::-webkit-scrollbar {
 }
 /* end of footer */
 /* navbar */
+.navbardiv {
+  height: 15vh;
+  background-color: white;
+}
 .navbarmaster {
-  background-color: $grey !important;
   z-index: 99;
   text-align: center;
   justify-content: center;
@@ -232,10 +235,14 @@ $scale-base-1: (1 + $scale / 100%);
 
 .slideshow {
   position: absolute;
-  width: 100vw;
+  width: 80vw;
+  margin-left: 10vw;
   height: 75vh;
   overflow: hidden;
+  
 }
+
+
 .slideshow-image {
   position: absolute;
   width: 100%;
@@ -353,28 +360,38 @@ $scale-base-1: (1 + $scale / 100%);
 }
 .homepagemaster {
   height: 285vh;
+  
 }
 @media only screen and (max-width: 600px) {
   .homepagemaster {
-    height: 430vh;
+    height: 455vh;
   }
   .navbarmaster {
-    background-color: $grey !important;
+    background-color: white !important;
   z-index: 99;
   text-align: center;
   justify-content: center;
   margin-left: 0;
+ 
   }
+  
+}
+.nohighlight {
+text-emphasis: none;
+}
+.nohightlight:hover {
+  text-decoration: none;
 }
 /* end of homepage stuff */
 .pageline {
   width: 100vw;
-  height: 10vh;
+  height: 130px;
   margin-left: -2vw;
   background-image: url('./pawborder.png');
-  background-size: 45%;
-  background-repeat: repeat-x;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   z-index: 99;
+  border: solid 1px white;
 }
 /* puppy segments */ 
 .portrait {

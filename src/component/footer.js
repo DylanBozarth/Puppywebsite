@@ -11,7 +11,7 @@ export const Footer = () => (
       <div className="row">
         <div className="col-sm-12 col-md-6">
           <h6>Great Doodles from great Hoomans</h6>
-          <img src="./puppies/doodle.jpg" width="100px" height="100px"></img>
+          <img src="./assets/doglogo.png" width="100px" height="100px"></img>
           <p className="text-justify"></p>
         </div>
 

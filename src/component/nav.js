@@ -21,7 +21,7 @@ export const Navigation = (props) => {
   return (
     <div>
       <Navbar className="navbarmaster" light expand="md">
-        <NavbarBrand href="/"><img width="50px" height="50px" src="./assets/doglogo.png" alt="logo"></img>JYMR DOODLES</NavbarBrand>
+        
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
@@ -52,14 +52,11 @@ export const Navigation = (props) => {
             </NavItem>
           
                 </DropdownItem>
-                <DropdownItem>
-                <NavItem>
-              <NavLink href="/application">Adopt</NavLink>
-            </NavItem>
-                </DropdownItem>
+               
               </DropdownMenu>
 
             </UncontrolledDropdown>
+            
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                Doggos
@@ -90,11 +87,18 @@ export const Navigation = (props) => {
                 <NavItem>
               <NavLink href="/goldendoodles">Goldendoodles</NavLink>
             </NavItem>
-                </DropdownItem>
 
+                </DropdownItem>
+ <DropdownItem>
+                <NavItem>
+              <NavLink href="/application">Application</NavLink>
+            </NavItem>
+                </DropdownItem>
               </DropdownMenu>
 
-            </UncontrolledDropdown><NavItem>
+            </UncontrolledDropdown>
+            <NavbarBrand href="/"><img width="50px" height="50px" src="./assets/doglogo.png" alt="logo"></img>JYMR DOODLES</NavbarBrand>
+            <NavItem>
               <NavLink href="/reviews">Customer Reviews</NavLink>
             </NavItem>
            
