@@ -417,11 +417,20 @@ $scale-base-1: (1 + $scale / 100%);
   
 }
 .nohighlight {
-text-emphasis: none;
-text-decoration: none;
+  text-emphasis: none;
+  text-decoration: none;
+  color: black;
+  &:hover {
+    text-emphasis: none;
+    text-decoration: none;
+    color: black;
+  }
 }
 .nohightlight:hover {
   text-decoration: none !important;
+  text-emphasis-color: none !important;
+  text-emphasis: none;
+  color: black;
 }
 .homeinfo:hover {
   text-decoration: none !important;
