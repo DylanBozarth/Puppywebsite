@@ -263,7 +263,7 @@ $scale-base-1: (1 + $scale / 100%);
   background-image: url('./paws.png');
   background-size: 100%; 
   background-repeat: no-repeat;
-  height: 28vh;
+  height: 26vh;
 }
 .instagrambox {
   height: 53vh;
@@ -418,16 +418,23 @@ $scale-base-1: (1 + $scale / 100%);
 }
 .nohighlight {
 text-emphasis: none;
+text-decoration: none;
 }
 .nohightlight:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .homeinfo:hover {
   text-decoration: none !important;
   color: black;
 }
 /* end of homepage stuff */
-
+.nohighlight {
+  text-emphasis: none;
+  text-decoration: none;
+  }
+  .nohightlight:hover {
+    text-decoration: none !important;
+  }
 /* puppy segments */ 
 .homecard {
   border: 2px solid $teal;

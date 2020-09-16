@@ -2,15 +2,17 @@ import React from 'react';
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { IconContext } from "react-icons";
 import { NavLink } from "react-router-dom";
+import styled from 'styled-components';
 
-function PuppySeg() {
+export default function PuppySeg() {
     return(
     <div className="puppysegment">
         <h1 className="puppytitle">"Dogs can cure disease, if that disease is depression"</h1>
 
         <div className="row puppyrow no-gutters prva">
           <div className="col-sm-4">
-            <NavLink to="/about" className="nohighlight">
+            
+            <StyledNavLink to="/about">
               <img
                 className="homecard portrait"
                 height="300px"
@@ -26,7 +28,7 @@ function PuppySeg() {
               <IconContext.Provider
       value={{ color: 'black', size: '50px', className: "arrows"}}
     ><MdKeyboardArrowRight  /> <MdKeyboardArrowRight /> <MdKeyboardArrowRight /></IconContext.Provider>
-            </NavLink>
+            </StyledNavLink>
           </div>
 
           <div className="col-sm-4">
@@ -75,4 +77,8 @@ function PuppySeg() {
         </div>
     )
 }
-export default PuppySeg
+const StyledNavLink = styled(NavLink)`
+  text-emphasis: none;
+  text-decoration: none;
+  color: black;
+`;
