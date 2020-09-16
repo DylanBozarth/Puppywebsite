@@ -1,11 +1,12 @@
 import React from 'react';
-
+import { MdKeyboardArrowRight } from "react-icons/md";
+import { IconContext } from "react-icons";
 import { NavLink } from "react-router-dom";
 
 function PuppySeg() {
     return(
     <div className="puppysegment">
-        <h1 className="puppytitle">Inspirational dog quote</h1>
+        <h1 className="puppytitle">"Dogs can cure disease, if that disease is depression"</h1>
 
         <div className="row puppyrow no-gutters prva">
           <div className="col-sm-4">
@@ -22,7 +23,9 @@ function PuppySeg() {
                 More infoMore infoMore infoMore infoMore infoMore infoMore
                 infoMore infoMore infoMore infoMore info{" "}
               </p>
-              <button>Learn more</button>
+              <IconContext.Provider
+      value={{ color: 'black', size: '50px', className: "arrows"}}
+    ><MdKeyboardArrowRight  /> <MdKeyboardArrowRight /> <MdKeyboardArrowRight /></IconContext.Provider>
             </NavLink>
           </div>
 
@@ -40,7 +43,9 @@ function PuppySeg() {
                 More infoMore infoMore infoMore infoMore infoMore infoMore
                 infoMore infoMore infoMore infoMore info{" "}
               </p>
-              <button>Learn more</button>
+              <IconContext.Provider
+      value={{ color: 'black', size: '50px', className: "arrows"}}
+    ><MdKeyboardArrowRight  /> <MdKeyboardArrowRight /> <MdKeyboardArrowRight /></IconContext.Provider>
             </NavLink>
           </div>
           <div className="col-sm-4">
@@ -61,7 +66,9 @@ function PuppySeg() {
                 More infoMore infoMore infoMore infoMore infoMore infoMore
                 infoMore infoMore infoMore infoMore info{" "}
               </p>
-              <button>Learn more</button>
+              <IconContext.Provider
+      value={{ color: 'black', size: '50px', className: "arrows"}}
+    ><MdKeyboardArrowRight  /> <MdKeyboardArrowRight /> <MdKeyboardArrowRight /></IconContext.Provider>
             </a>
           </div>
         </div>

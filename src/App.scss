@@ -213,7 +213,7 @@ body::-webkit-scrollbar {
 /* navbar */
 .navbardiv {
   height: 15vh;
-  background-color: white;
+  background-color: lightgrey;
 }
 .navbarmaster {
   z-index: 99;
@@ -260,10 +260,10 @@ $scale-base-1: (1 + $scale / 100%);
  overflow: hidden;
 }
 .paws {
-  background-image: url('./bottombackground.png');
+  background-image: url('./paws.png');
   background-size: 100%; 
   background-repeat: no-repeat;
-  height: 40vh;
+  height: 28vh;
 }
 .instagrambox {
   height: 53vh;
@@ -274,6 +274,9 @@ $scale-base-1: (1 + $scale / 100%);
 }
 .homeinfo {
   color: black !important;
+}
+.arrows {
+  margin-left: -30px;
 }
 .slideshow-image {
   position: absolute;
@@ -398,7 +401,7 @@ $scale-base-1: (1 + $scale / 100%);
 
 @media only screen and (max-width: 600px) {
   .navbarmaster {
-    background-color: white !important;
+    background-color: lightgrey !important;
   z-index: 99;
   text-align: center;
   justify-content: center;
@@ -406,10 +409,10 @@ $scale-base-1: (1 + $scale / 100%);
  
   }
   .paws {
-    background-image: url('./bottombackground.png');
-    background-size: 100%; 
+    background-image: url('./paws.png');
+    background-size: 120%; 
     background-repeat: no-repeat;
-    height: 11vh;
+    height: 9.6vh;
   }
   
 }
