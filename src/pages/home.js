@@ -4,6 +4,7 @@ import useTitle from "../hooks/useTitle";
 import _ from "lodash";
 import Kenburns from "../component/kenburns";
 import PuppySeg from "../component/puppyseg";
+import Instafeed from "../component/instafeed";
 
 function Home({ propdata }) {
   useTitle("JYMR doodles");
@@ -11,13 +12,13 @@ function Home({ propdata }) {
   return (
     <div className="homepagemaster">
       <div className="homebox1">
-        a
+        <Kenburns />
       </div>
       <div className="homebox2">
-      a
+      <PuppySeg />
       </div>
       <div className="homebox3">
-        a
+        <Instafeed />
       </div>
     </div>
   );
