@@ -4,7 +4,7 @@ import {
     NavLink
     
   } from 'reactstrap';
-  import { FaFacebook, FaInstagram } from "react-icons/fa";
+  import { FaFacebook, FaInstagram, FaMailBulk } from "react-icons/fa";
 export const Footer = () => (
     <footer className="site-footer">
     <div className="container">
@@ -12,7 +12,13 @@ export const Footer = () => (
         <div className="col-sm-12 col-md-6">
           <h6>Great Doodles from great Hoomans</h6>
           <img src="./assets/doglogo.png" width="100px" height="100px"></img>
-          <p className="text-justify"></p>
+          <div className="col-md-4 col-sm-6 col-xs-12">
+          <ul className="social-icons">
+            <li><a className="facebook" target="_blank" href="https://www.facebook.com/JYMRdoodles/"><FaFacebook size={30} /></a></li>
+            <li><a className="dribbble" target="_blank" href="https://www.instagram.com/jymr_doodles/"><FaInstagram size={30} /></a></li>
+            <li><a className="dribbble" target="_blank" href="https://www.instagram.com/jymr_doodles/"><FaMailBulk size={30} /></a></li>
+          </ul>
+        </div>
         </div>
 
         
@@ -37,13 +43,7 @@ export const Footer = () => (
           </p>
         </div>
 
-        <div className="col-md-4 col-sm-6 col-xs-12">
-          <ul className="social-icons">
-            <li><a className="facebook" target="_blank" href="https://www.facebook.com/JYMRdoodles/"><FaFacebook size={30} /></a></li>
-            <li><a className="dribbble" target="_blank" href="https://www.instagram.com/jymr_doodles/"><FaInstagram size={30} /></a></li>
-              
-          </ul>
-        </div>
+        
       </div>
     </div>
     </div>

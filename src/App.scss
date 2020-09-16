@@ -52,6 +52,7 @@ body::-webkit-scrollbar {
   font-size:15px;
   line-height:24px;
   color:#737373;
+  margin-top: 15vh;
 }
 .site-footer hr
 {
@@ -237,12 +238,24 @@ $scale-base-1: (1 + $scale / 100%);
   position: absolute;
   width: 80vw;
   margin-left: 10vw;
-  height: 75vh;
+  height: 70vh;
+  margin-top: 3.5vh;
   overflow: hidden;
-  
 }
-
-
+.homebox1 {
+ background-color: green;
+   height: 100vh;
+}
+.homebox2 {
+  height: 60vh;
+  background-color: red;
+}
+.homebox3 {
+  
+  background-color: darkslateblue;
+ height: 50vh;
+ margin-bottom: -15vh;
+}
 .slideshow-image {
   position: absolute;
   width: 100%;
@@ -359,13 +372,12 @@ $scale-base-1: (1 + $scale / 100%);
   }
 }
 .homepagemaster {
-  height: 285vh;
   
+  background-color: black;
 }
+
+
 @media only screen and (max-width: 600px) {
-  .homepagemaster {
-    height: 455vh;
-  }
   .navbarmaster {
     background-color: white !important;
   z-index: 99;
@@ -382,21 +394,13 @@ text-emphasis: none;
 .nohightlight:hover {
   text-decoration: none;
 }
+.homeinfo:hover {
+  text-decoration: none !important;
+  color: black;
+}
 /* end of homepage stuff */
-.pageline {
-  width: 100vw;
-  height: 130px;
-  margin-left: -2vw;
-  background-image: url('./pawborder.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  z-index: 99;
-  border: solid 1px white;
-}
+
 /* puppy segments */ 
-.portrait {
-  border-radius: 250px !important;
-}
 .homecard {
   border: 2px solid $teal;
   
@@ -418,35 +422,24 @@ text-emphasis: none;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
 }
-.puppysegment {
-position: absolute;
-margin-top: 75vh;
-
-}
 .puppytitle {
   color: white;
+  border: 2px solid white;
   text-align: center;
- 
+ background-image: url('./bluestrip.png');
+ background-size: 100% 100%;
   
 }
-.homepuppies {
-  display: flex;
- align-items: center;
- max-width: 100vw;
- overflow: hidden;
-}
-.seemorepuppies {
+.cover {
+  background-color: grey;
+  height: 100px;
+  position: absolute;
+  width: 105vw;
+  margin-left: -5vw;
+  z-index: 50;
   text-align: center;
-  color: white;
-  font-size: 2.5rem;
-  background-color: $teal;
-  height: 5rem;
-  margin-top: 2rem;
 }
-.instafeed {
-  height: 95vh !important;
-  
-}
+
 /* about segment */ 
 .abouttitle {
   color: white;
