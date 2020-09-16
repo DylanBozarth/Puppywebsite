@@ -14,8 +14,9 @@ function Home({ propdata }) {
       <div className="homebox1">
         <Kenburns />
       </div>
+      <div className="paws"></div>
       <div className="homebox2">
-      <PuppySeg />
+        <PuppySeg />
       </div>
       <div className="homebox3">
         <Instafeed />
