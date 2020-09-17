@@ -236,11 +236,13 @@ $scale-base-1: (1 + $scale / 100%);
 
 .slideshow {
   position: absolute;
-  width: 80vw;
-  margin-left: 10vw;
+  width: 55vw;
+  margin-left: 20vw;
   height: 70vh;
   margin-top: 3.5vh;
   overflow: hidden;
+  border: 15px solid transparent;
+  border-image: url('./border.png') 40 round;
 }
 .homebox1 {
  background-image: url('./topbackground.png');
@@ -446,8 +448,9 @@ $scale-base-1: (1 + $scale / 100%);
   }
 /* puppy segments */ 
 .homecard {
-  border: 2px solid $teal;
   
+  border: 23px solid transparent;
+  border-image: url('./border.png') 20 round;
 }
 .homecard2 {
   border: 2px solid $teal;
