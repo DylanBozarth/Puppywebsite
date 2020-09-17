@@ -16,7 +16,7 @@ export const Footer = () => (
           <ul className="social-icons">
             <li><a className="facebook" target="_blank" href="https://www.facebook.com/JYMRdoodles/"><FaFacebook size={30} /></a></li>
             <li><a className="dribbble" target="_blank" href="https://www.instagram.com/jymr_doodles/"><FaInstagram size={30} /></a></li>
-            <li><a className="dribbble" target="_blank" href="https://www.instagram.com/jymr_doodles/"><FaMailBulk size={30} /></a></li>
+            
           </ul>
         </div>
         </div>

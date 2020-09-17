@@ -7,7 +7,7 @@ import styled from 'styled-components';
 function PuppySeg() {
     return(
     <div className="puppysegment">
-        <h1 className="puppytitle">"Dogs can cure disease, if that disease is depression"</h1>
+        <h1 className="puppytitle quote"><p className="quotetext">"A dog is the only thing on earth that loves you more than you love yourself." </p></h1>
 
         <div className="row puppyrow no-gutters prva">
           <div className="col-sm-4">
@@ -36,7 +36,7 @@ function PuppySeg() {
                 className="homecard portrait"
                 height="300px"
                 width="280px"
-                src="./puppies/shiba.jpg"
+                src="./puppies/smiledog.jpg"
               ></img>
               <h1 className="hometitle">Puppies</h1>
               <p className="homeinfo">
