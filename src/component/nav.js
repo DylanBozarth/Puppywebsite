@@ -30,13 +30,13 @@ export const Navigation = (props) => {
             
             
             <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
+              <DropdownToggle nav caret className="navitem">
                 Info 
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
                 <NavItem>
-              <NavLink href="/about">About us</NavLink>
+              <NavLink href="/about" >About us</NavLink>
             </NavItem>
             
                 </DropdownItem>
@@ -58,7 +58,7 @@ export const Navigation = (props) => {
             </UncontrolledDropdown>
             
             <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
+              <DropdownToggle nav caret  className="navitem">
                Doggos
               </DropdownToggle>
               <DropdownMenu right>
@@ -91,19 +91,19 @@ export const Navigation = (props) => {
                 </DropdownItem>
  <DropdownItem>
                 <NavItem>
-              <NavLink href="/application">Application</NavLink>
+              <NavLink href="/application" >Application</NavLink>
             </NavItem>
                 </DropdownItem>
               </DropdownMenu>
 
             </UncontrolledDropdown>
             <NavbarBrand href="/"><img width="50px" height="50px" src="./assets/doglogo.png" alt="logo"></img>JYMR DOODLES</NavbarBrand>
-            <NavItem>
-              <NavLink href="/reviews">Customer Reviews</NavLink>
+            <NavItem  >
+              <NavLink href="/reviews"   className="navitem"  >Customer Reviews</NavLink>
             </NavItem>
            
-            <NavItem>
-              <NavLink href="https://www.pawtree.com/jymrdoodles" target="_blank">Pawtree food</NavLink>
+            <NavItem >
+              <NavLink href="https://www.pawtree.com/jymrdoodles"   className="navitem"  target="_blank">Pawtree food</NavLink>
             </NavItem>
           </Nav>
           

@@ -209,8 +209,8 @@ body::-webkit-scrollbar {
 /* end of footer */
 /* navbar */
 .navbardiv {
-  height: 15vh;
-  background-image: url('./papergrey.png');
+  height: 18vh;
+  background-image: url('./paperheader.jpg');
   background-size: 55%;
 }
 .navbarmaster {
@@ -400,12 +400,16 @@ $scale-base-1: (1 + $scale / 100%);
 
 @media only screen and (max-width: 600px) {
   .navbarmaster {
-    background-color: lightgrey !important;
+    
   z-index: 99;
   text-align: center;
   justify-content: center;
   margin-left: 0;
  
+  }
+  .navitem {
+    background-image: url('./bone2.png') !important;
+    background-size: 25%;
   }
   .quote {
     background-image: url('./quoteborder.png');
