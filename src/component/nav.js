@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import {
   Collapse,
   Navbar,
@@ -10,8 +10,8 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem
-} from 'reactstrap';
+  DropdownItem,
+} from "reactstrap";
 
 export const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,94 +21,108 @@ export const Navigation = (props) => {
   return (
     <div>
       <Navbar className="navbarmaster" light expand="md">
-        
         <NavbarToggler onClick={toggle} />
+        <NavbarBrand href="/" className="navbarlogo2">
+              <img
+                width="120px"
+                height="100px"
+                src="./assets/doglogo.png"
+                alt="logo"
+              ></img>
+              JYMR DOODLES
+            </NavbarBrand>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-          
-            
-            
-            
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret className="navitem">
-                Info 
+              <p className="navitemtext">Info</p>
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                <NavItem>
-              <NavLink href="/about" >About us</NavLink>
-            </NavItem>
-            
+                  <NavItem>
+                    <NavLink href="/about">About us</NavLink>
+                  </NavItem>
                 </DropdownItem>
                 <DropdownItem>
-                <NavItem>
-              <NavLink href="/breedinfo">About Doodles</NavLink>
-            </NavItem>
+                  <NavItem>
+                    <NavLink href="/breedinfo">About Doodles</NavLink>
+                  </NavItem>
                 </DropdownItem>
-              
-                <DropdownItem>
-                <NavItem>
-              <NavLink href="/rainbowbridge">Our past greats</NavLink>
-            </NavItem>
-          
-                </DropdownItem>
-               
-              </DropdownMenu>
 
+                <DropdownItem>
+                  <NavItem>
+                    <NavLink href="/rainbowbridge">Our past greats</NavLink>
+                  </NavItem>
+                </DropdownItem>
+              </DropdownMenu>
             </UncontrolledDropdown>
-            
+
             <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret  className="navitem">
-               Doggos
+              <DropdownToggle nav caret className="navitem">
+              <p className="navitemtext">DOGGOS</p>
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                <NavItem>
-              <NavLink href="/puppies">All Puppies</NavLink>
-            </NavItem>
-            
+                  <NavItem>
+                    <NavLink href="/puppies">All Puppies</NavLink>
+                  </NavItem>
                 </DropdownItem>
                 <DropdownItem>
-                <NavItem>
-              <NavLink href="/parents">Parents</NavLink>
-            </NavItem>
+                  <NavItem>
+                    <NavLink href="/parents">Parents</NavLink>
+                  </NavItem>
                 </DropdownItem>
                 <DropdownItem>
-                <NavItem>
-              <NavLink href="/poodles">Poodles</NavLink>
-            </NavItem>
+                  <NavItem>
+                    <NavLink href="/poodles">Poodles</NavLink>
+                  </NavItem>
                 </DropdownItem>
                 <DropdownItem>
-                <NavItem>
-              <NavLink href="/labradoodles">Labradoodles</NavLink>
-            </NavItem>
+                  <NavItem>
+                    <NavLink href="/labradoodles">Labradoodles</NavLink>
+                  </NavItem>
                 </DropdownItem>
                 <DropdownItem>
-                <NavItem>
-              <NavLink href="/goldendoodles">Goldendoodles</NavLink>
-            </NavItem>
-
+                  <NavItem>
+                    <NavLink href="/goldendoodles">Goldendoodles</NavLink>
+                  </NavItem>
                 </DropdownItem>
- <DropdownItem>
-                <NavItem>
-              <NavLink href="/application" >Application</NavLink>
-            </NavItem>
+                <DropdownItem>
+                  <NavItem>
+                    <NavLink href="/application">Application</NavLink>
+                  </NavItem>
                 </DropdownItem>
               </DropdownMenu>
-
             </UncontrolledDropdown>
-            <NavbarBrand href="/"><img width="50px" height="50px" src="./assets/doglogo.png" alt="logo"></img>JYMR DOODLES</NavbarBrand>
-            <NavItem  >
-              <NavLink href="/reviews"   className="navitem"  >Customer Reviews</NavLink>
+            <NavbarBrand href="/" className="navbarlogo">
+              <img
+                width="120px"
+                height="100px"
+                src="./assets/doglogo.png"
+                alt="logo"
+              ></img>
+              JYMR DOODLES
+            </NavbarBrand>
+
+            <NavItem>
+              <NavLink href="/reviews" className="navitem">
+                {" "}
+                <p className="navitemtext">Customer Reviews</p>
+              </NavLink>
             </NavItem>
-           
-            <NavItem >
-              <NavLink href="https://www.pawtree.com/jymrdoodles"   className="navitem"  target="_blank">Pawtree food</NavLink>
+
+            <NavItem>
+              <NavLink
+                href="https://www.pawtree.com/jymrdoodles"
+                className="navitem"
+                target="_blank"
+              >
+               <p className="navitemtext">Pawtree Food</p>
+              </NavLink>
             </NavItem>
           </Nav>
-          
         </Collapse>
       </Navbar>
     </div>
   );
-}
+};

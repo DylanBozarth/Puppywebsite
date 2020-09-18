@@ -212,14 +212,31 @@ body::-webkit-scrollbar {
   height: 18vh;
   background-image: url('./paperheader.jpg');
   background-size: 55%;
+  z-index: 99;
 }
 .navbarmaster {
   z-index: 99;
   text-align: center;
   justify-content: center;
-  margin-left: 25vw;
+  margin-left: 8vw;
 }
+  .navitem {
+    background-image: url('./bone2.png') !important;
+    background-size: 64% !important;
+    background-repeat: no-repeat !important ; 
+    background-position: center !important; 
+  width: 15vw;
+  height: 10vh;
+  margin-top: 4vh;
+  }
+  .navitemtext {
+    color: white;
+    margin-top: 2vh;
+  }
 
+.navbarlogo2 {
+  display: none !important;
+}
 /* end of navbar */
 
 /* homepage effects */
@@ -235,7 +252,7 @@ $scale-base-1: (1 + $scale / 100%);
 .slideshow {
   position: absolute;
   width: 55vw;
-  margin-left: 20vw;
+  margin-left: 22vw;
   height: 73vh;
   overflow: hidden;
   border: 20px solid transparent;
@@ -407,9 +424,18 @@ $scale-base-1: (1 + $scale / 100%);
   margin-left: 0;
  
   }
+  .navbarlogo2 {
+    display: block !important;
+  }
+  .navbarlogo {
+    display: none !important;
+  }
   .navitem {
     background-image: url('./bone2.png') !important;
-    background-size: 25%;
+    background-size: 100px !important;
+    background-repeat: no-repeat !important ; 
+    background-position: center !important; 
+  
   }
   .quote {
     background-image: url('./quoteborder.png');
@@ -436,7 +462,7 @@ $scale-base-1: (1 + $scale / 100%);
     margin-top: 3.5vh;
     overflow: hidden;
     border: 20px solid transparent;
-    border-image: url('./paperborder.png') 40 round;
+    border-image: url('./paperborder.png') 145 round;
   }
   .homebox1 {
     background-image: url('./topbackground.png');
@@ -511,6 +537,7 @@ $scale-base-1: (1 + $scale / 100%);
   background-image: url('./quoteborder.png');
   background-size: 100%;
   height: 11vh;
+  margin-top: -1vh;
  
 }
 .quotetext {
