@@ -24,7 +24,7 @@ export const Navigation = (props) => {
         <NavbarToggler onClick={toggle} />
         <NavbarBrand href="/" className="navbarlogo2">
               <img
-                width="120px"
+                width="110px"
                 height="100px"
                 src="./assets/doglogo.png"
                 alt="logo"
@@ -107,7 +107,7 @@ export const Navigation = (props) => {
             <NavItem>
               <NavLink href="/reviews" className="navitem">
                 {" "}
-                <p className="navitemtext">Customer Reviews</p>
+                <p className="navitemtext">Reviews</p>
               </NavLink>
             </NavItem>
 

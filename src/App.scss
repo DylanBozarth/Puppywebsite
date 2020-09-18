@@ -424,6 +424,12 @@ $scale-base-1: (1 + $scale / 100%);
   margin-left: 0;
  
   }
+  .navbardiv {
+    height: 22vh;
+    background-image: url('./paperheader.jpg');
+    background-size: 55%;
+    z-index: 99;
+  }
   .navbarlogo2 {
     display: block !important;
   }
@@ -432,27 +438,29 @@ $scale-base-1: (1 + $scale / 100%);
   }
   .navitem {
     background-image: url('./bone2.png') !important;
-    background-size: 100px !important;
+    background-size: 100% 100% !important;
     background-repeat: no-repeat !important ; 
     background-position: center !important; 
+   width: 30vw;
+   height: 11vh;
   
   }
   .quote {
     background-image: url('./quoteborder.png');
     background-size: 100%;
-    height: 11vh;
-   margin-top: -1vh;
+    height: 20vh;
+   margin-top: 1vh;
   }
   .quotetext {
     font-family: 'Dancing Script', cursive;
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
     
   }
   .paws {
     background-image: url('./paws.png');
     background-size: 120%; 
     background-repeat: no-repeat;
-    height: 9.6vh;
+    height: 8.5vh;
   }
   .slideshow {
     position: absolute;
