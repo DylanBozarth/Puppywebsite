@@ -210,7 +210,7 @@ body::-webkit-scrollbar {
 /* end of footer */
 /* navbar */
 .navbardiv {
-  height: 18vh;
+  height: 22.5vh;
   background-image: url('./paperheader.jpg');
   background-size: 55%;
   z-index: 99;
@@ -223,7 +223,7 @@ body::-webkit-scrollbar {
 }
   .navitem {
     background-image: url('./bone2.png') !important;
-    background-size: 64% !important;
+    background-size: 55% !important;
     background-repeat: no-repeat !important ; 
     background-position: center !important; 
   width: 15vw;
@@ -234,9 +234,12 @@ body::-webkit-scrollbar {
     color: white;
     margin-top: 2vh;
   }
-
+.navbarlogo {
+  margin-top: -4vh;
+}
 .navbarlogo2 {
   display: none !important;
+  
 }
 /* end of navbar */
 
@@ -436,6 +439,7 @@ $scale-base-1: (1 + $scale / 100%);
   }
   .navbarlogo2 {
     display: block !important;
+    
   }
   .navbarlogo {
     display: none !important;
@@ -514,7 +518,7 @@ $scale-base-1: (1 + $scale / 100%);
 .homecard {
   
   border: 23px solid transparent;
-  border-image: url('./border.png') 20 round;
+  border-image: url('./poloroid.png') 52 round;
 }
 .homecard2 {
   border: 2px solid $teal;
@@ -567,7 +571,7 @@ $scale-base-1: (1 + $scale / 100%);
   margin-left: -5vw;
   z-index: 50;
   text-align: center;
-  color: white;
+  color: black !important;
 }
 
 /* about segment */ 

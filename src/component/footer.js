@@ -11,7 +11,7 @@ export const Footer = () => (
       <div className="row">
         <div className="col-sm-12 col-md-6">
           <h6>Great Doodles from great Hoomans</h6>
-          <img src="./assets/doglogo.png" width="100px" height="100px"></img>
+          <img src="./assets/headerlogo.png" width="100px" height="100px"></img>
           <div className="col-md-4 col-sm-6 col-xs-12">
           <ul className="social-icons">
             <li><a className="facebook" target="_blank" href="https://www.facebook.com/JYMRdoodles/"><FaFacebook size={30} /></a></li>

@@ -26,10 +26,9 @@ export const Navigation = (props) => {
               <img
                 width="110px"
                 height="100px"
-                src="./assets/doglogo.png"
+                src="./assets/logosquare.png"
                 alt="logo"
               ></img>
-              JYMR DOODLES
             </NavbarBrand>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
@@ -96,12 +95,11 @@ export const Navigation = (props) => {
             </UncontrolledDropdown>
             <NavbarBrand href="/" className="navbarlogo">
               <img
-                width="120px"
-                height="100px"
-                src="./assets/doglogo.png"
+                width="200px"
+                height="200px"
+                src="./assets/headerlogo.png"
                 alt="logo"
               ></img>
-              JYMR DOODLES
             </NavbarBrand>
 
             <NavItem>
