@@ -44,7 +44,7 @@ body::-webkit-scrollbar {
 }
 .site-footer
 {
-  background-image: url('./papergrey.png') !important;
+  background-image: url('./paperheader.jpg') !important;
   background-size: 70%;
   padding:45px 0 20px;
   font-size:15px;
@@ -285,6 +285,9 @@ $scale-base-1: (1 + $scale / 100%);
 .instagrambox {
   height: 53vh;
   margin-bottom: 17vh;
+  background-image: url('./paws.png');
+  background-size: 100%; 
+  background-repeat: no-repeat;
 }
 .hometitle {
   color: black !important;
@@ -555,13 +558,16 @@ $scale-base-1: (1 + $scale / 100%);
   
 }
 .cover {
-  background-color: grey;
+  background-image: url('./paperheader.jpg');
+  background-size: 100%; 
+  background-repeat: no-repeat;
   height: 100px;
   position: absolute;
   width: 105vw;
   margin-left: -5vw;
   z-index: 50;
   text-align: center;
+  color: white;
 }
 
 /* about segment */ 
