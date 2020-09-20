@@ -546,7 +546,7 @@ $scale-base-1: (1 + $scale / 100%);
 .puppytitle {
   color: black;
   text-align: center;
- 
+ font-size: 4.5vh;
   
 }
 .geturown {
@@ -561,6 +561,9 @@ $scale-base-1: (1 + $scale / 100%);
   height: 11vh;
   margin-top: -1vh;
  
+}
+.cloud {
+  color: red;
 }
 .quotetext {
   font-family: 'Dancing Script', cursive;
@@ -751,3 +754,13 @@ cursor: pointer;
 }
 
   /* form end */
+
+
+
+  /* affilate page */ 
+.affliatediv {
+  display: flex;
+}
+  .affliateimage {
+    align-self: center;
+  }

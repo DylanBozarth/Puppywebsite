@@ -30,7 +30,7 @@ export const Footer = () => (
           <h6>Quick Links</h6>
           <ul className="footer-links">
             <li><NavLink href="/puppies">All Puppies</NavLink></li>
-            <li><NavLink href="/goldendoodles">goldendoodles</NavLink></li>
+            <li><NavLink href="/goldendoodles">Goldendoodles</NavLink></li>
             <li><NavLink href="/Poodles">Poodles</NavLink></li>
             <li><NavLink href="/Labradoodles">Labradoodles</NavLink></li>
             <li><NavLink href="/application">Adoption Application</NavLink></li>

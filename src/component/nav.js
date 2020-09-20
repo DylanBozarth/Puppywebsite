@@ -47,7 +47,11 @@ export const Navigation = (props) => {
                     <NavLink href="/breedinfo">About Doodles</NavLink>
                   </NavItem>
                 </DropdownItem>
-
+                <DropdownItem>
+                  <NavItem>
+                    <NavLink href="/affliates">Our Affliates</NavLink>
+                  </NavItem>
+                </DropdownItem>
                 <DropdownItem>
                   <NavItem>
                     <NavLink href="/rainbowbridge">Our past greats</NavLink>

@@ -9,7 +9,8 @@ function Reviews({propdata}) {
 
   return( 
 <div className="row puppyrow no-gutters prva">
-    <div className="pageline"></div>
+   
+  
           {reviews.map((reviews) => (
             <div className="col-sm-4" style={{ width: "20rem" }} key={reviews.name}>
               <img
