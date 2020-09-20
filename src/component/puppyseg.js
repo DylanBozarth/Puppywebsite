@@ -16,7 +16,7 @@ function PuppySeg() {
                 className="homecard portrait"
                 height="300px"
                 width="280px"
-                src="./puppies/family.jpg"
+                src="./assets/1.jpg"
               ></img>
               <h1 className="hometitle">About us</h1>
               <p className="homeinfo">

@@ -2,8 +2,8 @@ $teal: #bdeaee;
 $grey:#CDCDCD;
 $blue: #3737ec;
 body {
-  background-image: url('./papergrey.png') !important;
-  background-size: 100% 100%;
+  background-image: url('./paperheader.jpg') !important;
+  background-size: 100%;
   color: white;
   height: 100%;
   min-height: 100%;
@@ -517,8 +517,11 @@ $scale-base-1: (1 + $scale / 100%);
 /* puppy segments */ 
 .homecard {
   
-  border: 23px solid transparent;
-  border-image: url('./poloroid.png') 52 round;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 20px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-image: url('./paperborder2.png') 255 fill;
 }
 .homecard2 {
   border: 2px solid $teal;
