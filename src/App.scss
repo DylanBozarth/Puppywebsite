@@ -260,7 +260,7 @@ $scale-base-1: (1 + $scale / 100%);
   height: 73vh;
   overflow: hidden;
   border: 20px solid transparent;
-  border-image: url('./paperborder.png') 145 round;
+  border-image: url('./whitesquare.png') 65 round;
 }
 .homebox1 {
  background-image: url('./topbackground.png');
@@ -293,8 +293,12 @@ $scale-base-1: (1 + $scale / 100%);
   background-repeat: no-repeat;
 }
 .cloud {
-  background-image: url('./cloud.png') !important;
-  background-size: 100%;
+  width: 100%;
+  background-image: url('./quoteborder.png');
+  background-size: 100% 100%;
+}
+.puppycloud {
+  margin-left: 35vw;
 }
 .hometitle {
   color: black !important;
@@ -562,9 +566,7 @@ $scale-base-1: (1 + $scale / 100%);
   margin-top: -1vh;
  
 }
-.cloud {
-  color: red;
-}
+
 .quotetext {
   font-family: 'Dancing Script', cursive;
   font-size: 3rem;
@@ -585,7 +587,7 @@ $scale-base-1: (1 + $scale / 100%);
 
 /* about segment */ 
 .abouttitle {
-  color: white;
+  color: black;
 text-align: center;
 }
 .aboutimage {
@@ -596,7 +598,7 @@ text-align: center;
   text-align: right;
 }
 .aboutdesc {
-  color: white;
+  color: black;
   text-align: center;
   font-size: 2rem;
 }
@@ -758,9 +760,17 @@ cursor: pointer;
 
 
   /* affilate page */ 
-.affliatediv {
-  display: flex;
+.affliatepage {
+ display: flex;
+ text-align: center;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 40%;
 }
-  .affliateimage {
-    align-self: center;
-  }
+ .affcard {
+   width: 60%;
+   height: 60%;
+ }
+
+  

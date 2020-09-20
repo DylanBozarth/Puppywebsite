@@ -7,12 +7,11 @@ import { NavLink } from "react-router-dom";
 function Instafeed() {
     return(
         <div>
-<div>
-  <NavLink to="/application" className="nohighlight cloud">
-          <h1 className="puppytitle geturown">
-          <img src="./assets/smalldog.png"></img> Get your own puppy 
+<div className="cloud">
+  <NavLink to="/application" className="nohighlight">
+          <img src="./assets/cloud.png" className="puppycloud" height="200px" ></img>
           
-          </h1>
+         
         </NavLink></div>
         <div className="instagrambox">
           {" "}
