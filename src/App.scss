@@ -112,7 +112,7 @@ body::-webkit-scrollbar {
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color:#33353d
+  background-color:$teal
 }
 .copyright-text
 {
@@ -291,6 +291,10 @@ $scale-base-1: (1 + $scale / 100%);
   background-image: url('./paws.png');
   background-size: 100%; 
   background-repeat: no-repeat;
+}
+.cloud {
+  background-image: url('./cloud.png') !important;
+  background-size: 100%;
 }
 .hometitle {
   color: black !important;
@@ -517,11 +521,10 @@ $scale-base-1: (1 + $scale / 100%);
 /* puppy segments */ 
 .homecard {
   
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-top: 20px solid transparent;
-  border-bottom: 15px solid transparent;
-  border-image: url('./paperborder2.png') 255 fill;
+  border: 15px solid transparent;
+  border-image: url('./paperborder.png') 210 fill; 
+  
+
 }
 .homecard2 {
   border: 2px solid $teal;

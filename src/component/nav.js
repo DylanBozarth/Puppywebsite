@@ -22,10 +22,10 @@ export const Navigation = (props) => {
     <div>
       <Navbar className="navbarmaster" light expand="md">
         <NavbarToggler onClick={toggle} />
-        <NavbarBrand href="/" className="navbarlogo2">
+        <NavbarBrand href="/" className="navbarlogo2 img-fluid">
               <img
-                width="110px"
-                height="100px"
+                width="200px"
+                height="135px"
                 src="./assets/logosquare.png"
                 alt="logo"
               ></img>
@@ -96,7 +96,7 @@ export const Navigation = (props) => {
             <NavbarBrand href="/" className="navbarlogo">
               <img
                 width="200px"
-                height="200px"
+                height="190px"
                 src="./assets/headerlogo.png"
                 alt="logo"
               ></img>

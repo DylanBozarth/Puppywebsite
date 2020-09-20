@@ -8,7 +8,7 @@ function Instafeed() {
     return(
         <div>
 <div>
-  <NavLink to="/application" className="nohighlight">
+  <NavLink to="/application" className="nohighlight cloud">
           <h1 className="puppytitle geturown">
           <img src="./assets/smalldog.png"></img> Get your own puppy 
           
