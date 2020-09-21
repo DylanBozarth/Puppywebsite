@@ -18,12 +18,6 @@ body::-webkit-scrollbar {
 
 
 
-.page {
-  background-color: $grey;
-  height: 100vh;
-  color: white;
-  text-align: center;
-}
 .black {
   color: black;
 }
@@ -260,6 +254,7 @@ $scale-base-1: (1 + $scale / 100%);
   height: 73vh;
   overflow: hidden;
   border: 20px solid transparent;
+  border-bottom: 25px solid transparent;
   border-image: url('./whitesquare.png') 65 round;
 }
 .homebox1 {
@@ -286,7 +281,7 @@ $scale-base-1: (1 + $scale / 100%);
   height: 28vh;
 }
 .instagrambox {
-  height: 53vh;
+  height: 50vh;
   margin-bottom: 17vh;
   background-image: url('./paws.png');
   background-size: 100%; 
@@ -424,10 +419,7 @@ $scale-base-1: (1 + $scale / 100%);
     }
   }
 }
-.homepagemaster {
-  
-  background-color: black;
-}
+
 
 
 @media only screen and (max-width: 600px) {
