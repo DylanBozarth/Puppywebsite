@@ -13,7 +13,7 @@ function Home() {
       <div className="homebox1">
         <Kenburns />
       </div>
-      <div className="paws"></div>
+      <div className="paws container-fluid"></div>
       <div className="homebox2">
         <PuppySeg />
       </div>

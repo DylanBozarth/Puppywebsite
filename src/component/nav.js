@@ -26,7 +26,7 @@ export const Navigation = (props) => {
           <img
             width="200px"
             height="135px"
-            src="./assets/logosquare.png"
+            src="./assets/headerlogo.png"
             alt="logo"
           ></img>
         </NavbarBrand>
@@ -100,7 +100,7 @@ export const Navigation = (props) => {
             <NavbarBrand href="/" className="navbarlogo">
               <img
                 width="200px"
-                height="190px"
+                height="170px"
                 src="./assets/headerlogo.png"
                 alt="logo"
               ></img>

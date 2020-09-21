@@ -7,7 +7,7 @@ function Instafeed() {
         <div>
 <div className="cloud">
   <NavLink to="/application" className="nohighlight">
-          <img src="./assets/cloud.png" alt="puppycloud" className="puppycloud" height="200px" ></img>
+          <img src="./assets/cloud.png" alt="puppycloud" className="puppycloud img-fluid"  ></img>
           
          
         </NavLink></div>
