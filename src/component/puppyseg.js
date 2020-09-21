@@ -14,10 +14,10 @@ function PuppySeg() {
             <StyledNavLink to="/about" className="nohighlight">
               <img
                 className="homecard portrait"
-                height="300px"
-                width="280px"
+                height="350px"
+                width="350px"
                 alt="puppy"
-                src="./assets/1.jpg"
+                src="./assets/homecardabout.png"
               ></img>
               <h1 className="hometitle">About us</h1>
               <p className="homeinfo">
@@ -35,9 +35,9 @@ function PuppySeg() {
             <StyledNavLink to="/puppies" className="nohighlight">
               <img
                 className="homecard portrait"
-                height="300px"
-                width="280px"
-                src="./puppies/smiledog.jpg"
+                height="350px"
+                width="350px"
+                src="./assets/puppycard.png"
                 alt="puppy"
               ></img>
               <h1 className="hometitle">Puppies</h1>
@@ -60,10 +60,10 @@ function PuppySeg() {
             >
               <img
                 className="homecard portrait"
-                height="300px"
-                width="280px"
+                height="350px"
+                width="350px"
                 alt="puppy"
-                src="./puppies/shiba.jpg"
+                src="./assets/pawtreecard.png"
               ></img>
               <h1 className="hometitle">Pawtree food</h1>
               <p className="homeinfo">
