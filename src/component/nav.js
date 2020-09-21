@@ -114,14 +114,15 @@ export const Navigation = (props) => {
             </NavItem>
 
             <NavLink
-                href="https://www.pawtree.com/jymrdoodles"
-                className="navitem"
-                target="_blank"
-              > <NavItem>
-             
+              href="https://www.pawtree.com/jymrdoodles"
+              className="navitem"
+              target="_blank"
+            >
+              {" "}
+              <NavItem>
                 <p className="navitemtext">Pawtree Food</p>
-              
-            </NavItem></NavLink>
+              </NavItem>
+            </NavLink>
           </Nav>
         </Collapse>
       </Navbar>
