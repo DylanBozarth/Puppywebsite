@@ -12,10 +12,10 @@ export const Footer = () => (
         <div className="col-sm-12 col-md-6">
           <h6>Great Doodles from great Hoomans</h6>
           <div className="container-fluid col">
-          <img className="footerlogo" src="./assets/headerlogo.png" width="250px" height="200px"></img>
+          <img className="footerlogo" alt="footerlogo" src="./assets/headerlogo.png" width="250px" height="200px"></img>
           <ul className="social-icons">
-            <li><a className="facebook" target="_blank" href="https://www.facebook.com/JYMRdoodles/"><FaFacebook size={30} /></a></li>
-            <li><a className="dribbble" target="_blank" href="https://www.instagram.com/jymr_doodles/"><FaInstagram size={30} /></a></li>
+            <li><a className="facebook" target="_blank"  rel="noopener noreferrer" href="https://www.facebook.com/JYMRdoodles/"><FaFacebook size={30} /></a></li>
+            <li><a className="dribbble" target="_blank"  rel="noopener noreferrer" href="https://www.instagram.com/jymr_doodles/"><FaInstagram size={30} /></a></li>
             
           </ul>
           </div>
@@ -42,7 +42,7 @@ export const Footer = () => (
       <div className="row">
         <div className="col-md-8 col-sm-6 col-xs-12">
           <p className="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
-       <a href="#">JYMR doodles</a>.
+       JYMR doodles
           </p>
         </div>
 

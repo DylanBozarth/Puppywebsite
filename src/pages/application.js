@@ -1,6 +1,5 @@
 import React from "react";
 
-import { Badge } from "reactstrap";
 
 export default class Application extends React.Component {
   constructor(props) {

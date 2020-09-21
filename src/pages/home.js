@@ -1,12 +1,11 @@
 import React from "react";
 
 import useTitle from "../hooks/useTitle";
-import _ from "lodash";
 import Kenburns from "../component/kenburns";
 import PuppySeg from "../component/puppyseg";
 import Instafeed from "../component/instafeed";
 
-function Home({ propdata }) {
+function Home() {
   useTitle("JYMR doodles");
 
   return (

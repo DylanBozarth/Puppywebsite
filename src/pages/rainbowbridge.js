@@ -12,7 +12,7 @@ function RainbowBridge({ propdata }) {
         <div className="slidertab">
           <div>
             <h1 className="slidertext">{pastdogs.name}</h1>
-            <img className="" src={pastdogs.image} />
+            <img className="" alt="RIP this dog" src={pastdogs.image} />
             <p>{pastdogs.description}</p>
             <p>{pastdogs.year}</p>
           </div>

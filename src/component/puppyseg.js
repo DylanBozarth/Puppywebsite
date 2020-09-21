@@ -16,6 +16,7 @@ function PuppySeg() {
                 className="homecard portrait"
                 height="300px"
                 width="280px"
+                alt="puppy"
                 src="./assets/1.jpg"
               ></img>
               <h1 className="hometitle">About us</h1>
@@ -37,6 +38,7 @@ function PuppySeg() {
                 height="300px"
                 width="280px"
                 src="./puppies/smiledog.jpg"
+                alt="puppy"
               ></img>
               <h1 className="hometitle">Puppies</h1>
               <p className="homeinfo">
@@ -54,11 +56,13 @@ function PuppySeg() {
               href="https://www.pawtree.com/jymrdoodles"
               target="_blank"
               className="nohighlight"
+              rel="noopener noreferrer"
             >
               <img
                 className="homecard portrait"
                 height="300px"
                 width="280px"
+                alt="puppy"
                 src="./puppies/shiba.jpg"
               ></img>
               <h1 className="hometitle">Pawtree food</h1>

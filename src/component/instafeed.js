@@ -1,6 +1,4 @@
 import React from 'react';
-import { MdKeyboardArrowRight } from "react-icons/md";
-import { IconContext } from "react-icons";
 
 import { NavLink } from "react-router-dom";
 
@@ -9,7 +7,7 @@ function Instafeed() {
         <div>
 <div className="cloud">
   <NavLink to="/application" className="nohighlight">
-          <img src="./assets/cloud.png" className="puppycloud" height="200px" ></img>
+          <img src="./assets/cloud.png" alt="puppycloud" className="puppycloud" height="200px" ></img>
           
          
         </NavLink></div>
