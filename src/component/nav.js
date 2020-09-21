@@ -23,77 +23,77 @@ export const Navigation = (props) => {
       <Navbar className="navbarmaster" light expand="md">
         <NavbarToggler onClick={toggle} />
         <NavbarBrand href="/" className="navbarlogo2 img-fluid">
-              <img
-                width="200px"
-                height="135px"
-                src="./assets/logosquare.png"
-                alt="logo"
-              ></img>
-            </NavbarBrand>
+          <img
+            width="200px"
+            height="135px"
+            src="./assets/logosquare.png"
+            alt="logo"
+          ></img>
+        </NavbarBrand>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret className="navitem">
-              <p className="navitemtext">Info</p>
+                <p className="navitemtext">Info</p>
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  <NavItem>
-                    <NavLink href="/about">About us</NavLink>
-                  </NavItem>
+                  <NavLink href="/about">
+                    <NavItem>About us</NavItem>
+                  </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavItem>
-                    <NavLink href="/breedinfo">About Doodles</NavLink>
-                  </NavItem>
+                  <NavLink href="/breedinfo">
+                    <NavItem>About Doodles</NavItem>
+                  </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavItem>
-                    <NavLink href="/affliates">Our Affliates</NavLink>
-                  </NavItem>
+                  <NavLink href="/affliates">
+                    <NavItem>Our Affliates</NavItem>
+                  </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavItem>
-                    <NavLink href="/rainbowbridge">Our past greats</NavLink>
-                  </NavItem>
+                  <NavLink href="/rainbowbridge">
+                    <NavItem>Our past greats</NavItem>
+                  </NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
 
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret className="navitem">
-              <p className="navitemtext">DOGGOS</p>
+                <p className="navitemtext">DOGGOS</p>
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  <NavItem>
-                    <NavLink href="/puppies">All Puppies</NavLink>
-                  </NavItem>
+                  <NavLink href="/puppies">
+                    <NavItem>All Puppies</NavItem>
+                  </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavItem>
-                    <NavLink href="/parents">Parents</NavLink>
-                  </NavItem>
+                  <NavLink href="/parents">
+                    <NavItem>Parents</NavItem>
+                  </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavItem>
-                    <NavLink href="/poodles">Poodles</NavLink>
-                  </NavItem>
+                  <NavLink href="/poodles">
+                    <NavItem>Poodles</NavItem>
+                  </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavItem>
-                    <NavLink href="/labradoodles">Labradoodles</NavLink>
-                  </NavItem>
+                  <NavLink href="/labradoodles">
+                    <NavItem>Labradoodles</NavItem>
+                  </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavItem>
-                    <NavLink href="/goldendoodles">Goldendoodles</NavLink>
-                  </NavItem>
+                  <NavLink href="/goldendoodles">
+                    <NavItem>Goldendoodles</NavItem>
+                  </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavItem>
-                    <NavLink href="/application">Application</NavLink>
-                  </NavItem>
+                  <NavLink href="/application">
+                    <NavItem>Application</NavItem>
+                  </NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
@@ -113,15 +113,15 @@ export const Navigation = (props) => {
               </NavLink>
             </NavItem>
 
-            <NavItem>
-              <NavLink
+            <NavLink
                 href="https://www.pawtree.com/jymrdoodles"
                 className="navitem"
                 target="_blank"
-              >
-               <p className="navitemtext">Pawtree Food</p>
-              </NavLink>
-            </NavItem>
+              > <NavItem>
+             
+                <p className="navitemtext">Pawtree Food</p>
+              
+            </NavItem></NavLink>
           </Nav>
         </Collapse>
       </Navbar>
