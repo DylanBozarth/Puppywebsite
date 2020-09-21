@@ -204,6 +204,7 @@ body::-webkit-scrollbar {
 /* end of footer */
 /* navbar */
 .navbardiv {
+  max-height: 22.5vh;
   height: 22.5vh;
   background-image: url('./paperheader.jpg');
   background-size: 55%;
@@ -477,8 +478,6 @@ $scale-base-1: (1 + $scale / 100%);
     height: 60vh;
     margin-top: 3.5vh;
     overflow: hidden;
-    border: 20px solid transparent;
-    border-image: url('./paperborder.png') 145 round;
   }
   .homebox1 {
     background-image: url('./topbackground.png');
@@ -651,6 +650,7 @@ text-align: center;
 /* slider on rainbow bridge */
 .slidermaster {
   height: 100vh;
+  background-color: red !important;
   margin-bottom: 1rem;
 }
 .slider {
