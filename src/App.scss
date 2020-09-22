@@ -277,8 +277,7 @@ $scale-base-1: (1 + $scale / 100%);
 }
 .paws {
   background-image: url('./paws.png');
-  background-size: 100% 80%; 
-  background-repeat: no-repeat;
+  background-size: 150% 80%; 
   height: 35vh;
   margin-bottom: -8vh;
 }
@@ -486,7 +485,7 @@ $scale-base-1: (1 + $scale / 100%);
     border-image: url('./whitesquare.png') 65 round;
   }
   .puppycloud {
-    margin-left: 5vw;
+    margin-left: 1vw;
   }
   .instagrambox {
     height: 50vh;
@@ -562,7 +561,7 @@ $scale-base-1: (1 + $scale / 100%);
 
 .quotetext {
   font-family: 'Dancing Script', cursive;
-  font-size: 5vh;
+  font-size: 5.5vh;
   
 }
 .cover {
@@ -624,11 +623,7 @@ text-align: center;
   color: white;
   text-align: center;
 }
-.puppyrow {
-  
- display: flex;
- justify-content: center;
-}
+
 /* end of puppypage */
 /* parent page */ 
 .parent-page {

@@ -9,11 +9,11 @@ function PuppySeg() {
     <div className="puppysegment">
         <div className=" quote"><p className="quotetext">"A dog is the only thing on earth that loves you more than you love yourself." </p></div>
 
-        <div className="row puppyrow no-gutters prva">
-          <div className="col-sm-4">
+        <div className="row puppyrow no-gutters  container-fluid">
+          <div className="col-sm-4 container-fluid">
             <StyledNavLink to="/about" className="nohighlight">
               <img
-                className="homecard portrait"
+                className="homecard img-fluid"
                 height="350px"
                 width="350px"
                 alt="puppy"
@@ -34,7 +34,7 @@ function PuppySeg() {
           <div className="col-sm-4">
             <StyledNavLink to="/puppies" className="nohighlight">
               <img
-                className="homecard portrait"
+                className="homecard img-fluid"
                 height="350px"
                 width="350px"
                 src="./assets/puppycard.png"
@@ -51,7 +51,7 @@ function PuppySeg() {
     ><MdKeyboardArrowRight  /> <MdKeyboardArrowRight /> <MdKeyboardArrowRight /></IconContext.Provider>
             </StyledNavLink>
           </div>
-          <div className="col-sm-4">
+          <div className="col-sm-4 ">
             <a
               href="https://www.pawtree.com/jymrdoodles"
               target="_blank"
@@ -59,7 +59,7 @@ function PuppySeg() {
               rel="noopener noreferrer"
             >
               <img
-                className="homecard portrait"
+                className="homecard  img-fluid"
                 height="350px"
                 width="350px"
                 alt="puppy"
