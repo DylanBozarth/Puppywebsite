@@ -7,7 +7,7 @@ import styled from 'styled-components';
 function PuppySeg() {
     return(
     <div className="puppysegment">
-        <div className=" quote"><p className="quotetext">"A dog is the only thing on earth that loves you more than you love yourself." </p></div>
+        
 
         <div className="row puppyrow no-gutters  container-fluid">
           <div className="col-sm-4 container-fluid">

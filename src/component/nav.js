@@ -20,7 +20,7 @@ export const Navigation = (props) => {
 
   return (
     <div>
-      <Navbar className="navbarmaster" light expand="md">
+      <Navbar className="navbarmaster  justify-content-center" light expand="md">
         <NavbarToggler onClick={toggle} />
         <NavbarBrand href="/" className="navbarlogo2 img-fluid">
           <img
@@ -31,7 +31,7 @@ export const Navigation = (props) => {
           ></img>
         </NavbarBrand>
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
+          <Nav className="" navbar>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret className="navitem">
                 <p className="navitemtext">Info</p>
@@ -115,11 +115,11 @@ export const Navigation = (props) => {
 
             <NavLink
               href="https://www.pawtree.com/jymrdoodles"
-              className="navitem"
+              className="navitem mr-auto"
               target="_blank"
             >
               {" "}
-              <NavItem>
+              <NavItem >
                 <p className="navitemtext">Pawtree Food</p>
               </NavItem>
             </NavLink>

@@ -212,9 +212,7 @@ body::-webkit-scrollbar {
 }
 .navbarmaster {
   z-index: 99;
-  text-align: center;
-  justify-content: center;
-  margin-left: 8vw;
+  
 }
   .navitem {
     background-image: url('./bone2.png') !important;
@@ -231,7 +229,7 @@ body::-webkit-scrollbar {
     font-size: 2vh;
   }
 .navbarlogo {
-  margin-top: -4vh;
+  margin-top: -2vh;
 }
 .navbarlogo2 {
   display: none !important;
@@ -277,7 +275,7 @@ $scale-base-1: (1 + $scale / 100%);
 }
 .paws {
   background-image: url('./paws.png');
-  background-size: 150% 80%; 
+  background-size: 100% 100%; 
   height: 35vh;
   margin-bottom: -8vh;
 }
@@ -296,6 +294,11 @@ $scale-base-1: (1 + $scale / 100%);
 }
 .hometitle {
   color: black !important;
+  height: 10vh;
+  font-size: 5vh;
+  background-image: url('./titlebackground.png');
+  background-size: 110% 160%;
+  background-position: center;
 }
 .homeinfo {
   color: black !important;
@@ -457,20 +460,19 @@ $scale-base-1: (1 + $scale / 100%);
     background-image: url('./quoteborder.png');
     background-size: 100%;
     height: 20vh;
-   margin-top: 1vh;
+   margin-top: -13vh;
   }
   .quotetext {
     font-family: 'Dancing Script', cursive;
     font-size: 3.5vh !important;
-    
   }
   .paws {
     background-image: url('./paws.png');
     background-size: 120%; 
     background-repeat: no-repeat;
-    height: 12vh;
+    height: 16vh;
     z-index: -9; 
-    margin-bottom: -5vh;
+    margin-bottom: -11vh;
   }
   .slideshow {
     position: absolute;
@@ -556,15 +558,14 @@ $scale-base-1: (1 + $scale / 100%);
 .quote {
   background-image: url('./quoteborder.png');
   background-size: 200%;
-  height: 15vh;
-  margin-top: -1vh;
+  height: 11vh;
+  margin-top: 3vh;
  text-align: center;
 }
 
 .quotetext {
   font-family: 'Dancing Script', cursive;
   font-size: 5.5vh;
-  
 }
 .cover {
   background-image: url('./paperheader.jpg');
