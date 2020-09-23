@@ -39,9 +39,9 @@ export const Navigation = () => {
                   <img
                     width="110px"
                     height="80px"
-                    src="./assets/navbone.png"
+                    src="./assets/navboneinfo.png"
                     
-                    className="img-fluid"
+                    className="img-fluid  navbone"
                   ></img>
                 </DropdownToggle>
                 <DropdownMenu right>
@@ -74,7 +74,7 @@ export const Navigation = () => {
                     width="110px"
                     height="80px"
                     src="./assets/navbone.png"
-                    className="img-fluid"
+                    className="img-fluid navbone"
                   ></img>
                 </DropdownToggle>
                 <DropdownMenu right>
@@ -127,8 +127,8 @@ export const Navigation = () => {
                     width="110px"
                     height="80px"
                     
-                    className="img-fluid"
-                    src="./assets/navbone.png"
+                    className="img-fluid  navbone"
+                    src="./assets/navbonereview.png"
                   ></img>
                 </NavLink>
               </NavItem>
@@ -143,9 +143,9 @@ export const Navigation = () => {
                   <img
                     width="110px"
                     
-                    className="img-fluid"
+                    className="img-fluid  navbone"
                     height="80px"
-                    src="./assets/navbone.png"
+                    src="./assets/navbonepawtreee.png"
                   ></img>
                 </NavItem>
               </NavLink>
