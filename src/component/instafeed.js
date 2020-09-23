@@ -17,7 +17,7 @@ function Instafeed() {
         <div className="instagrambox">
           {" "}
           <div className="cover container-fluid">
-          <NavLink href="https://www.instagram.com/jymr_doodles/" className="nohighlight">
+          <NavLink href="https://www.instagram.com/jymr_doodles/" alt="instagramlogo" className="nohighlight">
            <img className="img-fluid" height="150px" width="350px" src="./assets/instagramlogo.png"></img>
            </NavLink>
           </div>

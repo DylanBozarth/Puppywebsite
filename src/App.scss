@@ -257,6 +257,7 @@ $scale-base-1: (1 + $scale / 100%);
   position: absolute;
   width: 55vw;
   margin-left: 22vw;
+  margin-top: -1vh;
   height: 73vh;
   overflow: hidden;
   border: 20px solid transparent;
@@ -305,6 +306,10 @@ $scale-base-1: (1 + $scale / 100%);
   background-image: url('./titlebackground.png');
   background-size: 80% 160%;
   background-position: center;
+}
+.hometitle:hover {
+  -webkit-transform: translate(0,-10px);
+  transform: translate(0,-5px);
 }
 .homeinfo {
   color: black !important;
@@ -447,10 +452,10 @@ $scale-base-1: (1 + $scale / 100%);
   }
   .navbarlogo2 {
     display: block !important;
-    
   }
   .navbarlogo {
     display: none !important;
+   
   }
   .navitem {
     background-image: url('./bone2.png') !important;
@@ -629,7 +634,7 @@ text-align: center;
  justify-content: center;
 }
 .puppyseperator {
-  color: white;
+  color: black;
   text-align: center;
 }
 

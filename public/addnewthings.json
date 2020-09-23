@@ -1,8 +1,8 @@
 {
   "poodles": [
     {
-      "name": "Featured dog 1",
-      "description": "Traces his DNA back to George washington's dog",
+      "name": "Poodle 1",
+      "description": "Cute",
       "price": 10,
       "image": "./puppies/shiba.jpg"
     },
@@ -39,8 +39,8 @@
   ],
   "labradoodles": [
     {
-      "name": "Featured dog 2",
-      "description": "Can read and write Chinese",
+      "name": "Great doodles",
+      "description": "yes",
       "price": 10,
       "image": "./puppies/doodle.jpg"
     },
@@ -77,8 +77,8 @@
   ],
   "goldendoodles": [
     {
-      "name": "Featured dog 3",
-      "description": "Can move objects with his mind",
+      "name": "GoldenDoodle",
+      "description": "Best",
       "price": 10,
       "image": "./puppies/golddoodle.jpg"
     },

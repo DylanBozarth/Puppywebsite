@@ -35,12 +35,13 @@ export const Navigation = () => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="" navbar>
               <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret className="">
+                <DropdownToggle nav  className="">
                   <img
                     width="110px"
                     height="80px"
                     src="./assets/navboneinfo.png"
                     
+                    alt="navbone"
                     className="img-fluid  navbone"
                   ></img>
                 </DropdownToggle>
@@ -69,10 +70,12 @@ export const Navigation = () => {
               </UncontrolledDropdown>
 
               <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret className="">
+                <DropdownToggle nav  className="">
                   <img
                     width="110px"
                     height="80px"
+                    
+                    alt="navbone"
                     src="./assets/navbone.png"
                     className="img-fluid navbone"
                   ></img>
@@ -112,11 +115,12 @@ export const Navigation = () => {
               </UncontrolledDropdown>
               <NavbarBrand href="/" className="navbarlogo">
                 <img
-                  width="200px"
-                  height="170px"
+                  width="150px"
+                  height="150px"
                   src="./assets/headerlogo.png"
-                  alt="logo"
+                
                   
+                  alt="navbone"
                 ></img>
               </NavbarBrand>
 
@@ -127,6 +131,7 @@ export const Navigation = () => {
                     width="110px"
                     height="80px"
                     
+                    alt="navbone"
                     className="img-fluid  navbone"
                     src="./assets/navbonereview.png"
                   ></img>
@@ -142,7 +147,7 @@ export const Navigation = () => {
                 <NavItem>
                   <img
                     width="110px"
-                    
+                    alt="navbone"
                     className="img-fluid  navbone"
                     height="80px"
                     src="./assets/navbonepawtreee.png"
