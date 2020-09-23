@@ -221,19 +221,13 @@ body::-webkit-scrollbar {
 }
 .navbarmaster {
   z-index: 99;
-
 }
   .navitem {
-    background-image: url('./bone2.png') !important;
-    background-size: 55% !important;
-    background-repeat: no-repeat !important ; 
-    background-position: center !important; 
-  width: 15vw;
-  height: 10vh;
+  
   margin-top: 4vh;
   }
   .navitemtext {
-    color: white;
+    color: black;
     margin-top: 2vh;
     font-size: 2vh;
   }
