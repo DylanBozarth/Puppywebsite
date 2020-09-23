@@ -13,14 +13,14 @@ import {
   DropdownItem,
 } from "reactstrap";
 
-export const Navigation = (props) => {
+export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
   return (
     <div>
-      <Navbar className="navbarmaster  justify-content-center" light expand="md">
+      <Navbar className="navbarmaster" light expand="md">
         <NavbarToggler onClick={toggle} />
         <NavbarBrand href="/" className="navbarlogo2 img-fluid">
           <img

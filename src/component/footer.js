@@ -12,7 +12,7 @@ export const Footer = () => (
         <div className="col-sm-12 col-md-6">
           <h6>Great Doodles from great Hoomans</h6>
           <div className="container-fluid col">
-          <img className="footerlogo" alt="footerlogo" src="./assets/headerlogo.png" width="250px" height="200px"></img>
+          <img className="footerlogo img-fluid" alt="footerlogo" src="./assets/logosquare.png" width="450px" height="200px"></img>
           <ul className="social-icons">
             <li><a className="facebook" target="_blank"  rel="noopener noreferrer" href="https://www.facebook.com/JYMRdoodles/"><FaFacebook size={30} /></a></li>
             <li><a className="dribbble" target="_blank"  rel="noopener noreferrer" href="https://www.instagram.com/jymr_doodles/"><FaInstagram size={30} /></a></li>
