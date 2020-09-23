@@ -44,9 +44,9 @@ class App extends Component {
    {
     return (
       <div><BrowserRouter>
-        <div className="container-fluid  navbardiv">
+       
           <Navigation />
-          </div>
+          
         
         <Route
           exact

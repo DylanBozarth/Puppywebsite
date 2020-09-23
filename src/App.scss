@@ -216,11 +216,12 @@ body::-webkit-scrollbar {
   height: 22.5vh;
   background-image: url('./paperheader.jpg');
   background-size: 55%;
-   
+  
   z-index: 99 !important;
 }
 .navbarmaster {
   z-index: 99;
+
 }
   .navitem {
     background-image: url('./bone2.png') !important;

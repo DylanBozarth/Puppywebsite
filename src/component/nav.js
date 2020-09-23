@@ -115,7 +115,7 @@ export const Navigation = () => {
 
             <NavLink
               href="https://www.pawtree.com/jymrdoodles"
-              className="navitem mr-auto"
+              className="navitem"
               target="_blank"
             >
               {" "}
