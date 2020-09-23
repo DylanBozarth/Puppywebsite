@@ -282,8 +282,7 @@ $scale-base-1: (1 + $scale / 100%);
   margin-bottom: -8vh;
 }
 .instagrambox {
-  height: 50vh;
-  margin-bottom: 10vh;
+  height: 70vh;
  
 }
 .cloud {
@@ -489,8 +488,11 @@ $scale-base-1: (1 + $scale / 100%);
   }
   .instagrambox {
     height: 50vh;
-   
   }
+  .cover {
+   margin-bottom: 100px;
+  }
+  /* end of mobile stuf */ 
 }
 .nohighlight {
   text-emphasis: none;
@@ -568,7 +570,7 @@ $scale-base-1: (1 + $scale / 100%);
   background-image: url('./paperheader.jpg');
   background-size: 100%; 
   background-repeat: no-repeat;
-  height: 100px;
+  height: 25vh;
   position: absolute;
   width: 105vw;
   margin-left: -5vw;
