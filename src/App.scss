@@ -33,6 +33,14 @@ body::-webkit-scrollbar {
 /* end of puppies */
 
 /* footer */
+.center {
+  text-align: center;
+  font-size: 4vh;
+}
+.footerlink {
+  font-size: 4vh;
+  text-align: center;
+}
 .react-icons {
   vertical-align: middle;
 }
@@ -297,7 +305,7 @@ $scale-base-1: (1 + $scale / 100%);
   height: 10vh;
   font-size: 5vh;
   background-image: url('./titlebackground.png');
-  background-size: 110% 160%;
+  background-size: 80% 160%;
   background-position: center;
 }
 .homeinfo {

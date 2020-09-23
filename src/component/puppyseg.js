@@ -65,7 +65,7 @@ function PuppySeg() {
                 alt="puppy"
                 src="./assets/pawtreecard.png"
               ></img>
-              <h1 className="hometitle">Pawtree food</h1>
+              <h1 className="hometitle">Pawtree</h1>
               <p className="homeinfo">
                 {" "}
                 More infoMore infoMore infoMore infoMore infoMore infoMore
