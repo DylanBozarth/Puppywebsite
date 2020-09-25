@@ -9,12 +9,12 @@ function Parents({ propdata }) {
   useTitle("JYMR doodles");
   return (
     <div className="container-fluid" >
-       <h1 className="puppytitle">Goldendoogles</h1>
-      <div className=" puppyrow no-gutters prva  col-lg-12">
+      <div className="puppyseperator"> <h1 className="puppytitle">Goldendoogles</h1></div>
+      <div className="row puppyrow no-gutters prva  ">
          
           {parents.slice(0, 2).map((parents) => (
             <div
-              className="parentcard"
+              className="parentcard  col-sm-4"
               style={{ width: "20rem" }}
               key={parents.name}
             >
@@ -32,11 +32,11 @@ function Parents({ propdata }) {
             </div>
           ))}
         </div>
-          <h1 className="puppytitle">Poodles</h1>
-          <div className=" puppyrow no-gutters prva  col-lg-12">
+        <div className="puppyseperator"> <h1 className="puppytitle">Poodles</h1></div>
+          <div className=" puppyrow no-gutters prva  ">
           {parents.slice(2, 4).map((parents) => (
             <div
-              className="parentcard"
+              className="parentcard  col-sm-4"
               style={{ width: "20rem" }}
               key={parents.name}
             >
@@ -54,11 +54,12 @@ function Parents({ propdata }) {
             </div>
           ))}
         </div>
-          <h1 className="puppytitle">Labradoodles</h1>
+        <div className="puppyseperator"> <h1 className="puppytitle">Labradoodles</h1></div>
           <div className="row puppyrow no-gutters prva">
           {parents.slice(4, 6).map((parents) => (
+            
             <div
-              className="parentcard"
+              className="parentcard col-sm-4"
               style={{ width: "20rem" }}
               key={parents.name}
             >

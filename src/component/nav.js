@@ -37,8 +37,8 @@ export const Navigation = () => {
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav  className="">
                   <img
-                    width="110px"
-                    height="80px"
+                    width="150px"
+                    height="110px"
                     src="./assets/navboneinfo.png"
                     
                     alt="navbone"
@@ -72,8 +72,8 @@ export const Navigation = () => {
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav  className="">
                   <img
-                    width="110px"
-                    height="80px"
+                     width="150px"
+                     height="110px"
                     
                     alt="navbone"
                     src="./assets/navbone.png"
@@ -128,8 +128,8 @@ export const Navigation = () => {
                 <NavLink href="/reviews" className="">
                   {" "}
                   <img
-                    width="110px"
-                    height="80px"
+                     width="150px"
+                     height="110px"
                     
                     alt="navbone"
                     className="img-fluid  navbone"
@@ -146,10 +146,11 @@ export const Navigation = () => {
                 {" "}
                 <NavItem>
                   <img
-                    width="110px"
+                      width="150px"
+                      height="110px"
                     alt="navbone"
                     className="img-fluid  navbone"
-                    height="80px"
+                   
                     src="./assets/navbonepawtreee.png"
                   ></img>
                 </NavItem>
