@@ -28,7 +28,7 @@ export const Navigation = () => {
             <img
               width="180px"
               height="135px"
-              src="./assets/headerlogo.png"
+              src="./assets/headerlogo.jpg"
               alt="logo"
             ></img>
           </NavbarBrand>
@@ -113,13 +113,13 @@ export const Navigation = () => {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
-              <NavbarBrand href="/" className="navbarlogo">
+              <NavbarBrand href="/" className="">
                 <img
-                  width="150px"
-                  height="150px"
-                  src="./assets/headerlogo.png"
+                  width="180px"
+                  height="180px"
+                  src="./assets/headerlogo.jpg"
                 
-                  
+                  className="navbarlogo"
                   alt="navbone"
                 ></img>
               </NavbarBrand>
