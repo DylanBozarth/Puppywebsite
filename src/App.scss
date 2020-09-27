@@ -300,9 +300,12 @@ $scale-base-1: (1 + $scale / 100%);
   color: black !important;
   height: 10vh;
   font-size: 5vh;
+  
+  line-height: 1.8;
   background-image: url('./titlebackground.png');
   background-size: 80% 160%;
   background-position: center;
+  font-family: 'Amatic SC', cursive;
 }
 .hometitle:hover {
   -webkit-transform: translate(0,-10px);
@@ -595,8 +598,8 @@ $scale-base-1: (1 + $scale / 100%);
   background-image: url('./paperheader.jpg');
   background-size: 100%; 
   background-repeat: no-repeat;
-  height: 22vh;
-  margin-bottom: -10vh;
+  height: 25vh;
+  margin-bottom: -7vh;
   position: absolute;
   width: 105vw;
   z-index: 50;
