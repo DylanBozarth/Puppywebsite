@@ -496,10 +496,6 @@ $scale-base-1: (1 + $scale / 100%);
   .puppycloud {
     margin-left: 1vw;
   }
-  .instagrambox {
-    height: 35vh;
-    margin-top: 5vh;
-  }
   
   
   .cover {
@@ -511,10 +507,15 @@ $scale-base-1: (1 + $scale / 100%);
     width: 105vw;
     margin-left: -5vw;
     margin-bottom: -20vh;
+    margin-top: -12vh;
     z-index: 50;
     text-align: center;
+    display: none;
   }
- 
+ .instagrambox {
+   height: 40vh;
+
+ }
   
   /* end of mobile stuf */ 
 }
@@ -537,9 +538,6 @@ $scale-base-1: (1 + $scale / 100%);
 .homeinfo:hover {
   text-decoration: none !important;
   color: black;
-}
-.instagrambox {
-  height: 52vh;
 }
 
 /* end of homepage stuff */
@@ -604,6 +602,10 @@ $scale-base-1: (1 + $scale / 100%);
   z-index: 50;
   text-align: center;
   color: black !important;
+}
+.instagrambox {
+  height: 52vh;
+
 }
 
 /* about segment */ 

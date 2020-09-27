@@ -8,21 +8,21 @@ import {
 function Instafeed() {
     return(
         <div>
-<div className="cloud">
+<div className="cloud container-fluid">
   <NavLink href="/application" className="nohighlight">
           <img src="./assets/cloud.png" alt="puppycloud" className="puppycloud img-fluid"  ></img>
           
          
         </NavLink></div>
-        <div>
+        
           {" "}
           <div className="cover container-fluid">
           <NavLink href="https://www.instagram.com/jymr_doodles/" alt="instagramlogo" className="nohighlight">
            <img className="img-fluid instalogo"   alt="instagram" src="./assets/instagramlogo.png"></img>
            </NavLink>
 
-          </div></div>
-          <div className="instagrambox">
+          </div>
+          <div className="instagrambox container-fluid">
           <div className="elfsight-app-343de7b1-10c9-4569-80a1-2e487a1d8b07 instafeed"></div>
           </div>
         
