@@ -286,10 +286,7 @@ $scale-base-1: (1 + $scale / 100%);
   height: 35vh;
   margin-bottom: -8vh;
 }
-.instagrambox {
-  height: 70vh;
- 
-}
+
 .cloud {
   width: 100%;
   background-image: url('./quoteborder.png');
@@ -500,11 +497,25 @@ $scale-base-1: (1 + $scale / 100%);
     margin-left: 1vw;
   }
   .instagrambox {
-    height: 50vh;
+    height: 35vh;
+    margin-top: 5vh;
   }
+  
+  
   .cover {
-   margin-bottom: 100px;
+    background-image: url('./paperheader.jpg');
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    height: 35vh;
+    position: absolute;
+    width: 105vw;
+    margin-left: -5vw;
+    margin-bottom: -20vh;
+    z-index: 50;
+    text-align: center;
   }
+ 
+  
   /* end of mobile stuf */ 
 }
 .nohighlight {
@@ -527,6 +538,10 @@ $scale-base-1: (1 + $scale / 100%);
   text-decoration: none !important;
   color: black;
 }
+.instagrambox {
+  height: 52vh;
+}
+
 /* end of homepage stuff */
 .nohighlight {
   text-emphasis: none;
@@ -582,10 +597,10 @@ $scale-base-1: (1 + $scale / 100%);
   background-image: url('./paperheader.jpg');
   background-size: 100%; 
   background-repeat: no-repeat;
-  height: 25vh;
+  height: 22vh;
+  margin-bottom: -10vh;
   position: absolute;
   width: 105vw;
-  margin-left: -5vw;
   z-index: 50;
   text-align: center;
   color: black !important;
