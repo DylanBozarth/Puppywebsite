@@ -9,12 +9,13 @@ function Parents({ propdata }) {
   useTitle("JYMR doodles");
   return (
     <div className="container-fluid" >
-      <div className="puppyseperator"> <h1 className="puppytitle">Goldendoogles</h1></div>
-      <div className="row puppyrow no-gutters prva  ">
-         
+      <div className="puppyseperator"> <h1 className="puppytitle">Goldendoodles</h1></div>
+     
+      <div className="row parentrow  ">
+          <div className="col-2"></div>
           {parents.slice(0, 2).map((parents) => (
             <div
-              className="parentcard  col-sm-4"
+              className="parentcard  col"
               style={{ width: "20rem" }}
               key={parents.name}
             >
@@ -29,14 +30,16 @@ function Parents({ propdata }) {
               <p>{parents.age}</p>
 
               <p className="cardesc">{parents.description}</p>
-            </div>
+            <div className="col-2"></div></div>
           ))}
+          
         </div>
-        <div className="puppyseperator"> <h1 className="puppytitle">Poodles</h1></div>
-          <div className=" puppyrow no-gutters prva  ">
+        <div className="puppyseperator"> <h1 className="puppytitle">Doodle parents</h1></div>
+        <div className="row parentrow  ">
+          <div className="col-2"></div>
           {parents.slice(2, 4).map((parents) => (
             <div
-              className="parentcard  col-sm-4"
+              className="parentcard  col"
               style={{ width: "20rem" }}
               key={parents.name}
             >
@@ -51,15 +54,16 @@ function Parents({ propdata }) {
               <p>{parents.age}</p>
 
               <p className="cardesc">{parents.description}</p>
-            </div>
+            <div className="col-2"></div></div>
           ))}
+          
         </div>
-        <div className="puppyseperator"> <h1 className="puppytitle">Labradoodles</h1></div>
-          <div className="row puppyrow no-gutters prva">
+        <div className="puppyseperator"> <h1 className="puppytitle">Poodle Parents</h1></div>
+        <div className="row parentrow  ">
+          <div className="col-2"></div>
           {parents.slice(4, 6).map((parents) => (
-            
             <div
-              className="parentcard col-sm-4"
+              className="parentcard  col"
               style={{ width: "20rem" }}
               key={parents.name}
             >
@@ -74,8 +78,9 @@ function Parents({ propdata }) {
               <p>{parents.age}</p>
 
               <p className="cardesc">{parents.description}</p>
-            </div>
+            <div className="col-2"></div></div>
           ))}
+          
         </div>
     </div>
   );
