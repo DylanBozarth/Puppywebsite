@@ -83,32 +83,32 @@ export const Navigation = () => {
                 <DropdownMenu right>
                   <DropdownItem>
                     <NavLink href="/puppies">
-                      <NavItem>All Puppies</NavItem>
+                      <NavItem className="navdropdown">All Puppies</NavItem>
                     </NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     <NavLink href="/parents">
-                      <NavItem>Parents</NavItem>
+                      <NavItem className="navdropdown">Parents</NavItem>
                     </NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     <NavLink href="/poodles">
-                      <NavItem>Poodles</NavItem>
+                      <NavItem className="navdropdown">Poodles</NavItem>
                     </NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     <NavLink href="/labradoodles">
-                      <NavItem>Labradoodles</NavItem>
+                      <NavItem className="navdropdown">Labradoodles</NavItem>
                     </NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     <NavLink href="/goldendoodles">
-                      <NavItem>Goldendoodles</NavItem>
+                      <NavItem className="navdropdown">Goldendoodles</NavItem>
                     </NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     <NavLink href="/application">
-                      <NavItem>Application</NavItem>
+                      <NavItem className="navdropdown">Application</NavItem>
                     </NavLink>
                   </DropdownItem>
                 </DropdownMenu>

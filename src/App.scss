@@ -220,6 +220,9 @@ body::-webkit-scrollbar {
   
   z-index: 99 !important;
 }
+.navdropdown {
+font-size: 20px;
+}
 .navbarmaster {
   z-index: 99;
 }
@@ -619,15 +622,21 @@ text-align: center;
 }
 .aboutimage {
   border-radius: 10%;
-  text-align: left;
+  width: 100vw;
+  height: 50vh;
 }
 .aboutbox {
-  text-align: right;
+  text-align: center;
+  margin-top: 5vh;
 }
 .aboutdesc {
   color: black;
   text-align: center;
   font-size: 2rem;
+}
+.aboutpage {
+  background-image: url('./bluestrip.png');
+  background-size: 100%;
 }
 /* end of about segments */ 
 
