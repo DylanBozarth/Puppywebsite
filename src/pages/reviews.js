@@ -12,7 +12,7 @@ function Reviews({propdata}) {
    
   
           {reviews.map((reviews) => (
-            <div className="col-sm-4" style={{ width: "20rem" }} key={reviews.name}>
+            <div className="col-sm-4" style={{ width: "25rem" }} key={reviews.name}>
               <img
                 className="homecard"
                 height="300px"
