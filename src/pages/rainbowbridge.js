@@ -1,24 +1,22 @@
 import React from "react";
-import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
-
 import _ from "lodash";
-
+import ImageGallery from 'react-image-gallery';
 function RainbowBridge({ propdata }) {
   const pastdogs = _.get(propdata, "pastdogs", []);
   return (
-    <AwesomeSlider className="slidermaster">
+    <ImageGallery items={pastdogs} showFullscreenButton={false}>
       {pastdogs.map((pastdogs) => (
         <div className="slidertab">
           <div>
             <h1 className="slidertext">{pastdogs.name}</h1>
-            <img className="" alt="RIP this dog" src={pastdogs.image} />
+            
             <p>{pastdogs.description}</p>
             <p>{pastdogs.year}</p>
           </div>
         </div>
       ))}
-    </AwesomeSlider>
+    </ImageGallery>
   );
 }
 export default RainbowBridge;

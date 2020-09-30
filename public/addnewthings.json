@@ -118,19 +118,19 @@
       "name": "Buddy",
       "description": "Wonderful dog to a wonderful family in Spokane Washington",
       "year": "1999-2020",
-      "image": "./puppies/shiba.jpg"
+      "original": "./puppies/shiba.jpg"
     },
     {
       "name": "Steve",
       "description": "Wonderful dog to a wonderful family in Spokane Washington",
       "year": "1999-2020",
-      "image": "./puppies/shiba.jpg"
+      "original": "./puppies/shiba.jpg"
     },
     {
       "name": "Craig",
       "description": "Wonderful dog to a wonderful family in Spokane Washington",
       "year": "1999-2020",
-      "image": "./puppies/shiba.jpg"
+      "original": "./puppies/shiba.jpg"
     }
   ],
 

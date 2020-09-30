@@ -1,6 +1,7 @@
 $teal: #bdeaee;
 $grey:#CDCDCD;
 $blue: #3737ec;
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
 body {
   background-image: url('./paperheader.jpg') !important;
   background-size: 100%;
