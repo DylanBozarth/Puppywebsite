@@ -40,8 +40,7 @@ export default class Application extends React.Component {
               <input type="text" name="Email" />
             </div>
             <div className="formsection">
-              
-            <h3 className="formtitle">Your location </h3>
+              <h3 className="formtitle">Your location </h3>
               <label className="formtitle">City</label>
               <input type="text" name="City" />
               <label className="formtitle">Address</label>
@@ -51,25 +50,144 @@ export default class Application extends React.Component {
               <label className="formtitle">Zip code</label>
               <input type="number" name="Zip code" />
             </div>
-            <div className="formsection">
-
-            </div>
+            <div className="formsection"></div>
           </div>
           <div className="formsection">
             <h3 className="formtitle">The puppy</h3>
             <label className="formtitle">
               <h6>Desired breed (if any)</h6>
-              
+              <div className="radio container-fluid">
+                <label>
+                  <input
+                    type="checkbox"
+                    className="checkbox"
+                    name="Goldendoodle Preference"
+                  />
+                  <p className="checkbox">Goldendoodle</p>
+                </label>
+                <label>
+                  <input
+                    type="checkbox"
+                    className="checkbox"
+                    name="English Goldendoodle Preference"
+                  /><p className="checkbox">English Goldendoodle</p>
+                </label>
+                <label>
+                  <input
+                    type="checkbox"
+                    className="checkbox"
+                    name="Labradoodle Preference"
+                  />
+                 <p className="checkbox">Labradoodle</p>
+                </label>
+                <label>
+                  <input
+                    type="checkbox"
+                    className="checkbox"
+                    name="Poodle preference"
+                  />
+                 <p className="checkbox">Poodle</p>
+                </label>
+                <label>
+                  <input
+                    type="checkbox"
+                    className="checkbox"
+                    name="Other Preference"
+                  />
+                 <p className="checkbox">Other</p>
+                </label>
+                <label>
+                  <input
+                    type="checkbox"
+                    className="checkbox"
+                    name="No breed preference"
+                  />
+                <p className="checkbox">No preference</p>
+                </label>
+              </div>
             </label>
-            <input type="text" name="Preferred breed" />
-            <label className="formtitle">
-              <h6>Size of dog interested in:</h6>
-             
-            </label>
-            <input type="text" name="Dog size" />
+            </div>
+            <div className="formsection">
+            <h6 className="formtitle">Desired dog size</h6>
+            <label>
+                  <input
+                    type="checkbox"
+                    className="checkbox"
+                    name="Up to 25 lbs "
+                  />
+                <p className="checkbox">Up to 25 lbs (Micro Mini) </p>
+                </label>
+                <label>
+                  <input
+                    type="checkbox"
+                    className="checkbox"
+                    name="20-35 lbs"
+                  />
+                <p className="checkbox">20-35 lbs (mini)</p>
+                </label>
+                <label>
+                  <input
+                    type="checkbox"
+                    className="checkbox"
+                    name="30-45 lbs"
+                  />
+                <p className="checkbox">30-45 lbs (Moyan) </p>
+                </label>
+                <label>
+                  <input
+                    type="checkbox"
+                    className="checkbox"
+                    name="45+ lbs"
+                  />
+                <p className="checkbox">45+ lbs (Standard) </p>
+                </label>
+                <label>
+                  <input
+                    type="checkbox"
+                    className="checkbox"
+                    name="No dog size preference"
+                  />
+                <p className="checkbox">No preference </p>
+                </label>
+           </div>
+           <div className="formsection">
+             <h6 className="formtitle">Generation interested in</h6>
+           <label>
+                  <input
+                    type="checkbox"
+                    className="checkbox"
+                    name="First generation preference"
+                  />
+                <p className="checkbox">F1 (first gen) </p>
+                </label>
+                <label>
+                <input
+                    type="checkbox"
+                    className="checkbox"
+                    name="Second generation preference"
+                  />
+                <p className="checkbox">F1B (second gen) </p>
+                </label>
+                <label>
+                <input
+                    type="checkbox"
+                    className="checkbox"
+                    name="Multi-generation preference"
+                  />
+                <p className="checkbox">Multi-generational </p>
+                </label>
+                <label>
+                <input
+                    type="checkbox"
+                    className="checkbox"
+                    name="No generation preference"
+                  />
+                <p className="checkbox">No preference </p>
+                </label>
+           </div>
             {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
             {status === "ERROR" && <p>Ooops! There was an error.</p>}
-          </div>
+          
         </form>
       </div>
     );
