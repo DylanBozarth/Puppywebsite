@@ -16,7 +16,7 @@ export default class Application extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <div className="form">
+      <div className="form container-fluid">
         <h4>
           Please fill out an application if you would like to place a deposit to
           reserve a spot on our priority waiting list for your new puppy!
@@ -28,7 +28,7 @@ export default class Application extends React.Component {
           action="https://formspree.io/xoqpajbk"
           method="POST"
         >
-          <div className="forminputs">
+          <div className="forminputs ">
             <label className="formtitle">Name:</label>
             <input type="name" name="Name" />
 
@@ -42,13 +42,14 @@ export default class Application extends React.Component {
             <label className="formtitle">Zip code</label>
             <input type="text" name="Zip code" />
           </div>
+          <div className="">
           <label className="formtitle">
             Size of dog interested in:
             <br /> small is 10-15lbs, medium 20-30lbs, large 30-40lbs
           </label>
           <input type="text" name="Dog size" />
           {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-          {status === "ERROR" && <p>Ooops! There was an error.</p>}
+          {status === "ERROR" && <p>Ooops! There was an error.</p>}</div>
         </form>
       </div>
     );
