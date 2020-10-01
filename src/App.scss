@@ -565,7 +565,17 @@ $scale-base-1: (1 + $scale / 100%);
    height: 40vh;
 
  }
+ .image-gallery-slide .image-gallery-description {
   
+
+  color: #fff;
+  left: 00%; // you can modify this value to center the text
+  bottom: 0%;
+  line-height: 1;
+ 
+  position: absolute;
+ 
+}
   /* end of mobile stuf */ 
 }
 .nohighlight {
@@ -731,8 +741,19 @@ text-align: center;
 /* end of breed info */ 
 
 /* slider on rainbow bridge */
+.image-gallery-slide .image-gallery-description {
+  
+
+  color: #fff;
+  left: 23%; // you can modify this value to center the text
+  bottom: 0%;
+  line-height: 1;
+ 
+  position: absolute;
+ 
+}
 .slider {
-  width: 50% !important;
+  width: 100% !important;
 }
 .slidertext {
   color: black;
