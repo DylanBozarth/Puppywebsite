@@ -731,40 +731,14 @@ text-align: center;
 /* end of breed info */ 
 
 /* slider on rainbow bridge */
-.slidermaster {
-  height: 100vh;
-  background-color: red !important;
-  margin-bottom: 1rem;
-}
 .slider {
-  background-color: $teal;
+  width: 50% !important;
 }
 .slidertext {
-  color: white;
+  color: black;
   text-align: center;
-  margin-top: 10rem;
   z-index: 99;
 }
-.slidertab {
-  
-  margin-top: -5rem;
-}
-.aws-btn {
-
-  --slider-height-percentage: 60%;
-  --slider-transition-duration: 770ms;
-  --organic-arrow-thickness: 9px;
-  --organic-arrow-border-radius: 28px;
-  --organic-arrow-height: 57px;
-  --organic-arrow-color: #000000;
-  --control-button-width: 13%;
-  --control-button-height: 25%;
-  --control-button-background: transparent;
-  --control-bullet-color: #973f9d;
-  --control-bullet-active-color: transparent;
-  --loader-bar-color: #851515;
-  --loader-bar-height: 6px;
-  }
   /* slider end */ 
 
 

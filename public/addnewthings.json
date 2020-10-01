@@ -115,10 +115,9 @@
   ],
   "pastdogs": [
     {
-      "name": "Buddy",
-      "description": "Wonderful dog to a wonderful family in Spokane Washington",
-      "year": "1999-2020",
-      "original": "./puppies/shiba.jpg"
+      
+      "description": " Buddy, Dog given to the king of England",
+      "original": "./puppies/firstday.jpg"
     },
     {
       "name": "Steve",
