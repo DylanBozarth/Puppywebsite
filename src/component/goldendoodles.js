@@ -9,25 +9,25 @@ function Goldendoodles({ propdata }) {
   useTitle("Your Next Dog");
 
   return (
-    <div className="container-fluid" >
+    <div className="container-fluid innerpage " >
       
         <div className="puppyseperator">
-          <h1>Goldendoodles! </h1>
-          <p>I don't know how to describe them, but they sure are cute.</p>
+          <h1 className="innerpagetitle">Goldendoodles! </h1>
+          <p className="innerpagesubtitle">I don't know how to describe them, but they sure are cute.</p>
         </div>
 
         <div className="row puppyrow no-gutters prva">
           {goldendoodles.map((goldendoodles) => (
-            <div className="col-sm-4" style={{ width: "20rem" }} key={goldendoodles.name}>
+            <div className="col-sm-4 " key={goldendoodles.name}>
               <img
-                className="homecard"
-                height="300px"
+                className="homecard frame"
+                height="330px"
                 width="280px"
                 src={goldendoodles.image}
                 alt={goldendoodles.name}
               />
-              <h1>{goldendoodles.name}</h1>
-              <p>{goldendoodles.price}</p>
+              <h1 className="puppytitle">{goldendoodles.name}</h1>
+             
 
               <p className="cardesc">{goldendoodles.description}</p>
             </div>

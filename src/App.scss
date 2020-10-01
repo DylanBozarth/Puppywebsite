@@ -1,7 +1,7 @@
 $teal: #bdeaee;
 $grey:#CDCDCD;
 $blue: #3737ec;
-@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
 body {
   background-image: url('./paperheader.jpg') !important;
   background-size: 100%;
@@ -16,7 +16,7 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
-
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
 
 
 .black {
@@ -26,12 +26,53 @@ body::-webkit-scrollbar {
   color: white;
 }
 /* puppies and parents page */
-.card-page {
-  display: flex;
-  
+.innerpage {
+  background-color: #8ae5e7;
 }
+.innercard {
+  border-image: url('./TEST.png') 111 round;
+  border: 15px solid transparent;
+}
+$width: 350px; // Frame width
+$ar: 9/16; // Aspect-ratio 16:9
 
 
+.frame {
+  $_t: 23;
+  $_r: 27;
+  $_b: 26;
+  $_l: 27;
+  //
+  position: relative;
+  min-width: 120px;
+  width: $width;
+  border-style: solid;
+  border-width: #{$_t}px #{$_r}px #{$_b}px #{$_l}px;
+  border-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3561/frame.png) $_t $_r $_b $_l stretch;
+
+  &:before {
+    content: "";
+    display: block;
+    padding-top: percentage($ar);
+  }
+
+  &_photo {
+    background: url(https://unsplash.it/600/600/?random) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.innerpagetitle {
+ text-align: center;
+ margin-bottom: 3vh;
+ font-size: 7vh;
+}
+.innerpagesubtitle {
+font-size: 5vh;
+font-family: 'Dancing Script';
+}
 /* end of puppies */
 
 /* footer */

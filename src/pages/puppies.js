@@ -21,7 +21,7 @@ function Puppies({ propdata }) {
           {poodles.map((poodles) => (
             <div className="col-sm-4" style={{ width: "20rem" }} key={poodles.name}>
               <img
-                className="homecard"
+                className="homecard puppycard"
                 height="300px"
                 width="280px"
                 src={poodles.image}
