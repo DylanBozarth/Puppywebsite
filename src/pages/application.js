@@ -424,17 +424,7 @@ export default class Application extends React.Component {
             <textarea type='text' name="Family info" placeholder={'Tell us about your family!'}></textarea>
             <textarea type="text" name="Comments or questions" placeholder={'Comments or questions'}></textarea>
           </div>
-          {status === "SUCCESS" ? <ToastContainer
-position="top-right"
-autoClose={5000}
-hideProgressBar={false}
-newestOnTop={false}
-closeOnClick
-rtl={false}
-pauseOnFocusLoss
-draggable
-pauseOnHover
-/>: <button >Submit</button>}
+          {status === "SUCCESS" ? <p>{alert('Form submitted!')}</p>: <button >Submit</button>}
           {status === "ERROR" && <p>{alert('please fill out the form completely')}</p>}
         </form>
       </div>

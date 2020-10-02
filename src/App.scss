@@ -663,8 +663,8 @@ $scale-base-1: (1 + $scale / 100%);
   color: black !important;
 }
 .instagrambox {
-  height: 52vh;
-
+  height: 66vh;
+  padding-top: 14vh;
 }
 
 /* about segment */ 
@@ -734,8 +734,27 @@ text-align: center;
 
 
 /* breed info page */ 
+.breedinfotitle {
+  text-align: center;
+  padding-bottom: 15px;
+  color:white;
+-webkit-text-stroke: 1px black;
+}
+
 .breedinfo {
-  height: 15rem;
+color:white;
+-webkit-text-stroke: 1.5px black;
+height: 45vh;
+}
+.breedinfoimg {
+  max-width: 30vw;
+  max-height: 30vh;
+}
+.breedinfopage {
+  background-image: url('./paws.png');
+  background-size: 100%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 /* end of breed info */ 

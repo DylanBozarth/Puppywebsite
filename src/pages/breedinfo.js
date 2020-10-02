@@ -5,9 +5,9 @@ import useTitle from "../hooks/useTitle";
 function BreedInfo() {
   useTitle("JYMR Doodles");
   return (
-    <div className="container-fluid">
-      <h1 className="puppytitle">Doodle facts</h1>
-      <div className="row">
+    <div className="container-fluid breedinfopage">
+      <h1 className="breedinfotitle ">Doodle facts</h1>
+      <div className="row puppyrow no-gutters prva">
       <div className="col-sm-4"><div className="breedinfo">
           <h3>Info dump </h3>
           <p>
@@ -18,10 +18,10 @@ function BreedInfo() {
             Barbet.[5]
           </p> </div>
           <img
-            className=""
+            className="breedinfoimg img-fluid"
             height="300px"
             width="280px"
-            src="./puppies/shiba.jpg"
+            src="./puppies/godcopilot.jpg"
             alt="poodle"
           />
         </div>
@@ -38,10 +38,10 @@ function BreedInfo() {
             selective breeding.
           </p></div>
           <img
-            className=""
+            className="breedinfoimg img-fluid"
             height="300px"
             width="280px"
-            src="./puppies/shiba.jpg"
+            src="./puppies/falldog.jpg"
             alt="Labradoodle"
           />
         </div>
@@ -54,13 +54,17 @@ function BreedInfo() {
             Goldendoodles have been successfully trained as therapy dogs, guide
             dogs[2] and other forms of assistance dogs.[3]
           </p></div>
+          <div className="img-box container-fluid">
           <img
-            className=""
+            className="breedinfoimg img-fluid"
             height="300px"
             width="280px"
-            src="./puppies/shiba.jpg"
+            src="./puppies/bluebow.jpg"
             alt="Goldendoodle"
           />
+        </div>
+        
+        
         </div>
       </div>
     </div>
