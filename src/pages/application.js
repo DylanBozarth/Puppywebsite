@@ -20,7 +20,7 @@ export default class Application extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <div className="form container-fluid">
+      <div className="form container-fluid ">
         <h1 className="formtitle">JYMR Doodles</h1>
         <h4 className="formtitle">
           Please fill out an application if you would like to place a deposit to

@@ -9,7 +9,7 @@ function RainbowBridge({ propdata }) {
         className=""
         items={pastdogs}
         showFullscreenButton={false}
-        autoplay={true}
+        lazyLoad={true}
       ></ImageGallery>
     </div>
   );

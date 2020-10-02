@@ -27,7 +27,8 @@ body::-webkit-scrollbar {
 }
 /* puppies and parents page */
 .innerpage {
-  background-color: #8ae5e7;
+  background-image: url('./topbackground.png');
+  background-size: 100%;
 }
 .innercard {
   border-image: url('./TEST.png') 111 round;
@@ -632,6 +633,14 @@ $scale-base-1: (1 + $scale / 100%);
  font-size: 4vh;
   
 }
+.puppyname {
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+.puppysubtitle {
+  color: white;
+  -webkit-text-stroke: 1.5px black;
+}
 .geturown {
    background-image: url('./quoteborder.png');
   background-size: 120%;
@@ -687,8 +696,10 @@ text-align: center;
   font-size: 2rem;
 }
 .aboutpage {
-  background-image: url('./topbackground.png');
-  background-size: 100% 100%;
+  background-image: url('./dots.png'); 
+  background-size: 100%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 /* end of about segments */ 
 
@@ -773,6 +784,10 @@ height: 45vh;
 }
 .slider {
   width: 100% !important;
+  background-image: url('./dots.png'); 
+  background-size: 100%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 .slidertext {
   color: black;
@@ -806,8 +821,9 @@ input[type=number] {
     background: #FFFFFF;
     max-width: 50rem;
     padding: 25px;
-    text-align: left;
+    text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   
   }
   .Badge:hover {
 cursor: pointer;

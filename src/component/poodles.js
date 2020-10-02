@@ -10,27 +10,26 @@ function Poodles({ propdata }) {
   useTitle("World class Poodles");
 
   return (
-    <div className="container-fluid" >
+    <div className="container-fluid innerpage" >
       
         <div className="puppyseperator">
-          <h1>Poodles!</h1>
-          <p>Our best sellers</p>
+          <h1 className="innerpagetitle">Poodles!</h1>
+          <p className="innerpagesubtitle">Our best sellers</p>
         </div>
 
         <div className="row puppyrow no-gutters prva">
           {poodles.map((poodles) => (
             <div className="col-sm-4" style={{ width: "20rem" }} key={poodles.name}>
               <img
-                className="homecard"
+                className="homecard frame"
                 height="300px"
                 width="280px"
                 src={poodles.image}
                 alt={poodles.name}
               />
-              <h1>{poodles.name}</h1>
-              <p>{poodles.price}</p>
+              <h1 className="puppyname">{poodles.name}</h1>
 
-              <p className="cardesc">{poodles.description}</p>
+              <p className="puppysubtitle">{poodles.description}</p>
             </div>
           ))}
         </div>

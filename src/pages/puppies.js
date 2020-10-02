@@ -11,7 +11,7 @@ function Puppies({ propdata }) {
   useTitle("Your Next Dog");
 
   return (
-    <div className="container-fluid" >
+    <div className="container-fluid innerpage" >
       <div className="puppyseperator">
           <h1>Poodles!</h1>
           <p>Our best sellers</p>
@@ -21,7 +21,7 @@ function Puppies({ propdata }) {
           {poodles.map((poodles) => (
             <div className="col-sm-4" style={{ width: "20rem" }} key={poodles.name}>
               <img
-                className="homecard puppycard"
+                className="homecard puppycard frame"
                 height="300px"
                 width="280px"
                 src={poodles.image}
@@ -44,7 +44,7 @@ function Puppies({ propdata }) {
           {labradoodles.map((labradoodles) => (
             <div className="col-sm-4" style={{ width: "20rem" }} key={labradoodles.name}>
               <img
-                className="homecard"
+                className="homecard frame"
                 height="300px"
                 width="280px"
                 src={labradoodles.image}
@@ -67,7 +67,7 @@ function Puppies({ propdata }) {
           {goldendoodles.map((goldendoodles) => (
             <div className="col-sm-4" style={{ width: "20rem" }} key={goldendoodles.name}>
               <img
-                className="homecard"
+                className="homecard frame"
                 height="300px"
                 width="280px"
                 src={goldendoodles.image}

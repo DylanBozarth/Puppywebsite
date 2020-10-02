@@ -26,10 +26,10 @@ function Goldendoodles({ propdata }) {
                 src={goldendoodles.image}
                 alt={goldendoodles.name}
               />
-              <h1 className="puppytitle">{goldendoodles.name}</h1>
+              <h1 className="puppyname">{goldendoodles.name}</h1>
              
 
-              <p className="cardesc">{goldendoodles.description}</p>
+              <p className="puppysubtitle">{goldendoodles.description}</p>
             </div>
           ))}
         </div>
