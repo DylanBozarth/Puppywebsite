@@ -1,6 +1,9 @@
 import React from "react";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 export default class Application extends React.Component {
+  
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
@@ -8,7 +11,9 @@ export default class Application extends React.Component {
       status: "",
       dogSize: "No preference",
     };
+    const notify = () => toast("Success!");
   }
+  
   setDogSize = () => {
     this.setState({});
   };
@@ -419,8 +424,18 @@ export default class Application extends React.Component {
             <textarea type='text' name="Family info" placeholder={'Tell us about your family!'}></textarea>
             <textarea type="text" name="Comments or questions" placeholder={'Comments or questions'}></textarea>
           </div>
-          {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-          {status === "ERROR" && <p>Ooops! There was an error.</p>}
+          {status === "SUCCESS" ? <ToastContainer
+position="top-right"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+/>: <button >Submit</button>}
+          {status === "ERROR" && <p>{alert('please fill out the form completely')}</p>}
         </form>
       </div>
     );
@@ -438,6 +453,7 @@ export default class Application extends React.Component {
       if (xhr.status === 200) {
         form.reset();
         this.setState({ status: "SUCCESS" });
+        
       } else {
         this.setState({ status: "ERROR" });
       }
