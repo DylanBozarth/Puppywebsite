@@ -48,22 +48,22 @@ export const Navigation = () => {
                 <DropdownMenu right>
                   <DropdownItem>
                     <NavLink href="/about">
-                      <NavItem>About us</NavItem>
+                      <NavItem  className="navdropdown">About us</NavItem>
                     </NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     <NavLink href="/breedinfo">
-                      <NavItem>About Doodles</NavItem>
+                      <NavItem  className="navdropdown">About Doodles</NavItem>
                     </NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     <NavLink href="/affliates">
-                      <NavItem>Our Affliates</NavItem>
+                      <NavItem  className="navdropdown">Our Affliates</NavItem>
                     </NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     <NavLink href="/rainbowbridge">
-                      <NavItem>Our past greats</NavItem>
+                      <NavItem  className="navdropdown">Our past greats</NavItem>
                     </NavLink>
                   </DropdownItem>
                 </DropdownMenu>
