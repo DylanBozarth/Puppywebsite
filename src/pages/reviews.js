@@ -8,6 +8,7 @@ function Reviews({propdata}) {
   const reviews = _.get(propdata, "reviews", []);
 
   return( 
+    <div className="container-fluid breedinfopage">
 <div className="row puppyrow no-gutters prva">
    
   
@@ -25,7 +26,7 @@ function Reviews({propdata}) {
               <p className="cardesc">{reviews.description}</p>
             </div>
           ))}
-        </div>
+        </div></div>
   )
 
 }
