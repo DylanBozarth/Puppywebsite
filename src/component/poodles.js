@@ -22,8 +22,7 @@ function Poodles({ propdata }) {
             <div className="col-sm-4" style={{ width: "20rem" }} key={poodles.name}>
               <img
                 className="homecard frame"
-                height="300px"
-                width="280px"
+               
                 src={poodles.image}
                 alt={poodles.name}
               />

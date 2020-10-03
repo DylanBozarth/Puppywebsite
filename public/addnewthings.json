@@ -1,39 +1,67 @@
 {
+  "Newlitter": [
+    
+    {
+      "name": "Poodle 1",
+      "description": "Cute",
+      "image": "./puppies/shiba.jpg",
+      "Borndate": "may 6th 1950"
+    },
+    {
+      "name": "Poodle 1",
+      "description": "Cute",
+      "image": "./puppies/shiba.jpg"
+    },
+    {
+      "name": "Poodle 1",
+      "description": "Cute",
+      "image": "./puppies/shiba.jpg"
+    },
+    {
+      "name": "Poodle 1",
+      "description": "Cute",
+      "image": "./puppies/shiba.jpg"
+    },
+    {
+      "name": "Poodle 1",
+      "description": "Cute",
+      "image": "./puppies/shiba.jpg"
+    },
+    {
+      "name": "Poodle 1",
+      "description": "Cute",
+      "image": "./puppies/shiba.jpg"
+    }
+  ],
   "poodles": [
     {
       "name": "Poodle 1",
       "description": "Cute",
-      "price": 10,
       "image": "./puppies/shiba.jpg"
     },
     {
       "name": "hot doge 2",
       "description": " he great",
-      "price": 10,
-      "image": "./puppies/shiba.jpg"
+      "image": "./puppies/doodle.jpg"
     },
     {
       "name": "hot doge 3",
       "description": " he great",
-      "price": 10,
-      "image": "./puppies/shiba.jpg"
+      "image": "./puppies/bluebow.jpg"
     },
     {
       "name": "hot doge 4",
       "description": " he great",
-      "price": 10,
-      "image": "./puppies/shiba.jpg"
+      "image": "./puppies/golddoodle.jpg"
     },
     {
       "name": "WEWEWE",
       "description": " he great",
-      "price": 10,
       "image": "./puppies/shiba.jpg"
     },
     {
       "name": "haaaaa",
       "description": " he great",
-      "price": 10,
       "image": "./puppies/shiba.jpg"
     }
   ],
@@ -41,37 +69,31 @@
     {
       "name": "Great doodles",
       "description": "yes",
-      "price": 10,
       "image": "./puppies/doodle.jpg"
     },
     {
       "name": "hot doge 2",
       "description": " he great",
-      "price": 10,
       "image": "./puppies/doodle.jpg"
     },
     {
       "name": "hot doge 3",
       "description": " he great",
-      "price": 10,
       "image": "./puppies/doodle.jpg"
     },
     {
       "name": "hot doge 4",
       "description": " he great",
-      "price": 10,
       "image": "./puppies/doodle.jpg"
     },
     {
       "name": "WEWEWE",
       "description": " he great",
-      "price": 10,
       "image": "./puppies/doodle.jpg"
     },
     {
       "name": "haaaaa",
       "description": " he great",
-      "price": 10,
       "image": "./puppies/doodle.jpg"
     }
   ],
@@ -79,37 +101,31 @@
     {
       "name": "GoldenDoodle",
       "description": "Best",
-      "price": 10,
       "image": "./puppies/golddoodle.jpg"
     },
     {
       "name": "hot doge 2",
       "description": " he great",
-      "price": 10,
       "image": "./puppies/golddoodle.jpg"
     },
     {
       "name": "hot doge 3",
       "description": " he great",
-      "price": 10,
       "image": "./puppies/golddoodle.jpg"
     },
     {
       "name": "hot doge 4",
       "description": " he great",
-      "price": 10,
       "image": "./puppies/golddoodle.jpg"
     },
     {
       "name": "WEWEWE",
       "description": " he great",
-      "price": 10,
       "image": "./puppies/golddoodle.jpg"
     },
     {
       "name": "haaaaa",
       "description": " he great",
-      "price": 10,
       "image": "./puppies/golddoodle.jpg"
     }
   ],

@@ -21,8 +21,7 @@ function Goldendoodles({ propdata }) {
             <div className="col-sm-4 " key={goldendoodles.name}>
               <img
                 className="homecard frame"
-                height="330px"
-                width="280px"
+               
                 src={goldendoodles.image}
                 alt={goldendoodles.name}
               />

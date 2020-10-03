@@ -14,8 +14,7 @@ function PuppySeg() {
             <StyledNavLink to="/about" className="nohighlight">
               <img
                 className="homecard img-fluid"
-                height="350px"
-                width="350px"
+               
                 alt="puppy"
                 src="./assets/homecardabout.png"
               ></img>
@@ -35,8 +34,7 @@ function PuppySeg() {
             <StyledNavLink to="/puppies" className="nohighlight">
               <img
                 className="homecard img-fluid"
-                height="350px"
-                width="350px"
+                
                 src="./assets/puppycard.png"
                 alt="puppy"
               ></img>
@@ -60,8 +58,7 @@ function PuppySeg() {
             >
               <img
                 className="homecard  img-fluid"
-                height="350px"
-                width="350px"
+                
                 alt="puppy"
                 src="./assets/pawtreecard.png"
               ></img>

@@ -580,12 +580,18 @@ $scale-base-1: (1 + $scale / 100%);
   
 
   color: #fff;
-  left: 00%; // you can modify this value to center the text
+  left: 200%; // you can modify this value to center the text
   bottom: 0%;
   line-height: 1;
  
   position: absolute;
  
+}
+.slider {
+  width: 100% !important;
+  background-image: url('./dots.png'); 
+  background-size: 100%;
+  padding-bottom :-10vh;
 }
   /* end of mobile stuf */ 
 }

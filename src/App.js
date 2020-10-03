@@ -16,6 +16,7 @@ import Labradoodles from "./component/labradoodles";
 import Goldendoodles from "./component/goldendoodles";
 import Affliates from "./pages/affliates";
 import Reviews from "./pages/reviews";
+import Newlitter from "./pages/litter";
 
 
 class App extends Component {
@@ -86,6 +87,13 @@ class App extends Component {
           path="/goldendoodles"
           render={(props) => (
             <Goldendoodles {...props} propdata={this.state.propdata} />
+          )}
+        />
+        <Route
+          exact
+          path="/litter"
+          render={(props) => (
+            <Newlitter {...props} propdata={this.state.propdata} />
           )}
         />
          <Route
