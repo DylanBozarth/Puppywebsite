@@ -26,7 +26,7 @@ export const Footer = () => (
 
         
 
-        <div className="col-xs-6 col-md-3">
+        <div className="footerlinks ">
           <h6  className="center">Quick Links</h6>
           <ul className="footer-links">
             <li><NavLink href="/puppies" className="footerlink">All Puppies</NavLink></li>
@@ -41,7 +41,7 @@ export const Footer = () => (
     <div className="container">
       <div className="row">
         <div className="col-md-8 col-sm-6 col-xs-12">
-          <p className="copyright-text" style={{textAlign: "right"}}>Copyright &copy; 2020 All Rights Reserved by 
+          <p className="copyright-text" >Copyright &copy; 2020 All Rights Reserved by 
        JYMR doodles
           </p>
         </div>
