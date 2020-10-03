@@ -490,6 +490,16 @@ $scale-base-1: (1 + $scale / 100%);
 
 
 @media only screen and (max-width: 600px) {
+  .site-footer
+{
+  background-image: url('./paperheader.jpg') !important;
+  background-size: 70%;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:black !important;
+  margin-top: 3vh;
+}
   .navbarmaster {
     
   z-index: 99;
@@ -633,6 +643,10 @@ $scale-base-1: (1 + $scale / 100%);
 .homecardbot {
   border: 2px solid $grey;
 }
+.homecard {
+  height: 20rem;
+  width: 18rem;
+}
 .homecard:hover {
   box-shadow: 0 20px 60px 0 rgba(0,0,0,.4);
   -webkit-transform: translate(0,-10px);
@@ -771,11 +785,10 @@ text-align: center;
 .breedinfo {
 color:white;
 -webkit-text-stroke: 1.5px black;
-height: 45vh;
+text-align: center;
 }
 .breedinfoimg {
-  max-width: 30vw;
-  max-height: 30vh;
+  height: 50rem;
 }
 .breedinfopage {
   background-image: url('./pawcolor.png');
