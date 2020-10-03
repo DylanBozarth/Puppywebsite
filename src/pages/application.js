@@ -421,8 +421,8 @@ export default class Application extends React.Component {
            
           </div>
           <div className="formsection">
-            <textarea type='text' name="Family info" placeholder={'Tell us about your family!'}></textarea>
-            <textarea type="text" name="Comments or questions" placeholder={'Comments or questions'}></textarea>
+            <textarea type='text' rows="4" cols="50" name="Family info" placeholder={'Tell us about your family!'}></textarea>
+            <textarea type="text" rows="4" cols="50" name="Comments or questions" placeholder={'Comments or questions'}></textarea>
           </div>
           {status === "SUCCESS" ? <p>{alert('Thank you, We will contact you shortly!')}</p>: <button >Submit</button>}
           {status === "ERROR" && <p>{alert('please fill out the form completely')}</p>}
