@@ -308,7 +308,8 @@ $scale-base-1: (1 + $scale / 100%);
   margin-top: -1vh;
   height: 73vh;
   overflow: hidden;
-  border: 20px solid transparent;
+  border-style: solid;
+  border-width: 20px;
   border-bottom: 25px solid transparent;
   border-image: url('./whitesquare.png') 65 round;
 }
