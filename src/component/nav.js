@@ -66,6 +66,16 @@ export const Navigation = () => {
                       <NavItem  className="navdropdown">Our past greats</NavItem>
                     </NavLink>
                   </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/guardians">
+                      <NavItem  className="navdropdown">Puppy Guardians</NavItem>
+                    </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/FAQ">
+                      <NavItem  className="navdropdown">FAQ</NavItem>
+                    </NavLink>
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
 

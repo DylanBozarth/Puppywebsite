@@ -17,6 +17,8 @@ import Goldendoodles from "./component/goldendoodles";
 import Affliates from "./pages/affliates";
 import Reviews from "./pages/reviews";
 import Newlitter from "./pages/litter";
+import FAQ from "./pages/faq";
+import Guardians from "./pages/guardians";
 
 
 class App extends Component {
@@ -107,6 +109,8 @@ class App extends Component {
         <Route exact path="/application" component={Application} />
         <Route exact path="/breedinfo" component={BreedInfo} />
         <Route exact path="/affliates" component={Affliates} />
+        <Route exact path="/FAQ" component={FAQ} />
+        <Route exact path="/guardians" component={Guardians} />
         <Route
           exact
           path="/rainbowbridge"
