@@ -25,7 +25,7 @@ export default class Application extends React.Component {
           Deposits are $500 and will be added to your final purchase price. If
           you have questions please CONTACT US!
         </h4>
-        <a href="dogcontract.docx" type="application/pdf">View puppy Contract</a>
+        <a href="dogcontract.docx" type="application/pdf" className="viewcontract">View puppy Contract</a>
         <form
           onSubmit={this.submitForm}
           action="https://formspree.io/xoqpajbk"
