@@ -90,7 +90,12 @@ export const Navigation = () => {
                   className="img-fluid navbone"
                 ></img>
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu >
+              <DropdownItem>
+                  <NavLink href="/litter">
+                    <NavItem className="navdropdown">New litter</NavItem>
+                  </NavLink>
+                </DropdownItem>
                 <DropdownItem>
                   <NavLink href="/puppies">
                     <NavItem className="navdropdown">All Puppies</NavItem>

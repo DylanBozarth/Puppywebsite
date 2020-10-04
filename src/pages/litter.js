@@ -13,7 +13,6 @@ function Newlitter({ propdata }) {
     <div className="container-fluid innerpage" >
       <div className="puppyseperator">
           <h1>Our newest Litter</h1>
-          <p>Born on {Newlitter.Borndate}</p>
         </div>
 
         <div className="row puppyrow no-gutters prva">
@@ -27,7 +26,7 @@ function Newlitter({ propdata }) {
                 alt={Newlitter.name}
               />
               <h1>{Newlitter.name}</h1>
-              <p>{Newlitter.price}</p>
+              <p>Born on {Newlitter.Borndate}</p>
 
               <p className="cardesc">{Newlitter.description}</p>
             </div>
