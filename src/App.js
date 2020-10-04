@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.scss";
-import {Navigation} from "./component/nav";
+import { Navigation } from "./component/nav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Puppies from "./pages/puppies";
 import Home from "./pages/home";
@@ -20,7 +20,6 @@ import Newlitter from "./pages/litter";
 import FAQ from "./pages/faq";
 import Guardians from "./pages/guardians";
 
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -28,7 +27,7 @@ class App extends Component {
       propdata: null,
     };
   }
-  
+
   componentDidMount() {
     fetch("/addnewthings.json")
       .then((res) => res.json())
@@ -38,88 +37,89 @@ class App extends Component {
           propdata: res,
         });
       });
-      
-
-      
   }
-  
-  render()
-   {
+
+  render() {
     return (
-      <div><BrowserRouter>
-       <div className="container">
-          <Navigation />
+      <div>
+        <BrowserRouter>
+          <div className="container">
+            <Navigation />
           </div>
-        
-        <Route
-          exact
-          path="/"
-          render={(props) => <Home {...props} propdata={this.state.propdata} />}
-        />
-        <Route
-          exact
-          path="/puppies"
-          render={(props) => (
-            <Puppies {...props} propdata={this.state.propdata} />
-          )}
-        />
-        <Route
-          exact
-          path="/parents"
-          render={(props) => (
-            <Parents {...props} propdata={this.state.propdata} />
-          )}
-        />
-        <Route
-          exact
-          path="/poodles"
-          render={(props) => (
-            <Poodles {...props} propdata={this.state.propdata} />
-          )}
-        />
-        <Route
-          exact
-          path="/labradoodles"
-          render={(props) => (
-            <Labradoodles {...props} propdata={this.state.propdata} />
-          )}
-        />
-        <Route
-          exact
-          path="/goldendoodles"
-          render={(props) => (
-            <Goldendoodles {...props} propdata={this.state.propdata} />
-          )}
-        />
-        <Route
-          exact
-          path="/litter"
-          render={(props) => (
-            <Newlitter {...props} propdata={this.state.propdata} />
-          )}
-        />
-         <Route
-          exact
-          path="/reviews"
-          render={(props) => (
-            <Reviews {...props} propdata={this.state.propdata} />
-          )}
-        />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/application" component={Application} />
-        <Route exact path="/breedinfo" component={BreedInfo} />
-        <Route exact path="/affliates" component={Affliates} />
-        <Route exact path="/FAQ" component={FAQ} />
-        <Route exact path="/guardians" component={Guardians} />
-        <Route
-          exact
-          path="/rainbowbridge"
-          render={(props) => (
-            <RainbowBridge {...props} propdata={this.state.propdata} />
-          )}
-        />
-      </BrowserRouter>
-      <Footer /></div>
+          <div className="page">
+            <Route
+              exact
+              path="/"
+              render={(props) => (
+                <Home {...props} propdata={this.state.propdata} />
+              )}
+            />
+            <Route
+              exact
+              path="/puppies"
+              render={(props) => (
+                <Puppies {...props} propdata={this.state.propdata} />
+              )}
+            />
+            <Route
+              exact
+              path="/parents"
+              render={(props) => (
+                <Parents {...props} propdata={this.state.propdata} />
+              )}
+            />
+            <Route
+              exact
+              path="/poodles"
+              render={(props) => (
+                <Poodles {...props} propdata={this.state.propdata} />
+              )}
+            />
+            <Route
+              exact
+              path="/labradoodles"
+              render={(props) => (
+                <Labradoodles {...props} propdata={this.state.propdata} />
+              )}
+            />
+            <Route
+              exact
+              path="/goldendoodles"
+              render={(props) => (
+                <Goldendoodles {...props} propdata={this.state.propdata} />
+              )}
+            />
+            <Route
+              exact
+              path="/litter"
+              render={(props) => (
+                <Newlitter {...props} propdata={this.state.propdata} />
+              )}
+            />
+            <Route
+              exact
+              path="/reviews"
+              render={(props) => (
+                <Reviews {...props} propdata={this.state.propdata} />
+              )}
+            />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/application" component={Application} />
+            <Route exact path="/breedinfo" component={BreedInfo} />
+            <Route exact path="/affliates" component={Affliates} />
+            <Route exact path="/FAQ" component={FAQ} />
+            <Route exact path="/guardians" component={Guardians} />
+            <Route
+              exact
+              path="/rainbowbridge"
+              render={(props) => (
+                <RainbowBridge {...props} propdata={this.state.propdata} />
+              )}
+            />
+          </div>
+        </BrowserRouter>
+        <Footer />
+      </div>
     );
   }
 }
