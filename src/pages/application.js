@@ -1,6 +1,5 @@
 import React from "react";
 
-import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 export default class Application extends React.Component {
   
@@ -9,9 +8,7 @@ export default class Application extends React.Component {
     this.submitForm = this.submitForm.bind(this);
     this.state = {
       status: "",
-      dogSize: "No preference",
     };
-    const notify = () => toast("Success!");
   }
   
   setDogSize = () => {
@@ -28,6 +25,7 @@ export default class Application extends React.Component {
           Deposits are $500 and will be added to your final purchase price. If
           you have questions please CONTACT US!
         </h4>
+        <a href="dogcontract.docx" type="application/pdf">View puppy Contract</a>
         <form
           onSubmit={this.submitForm}
           action="https://formspree.io/xoqpajbk"
@@ -201,7 +199,7 @@ export default class Application extends React.Component {
               <input
                 type="checkbox"
                 className="checkbox"
-                name="No preference"
+                name="No Gender preference"
               />
               <p className="checkbox">No Preference</p>
             </label>
@@ -424,7 +422,7 @@ export default class Application extends React.Component {
             <textarea type='text' rows="4" cols="50" name="Family info" placeholder={'Tell us about your family!'}></textarea>
             <textarea type="text" rows="4" cols="50"cd name="Comments or questions" placeholder={'Comments or questions'}></textarea>
           </div>
-          {status === "SUCCESS" ? <p>{alert('Thank you, We will contact you shortly!')}</p>: <button >Submit</button>}
+          {status === "SUCCESS" ? <p>{alert('Thank you, We will contact you shortly!')}</p> : <button >Submit</button>}
           {status === "ERROR" && <p>{alert('please fill out the form completely')}</p>}
         </form>
       </div>
