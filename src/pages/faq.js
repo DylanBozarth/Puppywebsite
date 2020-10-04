@@ -2,7 +2,7 @@ import React from "react";
 
 function FAQ() {
   return (
-    <div className=" answerpage">
+    <div className=" answerpage  innerpage">
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm-4">

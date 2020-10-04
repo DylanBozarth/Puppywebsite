@@ -112,13 +112,13 @@ export const Navigation = () => {
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="/goldendoodles">
-                    <NavItem className="navdropdown">Goldendoodles</NavItem>
+                  <NavLink href="/goldendoodles"className="navdropdown">
+                    <NavItem >Goldendoodles</NavItem>
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="/application">
-                    <NavItem className="navdropdown">Application</NavItem>
+                  <NavLink href="/application" className="navdropdown">
+                  <NavItem > Application</NavItem>
                   </NavLink>
                 </DropdownItem>
               </DropdownMenu>

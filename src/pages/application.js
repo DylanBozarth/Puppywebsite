@@ -422,7 +422,7 @@ export default class Application extends React.Component {
             <textarea type='text' rows="4" cols="50" name="Family info" placeholder={'Tell us about your family!'}></textarea>
             <textarea type="text" rows="4" cols="50"cd name="Comments or questions" placeholder={'Comments or questions'}></textarea>
           </div>
-          {status === "SUCCESS" ? <p>{alert('Thank you, We will contact you shortly!')}</p> : <button >Submit</button>}
+          {status === "SUCCESS" ? <p>Form submitted, Thank you!</p> : <button >Submit</button>}
           {status === "ERROR" && <p>{alert('please fill out the form completely')}</p>}
         </form>
       </div>
@@ -440,10 +440,12 @@ export default class Application extends React.Component {
       if (xhr.readyState !== XMLHttpRequest.DONE) return;
       if (xhr.status === 200) {
         form.reset();
-        this.setState({ status: "SUCCESS" });
+        this.setState({ status: "SUCCESS" })
+        alert('Thank you, we will contact you shortly!');
         
       } else {
-        this.setState({ status: "ERROR" });
+        this.setState({ status: "ERROR" }) 
+        alert('Please fill out the form completely');
       }
     };
     xhr.send(data);
