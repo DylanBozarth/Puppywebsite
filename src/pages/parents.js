@@ -27,7 +27,7 @@ function Parents({ propdata }) {
                 alt={parents.name}
               />
               <h1>{parents.name}</h1>
-              <p>{parents.age}</p>
+              <p className="puppysubtitle">{parents.age}</p>
 
               <p className="cardesc">{parents.description}</p>
             <div className="col-2"></div></div>

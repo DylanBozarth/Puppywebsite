@@ -672,11 +672,20 @@ $scale-base-1: (1 + $scale / 100%);
 }
 .puppyname {
   color: white;
-  -webkit-text-stroke: 1px black;
+  text-shadow:
+  0.05em 0 black,
+  0 0.05em black,
+  -0.05em 0 black,
+  0 -0.05em black,
+  -0.05em -0.05em black,
+  -0.05em 0.05em black,
+  0.05em -0.05em black,
+  0.05em 0.05em black;
 }
 .puppysubtitle {
-  color: white;
-  -webkit-text-stroke: 1.5px black;
+  color: whitesmoke; 
+  text-shadow: black 0px 0px 5px;
+  font-size: 4vh;
 }
 .geturown {
    background-image: url('./quoteborder.png');
