@@ -27,8 +27,8 @@ function Puppies({ propdata }) {
                 src={poodles.image}
                 alt={poodles.name}
               />
-              <h1>{poodles.name}</h1>
-              <p>{poodles.price}</p>
+              <h1 className="puppyname">{poodles.name}</h1>
+              <p className="puppysubtitle">{poodles.price}</p>
 
               <p className="cardesc">{poodles.description}</p>
             </div>
@@ -50,8 +50,8 @@ function Puppies({ propdata }) {
                 src={labradoodles.image}
                 alt={labradoodles.name}
               />
-              <h1>{labradoodles.name}</h1>
-              <p>{labradoodles.price}</p>
+              <h1 className="puppyname">{labradoodles.name}</h1>
+              <p className="puppysubtitle">{labradoodles.price}</p>
 
               <p className="cardesc">{labradoodles.description}</p>
             </div>
@@ -73,8 +73,8 @@ function Puppies({ propdata }) {
                 src={goldendoodles.image}
                 alt={goldendoodles.name}
               />
-              <h1>{goldendoodles.name}</h1>
-              <p>{goldendoodles.price}</p>
+              <h1 className="puppyname">{goldendoodles.name}</h1>
+              <p className="puppysubtitle">{goldendoodles.price}</p>
 
               <p className="cardesc">{goldendoodles.description}</p>
             </div>

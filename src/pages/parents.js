@@ -26,7 +26,7 @@ function Parents({ propdata }) {
                 src={parents.image}
                 alt={parents.name}
               />
-              <h1>{parents.name}</h1>
+              <h1 className="puppyname">{parents.name}</h1>
               <p className="puppysubtitle">{parents.age}</p>
 
               <p className="cardesc">{parents.description}</p>
@@ -50,8 +50,8 @@ function Parents({ propdata }) {
                 src={parents.image}
                 alt={parents.name}
               />
-              <h1>{parents.name}</h1>
-              <p>{parents.age}</p>
+              <h1 className="puppyname">{parents.name}</h1>
+              <p className="puppysubtitle">{parents.age}</p>
 
               <p className="cardesc">{parents.description}</p>
             <div className="col-2"></div></div>
@@ -74,8 +74,8 @@ function Parents({ propdata }) {
                 src={parents.image}
                 alt={parents.name}
               />
-              <h1>{parents.name}</h1>
-              <p>{parents.age}</p>
+              <h1 className="puppyname">{parents.name}</h1>
+              <p className="puppysubtitle">{parents.age}</p>
 
               <p className="cardesc">{parents.description}</p>
             <div className="col-2"></div></div>

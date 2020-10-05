@@ -25,7 +25,7 @@ function Newlitter({ propdata }) {
                 src={Newlitter.image}
                 alt={Newlitter.name}
               />
-              <h1>{Newlitter.name}</h1>
+              <h1 className="puppyname">{Newlitter.name}</h1>
               <p  className="puppysubtitle">Born on {Newlitter.Borndate}</p>
 
               <p className="cardesc">{Newlitter.description}</p>
