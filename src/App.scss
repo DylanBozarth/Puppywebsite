@@ -1060,3 +1060,19 @@ cursor: pointer;
     z-index: 1;
     padding-top: 5vh;
   }
+  /* faq */ 
+  .FAQtitle {
+    text-align: center;
+    color: whitesmoke; 
+    text-shadow: black 0px 0px 5px;
+  }
+.Collapsible {
+  padding-bottom: 10vh;
+  text-align: center;
+}
+  .Collapsible__trigger  {
+    text-align: center;
+ color: whitesmoke; 
+ text-shadow: black 0px 0px 5px;
+ font-size: 4vh;
+  }
