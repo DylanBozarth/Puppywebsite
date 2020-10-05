@@ -1,26 +1,15 @@
 import React from "react";
+import Collapsible from 'react-collapsible';
+
 
 function FAQ() {
   return (
     <div className=" answerpage  innerpage">
       <div className="container-fluid">
-        <div className="row">
-          <div className="col-sm-4">
-          <h1 className="question">Do I have to love my dog unconditionally?</h1>
-           
-          <p className="answertext">  Yes, it's required by law. </p>
-          </div>
-          <div className="col-sm-4">
-          <h1 className="question">Do I have to love my dog unconditionally?</h1>
-        
-          <p className="answertext">  Yes, it's required by law. </p>
-          </div>
-          <div className="col-sm-4">
-          <h1 className="question">Do I have to love my dog unconditionally?</h1>
-           
-          <p className="answertext">  Yes, it's required by law. </p>
-          </div>
-        </div>
+      <Collapsible trigger="Start here">
+        <p>This is the collapsible content. It can be any element or React component you like.</p>
+        <p>It can even be another Collapsible component. Check out the next section!</p>
+      </Collapsible>
       </div>
     </div>
   );

@@ -372,8 +372,10 @@ $scale-base-1: (1 + $scale / 100%);
   -webkit-transform: translate(0,-10px);
   transform: translate(0,-5px);
 }
+
 .homeinfo {
   color: black !important;
+  font-size: 3vh;
 }
 .arrows {
   margin-left: -30px;
@@ -651,7 +653,7 @@ $scale-base-1: (1 + $scale / 100%);
   border: 2px solid $grey;
 }
 .homecard {
-  height: 20rem;
+  height: 23rem;
   width: 18rem;
 }
 .homecard:hover {

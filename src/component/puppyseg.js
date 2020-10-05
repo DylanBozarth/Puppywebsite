@@ -49,13 +49,14 @@ function PuppySeg() {
     ><MdKeyboardArrowRight  /> <MdKeyboardArrowRight /> <MdKeyboardArrowRight /></IconContext.Provider>
             </StyledNavLink>
           </div>
-          <div className="col-sm-4 ">
+          <div className="col-sm-4 zoomin">
             <a
               href="https://www.pawtree.com/jymrdoodles"
               target="_blank"
               className="nohighlight"
               rel="noopener noreferrer"
             >
+              
               <img
                 className="homecard  img-fluid"
                 
