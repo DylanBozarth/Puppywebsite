@@ -1,6 +1,7 @@
 import React from "react";
 import Collapsible from "react-collapsible";
-
+import { MdKeyboardArrowRight } from "react-icons/md";
+import { IconContext } from "react-icons";
 function FAQ() {
   return (
     <div className=" answerpage  innerpage">
@@ -19,7 +20,7 @@ function FAQ() {
               <p className="puppysubtitle">Yes. </p>
             
             </Collapsible>
-            <Collapsible  trigger="Will the dog love me unconditionally?  "  >
+            <Collapsible  trigger="Will the dog love me unconditionally?"   >
               <p className="puppysubtitle">Yes, or your money back.</p>
             
             </Collapsible>
