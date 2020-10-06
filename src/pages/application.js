@@ -1,5 +1,9 @@
 import React from "react";
 import 'react-toastify/dist/ReactToastify.css';
+import {
+  NavLink
+} from "reactstrap";
+
 export default class Application extends React.Component {
   
   constructor(props) {
@@ -22,12 +26,13 @@ export default class Application extends React.Component {
           Deposits are $500 and will be added to your final purchase price. If
           you have questions please CONTACT US!
         </h4>
-       
+       <NavLink href="/puppycontract">View Puppy Contract</NavLink>
         <form
           onSubmit={this.submitForm}
           action="https://formspree.io/xoqpajbk"
           method="POST"
         >
+
           <div className="forminputs ">
             <div className="formsection">
               <h3 className="formtitle">Your Contact information</h3>
