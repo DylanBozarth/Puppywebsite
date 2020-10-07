@@ -20,6 +20,7 @@ import Newlitter from "./pages/litter";
 import FAQ from "./pages/faq";
 import Guardians from "./pages/guardians";
 import PuppyContract from './component/puppycontract'
+import GuardianContract from "./component/guardianContract";
 
 class App extends Component {
   constructor(props) {
@@ -111,6 +112,7 @@ class App extends Component {
             <Route exact path="/FAQ" component={FAQ} />
             <Route exact path="/guardians" component={Guardians} />
             <Route exact path="/puppycontract" component={PuppyContract} />
+            <Route exact path="/guardiancontract" component={GuardianContract} />
             <Route
               exact
               path="/rainbowbridge"

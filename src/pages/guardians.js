@@ -1,5 +1,7 @@
 import React from "react";
-
+import {
+  NavLink
+} from "reactstrap";
 function Guardians() {
   return (
     <div className="container-fluid innerpage">
@@ -37,13 +39,7 @@ function Guardians() {
             </p>
           </div>
         </div>
-        <a
-        href="dogcontract.docx"
-        type="application/pdf"
-        className="viewcontract"
-      >
-        View Our Guardian's Contracts
-      </a>
+        <NavLink href="/guardiancontract">View Guardian's Contract</NavLink>
       </div>
     </div>
   );
