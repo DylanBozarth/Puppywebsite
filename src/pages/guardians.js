@@ -39,7 +39,7 @@ function Guardians() {
             </p>
           </div>
         </div>
-        <NavLink href="/guardiancontract">View Guardian's Contract</NavLink>
+        <NavLink href="/guardiancontract" className="contractlink wipe">View Guardian's Contract</NavLink>
       </div>
     </div>
   );

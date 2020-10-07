@@ -1,7 +1,5 @@
 import React from "react";
 import Collapsible from "react-collapsible";
-import { MdKeyboardArrowRight } from "react-icons/md";
-import { IconContext } from "react-icons";
 function FAQ() {
   return (
     <div className=" answerpage  innerpage">
