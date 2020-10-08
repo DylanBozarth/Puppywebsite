@@ -22,8 +22,7 @@ function Puppies({ propdata }) {
             <div className="col-sm-4" style={{ width: "20rem" }} key={poodles.name}>
               <img
                 className="homecard puppycard frame"
-                height="300px"
-                width="280px"
+                
                 src={poodles.image}
                 alt={poodles.name}
               />
@@ -45,8 +44,7 @@ function Puppies({ propdata }) {
             <div className="col-sm-4" style={{ width: "20rem" }} key={labradoodles.name}>
               <img
                 className="homecard frame"
-                height="300px"
-                width="280px"
+                
                 src={labradoodles.image}
                 alt={labradoodles.name}
               />
@@ -68,8 +66,7 @@ function Puppies({ propdata }) {
             <div className="col-sm-4" style={{ width: "20rem" }} key={goldendoodles.name}>
               <img
                 className="homecard frame"
-                height="300px"
-                width="280px"
+               
                 src={goldendoodles.image}
                 alt={goldendoodles.name}
               />
