@@ -1,6 +1,5 @@
 {
   "Newlitter": [
-    
     {
       "name": "Poodle 1",
       "description": "Cute",
@@ -18,6 +17,12 @@
       "description": "Cute",
       "image": "./puppies/flower.jpg",
       "Borndate": "June 11th 1995"
+    },
+    {
+      "name": "Poodle 1",
+      "description": "Cute",
+      "image": "./puppies/shiba.jpg",
+      "Borndate": "may 6th 1950"
     },
     {
       "name": "Poodle 1",
@@ -136,20 +141,17 @@
   ],
   "pastdogs": [
     {
-      
       "description": " Buddy, Dog given to the king of England",
       "original": "./puppies/firstday.jpg"
     },
     {
-      "name": "Steve",
       "description": "Wonderful dog to a wonderful family in Spokane Washington",
-      "year": "1999-2020",
+
       "original": "./puppies/shiba.jpg"
     },
     {
-      "name": "Craig",
       "description": "Wonderful dog to a wonderful family in Spokane Washington",
-      "year": "1999-2020",
+
       "original": "./puppies/shiba.jpg"
     }
   ],
