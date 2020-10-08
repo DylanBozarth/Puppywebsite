@@ -7,7 +7,7 @@ import _ from "lodash";
 function Poodles({ propdata }) {
   const poodles = _.get(propdata, "poodles", []);
   
-  useFavicon('./puppies/flower.jpg');
+  useFavicon('./assets/poodleiconfinal.png');
   useTitle("World class Poodles");
 
   return (

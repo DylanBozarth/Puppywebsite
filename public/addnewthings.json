@@ -142,16 +142,17 @@
   "pastdogs": [
     {
       "description": " Buddy, Dog given to the king of England",
+      "Original is the photo": "",
       "original": "./puppies/firstday.jpg"
     },
     {
       "description": "Wonderful dog to a wonderful family in Spokane Washington",
-
+      "Original is the photo": "",
       "original": "./puppies/shiba.jpg"
     },
     {
       "description": "Wonderful dog to a wonderful family in Spokane Washington",
-
+      "Original is the photo": "",
       "original": "./puppies/shiba.jpg"
     }
   ],

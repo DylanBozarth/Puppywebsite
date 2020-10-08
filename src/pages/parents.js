@@ -21,8 +21,7 @@ function Parents({ propdata }) {
             >
               <img
                 className="homecard frame"
-                height="350px"
-                width="250px"
+                
                 src={parents.image}
                 alt={parents.name}
               />
@@ -45,8 +44,7 @@ function Parents({ propdata }) {
             >
               <img
                 className="homecard frame"
-                height="350px"
-                width="250px"
+               
                 src={parents.image}
                 alt={parents.name}
               />
@@ -69,8 +67,7 @@ function Parents({ propdata }) {
             >
               <img
                 className="homecard frame"
-                height="350px"
-                width="250px"
+                
                 src={parents.image}
                 alt={parents.name}
               />

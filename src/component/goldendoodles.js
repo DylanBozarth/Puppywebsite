@@ -1,11 +1,13 @@
 import React from "react";
 import useTitle from "../hooks/useTitle";
 
+import useFavicon from "../hooks/useFavicon";
 import _ from "lodash";
 
 function Goldendoodles({ propdata }) {
   const goldendoodles = _.get(propdata, "goldendoodles", []);
 
+  useFavicon('./assets/goldendoodleiconfinal.png');
   useTitle("Your Next Dog");
 
   return (
