@@ -1,6 +1,9 @@
 import React from "react";
 import Collapsible from "react-collapsible";
-function FAQ() {
+
+import _ from "lodash";
+function FAQPAGE({propdata}) {
+  const Faq = _.get(propdata, "Faq", []);
   return (
     <div className=" answerpage  innerpage">
       <div className="container-fluid">
@@ -9,19 +12,19 @@ function FAQ() {
             
           </div>
           <div className="col-lg-4">
-            <h1 className="FAQtitle">Frequently Asked Questions</h1>
-            <Collapsible  trigger="Will these dogs be cute? "  >
-              <p className="puppysubtitle">Oh man, you have no idea. The cutest dogs, let me tell you. --Michelle </p>
+            <h1 className="Faqtitle">Frequently Asked Questions</h1>
+            {Faq.map((Faq) => (
+            <div className=""  key={Faq.answer}>
+             
+             <Collapsible  trigger={Faq.question} >
+              <p className="puppysubtitle">{Faq.answer} </p>
             
             </Collapsible>
-            <Collapsible trigger="Do they play fetch "  >
-              <p className="puppysubtitle">Yes. </p>
-            
-            </Collapsible>
-            <Collapsible  trigger="Will the dog love me unconditionally?"   >
-              <p className="puppysubtitle">Yes, or your money back.</p>
-            
-            </Collapsible>
+
+            </div>
+          ))}
+    
+           
           </div>
           <div className="col-lg-4">
             
@@ -31,4 +34,4 @@ function FAQ() {
     </div>
   );
 }
-export default FAQ;
+export default FAQPAGE;

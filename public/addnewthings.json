@@ -1,4 +1,21 @@
-{
+{ 
+  "Faq": [
+  {
+    "question": "SAMPLE TEXTSAMPLE EXTSAMPLE TEXTSAMPLE TEXTSAMPLE TEXT",
+    "answer": "Cute"
+    
+  },
+  {
+    "question": "Poodle 1",
+    "answer": "Cute"
+    
+  },
+  {
+    "question": "Poodle 1",
+    "answer": "Cute"
+    
+  }
+],
   "Newlitter": [
     {
       "name": "Poodle 1",

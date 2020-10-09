@@ -209,14 +209,8 @@ export default class Application extends React.Component {
           <div className="formsection">
             <h6 className="formtitle">Do you have a color preference?</h6>
             <label>
-              <input
-                type="checkbox"
-                className="checkbox"
-                name="Color preference"
-              />
-              <p className="checkbox">
-                Yes! (I will describe in the comments){" "}
-              </p>
+            
+              <textarea type='text' rows="2" cols="45" name="Color Preference" placeholder={'If so, describe what color here'}></textarea>
             </label>
             <label>
               <input
