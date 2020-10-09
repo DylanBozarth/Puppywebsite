@@ -12,7 +12,7 @@ function FAQPAGE({propdata}) {
             
           </div>
           <div className="col-lg-4">
-            <h1 className="Faqtitle">Frequently Asked Questions</h1>
+            <h1 className="FAQtitle">Frequently Asked Questions</h1>
             {Faq.map((Faq) => (
             <div className=""  key={Faq.answer}>
              

@@ -6,6 +6,7 @@ import _ from "lodash";
 
 function Poodles({ propdata }) {
   const poodles = _.get(propdata, "poodles", []);
+  const poodlewaitlist = _.get(propdata, "poodlewaitlist", []);
   
   useFavicon('./assets/poodleiconfinal.png');
   useTitle("World class Poodles");
@@ -33,7 +34,16 @@ function Poodles({ propdata }) {
             </div>
           ))}
         </div>
-      
+       
+        {poodlewaitlist.map((poodlewaitlist) => (
+            <div className="col-sm-4" style={{ width: "20rem" }} key={poodlewaitlist.name}>
+            
+              <h1 className="puppyname">{poodlewaitlist.name}</h1>
+
+              <p className="puppysubtitle">{poodlewaitlist.date}</p>
+            </div>
+          ))}
+          
     </div>
   );
 }

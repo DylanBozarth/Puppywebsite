@@ -126,6 +126,7 @@ class App extends Component {
                 <RainbowBridge {...props} propdata={this.state.propdata} />
               )}
             />
+            
           </div>
         </BrowserRouter>
         <Footer />

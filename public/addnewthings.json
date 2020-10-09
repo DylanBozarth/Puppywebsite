@@ -1,21 +1,18 @@
-{ 
+{
   "Faq": [
-  {
-    "question": "SAMPLE TEXTSAMPLE EXTSAMPLE TEXTSAMPLE TEXTSAMPLE TEXT",
-    "answer": "Cute"
-    
-  },
-  {
-    "question": "Poodle 1",
-    "answer": "Cute"
-    
-  },
-  {
-    "question": "Poodle 1",
-    "answer": "Cute"
-    
-  }
-],
+    {
+      "question": "SAMPLE TEXTSAMPLE EXTSAMPLE TEXTSAMPLE TEXTSAMPLE TEXT",
+      "answer": "Cute"
+    },
+    {
+      "question": "Poodle 1",
+      "answer": "Cute"
+    },
+    {
+      "question": "Poodle 1",
+      "answer": "Cute"
+    }
+  ],
   "Newlitter": [
     {
       "name": "Poodle 1",
@@ -91,6 +88,11 @@
       "description": " he great",
       "image": "./puppies/shiba.jpg"
     }
+  ],
+  "poodlewaitlist": [
+    { "name": "haaaaa", "date": "some time" },
+    { "name": "haaaaa", "date": "some time" },
+    { "name": "haaaaa", "date": "some time" }
   ],
   "labradoodles": [
     {
@@ -224,7 +226,7 @@
       "testimonial": "Rosie is the best dog! She is really cute and cuddly! And she likes to lick a lot! I’m so grateful to have her. She is my best friend and the best dog I could ever have! Love her so much!",
 
       "image": "./puppies/rosebudreview.jpg",
-      
+
       "owner": "Alexander, Age 7"
     },
     {
