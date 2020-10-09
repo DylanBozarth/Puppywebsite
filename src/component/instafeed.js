@@ -17,13 +17,20 @@ function Instafeed() {
         
           {" "}
           <div className="cover container-fluid">
+            <div className="row">
+              <div className='col'>
           <NavLink href="https://www.instagram.com/jymr_doodles/" alt="instagramlogo" className="nohighlight">
            <img className="img-fluid instalogo"   alt="instagram" src="./assets/instagramlogo.png"></img>
            </NavLink>
-
+           </div>
+              <div className='col'>
+          <NavLink href="https://www.facebook.com/JYMRdoodles/" alt="instagramlogo" className="nohighlight">
+           <img className="img-fluid fblogo"    alt="instagram" src="./assets/facebook.png"></img>
+           </NavLink>
+           </div>
+              
+           
           </div>
-          <div className="instagrambox container-fluid">
-          <div className="elfsight-app-343de7b1-10c9-4569-80a1-2e487a1d8b07 instafeed"></div>
           </div>
         
       </div>  

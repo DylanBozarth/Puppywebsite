@@ -595,6 +595,7 @@ $scale-base-1: (1 + $scale / 100%);
    height: 40vh;
 
  }
+
  .image-gallery-slide .image-gallery-description {
   
 
@@ -716,17 +717,12 @@ $scale-base-1: (1 + $scale / 100%);
   background-size: 100%; 
   background-repeat: no-repeat;
   height: 25vh;
-  margin-bottom: -7vh;
-  position: absolute;
-  width: 105vw;
+ 
   z-index: 50;
   text-align: center;
   color: black !important;
 }
-.instagrambox {
-  height: 66vh;
-  padding-top: 14vh;
-}
+
 
 /* about segment */ 
 .abouttitle {
