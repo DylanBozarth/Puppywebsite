@@ -108,7 +108,13 @@ class App extends Component {
             <Route exact path="/about" component={About} />
             <Route exact path="/application" component={Application} />
             <Route exact path="/breedinfo" component={BreedInfo} />
-            <Route exact path="/affliates" component={Affliates} />
+            <Route
+              exact
+              path="/affliates"
+              render={(props) => (
+                <Affliates {...props} propdata={this.state.propdata} />
+              )}
+            />
             <Route
               exact
               path="/faq"

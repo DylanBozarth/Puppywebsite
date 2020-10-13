@@ -127,6 +127,7 @@
     }
   ],
   "goldendoodles": [
+    { "NO MORE PUPPIES": ""},
     {
       "name": "GoldenDoodle",
       "description": "Best",
@@ -240,6 +241,20 @@
 
       "image": "./puppies/buckreview.jpg",
       "owner": "John and Terry Zimmerman"
+    }
+  ],
+  "affliates": [
+    {
+      "name": "Some company",
+      "description": "Free stuff",
+      "image": "./assets/arthemis-clothing.jpg",
+      "link": "https://arthemisclothing.com/collections/custom-collar/products/pumpkin-bow-tie-collar"
+    },
+    {
+      "name": "Some company",
+      "description": "Free stuff",
+      "image": "./puppies/doodle.jpg",
+      "link": "https://arthemisclothing.com/collections/custom-collar/products/pumpkin-bow-tie-collar"
     }
   ]
 }
