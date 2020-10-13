@@ -57,6 +57,9 @@
       "Borndate": "may 6th 1950"
     }
   ],
+  "NOMOREPOODLES":  [ {
+    "message": "There are no more poodles, srry"
+  }],
   "poodles": [
     {
       "name": "Poodle 1",
@@ -94,6 +97,9 @@
     { "name": "haaaaa", "date": "some time" },
     { "name": "haaaaa", "date": "some time" }
   ],
+  "NOMORELABRADOODLES":  [ {
+    "message": "Fresh out of labradoodles"
+  }],
   "labradoodles": [
     {
       "name": "Great doodles",
@@ -126,8 +132,11 @@
       "image": "./puppies/doodle.jpg"
     }
   ],
+   "NOMOREGOLDENDOODLES":  [ {
+     "message": "Goldendoodle stock 0%"
+   }],
   "goldendoodles": [
-    { "NO MORE PUPPIES": ""},
+    
     {
       "name": "GoldenDoodle",
       "description": "Best",

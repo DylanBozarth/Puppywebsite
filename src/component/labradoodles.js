@@ -6,7 +6,7 @@ import _ from "lodash";
 
 function Labradoodles({ propdata }) {
   const labradoodles = _.get(propdata, "labradoodles", []);
-  
+  const NOMORELABRADOODLES = _.get(propdata, "NOMORELABRADOODLES", []);
 
   useFavicon('./assets/labradoodleiconfinal.png');
   useTitle("Labradoodles");
@@ -17,6 +17,9 @@ function Labradoodles({ propdata }) {
         <div className="puppyseperator">
           <h1 className="innerpagetitle">Labradoodles</h1>
           <p className="innerpagesubtitle">50% poodle, 50% labrador, 100% love</p>
+          {NOMORELABRADOODLES.map((NOMORELABRADOODLES) => (
+          <h1>{NOMORELABRADOODLES.message}</h1>
+        ))}
         </div>
 
         <div className="row puppyrow ">
