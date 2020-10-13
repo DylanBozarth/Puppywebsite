@@ -182,42 +182,48 @@
       "age": "14",
       "description": "A big doge",
       "breed": "Labradoodle",
-      "image": "./puppies/shiba.jpg"
+      "image": "./puppies/shiba.jpg",
+      "geneticLink": "https://google.com"
     },
     {
       "name": "Linda (mom)",
       "age": "12",
       "description": "A big doge",
       "breed": "Labradoodle",
-      "image": "./puppies/golddoodle.jpg"
+      "image": "./puppies/golddoodle.jpg",
+      "geneticLink": "https://google.com"
     },
     {
       "name": "Samatha (mom)",
       "age": "12",
       "description": "A big doge",
       "breed": "Labradoodle",
-      "image": "./puppies/golddoodle.jpg"
+      "image": "./puppies/golddoodle.jpg",
+      "geneticLink": "https://google.com"
     },
     {
       "name": "Thomas (dad)",
       "age": "12",
       "description": "A big doge",
       "breed": "Labradoodle",
-      "image": "./puppies/golddoodle.jpg"
+      "image": "./puppies/golddoodle.jpg",
+      "geneticLink": "https://google.com"
     },
     {
       "name": "Stacy (mom)",
       "age": "12",
       "description": "A big doge",
       "breed": "Labradoodle",
-      "image": "./puppies/golddoodle.jpg"
+      "image": "./puppies/golddoodle.jpg",
+      "geneticLink": "https://google.com"
     },
     {
       "name": "Brad (dad)",
       "age": "12",
       "description": "A big doge",
       "breed": "Labradoodle",
-      "image": "./puppies/golddoodle.jpg"
+      "image": "./puppies/golddoodle.jpg",
+      "geneticLink": "https://google.com"
     }
   ],
 

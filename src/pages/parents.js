@@ -27,7 +27,7 @@ function Parents({ propdata }) {
               />
               <h1 className="puppyname">{parents.name}</h1>
               <p className="puppysubtitle">{parents.age}</p>
-
+<a className="puppysubtitle" href={parents.geneticLink}>See my genetic analysis</a>
               <p className="cardesc">{parents.description}</p>
             <div className="col-2"></div></div>
           ))}
@@ -50,7 +50,7 @@ function Parents({ propdata }) {
               />
               <h1 className="puppyname">{parents.name}</h1>
               <p className="puppysubtitle">{parents.age}</p>
-
+              <a className="puppysubtitle" href={parents.geneticLink}>See my genetic analysis</a>
               <p className="cardesc">{parents.description}</p>
             <div className="col-2"></div></div>
           ))}
@@ -73,7 +73,7 @@ function Parents({ propdata }) {
               />
               <h1 className="puppyname">{parents.name}</h1>
               <p className="puppysubtitle">{parents.age}</p>
-
+              <a className="puppysubtitle" href={parents.geneticLink}>See my genetic analysis</a>
               <p className="cardesc">{parents.description}</p>
             <div className="col-2"></div></div>
           ))}
