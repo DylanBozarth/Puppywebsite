@@ -203,15 +203,19 @@
 
   "parents": [
     {
-      "name": "Greg (dad)",
+      "name": "Greg",
       "age": "14",
       "description": "A big doge",
       "breed": "Labradoodle",
       "image": "./puppies/shiba.jpg",
-      "geneticLink": "https://google.com"
+      "geneticLink": "https://google.com",
+      "firstpuppy": "./puppies/shiba.jpg",
+      "secondpuppy": "./puppies/shiba.jpg",
+      "thirdpuppy": "./puppies/shiba.jpg",
+      "forthpuppy": "./puppies/shiba.jpg"
     },
     {
-      "name": "Linda (mom)",
+      "name": "Linda",
       "age": "12",
       "description": "A big doge",
       "breed": "Labradoodle",
@@ -219,7 +223,7 @@
       "geneticLink": "https://google.com"
     },
     {
-      "name": "Samatha (mom)",
+      "name": "Samatha",
       "age": "12",
       "description": "A big doge",
       "breed": "Labradoodle",
@@ -227,7 +231,7 @@
       "geneticLink": "https://google.com"
     },
     {
-      "name": "Thomas (dad)",
+      "name": "Thomas",
       "age": "12",
       "description": "A big doge",
       "breed": "Labradoodle",
@@ -235,7 +239,7 @@
       "geneticLink": "https://google.com"
     },
     {
-      "name": "Stacy (mom)",
+      "name": "Stacy",
       "age": "12",
       "description": "A big doge",
       "breed": "Labradoodle",
@@ -243,7 +247,7 @@
       "geneticLink": "https://google.com"
     },
     {
-      "name": "Brad (dad)",
+      "name": "Brad",
       "age": "12",
       "description": "A big doge",
       "breed": "Labradoodle",

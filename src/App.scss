@@ -780,11 +780,52 @@ text-align: center;
 
 /* end of puppypage */
 /* parent page */ 
-.parent-page {
- display: flex;
- justify-content: center;
+.parentcard {
+  text-align: center;
 }
 
+.gallery {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery img {
+  opacity: 0;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: slide 24s infinite;
+}
+
+@keyframes slide {
+   25% {
+    opacity: 1;
+    transform: scale(1.1); 
+  } 50% {
+    opacity: 0;
+  }
+}
+
+.gallery img:nth-child(2) {
+  animation-delay: 4s
+}
+.gallery img:nth-child(3) {
+  animation-delay: 8s;
+}
+.gallery img:nth-child(4) {
+  animation-delay: 12s;
+}
+.gallery img:nth-child(5) {
+  animation-delay: 16s;
+}
+.gallery img:nth-child(6) {
+  animation-delay: 20s;
+}
 
 
 
