@@ -209,10 +209,10 @@
       "breed": "Labradoodle",
       "image": "./puppies/shiba.jpg",
       "geneticLink": "https://google.com",
-      "firstpuppy": "./puppies/shiba.jpg",
-      "secondpuppy": "./puppies/shiba.jpg",
+      "firstpuppy": "./puppies/bluebow.JPG",
+      "secondpuppy": "./puppies/falldog.jpg",
       "thirdpuppy": "./puppies/shiba.jpg",
-      "forthpuppy": "./puppies/shiba.jpg"
+      "forthpuppy": "./puppies/firstday.JPG"
     },
     {
       "name": "Linda",
@@ -221,10 +221,10 @@
       "breed": "Labradoodle",
       "image": "./puppies/golddoodle.jpg",
       "geneticLink": "https://google.com",
-      "firstpuppy": "./puppies/shiba.jpg",
-      "secondpuppy": "./puppies/shiba.jpg",
+      "firstpuppy": "./puppies/bluebow.JPG",
+      "secondpuppy": "./puppies/falldog.jpg",
       "thirdpuppy": "./puppies/shiba.jpg",
-      "forthpuppy": "./puppies/shiba.jpg"
+      "forthpuppy": "./puppies/firstday.JPG"
     },
     {
       "name": "Samatha",
@@ -233,10 +233,10 @@
       "breed": "Labradoodle",
       "image": "./puppies/golddoodle.jpg",
       "geneticLink": "https://google.com",
-      "firstpuppy": "./puppies/shiba.jpg",
-      "secondpuppy": "./puppies/shiba.jpg",
+      "firstpuppy": "./puppies/bluebow.JPG",
+      "secondpuppy": "./puppies/falldog.jpg",
       "thirdpuppy": "./puppies/shiba.jpg",
-      "forthpuppy": "./puppies/shiba.jpg"
+      "forthpuppy": "./puppies/firstday.JPG"
     },
     {
       "name": "Thomas",
@@ -245,10 +245,10 @@
       "breed": "Labradoodle",
       "image": "./puppies/golddoodle.jpg",
       "geneticLink": "https://google.com",
-      "firstpuppy": "./puppies/shiba.jpg",
-      "secondpuppy": "./puppies/shiba.jpg",
+      "firstpuppy": "./puppies/bluebow.JPG",
+      "secondpuppy": "./puppies/falldog.jpg",
       "thirdpuppy": "./puppies/shiba.jpg",
-      "forthpuppy": "./puppies/shiba.jpg"
+      "forthpuppy": "./puppies/firstday.JPG"
     },
     {
       "name": "Stacy",
@@ -257,10 +257,10 @@
       "breed": "Labradoodle",
       "image": "./puppies/golddoodle.jpg",
       "geneticLink": "https://google.com",
-      "firstpuppy": "./puppies/shiba.jpg",
-      "secondpuppy": "./puppies/shiba.jpg",
+      "firstpuppy": "./puppies/bluebow.JPG",
+      "secondpuppy": "./puppies/falldog.jpg",
       "thirdpuppy": "./puppies/shiba.jpg",
-      "forthpuppy": "./puppies/shiba.jpg"
+      "forthpuppy": "./puppies/firstday.JPG"
     },
     {
       "name": "Brad",
@@ -269,10 +269,10 @@
       "breed": "Labradoodle",
       "image": "./puppies/golddoodle.jpg",
       "geneticLink": "https://google.com",
-      "firstpuppy": "./puppies/shiba.jpg",
-      "secondpuppy": "./puppies/shiba.jpg",
+      "firstpuppy": "./puppies/bluebow.JPG",
+      "secondpuppy": "./puppies/falldog.jpg",
       "thirdpuppy": "./puppies/shiba.jpg",
-      "forthpuppy": "./puppies/shiba.jpg"
+      "forthpuppy": "./puppies/firstday.JPG"
     }
   ],
 
