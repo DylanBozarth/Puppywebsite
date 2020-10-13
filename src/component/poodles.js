@@ -19,9 +19,9 @@ function Poodles({ propdata }) {
           <p className="innerpagesubtitle">Our best sellers</p>
         </div>
 
-        <div className="row puppyrow no-gutters prva">
+        <div className="row puppyrow ">
           {poodles.map((poodles) => (
-            <div className="col-sm-4" style={{ width: "20rem" }} key={poodles.name}>
+            <div className="col-sm-4"  key={poodles.name}>
               <img
                 className="homecard frame"
                
@@ -36,7 +36,7 @@ function Poodles({ propdata }) {
         </div>
        
         {poodlewaitlist.map((poodlewaitlist) => (
-            <div className="col-sm-4" style={{ width: "20rem" }} key={poodlewaitlist.name}>
+            <div className="col-sm-4"  key={poodlewaitlist.name}>
             
               <h1 className="puppyname">{poodlewaitlist.name}</h1>
 

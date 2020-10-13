@@ -19,9 +19,9 @@ function Labradoodles({ propdata }) {
           <p className="innerpagesubtitle">50% poodle, 50% labrador, 100% love</p>
         </div>
 
-        <div className="row puppyrow no-gutters prva">
+        <div className="row puppyrow ">
           {labradoodles.map((labradoodles) => (
-            <div className="col-sm-4" style={{ width: "20rem" }} key={labradoodles.name}>
+            <div className="col-sm-4"  key={labradoodles.name}>
               <img
                 className="homecard frame"
                

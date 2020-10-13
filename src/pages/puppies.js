@@ -19,7 +19,7 @@ function Puppies({ propdata }) {
 
         <div className="row puppyrow no-gutters prva">
           {poodles.map((poodles) => (
-            <div className="col-sm-4" style={{ width: "20rem" }} key={poodles.name}>
+            <div className="col-sm-4"  key={poodles.name}>
               <img
                 className="homecard puppycard frame"
                 
@@ -41,7 +41,7 @@ function Puppies({ propdata }) {
 
         <div className="row puppyrow no-gutters prva">
           {labradoodles.map((labradoodles) => (
-            <div className="col-sm-4" style={{ width: "20rem" }} key={labradoodles.name}>
+            <div className="col-sm-4"  key={labradoodles.name}>
               <img
                 className="homecard frame"
                 
@@ -63,7 +63,7 @@ function Puppies({ propdata }) {
 
         <div className="row puppyrow no-gutters prva">
           {goldendoodles.map((goldendoodles) => (
-            <div className="col-sm-4" style={{ width: "20rem" }} key={goldendoodles.name}>
+            <div className="col-sm-4"  key={goldendoodles.name}>
               <img
                 className="homecard frame"
                
