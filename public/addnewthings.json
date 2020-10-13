@@ -220,7 +220,11 @@
       "description": "A big doge",
       "breed": "Labradoodle",
       "image": "./puppies/golddoodle.jpg",
-      "geneticLink": "https://google.com"
+      "geneticLink": "https://google.com",
+      "firstpuppy": "./puppies/shiba.jpg",
+      "secondpuppy": "./puppies/shiba.jpg",
+      "thirdpuppy": "./puppies/shiba.jpg",
+      "forthpuppy": "./puppies/shiba.jpg"
     },
     {
       "name": "Samatha",
@@ -228,7 +232,11 @@
       "description": "A big doge",
       "breed": "Labradoodle",
       "image": "./puppies/golddoodle.jpg",
-      "geneticLink": "https://google.com"
+      "geneticLink": "https://google.com",
+      "firstpuppy": "./puppies/shiba.jpg",
+      "secondpuppy": "./puppies/shiba.jpg",
+      "thirdpuppy": "./puppies/shiba.jpg",
+      "forthpuppy": "./puppies/shiba.jpg"
     },
     {
       "name": "Thomas",
@@ -236,7 +244,11 @@
       "description": "A big doge",
       "breed": "Labradoodle",
       "image": "./puppies/golddoodle.jpg",
-      "geneticLink": "https://google.com"
+      "geneticLink": "https://google.com",
+      "firstpuppy": "./puppies/shiba.jpg",
+      "secondpuppy": "./puppies/shiba.jpg",
+      "thirdpuppy": "./puppies/shiba.jpg",
+      "forthpuppy": "./puppies/shiba.jpg"
     },
     {
       "name": "Stacy",
@@ -244,7 +256,11 @@
       "description": "A big doge",
       "breed": "Labradoodle",
       "image": "./puppies/golddoodle.jpg",
-      "geneticLink": "https://google.com"
+      "geneticLink": "https://google.com",
+      "firstpuppy": "./puppies/shiba.jpg",
+      "secondpuppy": "./puppies/shiba.jpg",
+      "thirdpuppy": "./puppies/shiba.jpg",
+      "forthpuppy": "./puppies/shiba.jpg"
     },
     {
       "name": "Brad",
@@ -252,7 +268,11 @@
       "description": "A big doge",
       "breed": "Labradoodle",
       "image": "./puppies/golddoodle.jpg",
-      "geneticLink": "https://google.com"
+      "geneticLink": "https://google.com",
+      "firstpuppy": "./puppies/shiba.jpg",
+      "secondpuppy": "./puppies/shiba.jpg",
+      "thirdpuppy": "./puppies/shiba.jpg",
+      "forthpuppy": "./puppies/shiba.jpg"
     }
   ],
 

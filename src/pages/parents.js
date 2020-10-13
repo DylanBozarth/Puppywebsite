@@ -31,16 +31,15 @@ function Parents({ propdata }) {
               
              
             </div>
+
 <p>Puppies from {parents.name}</p>
             <div className="gallery">
-   <img src="http://olhar-43.net/conteudo/fotosfofas/cachorrinhos45/6.jpg" />
-   <img src="http://fotos.sofotos.org/filhotes-de-cachorros/filhotes-de-cachorro-fofo.jpg" />
-   <img src="https://www.blogdocachorro.com.br/wp-content/uploads/11-filhotes-de-cachorros-fofos-010.jpg" />
-   <img src="https://cdn3.tudosobrecachorros.com.br/wp-content/uploads/cachorros-fofos-08.jpg" />
-   <img src="https://tudosobrecachorro.files.wordpress.com/2014/06/cachorros-fofos-2.jpg?w=625" />
-   <img src="http://olhar-43.net/fotinhas/cachorrinho-fofo2.jpg" />
+   <img className="img-fluid" src={parents.firstpuppy} />
+   <img src={parents.secondpuppy} />
+   <img src={parents.thirdpuppy} />
+   <img src={parents.forthpuppy} />
+   
 </div>
-
 
 
             </div>
