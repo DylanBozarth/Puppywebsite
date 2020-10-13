@@ -8,6 +8,7 @@ function Labradoodles({ propdata }) {
   const labradoodles = _.get(propdata, "labradoodles", []);
   const NOMORELABRADOODLES = _.get(propdata, "NOMORELABRADOODLES", []);
 
+  const labradoodlewaitlist = _.get(propdata, "labradoodlewaitlist", []);
   useFavicon('./assets/labradoodleiconfinal.png');
   useTitle("Labradoodles");
 
@@ -16,7 +17,7 @@ function Labradoodles({ propdata }) {
      
         <div className="puppyseperator">
           <h1 className="innerpagetitle">Labradoodles</h1>
-          <p className="innerpagesubtitle">50% poodle, 50% labrador, 100% love</p>
+          <p className="innerpagesubtitle">50% labradoodle, 50% labrador, 100% love</p>
           {NOMORELABRADOODLES.map((NOMORELABRADOODLES) => (
           <h1>{NOMORELABRADOODLES.message}</h1>
         ))}
@@ -37,6 +38,18 @@ function Labradoodles({ propdata }) {
             </div>
           ))}
         </div>
+        <h1 className="puppytitle">Wait list</h1>
+        <div className="row">
+         
+        {labradoodlewaitlist.map((labradoodlewaitlist) => (
+            <div className="col-sm-4"  key={labradoodlewaitlist.name}>
+            
+              <h1 className="puppyname">{labradoodlewaitlist.name}</h1>
+<p className="puppysubtitle">{labradoodlewaitlist.number}</p>
+              <p className="puppysubtitle">Reserved on: {labradoodlewaitlist.date}</p>
+            </div>
+          ))}
+          </div>
       </div>
   );
 }

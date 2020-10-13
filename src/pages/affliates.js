@@ -9,6 +9,7 @@ import _ from "lodash";
 function Affliates({propdata}) {
   useTitle("JYMR Doodles");
   const affliates = _.get(propdata, "affliates", []);
+  const amazon = _.get(propdata, "amazon", []);
   return (
     <div className="container-fluid">
       <h1 className="puppytitle">Our Affliates</h1>
@@ -26,6 +27,24 @@ function Affliates({propdata}) {
               <p className="puppysubtitle">{affliates.description}</p>
             </NavLink></div>
           ))}
+      </div>
+      <h1>Products we reccomend</h1>
+      <div className="row">
+      {amazon.map((amazon) => (
+           <div className="col-sm-4"  key={amazon.name}> <NavLink href={amazon.link}>
+              <img
+                className="homecard frame"
+               
+                src={amazon.image}
+                alt={amazon.name}
+              />
+              <h1 className="puppyname">{amazon.name}</h1>
+
+              <p className="puppysubtitle">{amazon.description}</p>
+            </NavLink></div>
+          ))}
+      
+
       </div>
     </div>
   );

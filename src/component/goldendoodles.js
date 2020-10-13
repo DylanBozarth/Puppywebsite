@@ -7,6 +7,7 @@ import _ from "lodash";
 function Goldendoodles({ propdata }) {
   const goldendoodles = _.get(propdata, "goldendoodles", []);
   const NOMOREGOLDENDOODLES = _.get(propdata, "NOMOREGOLDENDOODLES", []);
+  const goldendoodlewaitlist = _.get(propdata, "poodlewaitlist", []);
   useFavicon("./assets/goldendoodleiconfinal.png");
   useTitle("Your Next Dog");
 
@@ -37,6 +38,18 @@ function Goldendoodles({ propdata }) {
           </div>
         ))}
       </div>
+      <h1 className="puppytitle"> Wait list</h1>
+      <div className="row">
+         
+         {goldendoodlewaitlist.map((goldendoodlewaitlist) => (
+             <div className="col-sm-4"  key={goldendoodlewaitlist.name}>
+             
+               <h1 className="puppyname">{goldendoodlewaitlist.name}</h1>
+ <p className="puppysubtitle">{goldendoodlewaitlist.number}</p>
+               <p className="puppysubtitle">Reserved on: {goldendoodlewaitlist.date}</p>
+             </div>
+           ))}
+           </div>
     </div>
   );
 }

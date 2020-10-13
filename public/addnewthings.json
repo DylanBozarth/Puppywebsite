@@ -57,9 +57,16 @@
       "Borndate": "may 6th 1950"
     }
   ],
-  "NOMOREPOODLES":  [ {
-    "message": "There are no more poodles, srry"
-  }],
+   "poodlewaitlist": [
+    { "name": "Steve", "date": "10/13/2020", "number": "1" },
+    { "name": "John", "date": "10/13/2020", "number": "2" },
+    { "name": "Harry", "date": "10/13/2020", "number": "3" }
+  ],
+  "NOMOREPOODLES": [
+    {
+      "message": "There are no more poodles, srry"
+    }
+  ],
   "poodles": [
     {
       "name": "Poodle 1",
@@ -92,14 +99,16 @@
       "image": "./puppies/shiba.jpg"
     }
   ],
-  "poodlewaitlist": [
-    { "name": "haaaaa", "date": "some time" },
-    { "name": "haaaaa", "date": "some time" },
-    { "name": "haaaaa", "date": "some time" }
+  "labradoodlewaitlist": [
+    { "name": "Steve", "date": "10/13/2020", "number": "1" },
+    { "name": "John", "date": "10/13/2020", "number": "2" },
+    { "name": "Harry", "date": "10/13/2020", "number": "3" }
   ],
-  "NOMORELABRADOODLES":  [ {
-    "message": "Fresh out of labradoodles"
-  }],
+  "NOMORELABRADOODLES": [
+    {
+      "message": "Fresh out of labradoodles"
+    }
+  ],
   "labradoodles": [
     {
       "name": "Great doodles",
@@ -132,11 +141,17 @@
       "image": "./puppies/doodle.jpg"
     }
   ],
-   "NOMOREGOLDENDOODLES":  [ {
-     "message": "Goldendoodle stock 0%"
-   }],
+  "goldendoodlewaitlist": [
+    { "name": "Steve", "date": "10/13/2020", "number": "1" },
+    { "name": "John", "date": "10/13/2020", "number": "2" },
+    { "name": "Harry", "date": "10/13/2020", "number": "3" }
+  ],
+  "NOMOREGOLDENDOODLES": [
+    {
+      "message": "Goldendoodle stock 0%"
+    }
+  ],
   "goldendoodles": [
-    
     {
       "name": "GoldenDoodle",
       "description": "Best",
@@ -259,6 +274,14 @@
       "image": "./assets/arthemis-clothing.jpg",
       "link": "https://arthemisclothing.com/collections/custom-collar/products/pumpkin-bow-tie-collar"
     },
+    {
+      "name": "Some company",
+      "description": "Free stuff",
+      "image": "./puppies/doodle.jpg",
+      "link": "https://arthemisclothing.com/collections/custom-collar/products/pumpkin-bow-tie-collar"
+    }
+  ],
+  "amazon": [
     {
       "name": "Some company",
       "description": "Free stuff",
