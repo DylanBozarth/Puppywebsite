@@ -32,12 +32,12 @@ function Parents({ propdata }) {
              
             </div>
 
-<p className="centertext">Puppies from {parents.name}</p>
-            <div className="gallery">
+<p className="puppysubtitle centertext">Puppies from {parents.name}</p>
+            <div className="gallery  frame col-lg-6 container-fluid">
    <img className="img-fluid" src={parents.firstpuppy} alt={parents.name} />
-   <img src={parents.secondpuppy} alt={parents.name}  />
-   <img src={parents.thirdpuppy} alt={parents.name}  />
-   <img src={parents.forthpuppy}  alt={parents.name} />
+   <img className="img-fluid"  src={parents.secondpuppy} alt={parents.name}  />
+   <img className="img-fluid"  src={parents.thirdpuppy} alt={parents.name}  />
+   <img className="img-fluid"  src={parents.forthpuppy}  alt={parents.name} />
    
 </div>
 
