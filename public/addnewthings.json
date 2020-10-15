@@ -1,15 +1,31 @@
 {
   "Faq": [
     {
-      "question": "SAMPLE TEXTSAMPLE EXTSAMPLE TEXTSAMPLE TEXTSAMPLE TEXT",
+      "question": "Where are you located?",
+      "answer": "Our beautiful puppies are raised in our home next to the beautiful Wasatch Mountains of Utah. We are located in the City of Orem just 50min south of the Salt Lake City Airport."
+    },
+    {
+      "question": "What is the price of you Puppies?",
+      "answer": "The price of our puppies is dependent on Breed, Size, Color, Coat and Generation. We strive to maintain our prices as low as possible, while still providing our families with quality bred puppies raised with ALL the foundational skills necessary to thrive in their new home."
+    },
+    {
+      "question": "Standard Sized Puppies: ",
+      "answer": "Prices on our Standard Puppies range between $1,800-$2,400 with most being priced at $2,000 Standard adult weight starts at 45lbs. and goes up. Their height is approx. 21in. to 26in. tall at the shoulder."
+    },
+    {
+      "question": "Standard Sized Puppies: ",
       "answer": "Cute"
     },
     {
-      "question": "Poodle 1",
+      "question": "Standard Sized Puppies: ",
       "answer": "Cute"
     },
     {
-      "question": "Poodle 1",
+      "question": "Standard Sized Puppies: ",
+      "answer": "Cute"
+    },
+    {
+      "question": "Standard Sized Puppies: ",
       "answer": "Cute"
     }
   ],
@@ -57,7 +73,7 @@
       "Borndate": "may 6th 1950"
     }
   ],
-   "poodlewaitlist": [
+  "poodlewaitlist": [
     { "name": "Steve", "date": "10/13/2020", "number": "1" },
     { "name": "John", "date": "10/13/2020", "number": "2" },
     { "name": "Harry", "date": "10/13/2020", "number": "3" }

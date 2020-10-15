@@ -693,6 +693,14 @@ $scale-base-1: (1 + $scale / 100%);
   text-shadow: black 0px 0px 5px;
   font-size: 4vh;
 }
+.answersubtitle {
+  color: black; 
+  font-size: 2.5vh;
+}
+.answertitle {
+  color: black; 
+  text-shadow: $teal 0px 0px 2px;
+}
 .geturown {
    background-image: url('./quoteborder.png');
   background-size: 120%;
@@ -1102,8 +1110,8 @@ cursor: pointer;
   /* faq */ 
   .FAQtitle {
     text-align: center;
-    color: whitesmoke; 
-    text-shadow: black 0px 0px 5px;
+    color: black; 
+    text-shadow: white 0px 0px 5px;
   }
 .Collapsible {
   padding-bottom: 10vh;
@@ -1111,11 +1119,15 @@ cursor: pointer;
 }
   .Collapsible__trigger  {
     text-align: center;
- color: whitesmoke; 
- text-shadow: black 0px 0px 5px;
+ color: black; 
+ text-shadow: $teal 0px 0px 3px;
  font-size: 4vh;
  line-height: 1.8;
  
+  }
+  .answerpage {
+    height: 100%; 
+    width: 100%;
   }
   .Collapsible__trigger:hover  {
     cursor: pointer;
