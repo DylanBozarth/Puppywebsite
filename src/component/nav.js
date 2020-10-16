@@ -85,11 +85,7 @@ export const Navigation = () => {
                       <NavItem>Puppy Application</NavItem>
                     </NavLink>
                   </DropdownItem>
-                  <DropdownItem>
-                    <NavLink href="/litter">
-                      <NavItem className="navdropdown">New litter</NavItem>
-                    </NavLink>
-                  </DropdownItem>
+                 
                   <DropdownItem>
                     <NavLink href="/puppies">
                       <NavItem className="navdropdown">All Puppies</NavItem>
@@ -100,21 +96,10 @@ export const Navigation = () => {
                       <NavItem className="navdropdown">Parents</NavItem>
                     </NavLink>
                   </DropdownItem>
-                  <DropdownItem>
-                    <NavLink href="/poodles">
-                      <NavItem className="navdropdown">Poodles</NavItem>
-                    </NavLink>
-                  </DropdownItem>
-                  <DropdownItem>
-                    <NavLink href="/labradoodles">
-                      <NavItem className="navdropdown">Labradoodles</NavItem>
-                    </NavLink>
-                  </DropdownItem>
-                  <DropdownItem>
-                    <NavLink href="/goldendoodles" className="navdropdown">
-                      <NavItem>Goldendoodles</NavItem>
-                    </NavLink>
-                  </DropdownItem>
+                
+                  
+                    
+          
 
                   <DropdownItem>
                     <NavLink href="/guardians">
