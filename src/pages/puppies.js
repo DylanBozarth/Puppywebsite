@@ -11,6 +11,7 @@ function Puppies({ propdata }) {
   const goldendoodles = _.get(propdata, "goldendoodles", []);
   const NOMOREGOLDENDOODLES = _.get(propdata, "NOMOREGOLDENDOODLES", []);
   const parents = _.get(propdata, "parents", []);
+  const goldendoodlewaitlist = _.get(propdata, "poodlewaitlist", []);
   
   const NOMORELABRADOODLES = _.get(propdata, "NOMORELABRADOODLES", []);
   const NOMOREPOODLES = _.get(propdata, "NOMOREPOODLES", []);
@@ -23,7 +24,7 @@ function Puppies({ propdata }) {
       </div>
       <div className="puppyseperator">
         <h1>Poodles!</h1>
-        
+        <a className="puppysubtitle" href="#poodlelist">See wait list</a>
       </div> 
       <p className="centertext">The proud parents</p>
       <div className="row">
@@ -63,6 +64,7 @@ function Puppies({ propdata }) {
 
       <div className="puppyseperator">
         <h1>Labradoodles</h1>
+        <a className="puppysubtitle" href="#labradoodlelist">See wait list</a>
       </div>
       <p className="centertext">The proud parents</p>
       <div className="row">
@@ -101,7 +103,7 @@ function Puppies({ propdata }) {
 
       <div className="puppyseperator">
         <h1>Goldendoodles! </h1>
-        
+        <a   className="puppysubtitle" href="#goldendoodlelist">See wait list</a>
       </div>
       <div className="row">
         {parents.slice(4, 6).map((parents) => (
@@ -136,6 +138,42 @@ function Puppies({ propdata }) {
           </div>
         ))}
       </div>
+      <h1 className="centertext" id="goldendoodlelist">Goldendoodle Wait list </h1>
+      <div className="row">
+         
+         {goldendoodlewaitlist.map((goldendoodlewaitlist) => (
+             <div className="col-sm-4"  key={goldendoodlewaitlist.name}>
+             
+               <h1 className="puppyname">{goldendoodlewaitlist.name}</h1>
+ <p className="puppysubtitle">Number in line: {goldendoodlewaitlist.number}</p>
+               <p className="puppysubtitle">Reserved on: {goldendoodlewaitlist.date}</p>
+             </div>
+           ))}
+           </div>
+           <h1 className="centertext" id="labradoodlelist">Labradoodle Wait list </h1>
+           <div className="row">
+         
+        {labradoodlewaitlist.map((labradoodlewaitlist) => (
+            <div className="col-sm-4"  key={labradoodlewaitlist.name}>
+            
+              <h1 className="puppyname">{labradoodlewaitlist.name}</h1>
+<p className="puppysubtitle">Number in line:{labradoodlewaitlist.number}</p>
+              <p className="puppysubtitle">Reserved on: {labradoodlewaitlist.date}</p>
+            </div>
+          ))}
+          </div>
+          <h1 className="centertext" id="poodlelist">Poodle Wait list </h1>
+          <div className="row">
+         
+        {poodlewaitlist.map((poodlewaitlist) => (
+            <div className="col-sm-4"  key={poodlewaitlist.name}>
+            
+              <h1 className="puppyname">{poodlewaitlist.name}</h1>
+<p className="puppysubtitle">Number in line: {poodlewaitlist.number}</p>
+              <p className="puppysubtitle">Reserved on: {poodlewaitlist.date}</p>
+            </div>
+          ))}
+          </div>
     </div>
   );
 }

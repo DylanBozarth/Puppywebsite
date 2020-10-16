@@ -44,7 +44,7 @@ function Poodles({ propdata }) {
             <div className="col-sm-4"  key={poodlewaitlist.name}>
             
               <h1 className="puppyname">{poodlewaitlist.name}</h1>
-<p className="puppysubtitle">{poodlewaitlist.number}</p>
+<p className="puppysubtitle">Number in line: {poodlewaitlist.number}</p>
               <p className="puppysubtitle">Reserved on: {poodlewaitlist.date}</p>
             </div>
           ))}

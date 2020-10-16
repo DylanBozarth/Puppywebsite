@@ -115,7 +115,7 @@
   ],
   "poodlewaitlist": [
     { "name": "Steve", "date": "10/13/2020", "number": "1" },
-    { "name": "John", "date": "10/13/2020", "number": "2" },
+    { "name": "Frank", "date": "10/01/1997", "number": "2" },
     { "name": "Harry", "date": "10/13/2020", "number": "3" }
   ],
   "NOMOREPOODLES": [
@@ -156,9 +156,9 @@
     }
   ],
   "labradoodlewaitlist": [
-    { "name": "Steve", "date": "10/13/2020", "number": "1" },
+    { "name": "Megan", "date": "10/13/2020", "number": "1" },
     { "name": "John", "date": "10/13/2020", "number": "2" },
-    { "name": "Harry", "date": "10/13/2020", "number": "3" }
+    { "name": "Me", "date": "09/13/2022", "number": "3" }
   ],
   "NOMORELABRADOODLES": [
     {
@@ -198,7 +198,7 @@
     }
   ],
   "goldendoodlewaitlist": [
-    { "name": "Steve", "date": "10/13/2020", "number": "1" },
+    { "name": "Tom", "date": "10/19/2020", "number": "1" },
     { "name": "John", "date": "10/13/2020", "number": "2" },
     { "name": "Harry", "date": "10/13/2020", "number": "3" }
   ],
