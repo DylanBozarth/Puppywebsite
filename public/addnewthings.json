@@ -69,58 +69,52 @@
       "answer": "As breeders we are left at the mercy of waiting on Mother Nature to take her course with our dogs and puppies. We cannot guarantee exactly when puppies will be born, size of litters, genders, colors, markings of puppies or exact day they will go home. We cannot guarantee the exact size or coat of your puppy. Sometimes planned studs don't work out for various reasons and we cannot guarantee any particular paired breeding until it takes place and pregnancy is confirmed. We will do our best to accommodate your desires for all of the above. "
     }
   ],
-  "Newlitter": [
+  "litterName": [
+    {"name": "Disney litter"}
+  ],
+  "litterTheme": [ 
+    {"image": "./puppies/disney/disneytheme.jpg" } 
+  ],
+  "litter1": [
     {
       "name": "Poodle 1",
       "description": "Cute",
-      "image": "./puppies/shiba.jpg",
-      "Borndate": "may 6th 1950"
+      "image": "./puppies/disney/daisy.jpg"
     },
     {
       "name": "Poodle 1",
       "description": "This one is fiesty",
-      "image": "./puppies/doodle.jpg",
-      "Borndate": "june 9th 1992"
+      "image": "./puppies/disney/darwin.jpg"
     },
     {
       "name": "Poodle 1",
       "description": "Cute",
-      "image": "./puppies/flower.jpg",
-      "Borndate": "June 11th 1995"
+      "image": "./puppies/disney/doc.jpg"
     },
     {
       "name": "Poodle 1",
       "description": "Cute",
-      "image": "./puppies/shiba.jpg",
-      "Borndate": "may 6th 1950"
+      "image": "./puppies/disney/dolly.jpg"
     },
     {
       "name": "Poodle 1",
       "description": "Cute",
-      "image": "./puppies/shiba.jpg",
-      "Borndate": "may 6th 1950"
+      "image": "./puppies/disney/dorie.jpg"
     },
     {
       "name": "Poodle 1",
       "description": "Cute",
-      "image": "./puppies/shiba.jpg",
-      "Borndate": "may 6th 1950"
-    },
-    {
-      "name": "Poodle 1",
-      "description": "Cute",
-      "image": "./puppies/shiba.jpg",
-      "Borndate": "may 6th 1950"
+      "image": "./puppies/disney/dulce.jpg"
     }
   ],
-  "poodlewaitlist": [
+  "litter1Waitlist": [
     { "name": "Steve", "date": "10/13/2020", "number": "1" },
     { "name": "Frank", "date": "10/01/1997", "number": "2" },
     { "name": "Harry", "date": "10/13/2020", "number": "3" }
   ],
-  "NOMOREPOODLES": [
+  "litter1IsOut": [
     {
-      "message": "There are no more poodles, srry"
+      "message": "Litter 1 is out "
     }
   ],
   "poodles": [
@@ -200,48 +194,26 @@
       "image": "./puppies/labradoodles/bundy.jpg"
     }
   ],
-  "goldendoodlewaitlist": [
+  "litter3Waitlist": [
     { "name": "Tom", "date": "10/19/2020", "number": "1" },
     { "name": "John", "date": "10/13/2020", "number": "2" },
     { "name": "Harry", "date": "10/13/2020", "number": "3" }
   ],
-  "NOMOREGOLDENDOODLES": [
+  "litter3IsOut": [
     {
-      "message": "Goldendoodle stock 0%"
+      "message": "There are no more of these puppies"
     }
   ],
-  "goldendoodles": [
+  "litter3": [
     {
-      "themeImage": "./themes/bootheme.jpg",
+      "themeImage": "./themes/bootheme.jpg"
+    },
+    {
       "name": "GoldenDoodle",
       "description": "Best",
       "image": "./puppies/golddoodle.jpg"
-    },
-    {
-      "name": "hot doge 2",
-      "description": " he great",
-      "image": "./puppies/golddoodle.jpg"
-    },
-    {
-      "name": "hot doge 3",
-      "description": " he great",
-      "image": "./puppies/golddoodle.jpg"
-    },
-    {
-      "name": "hot doge 4",
-      "description": " he great",
-      "image": "./puppies/golddoodle.jpg"
-    },
-    {
-      "name": "WEWEWE",
-      "description": " he great",
-      "image": "./puppies/golddoodle.jpg"
-    },
-    {
-      "name": "haaaaa",
-      "description": " he great",
-      "image": "./puppies/golddoodle.jpg"
     }
+    
   ],
   "pastdogs": [
     {
@@ -263,7 +235,7 @@
 
   "parents": [
     {
-      "These are the poodle parents": "",
+      "Parents of litter 1": "",
       "name": "Greg",
       "description": "A big doge",
       "breed": "Labradoodle",
@@ -275,7 +247,7 @@
       "forthpuppy": "./puppies/firstday.JPG"
     },
     {
-      "These are the poodle parents": "",
+      "Parents of litter 1": "",
       "name": "Linda",
       "description": "A big doge",
       "breed": "Labradoodle",
@@ -287,7 +259,7 @@
       "forthpuppy": "./puppies/firstday.JPG"
     },
     {
-      "GoldenDoodles parents": "",
+      "Parents of litter 2": "",
       "name": "Samatha",
       "description": "A big doge",
       "breed": "Labradoodle",
@@ -299,7 +271,7 @@
       "forthpuppy": "./puppies/firstday.JPG"
     },
     {
-      "GoldenDoodles parents": "",
+      "Parents of litter 2": "",
       "name": "Thomas",
       "age": "12",
       "description": "A big doge",
@@ -312,7 +284,7 @@
       "forthpuppy": "./puppies/firstday.JPG"
     },
     {
-      "Labradoodle Parents": "",
+      "Parents of litter 3": "",
       "name": "Stacy",
       "age": "12",
       "description": "A big doge",
@@ -325,7 +297,7 @@
       "forthpuppy": "./puppies/firstday.JPG"
     },
     {
-      "Labradoodle Parents": "",
+      "Parents of litter 3": "",
       "name": "Brad",
       "age": "12",
       "description": "A big doge",
