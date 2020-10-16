@@ -259,6 +259,7 @@
 
   "parents": [
     {
+      "These are the poodle parents": "",
       "name": "Greg",
       "description": "A big doge",
       "breed": "Labradoodle",
@@ -270,6 +271,7 @@
       "forthpuppy": "./puppies/firstday.JPG"
     },
     {
+      "These are the poodle parents": "",
       "name": "Linda",
       "description": "A big doge",
       "breed": "Labradoodle",
@@ -281,6 +283,7 @@
       "forthpuppy": "./puppies/firstday.JPG"
     },
     {
+      "GoldenDoodles parents": "",
       "name": "Samatha",
       "description": "A big doge",
       "breed": "Labradoodle",
@@ -292,6 +295,7 @@
       "forthpuppy": "./puppies/firstday.JPG"
     },
     {
+      "GoldenDoodles parents": "",
       "name": "Thomas",
       "age": "12",
       "description": "A big doge",
@@ -304,6 +308,7 @@
       "forthpuppy": "./puppies/firstday.JPG"
     },
     {
+      "Labradoodle Parents": "",
       "name": "Stacy",
       "age": "12",
       "description": "A big doge",
@@ -316,6 +321,7 @@
       "forthpuppy": "./puppies/firstday.JPG"
     },
     {
+      "Labradoodle Parents": "",
       "name": "Brad",
       "age": "12",
       "description": "A big doge",
