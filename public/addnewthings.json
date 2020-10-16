@@ -124,7 +124,9 @@
     }
   ],
   "poodles": [
+   
     {
+      "themeImage": "./themes/bootheme.jpg",
       "name": "Poodle 1",
       "description": "Cute",
       "image": "./puppies/shiba.jpg"
@@ -167,34 +169,35 @@
   ],
   "labradoodles": [
     {
+      "themeImage": "./themes/bootheme.jpg",
       "name": "Great doodles",
       "description": "yes",
-      "image": "./puppies/doodle.jpg"
+      "image": "./puppies/labradoodles/bates.jpg"
     },
     {
       "name": "hot doge 2",
       "description": " he great",
-      "image": "./puppies/doodle.jpg"
+      "image": "./puppies/labradoodles/blade.jpg"
     },
     {
       "name": "hot doge 3",
       "description": " he great",
-      "image": "./puppies/doodle.jpg"
+      "image": "./puppies/labradoodles/blair.jpg"
     },
     {
       "name": "hot doge 4",
       "description": " he great",
-      "image": "./puppies/doodle.jpg"
+      "image": "./puppies/labradoodles/boogeyman.jpg"
     },
     {
       "name": "WEWEWE",
       "description": " he great",
-      "image": "./puppies/doodle.jpg"
+      "image": "./puppies/labradoodles/brody.jpg"
     },
     {
       "name": "haaaaa",
       "description": " he great",
-      "image": "./puppies/doodle.jpg"
+      "image": "./puppies/labradoodles/bundy.jpg"
     }
   ],
   "goldendoodlewaitlist": [
@@ -209,7 +212,7 @@
   ],
   "goldendoodles": [
     {
-      
+      "themeImage": "./themes/bootheme.jpg",
       "name": "GoldenDoodle",
       "description": "Best",
       "image": "./puppies/golddoodle.jpg"

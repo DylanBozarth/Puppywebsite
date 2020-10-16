@@ -43,7 +43,8 @@ function Puppies({ propdata }) {
           </div>
           
         ))}
-      </div>{NOMOREPOODLES.map((NOMOREPOODLES) => (
+      </div>{poodles.map((poodles) => ( <div className="text-center"><img src={poodles.themeImage} className="img-fluid"></img></div>))}
+      {NOMOREPOODLES.map((NOMOREPOODLES) => (
           <h1 className="badnews">{NOMOREPOODLES.message}</h1>
         ))}
       <div className="row puppyrow no-gutters prva">
@@ -82,7 +83,7 @@ function Puppies({ propdata }) {
             <p className="puppysubtitle">{parents.description}</p>
           </div>
         ))}
-      </div> {NOMORELABRADOODLES.map((NOMORELABRADOODLES) => (
+      </div> {labradoodles.map((labradoodles) => ( <div className="text-center"><img src={labradoodles.themeImage} className="img-fluid"></img></div>))}{NOMORELABRADOODLES.map((NOMORELABRADOODLES) => (
           <h1 className="badnews">{NOMORELABRADOODLES.message}</h1>
         ))}
       <div className="row puppyrow no-gutters prva">
@@ -120,7 +121,7 @@ function Puppies({ propdata }) {
             <p className="puppysubtitle">{parents.description}</p>
           </div>
         ))}
-      </div> {NOMOREGOLDENDOODLES.map((NOMOREGOLDENDOODLES) => (
+      </div>{goldendoodles.map((goldendoodles) => ( <div className="text-center "><img src={goldendoodles.themeImage} className="img-fluid "></img></div>))} {NOMOREGOLDENDOODLES.map((NOMOREGOLDENDOODLES) => (
           <h1 className="badnews">{NOMOREGOLDENDOODLES.message}</h1>
         ))}
       <div className="row puppyrow no-gutters prva">
