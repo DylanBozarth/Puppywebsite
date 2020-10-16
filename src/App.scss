@@ -33,7 +33,10 @@ body::-webkit-scrollbar {
   border-image: url('./TEST.png') 111 round;
   border: 15px solid transparent;
 }
-
+.badnews {
+  text-align: center;
+  font-style: italic;
+}
 $width: 350px; // Frame width
 $ar: 9/16; // Aspect-ratio 16:9
 

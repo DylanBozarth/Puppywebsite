@@ -11,6 +11,9 @@ function Puppies({ propdata }) {
   const goldendoodles = _.get(propdata, "goldendoodles", []);
   const NOMOREGOLDENDOODLES = _.get(propdata, "NOMOREGOLDENDOODLES", []);
   const parents = _.get(propdata, "parents", []);
+  
+  const NOMORELABRADOODLES = _.get(propdata, "NOMORELABRADOODLES", []);
+  const NOMOREPOODLES = _.get(propdata, "NOMOREPOODLES", []);
   useTitle("Your Next Dog");
 
   return (
@@ -20,7 +23,7 @@ function Puppies({ propdata }) {
       </div>
       <div className="puppyseperator">
         <h1>Poodles!</h1>
-       
+        
       </div> 
       <p className="centertext">The proud parents</p>
       <div className="row">
@@ -37,8 +40,11 @@ function Puppies({ propdata }) {
             </a>
             <p className="puppysubtitle">{parents.description}</p>
           </div>
+          
         ))}
-      </div>
+      </div>{NOMOREPOODLES.map((NOMOREPOODLES) => (
+          <h1 className="badnews">{NOMOREPOODLES.message}</h1>
+        ))}
       <div className="row puppyrow no-gutters prva">
         {poodles.map((poodles) => (
           <div className="col-sm-4" key={poodles.name}>
@@ -74,7 +80,9 @@ function Puppies({ propdata }) {
             <p className="puppysubtitle">{parents.description}</p>
           </div>
         ))}
-      </div>
+      </div> {NOMORELABRADOODLES.map((NOMORELABRADOODLES) => (
+          <h1 className="badnews">{NOMORELABRADOODLES.message}</h1>
+        ))}
       <div className="row puppyrow no-gutters prva">
         {labradoodles.map((labradoodles) => (
           <div className="col-sm-4" key={labradoodles.name}>
@@ -110,7 +118,9 @@ function Puppies({ propdata }) {
             <p className="puppysubtitle">{parents.description}</p>
           </div>
         ))}
-      </div>
+      </div> {NOMOREGOLDENDOODLES.map((NOMOREGOLDENDOODLES) => (
+          <h1 className="badnews">{NOMOREGOLDENDOODLES.message}</h1>
+        ))}
       <div className="row puppyrow no-gutters prva">
         {goldendoodles.map((goldendoodles) => (
           <div className="col-sm-4" key={goldendoodles.name}>
