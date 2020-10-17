@@ -6,8 +6,8 @@ function Puppies({ propdata }) {
   const litter1 = _.get(propdata, "litter1", []);
   const litterName = _.get(propdata, "litterName", []);
   const litterTheme = _.get(propdata, "litterTheme", []);
-  const litter1Waitlist = _.get(propdata, "litter3", []);
-  const litter1IsOut = _.get(propdata, "litter3", []);
+  const litter1Waitlist = _.get(propdata, "litter1Waitlist", []);
+  const litter1IsOut = _.get(propdata, "litter1IsOut", []);
   const parents = _.get(propdata, "parents", []);
   useTitle("Your Next Dog");
 
@@ -25,6 +25,7 @@ function Puppies({ propdata }) {
           See wait list
         </a>
       </div>
+
       <div className="text-center">
         {litterTheme.map((litterTheme) => (
           <img
@@ -32,6 +33,11 @@ function Puppies({ propdata }) {
             className="img-fluid homecard frame"
             alt="theme"
           ></img>
+        ))}
+      </div>
+      <div className="text-center">
+        {litter1IsOut.map((litter1IsOut) => (
+          <h1>{litter1IsOut.message}</h1>
         ))}
       </div>
       <div className="row ">
