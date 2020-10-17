@@ -69,6 +69,7 @@
       "answer": "As breeders we are left at the mercy of waiting on Mother Nature to take her course with our dogs and puppies. We cannot guarantee exactly when puppies will be born, size of litters, genders, colors, markings of puppies or exact day they will go home. We cannot guarantee the exact size or coat of your puppy. Sometimes planned studs don't work out for various reasons and we cannot guarantee any particular paired breeding until it takes place and pregnancy is confirmed. We will do our best to accommodate your desires for all of the above. "
     }
   ],
+  "START OF FIRST LITTER": "",
   "litterName": [
     {"name": "Disney litter"}
   ],
@@ -77,32 +78,32 @@
   ],
   "litter1": [
     {
-      "name": "Poodle 1",
+      "name": "Daisy",
       "description": "Cute",
       "image": "./puppies/disney/daisy.jpg"
     },
     {
-      "name": "Poodle 1",
+      "name": "Darwin",
       "description": "This one is fiesty",
       "image": "./puppies/disney/darwin.jpg"
     },
     {
-      "name": "Poodle 1",
+      "name": "Doc",
       "description": "Cute",
       "image": "./puppies/disney/doc.jpg"
     },
     {
-      "name": "Poodle 1",
+      "name": "Dolly",
       "description": "Cute",
       "image": "./puppies/disney/dolly.jpg"
     },
     {
-      "name": "Poodle 1",
+      "name": "Dorie",
       "description": "Cute",
       "image": "./puppies/disney/dorie.jpg"
     },
     {
-      "name": "Poodle 1",
+      "name": "Dulce",
       "description": "Cute",
       "image": "./puppies/disney/dulce.jpg"
     }
@@ -117,104 +118,117 @@
       "message": "Litter 1 is out, sorry"
     }
   ],
-  "poodles": [
-   
+  "END OF 1ST LITTER": "",
+  "START OF 2nd LITTER": "",
+  "litter2Name": [
+    {"name": "Entertainment Doods"}
+  ],
+  "litter2Theme": [ 
+    {"image": "./puppies/entertainmentdoods/epictheme.jpg" } 
+  ],
+  "litter2": [
     {
-      "themeImage": "./themes/bootheme.jpg",
-      "name": "Poodle 1",
+      "name": "Eddie",
       "description": "Cute",
-      "image": "./puppies/shiba.jpg"
+      "image": "./puppies/entertainmentdoods/eddie.jpg"
     },
     {
-      "name": "hot doge 2",
-      "description": " he great",
-      "image": "./puppies/doodle.jpg"
+      "name": "Ellen",
+      "description": "This one is fiesty",
+      "image": "./puppies/entertainmentdoods/ellen"
     },
     {
-      "name": "hot doge 3",
-      "description": " he great",
-      "image": "./puppies/bluebow.jpg"
+      "name": "Elton",
+      "description": "Cute",
+      "image": "./puppies/entertainmentdoods/elton"
     },
     {
-      "name": "hot doge 4",
-      "description": " he great",
-      "image": "./puppies/golddoodle.jpg"
+      "name": "Elvis",
+      "description": "Cute",
+      "image": "./puppies/entertainmentdoods/elvis.jpg"
     },
     {
-      "name": "WEWEWE",
-      "description": " he great",
-      "image": "./puppies/shiba.jpg"
+      "name": "Elvis Jr",
+      "description": "Cute",
+      "image": "./puppies/entertainmentdoods/elvisjr.jpg"
     },
     {
-      "name": "haaaaa",
-      "description": " he great",
-      "image": "./puppies/shiba.jpg"
+      "name": "Emma",
+      "description": "Cute",
+      "image": "./puppies/disney/emma.jpg"
+    },
+    {
+      "name": "Estelle",
+      "description": "Cute",
+      "image": "./puppies/disney/estelle.jpg"
     }
   ],
-  "labradoodlewaitlist": [
-    { "name": "Megan", "date": "10/13/2020", "number": "1" },
-    { "name": "John", "date": "10/13/2020", "number": "2" },
-    { "name": "Me", "date": "09/13/2022", "number": "3" }
+  "litter2Waitlist": [
+    { "name": "Steve", "date": "10/13/2020", "number": "1" },
+    { "name": "Frank", "date": "10/01/1997", "number": "2" },
+    { "name": "Harry", "date": "10/13/2020", "number": "3" }
   ],
-  "NOMORELABRADOODLES": [
+  "litter2IsOut": [
     {
-      "message": "Fresh out of labradoodles"
+      "message": "There are no more puppies in litter 2"
     }
   ],
-  "labradoodles": [
+"END OF SECOND LITTER": "",
+"START OF THIRD LITTER": "",
+  "litter3Name": [
+    {"name": "Boo-Licious Doods"}
+  ],
+  "litter3Theme": [ 
+    {"image": "./puppies/boo/bootheme.jpg" } 
+  ],
+  "litter3": [
     {
-      "themeImage": "./themes/bootheme.jpg",
-      "name": "Great doodles",
-      "description": "yes",
-      "image": "./puppies/labradoodles/bates.jpg"
+      "name": "Bates",
+      "description": "Cute",
+      "image": "./puppies/boo/bates.jpg"
     },
     {
-      "name": "hot doge 2",
-      "description": " he great",
-      "image": "./puppies/labradoodles/blade.jpg"
+      "name": "Blade",
+      "description": "This one is fiesty",
+      "image": "./puppies/boo/blade.jpg"
     },
     {
-      "name": "hot doge 3",
-      "description": " he great",
-      "image": "./puppies/labradoodles/blair.jpg"
+      "name": "Blair",
+      "description": "Cute",
+      "image": "./puppies/boo/blair.jpg"
     },
     {
-      "name": "hot doge 4",
-      "description": " he great",
-      "image": "./puppies/labradoodles/boogeyman.jpg"
+      "name": "Boogeyman",
+      "description": "Cute",
+      "image": "./puppies/boo/boogeyman.jpg"
     },
     {
-      "name": "WEWEWE",
-      "description": " he great",
-      "image": "./puppies/labradoodles/brody.jpg"
+      "name": "Brody",
+      "description": "Cute",
+      "image": "./puppies/boo/brody.jpg"
     },
     {
-      "name": "haaaaa",
-      "description": " he great",
-      "image": "./puppies/labradoodles/bundy.jpg"
+      "name": "Bundy",
+      "description": "Cute",
+      "image": "./puppies/boo/bundy.jpg"
     }
   ],
   "litter3Waitlist": [
-    { "name": "Tom", "date": "10/19/2020", "number": "1" },
-    { "name": "John", "date": "10/13/2020", "number": "2" },
+    { "name": "Steve", "date": "10/13/2020", "number": "1" },
+    { "name": "Frank", "date": "10/01/1997", "number": "2" },
     { "name": "Harry", "date": "10/13/2020", "number": "3" }
   ],
   "litter3IsOut": [
     {
-      "message": "There are no more of these puppies"
+      "message": "There are no more puppies in litter 2"
     }
   ],
-  "litter3": [
-    {
-      "themeImage": "./themes/bootheme.jpg"
-    },
-    {
-      "name": "GoldenDoodle",
-      "description": "Best",
-      "image": "./puppies/golddoodle.jpg"
-    }
-    
-  ],
+"END OF THIRD LITTER": "",
+
+
+
+
+  "SPACE BREAKER": "",
   "pastdogs": [
     {
       "description": " Buddy, Dog given to the king of England",
@@ -251,7 +265,7 @@
       "name": "Linda",
       "description": "A big doge",
       "breed": "Labradoodle",
-      "image": "./puppies/golddoodle.jpg",
+      "image": "./puppies/sleepybow.JPG",
       "geneticLink": "https://google.com",
       "firstpuppy": "./puppies/bluebow.JPG",
       "secondpuppy": "./puppies/falldog.jpg",
