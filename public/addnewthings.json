@@ -237,14 +237,45 @@
     },
     {
       "description": "SAMPLE TEXT Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample ",
+      "name": "Steve",
+      "image": "./puppies/doodle.jpg"
+    },
+    {
+      "keep the description to about a paragraph": "",
+      "description": " Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample",
+      "name": "Alvin",
+      "image": "./puppies/headshot.jpg"
+    },
+    {
+      "description": " Dog given to the king of England",
       "name": "Frank",
+      "image": "./puppies/flower.jpg"
+    },
+    {
+      "description": "SAMPLE TEXT Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample ",
+      "name": "Stevie",
+      "image": "./puppies/sampledog.jpg"
+    },
+    {
+      "keep the description to about a paragraph": "",
+      "description": " Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample",
+      "name": "Hello",
+      "image": "./puppies/headshot.jpg"
+    },{
+      "description": " Dog given to the king of England",
+      "name": "Frank",
+      "image": "./puppies/firstday.jpg"
+    },
+    {
+      "description": "SAMPLE TEXT Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample ",
+      "name": "Yes",
       "image": "./puppies/smiledog.jpg"
     },
     {
       "keep the description to about a paragraph": "",
       "description": " Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample",
-      "name": "Frank",
-      "image": "./puppies/headshot.jpg"
+      "name": "OOOOOOOOOO",
+      "image": "./puppies/godcopilot.jpg"
     }
   ],
 

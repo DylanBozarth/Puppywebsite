@@ -4,7 +4,7 @@ import _ from "lodash";
 function RainbowBridge({ propdata }) {
   const pastdogs = _.get(propdata, "pastdogs", []);
   return (
-    <div className="container ">
+    <div className="container-fluid innerpage">
       <div className="row">
         {pastdogs.map((pastdogs) => (
           <Card

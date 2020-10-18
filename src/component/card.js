@@ -2,6 +2,7 @@ import React from "react";
 
 export default function Card(props) {
   return (
+      <div className="col-sm-4">
     <div
       style={{
         backgroundImage: `url(${props.imgUrl})`
@@ -13,6 +14,6 @@ export default function Card(props) {
         <p className="card-description">{props.description}</p>
         <div className="card-waves" />
       </div>
-    </div>
+    </div></div>
   );
 }
