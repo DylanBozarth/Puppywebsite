@@ -1,16 +1,19 @@
 import React from "react";
+import Card from '../component/card'
 import _ from "lodash";
-import ImageGallery from "react-image-gallery";
 function RainbowBridge({ propdata }) {
   const pastdogs = _.get(propdata, "pastdogs", []);
   return (
-    <div className="container-fluid slider">
-      <ImageGallery
-        className=""
-        items={pastdogs}
-        showFullscreenButton={false}
-        lazyLoad={true}
-      ></ImageGallery>
+    <div className="container ">
+      <div className="row">
+        {pastdogs.map((pastdogs) => (
+          <Card
+        imgUrl={pastdogs.image}
+        title={pastdogs.name}
+        description={pastdogs.description} 
+      />
+        ))}
+      </div>
     </div>
   );
 }
