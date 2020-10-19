@@ -211,7 +211,7 @@ function Puppies({ propdata }) {
           <h1 className="text-center" id="litter2">Waitlist for {litter2Name.name}</h1>
         ))}
       <div className="row" >
-      {litter1Waitlist.map((litter2Waitlist) => (
+      {litter2Waitlist.map((litter2Waitlist) => (
         
              <div  className="col-sm-4"  key={litter2Waitlist.name}>
              
@@ -226,7 +226,7 @@ function Puppies({ propdata }) {
           <h1 className="text-center" id="litter3">Waitlist for {litter3Name.name}</h1>
         ))}
       <div className="row" >
-      {litter1Waitlist.map((litter3Waitlist) => (
+      {litter3Waitlist.map((litter3Waitlist) => (
         
              <div  className="col-sm-4"  key={litter3Waitlist.name}>
              

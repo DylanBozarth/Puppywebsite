@@ -39,7 +39,7 @@ export const Navigation = () => {
                   <img
                     width="150px"
                     height="110px"
-                    src="./assets/navboneinfo.png"
+                    src="./assets/in-fur-mation.png"
                     alt="navbone"
                     className="img-fluid  navbone"
                   ></img>
@@ -52,15 +52,14 @@ export const Navigation = () => {
                   </DropdownItem>
                   <DropdownItem>
                     <NavLink href="/breedinfo">
-                      <NavItem className="navdropdown">About Doodles</NavItem>
+                      <NavItem className="navdropdown">Doodle facts</NavItem>
                     </NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     <NavLink href="/affliates">
-                      <NavItem className="navdropdown">Our Affliates</NavItem>
+                      <NavItem className="navdropdown">Doodle supply list</NavItem>
                     </NavLink>
                   </DropdownItem>
-
                   <DropdownItem>
                     <NavLink href="/FAQ">
                       <NavItem className="navdropdown">FAQ</NavItem>
@@ -88,12 +87,12 @@ export const Navigation = () => {
                  
                   <DropdownItem>
                     <NavLink href="/puppies">
-                      <NavItem className="navdropdown">All Puppies</NavItem>
+                      <NavItem className="navdropdown">Current litters</NavItem>
                     </NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     <NavLink href="/parents">
-                      <NavItem className="navdropdown">Parents</NavItem>
+                      <NavItem className="navdropdown">Meet the Pawrents</NavItem>
                     </NavLink>
                   </DropdownItem>
                 
