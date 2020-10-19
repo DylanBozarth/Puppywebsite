@@ -70,12 +70,8 @@
     }
   ],
   "START OF FIRST LITTER": "",
-  "litterName": [
-    {"name": "Disney litter"}
-  ],
-  "litterTheme": [ 
-    {"image": "./puppies/disney/disneytheme.jpg" } 
-  ],
+  "litterName": [{ "name": "Disney litter" }],
+  "litterTheme": [{ "image": "./puppies/disney/disneytheme.jpg" }],
   "litter1": [
     {
       "name": "Daisy",
@@ -120,12 +116,8 @@
   ],
   "END OF 1ST LITTER": "",
   "START OF 2nd LITTER": "",
-  "litter2Name": [
-    {"name": "Entertainment Doods"}
-  ],
-  "litter2Theme": [ 
-    {"image": "./puppies/entertainmentdoods/epictheme.jpg" } 
-  ],
+  "litter2Name": [{ "name": "Entertainment Doods" }],
+  "litter2Theme": [{ "image": "./puppies/entertainmentdoods/epictheme.jpg" }],
   "litter2": [
     {
       "name": "Eddie",
@@ -135,12 +127,12 @@
     {
       "name": "Ellen",
       "description": "This one is fiesty",
-      "image": "./puppies/entertainmentdoods/ellen"
+      "image": "./puppies/entertainmentdoods/ellen.jpg"
     },
     {
       "name": "Elton",
       "description": "Cute",
-      "image": "./puppies/entertainmentdoods/elton"
+      "image": "./puppies/entertainmentdoods/elton.jpg"
     },
     {
       "name": "Elvis",
@@ -155,12 +147,12 @@
     {
       "name": "Emma",
       "description": "Cute",
-      "image": "./puppies/disney/emma.jpg"
+      "image": "./puppies/entertainmentdoods/emma.jpg"
     },
     {
       "name": "Estelle",
       "description": "Cute",
-      "image": "./puppies/disney/estelle.jpg"
+      "image": "./puppies/entertainmentdoods/estelle.jpg"
     }
   ],
   "litter2Waitlist": [
@@ -173,14 +165,10 @@
       "message": "There are no more puppies in litter 2"
     }
   ],
-"END OF SECOND LITTER": "",
-"START OF THIRD LITTER": "",
-  "litter3Name": [
-    {"name": "Boo-Licious Doods"}
-  ],
-  "litter3Theme": [ 
-    {"image": "./puppies/boo/bootheme.jpg" } 
-  ],
+  "END OF SECOND LITTER": "",
+  "START OF THIRD LITTER": "",
+  "litter3Name": [{ "name": "Boo-Licious Doods" }],
+  "litter3Theme": [{ "image": "./puppies/boo/bootheme.jpg" }],
   "litter3": [
     {
       "name": "Bates",
@@ -223,10 +211,7 @@
       "message": "There are no more puppies in litter 2"
     }
   ],
-"END OF THIRD LITTER": "",
-
-
-
+  "END OF THIRD LITTER": "",
 
   "SPACE BREAKER": "",
   "pastdogs": [
@@ -241,7 +226,6 @@
       "image": "./puppies/doodle.jpg"
     },
     {
-     
       "description": " Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample",
       "name": "Alvin",
       "image": "./puppies/headshot.jpg"
@@ -261,7 +245,8 @@
       "description": " Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample",
       "name": "Hello",
       "image": "./puppies/headshot.jpg"
-    },{
+    },
+    {
       "description": " Dog given to the king of England",
       "name": "Frank",
       "image": "./puppies/firstday.jpg"
