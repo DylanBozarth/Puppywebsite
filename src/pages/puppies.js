@@ -202,12 +202,12 @@ function Puppies({ propdata }) {
           <h1>{litter4Name.name}</h1>
         ))}
         <a className="puppysubtitle" href="#litter3">
-        THERE SHOULD BE NOTHING HERE
+        
         </a>
       </div>
 
       <div className="text-center">
-        {litter4Theme.map((litter4Theme) => (
+      {litter4Theme.filter(x=>x.image!=='').map((litter4Theme) => (
           <img
             src={litter4Theme.image}
             className="img-fluid homecard frame"
@@ -216,12 +216,12 @@ function Puppies({ propdata }) {
         ))}
       </div>
       <div className="text-center">
-        {litter4IsOut.map((litter4IsOut) => (
+      {litter4IsOut.filter(x=>x.name!=='').map((litter4IsOut) => (
           <h1>{litter4IsOut.message}</h1>
         ))}
       </div>
       <div className="row ">
-        {litter4.map((litter4) => (
+      {litter4.filter(x=>x.name!=='').map((litter4) => (
           <div className="col-sm-4" key={litter4.name}>
             <img
               className="homecard frame"
@@ -236,7 +236,7 @@ function Puppies({ propdata }) {
       </div>
       <h3 className="centertext">The proud parents</h3>
       <div className="row">
-        {parents.slice(4, 6).map((parents) => (
+        {parents.slice(6, 8).filter(x=>x.name!=='').map((parents) => (
           <div className="parentcard col-sm-6" key={parents.name}>
             <img
               className="homecard frame img-fluid"

@@ -315,11 +315,7 @@
       "description": "A big doge",
       "breed": "Labradoodle",
       "image": "./puppies/shiba.jpg",
-      "geneticLink": "https://google.com",
-      "firstpuppy": "./puppies/bluebow.JPG",
-      "secondpuppy": "./puppies/falldog.jpg",
-      "thirdpuppy": "./puppies/shiba.jpg",
-      "forthpuppy": "./puppies/firstday.JPG"
+      "geneticLink": "https://google.com"
     },
     {
       "Parents of litter 1": "",
@@ -328,10 +324,7 @@
       "breed": "Labradoodle",
       "image": "./puppies/sleepybow.JPG",
       "geneticLink": "https://google.com",
-      "firstpuppy": "./puppies/bluebow.JPG",
-      "secondpuppy": "./puppies/falldog.jpg",
-      "thirdpuppy": "./puppies/shiba.jpg",
-      "forthpuppy": "./puppies/firstday.JPG"
+      "firstpuppy": "./puppies/bluebow.JPG"
     },
     {
       "Parents of litter 2": "",
@@ -339,11 +332,7 @@
       "description": "A big doge",
       "breed": "Labradoodle",
       "image": "./puppies/golddoodle.jpg",
-      "geneticLink": "https://google.com",
-      "firstpuppy": "./puppies/bluebow.JPG",
-      "secondpuppy": "./puppies/falldog.jpg",
-      "thirdpuppy": "./puppies/shiba.jpg",
-      "forthpuppy": "./puppies/firstday.JPG"
+      "geneticLink": "https://google.com"
     },
     {
       "Parents of litter 2": "",
@@ -352,11 +341,7 @@
       "description": "A big doge",
       "breed": "Labradoodle",
       "image": "./puppies/golddoodle.jpg",
-      "geneticLink": "https://google.com",
-      "firstpuppy": "./puppies/bluebow.JPG",
-      "secondpuppy": "./puppies/falldog.jpg",
-      "thirdpuppy": "./puppies/shiba.jpg",
-      "forthpuppy": "./puppies/firstday.JPG"
+      "geneticLink": "https://google.com"
     },
     {
       "Parents of litter 3": "",
@@ -365,11 +350,7 @@
       "description": "A big doge",
       "breed": "Labradoodle",
       "image": "./puppies/golddoodle.jpg",
-      "geneticLink": "https://google.com",
-      "firstpuppy": "./puppies/bluebow.JPG",
-      "secondpuppy": "./puppies/falldog.jpg",
-      "thirdpuppy": "./puppies/shiba.jpg",
-      "forthpuppy": "./puppies/firstday.JPG"
+      "geneticLink": "https://google.com"
     },
     {
       "Parents of litter 3": "",
@@ -378,11 +359,25 @@
       "description": "A big doge",
       "breed": "Labradoodle",
       "image": "./puppies/golddoodle.jpg",
-      "geneticLink": "https://google.com",
-      "firstpuppy": "./puppies/bluebow.JPG",
-      "secondpuppy": "./puppies/falldog.jpg",
-      "thirdpuppy": "./puppies/shiba.jpg",
-      "forthpuppy": "./puppies/firstday.JPG"
+      "geneticLink": "https://google.com"
+    },
+    {
+      "Parents of litter 4": "",
+      "name": "",
+      "age": "",
+      "description": "",
+      "breed": "",
+      "image": "",
+      "geneticLink": ""
+    },
+    {
+      "Parents of litter 4": "",
+      "name": "",
+      "age": "",
+      "description": "",
+      "breed": "",
+      "image": "",
+      "geneticLink": ""
     }
   ],
 
