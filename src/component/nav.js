@@ -39,7 +39,7 @@ export const Navigation = () => {
                   <img
                     width="150px"
                     height="110px"
-                    src="./assets/in-fur-mation.png"
+                    src="./assets/navboneinfo.png"
                     alt="navbone"
                     className="img-fluid  navbone"
                   ></img>

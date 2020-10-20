@@ -19,6 +19,11 @@ function Puppies({ propdata }) {
   const litter3Theme = _.get(propdata, "litter3Theme", []);
   const litter3Waitlist = _.get(propdata, "litter3Waitlist", []);
   const litter3IsOut = _.get(propdata, "litter3IsOut", []);
+  const litter4 = _.get(propdata, "litter4", []);
+  const litter4Name = _.get(propdata, "litter4Name", []);
+  const litter4Theme = _.get(propdata, "litter4Theme", []);
+  const litter4Waitlist = _.get(propdata, "litter4Waitlist", []);
+  const litter4IsOut = _.get(propdata, "litter4IsOut", []);
   useTitle("Your Next Dog");
 
   return (
@@ -192,6 +197,61 @@ function Puppies({ propdata }) {
         ))}
       </div>
       {/* end of 3rd litter */}
+      <div className="puppyseperator">
+        {litter4Name.map((litter4Name) => (
+          <h1>{litter4Name.name}</h1>
+        ))}
+        <a className="puppysubtitle" href="#litter3">
+        THERE SHOULD BE NOTHING HERE
+        </a>
+      </div>
+
+      <div className="text-center">
+        {litter4Theme.map((litter4Theme) => (
+          <img
+            src={litter4Theme.image}
+            className="img-fluid homecard frame"
+            alt="theme"
+          ></img>
+        ))}
+      </div>
+      <div className="text-center">
+        {litter4IsOut.map((litter4IsOut) => (
+          <h1>{litter4IsOut.message}</h1>
+        ))}
+      </div>
+      <div className="row ">
+        {litter4.map((litter4) => (
+          <div className="col-sm-4" key={litter4.name}>
+            <img
+              className="homecard frame"
+              src={litter4.image}
+              alt={litter4.name}
+            />
+            <h1 className="puppyname">{litter4.name}</h1>
+
+            <p className="puppysubtitle">{litter4.description}</p>
+          </div>
+        ))}
+      </div>
+      <h3 className="centertext">The proud parents</h3>
+      <div className="row">
+        {parents.slice(4, 6).map((parents) => (
+          <div className="parentcard col-sm-6" key={parents.name}>
+            <img
+              className="homecard frame img-fluid"
+              src={parents.image}
+              alt={parents.name}
+            />
+            <h1 className="puppyname">{parents.name}</h1>
+            <a className="puppysubtitle" href={parents.geneticLink}>
+              Genetic analysis
+            </a>
+            <p className="puppysubtitle">{parents.description}</p>
+          </div>
+        ))}
+      </div>
+      {/* end of 4rd litter */}
       {litterName.map((litterName) => (
           <h1 className="text-center" id="litter1">Waitlist for {litterName.name}</h1>
         ))}
