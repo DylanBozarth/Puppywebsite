@@ -17,22 +17,18 @@ function Reviews({propdata}) {
           .map((reviews) => (
             
             <div className="col-lg-12" key={reviews.name}>
+              <div className="centertext">
               <img
-                className="homecardreview mx-auto d-block"
+                className=""
                
                 src={reviews.image}
                 alt={reviews.name}
               />
-              <img
-                className="homecardreview mx-auto d-block"
-               
-                src={reviews.image2}
-                alt={reviews.name}
-              />
+            </div>
               
               
               
-              <h4 className="puppyname">"{reviews.testimonial}"</h4>
+              <h4 className="puppyname centertext">"{reviews.testimonial}"</h4>
 <p className="puppytitle">-{reviews.owner}</p>
             </div>
           ))} 
