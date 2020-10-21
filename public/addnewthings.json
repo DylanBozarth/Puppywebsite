@@ -105,13 +105,15 @@
     }
   ],
   "litter1Waitlist": [
-    { "name": "Steve", "date": "10/13/2020", "number": "1" },
-    { "name": "Frank", "date": "10/01/1997", "number": "2" },
-    { "name": "Harry", "date": "10/13/2020", "number": "3" }
+    { "name": "First", "date": "10/13/2020", "number": "1" },
+    { "name": "First", "date": "10/01/1997", "number": "2" },
+    { "name": "First", "date": "10/13/2020", "number": "3" }
   ],
   "litter1IsOut": [
     {
-      "message": "Litter 1 is out, sorry"
+      "message": "Litter 1 is out, sorry",
+      "parents": "The proud parents",
+      "waitlist": "See wait list"
     }
   ],
   "END OF 1ST LITTER": "",
@@ -162,7 +164,9 @@
   ],
   "litter2IsOut": [
     {
-      "message": "There are no more puppies in litter 2"
+      "message": "There are no more puppies in litter 2",
+      "parents": "The proud parents",
+      "waitlist": "See wait list"
     }
   ],
   "END OF SECOND LITTER": "",
@@ -208,7 +212,10 @@
   ],
   "litter3IsOut": [
     {
-      "message": "There are no more puppies in litter 2"
+      "message": "There are no more puppies in litter 3",
+      "waitlist": "See wait list",
+      "parents": "The proud parents"
+
     }
   ],
   "END OF THIRD LITTER": "",
@@ -253,7 +260,9 @@
   ],
   "litter4IsOut": [
     {
-      "message": ""
+      "message": "There are no more puppies in litter 4",
+      "parents": "The proud parents",
+      "waitlist": "See wait list"
     }
   ],
   "END OF forth LITTER": "",
