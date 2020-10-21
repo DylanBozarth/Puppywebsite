@@ -219,7 +219,8 @@
     }
   ],
   "END OF THIRD LITTER": "",
-  "START OF forth litter": [{ "name": "" }],
+  "START OF forth litter": "",
+  "litter4Name": [{ "name": "" }],
   "litter4Theme": [{ "image": "" }],
   "litter4": [
     {
@@ -260,12 +261,156 @@
   ],
   "litter4IsOut": [
     {
-      "message": "There are no more puppies in litter 4",
-      "parents": "The proud parents",
-      "waitlist": "See wait list"
+      "message": "",
+      "parents": "",
+      "waitlist": ""
     }
   ],
-  "END OF forth LITTER": "",
+  "END OF Forth LITTER": "",
+  "START OF fifth litter": "",
+  "litter5Name": [{ "name": "" }],
+  "litter5Theme": [{ "image": "" }],
+  "litter5": [
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    }
+  ],
+  "litter5Waitlist": [
+    { "name": "", "date": "", "number": "" },
+    { "name": "", "date": "", "number": "" },
+    { "name": "", "date": "", "number": "" }
+  ],
+  "litter5IsOut": [
+    {
+      "message": "",
+      "parents": "",
+      "waitlist": ""
+    }
+  ],
+  "END OF fifth LITTER": "",
+  "START OF sixth litter": "",
+  "litter6Name": [{ "name": "" }],
+  "litter6Theme": [{ "image": "" }],
+  "litter6": [
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    }
+  ],
+  "litter6Waitlist": [
+    { "name": "", "date": "", "number": "" },
+    { "name": "", "date": "", "number": "" },
+    { "name": "", "date": "", "number": "" }
+  ],
+  "litter6IsOut": [
+    {
+      "message": "",
+      "parents": "",
+      "waitlist": ""
+    }
+  ],
+  "END OF SIXTH LITTER": "",
+  "START OF SEVENTH litter": "",
+  "litter7Name": [{ "name": "" }],
+  "litter7Theme": [{ "image": "" }],
+  "litter7": [
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": ""
+    }
+  ],
+  "litter7Waitlist": [
+    { "name": "", "date": "", "number": "" },
+    { "name": "", "date": "", "number": "" },
+    { "name": "", "date": "", "number": "" }
+  ],
+  "litter7IsOut": [
+    {
+      "message": "",
+      "parents": "",
+      "waitlist": ""
+    }
+  ],
+  "END OF SEVENTH LITTER": "",
   "SPACE BREAKER": "",
   "pastdogs": [
     {
@@ -310,7 +455,7 @@
       "image": "./puppies/smiledog.jpg"
     },
     {
-      "keep the description to about a paragraph": "",
+     
       "description": " Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample",
       "name": "OOOOOOOOOO",
       "image": "./puppies/godcopilot.jpg"
