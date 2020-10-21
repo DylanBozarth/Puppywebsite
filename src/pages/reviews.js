@@ -12,13 +12,21 @@ function Reviews({propdata}) {
 <div className="row  ">
 
   
-          {reviews.map((reviews) => (
+{reviews
+          .filter((x) => x.image !== "")
+          .map((reviews) => (
             
-            <div className="col-lg-12 " key={reviews.name}>
+            <div className="col-lg-12" key={reviews.name}>
               <img
                 className="homecardreview mx-auto d-block"
                
                 src={reviews.image}
+                alt={reviews.name}
+              />
+              <img
+                className="homecardreview mx-auto d-block"
+               
+                src={reviews.image2}
                 alt={reviews.name}
               />
               
