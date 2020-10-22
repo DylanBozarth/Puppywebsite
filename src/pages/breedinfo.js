@@ -5,7 +5,7 @@ import useTitle from "../hooks/useTitle";
 function BreedInfo() {
   useTitle("JYMR Doodles");
   return (
-    <div className="container-fluid breedinfopage">
+    <div className="container-fluid innerpage">
       <h1 className="breedinfotitle ">Doodle facts</h1>
       <div className="row puppyrow no-gutters prva">
       <div className="col-lg-4">
