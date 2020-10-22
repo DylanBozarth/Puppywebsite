@@ -19,7 +19,7 @@ function Reviews({propdata}) {
             <div className="col-lg-12" key={reviews.name}>
               <div className="centertext">
               <img
-                className=""
+                className="img-fluid"
                
                 src={reviews.image}
                 alt={reviews.name}
