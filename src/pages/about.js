@@ -22,7 +22,7 @@ function About() {
 
       </div>
       <div className="right">
-         <img src="./assets/aboutimages/familycar.jpg" className="rounded" />
+         <img src="./assets/aboutimages/familycar.jpg"  alt="family" className="rounded" />
       </div>
       <div className="clear"></div>
    </div>
@@ -32,7 +32,7 @@ function About() {
    <div className="mission">
      
       <div className="left">
-         <img src="./assets/aboutimages/familyporch.jpg"  className="aboutimage" />
+         <img src="./assets/aboutimages/familyporch.jpg" alt="family"  className="aboutimage" />
       </div>
         <div className="right">
          <h1 className="abouttext">Our Mission</h1>

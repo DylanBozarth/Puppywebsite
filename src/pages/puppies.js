@@ -287,7 +287,7 @@ function Puppies({ propdata }) {
           .map((litter4Name) => (
             <h1>{litter4Name.name}</h1>
           ))}
-        <a className="puppysubtitle" href="#litter3"></a>
+        <a className="puppysubtitle" href="#litter1"></a>
       </div>
 
       <div className="text-center">
