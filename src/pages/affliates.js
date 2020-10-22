@@ -17,7 +17,7 @@ function Affliates({propdata}) {
       {affliates.map((affliates) => (
            <div className="col-sm-4"  key={affliates.name}> <NavLink href={affliates.link}>
               <img
-                className="homecard frame"
+                className="homecard frame img-fluid"
                
                 src={affliates.image}
                 alt={affliates.name}
@@ -33,7 +33,7 @@ function Affliates({propdata}) {
       {amazon.map((amazon) => (
            <div className="col-sm-4"  key={amazon.name}> <NavLink href={amazon.link}>
               <img
-                className="homecard frame"
+                className="homecard frame  img-fluid"
                
                 src={amazon.image}
                 alt={amazon.name}

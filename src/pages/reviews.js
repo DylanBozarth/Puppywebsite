@@ -8,23 +8,23 @@ function Reviews({propdata}) {
   const reviews = _.get(propdata, "reviews", []);
 
   return( 
-    <div className="container-fluid innerpage">
-<div className="row  ">
+    <div className="container-fluid innerpage guardianpage">
+
 
   
 {reviews
           .filter((x) => x.image !== "")
           .map((reviews) => (
             
-            <div className="col-lg-12" key={reviews.name}>
-              <div className="centertext">
+            <div className="col-lg-4" key={reviews.name}>
+              
               <img
                 className="img-fluid"
                
                 src={reviews.image}
                 alt={reviews.name}
               />
-            </div>
+            
               
               
               
@@ -33,7 +33,7 @@ function Reviews({propdata}) {
             </div>
           ))} 
           
-        </div></div>
+        </div>
   )
 
 }

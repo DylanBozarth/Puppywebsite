@@ -1,9 +1,12 @@
 import React from 'react';
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { IconContext } from "react-icons";
-import { NavLink } from "react-router-dom";
 import styled from 'styled-components';
-
+import {
+  
+  NavLink
+ 
+} from "reactstrap";
 function PuppySeg() {
     return(
     <div className="puppysegment">
@@ -11,7 +14,7 @@ function PuppySeg() {
 
         <div className="row puppyrow no-gutters  container-fluid">
           <div className="col-sm-4 container-fluid">
-            <StyledNavLink to="/about" className="nohighlight">
+            <NavLink href="/about" className="nohighlight">
               <img
                 className="homecard img-fluid"
                
@@ -27,11 +30,11 @@ function PuppySeg() {
               <IconContext.Provider
       value={{ color: 'black', size: '50px', className: "arrows"}}
     ><MdKeyboardArrowRight  /> <MdKeyboardArrowRight /> <MdKeyboardArrowRight /></IconContext.Provider>
-            </StyledNavLink>
+            </NavLink>
           </div>
 
           <div className="col-sm-4">
-            <StyledNavLink to="/puppies" className="nohighlight">
+            <NavLink href="/puppies" className="nohighlight">
               <img
                 className="homecard img-fluid"
                 
@@ -47,7 +50,7 @@ function PuppySeg() {
               <IconContext.Provider
       value={{ color: 'black', size: '50px', className: "arrows"}}
     ><MdKeyboardArrowRight  /> <MdKeyboardArrowRight /> <MdKeyboardArrowRight /></IconContext.Provider>
-            </StyledNavLink>
+            </NavLink>
           </div>
           <div className="col-sm-4 zoomin">
             <a

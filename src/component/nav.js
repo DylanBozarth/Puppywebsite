@@ -28,7 +28,7 @@ export const Navigation = () => {
             <img
               width="180px"
               height="135px"
-              src="./assets/headerlogo.jpg"
+              src="./assets/headerlogo.png"
               alt="logo"
             ></img>
           </NavbarBrand>
@@ -116,7 +116,7 @@ export const Navigation = () => {
                 <img
                   width="180px"
                   height="180px"
-                  src="./assets/headerlogo.jpg"
+                  src="./assets/headerlogo.png"
                   className="navbarlogo"
                   alt="navbone"
                 ></img>
