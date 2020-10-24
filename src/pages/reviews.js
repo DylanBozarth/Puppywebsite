@@ -16,15 +16,15 @@ function Reviews({propdata}) {
           .filter((x) => x.image !== "")
           .map((reviews) => (
             
-            <div className="col-lg-4" key={reviews.name}>
-              
+            <div className="col-lg-12" key={reviews.name}>
+              <div className="text-center">
               <img
                 className="img-fluid"
                
                 src={reviews.image}
                 alt={reviews.name}
               />
-            
+            </div>
               
               
               

@@ -11,8 +11,8 @@ function Affliates({propdata}) {
   const affliates = _.get(propdata, "affliates", []);
   const amazon = _.get(propdata, "amazon", []);
   return (
-    <div className="container-fluid">
-      <h1 className="puppytitle">Our Affliates</h1>
+    <div className="container-fluid innerpage">
+      <h1 className="puppyname centertext">Our Affliates</h1>
       <div className="row">
       {affliates.map((affliates) => (
            <div className="col-sm-4"  key={affliates.name}> <NavLink href={affliates.link}>
@@ -28,7 +28,7 @@ function Affliates({propdata}) {
             </NavLink></div>
           ))}
       </div>
-      <h1>Products we reccomend</h1>
+      <h1 className="puppyname centertext">Products we reccomend</h1>
       <div className="row">
       {amazon.map((amazon) => (
            <div className="col-sm-4"  key={amazon.name}> <NavLink href={amazon.link}>
