@@ -111,7 +111,7 @@
   ],
   "litter1IsOut": [
     {
-      "message": "Litter 1 is out, sorry",
+      "message": "",
       "parents": "The proud parents",
       "waitlist": "See wait list"
     }
@@ -164,7 +164,7 @@
   ],
   "litter2IsOut": [
     {
-      "message": "There are no more puppies in litter 2",
+      "message": "",
       "parents": "The proud parents",
       "waitlist": "See wait list"
     }
@@ -212,7 +212,7 @@
   ],
   "litter3IsOut": [
     {
-      "message": "There are no more puppies in litter 3",
+      "message": "",
       "waitlist": "See wait list",
       "parents": "The proud parents"
 
@@ -439,7 +439,7 @@
       "image": "./puppies/sampledog.jpg"
     },
     {
-      "keep the description to about a paragraph": "",
+      
       "description": " Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample",
       "name": "Hello",
       "image": "./puppies/headshot.jpg"
