@@ -10,7 +10,7 @@ function About() {
      
     <div className="text-center">
         <img className="aboutimage img-fluid " src="./assets/aboutimages/familywhite.jpg" alt="JYMR family " /> 
-        <h1 className="abouttitle">Good pups are raised by good hoomans</h1>
+        <h1 className="puppyname">Good pups are raised by good hoomans</h1>
       </div>
    <div className="about">
       <div className="left">
