@@ -622,10 +622,20 @@
   ],
   "amazon": [
     {
-      "name": "Some company",
-      "description": "Free stuff",
-      "image": "./puppies/doodle.jpg",
-      "link": "https://arthemisclothing.com/collections/custom-collar/products/pumpkin-bow-tie-collar"
+      
+      "link": "//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=testing1230ea-20&marketplace=amazon&region=US&placement=B07H65KP63&asins=B07H65KP63&linkId=8041aaa03480759ab0b276c8719ac462&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066C0&bg_color=FFFFFF"
+    },
+    {
+      
+      "link": "//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=testing1230ea-20&marketplace=amazon&region=US&placement=B07H65KP63&asins=B07H65KP63&linkId=8041aaa03480759ab0b276c8719ac462&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066C0&bg_color=FFFFFF"
+    },
+    {
+      
+      "link": "//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=testing1230ea-20&marketplace=amazon&region=US&placement=B07H65KP63&asins=B07H65KP63&linkId=8041aaa03480759ab0b276c8719ac462&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066C0&bg_color=FFFFFF"
+    },
+    {
+      
+      "link": "//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=testing1230ea-20&marketplace=amazon&region=US&placement=B07H65KP63&asins=B07H65KP63&linkId=8041aaa03480759ab0b276c8719ac462&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066C0&bg_color=FFFFFF"
     }
   ]
 }
