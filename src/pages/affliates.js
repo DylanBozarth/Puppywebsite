@@ -30,19 +30,9 @@ function Affliates({propdata}) {
       </div>
       <h1 className="puppyname centertext">Products we reccomend</h1>
       <div className="row">
-      {amazon.map((amazon) => (
-           <div className="col-sm-4"  key={amazon.name}> <NavLink href={amazon.link}>
-              <img
-                className="homecard frame  img-fluid"
-               
-                src={amazon.image}
-                alt={amazon.name}
-              />
-              <h1 className="puppyname">{amazon.name}</h1>
-
-              <p className="puppysubtitle">{amazon.description}</p>
-            </NavLink></div>
-          ))}
+     
+      <iframe marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=testing1230ea-20&marketplace=amazon&region=US&placement=B07H65KP63&asins=B07H65KP63&linkId=8041aaa03480759ab0b276c8719ac462&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066C0&bg_color=FFFFFF">
+    </iframe>
       
 
       </div>
