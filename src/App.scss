@@ -646,7 +646,9 @@ $scale-base-1: (1 + $scale / 100%);
     text-decoration: none !important;
   }
 /* puppy segments */ 
-
+.reviewname {
+  font-size: 3vh;
+}
 .homecard2 {
   border: 2px solid $teal;
   
@@ -766,7 +768,6 @@ text-align: center;
 }
 .about .left h1{
    text-align:center;
-   color:#1EADFF;
    margin:0 0 10px 0;
 }
 
@@ -798,7 +799,6 @@ text-align: center;
 }
 .mission .right h1{
    text-align:center;
-   color:#1EADFF;
    margin:0 0 20px 0;
 }
 .mission .right hr{
