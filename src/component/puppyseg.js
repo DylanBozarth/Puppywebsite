@@ -1,7 +1,6 @@
 import React from 'react';
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { IconContext } from "react-icons";
-import styled from 'styled-components';
 import {
   
   NavLink
@@ -81,15 +80,7 @@ function PuppySeg() {
         </div>
     )
 }
-const StyledNavLink = styled(NavLink)`
-  text-emphasis: none;
-  text-decoration: none;
-  color: black;
-  &:hover {
-    text-emphasis: none;
-    text-decoration: none;
-    color: black;
-  }
-`;
+
+;
 
 export default PuppySeg
