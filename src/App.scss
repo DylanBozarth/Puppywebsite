@@ -1206,7 +1206,10 @@ cursor: pointer;
  margin-right: auto;
  width: 40%;
 }
-
+iframe {
+  background-color: red;
+  border: 5px solid black;
+}
  .affcard {
    width: 60%;
    height: 60%;
