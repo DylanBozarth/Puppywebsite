@@ -627,7 +627,7 @@
     },
     {
       
-      "link": "//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=testing1230ea-20&marketplace=amazon&region=US&placement=B07H65KP63&asins=B07H65KP63&linkId=8041aaa03480759ab0b276c8719ac462&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066C0&bg_color=FFFFFF"
+      "link": "//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=testing1230ea-20&marketplace=amazon&region=US&placement=0452262933&asins=0452262933&linkId=1a4c0f904738be65f9d418e7e6e08383&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff"
     },
     {
       
@@ -635,7 +635,7 @@
     },
     {
       
-      "link": "//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=testing1230ea-20&marketplace=amazon&region=US&placement=B07H65KP63&asins=B07H65KP63&linkId=8041aaa03480759ab0b276c8719ac462&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066C0&bg_color=FFFFFF"
+      "link": "//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=testing1230ea-20&marketplace=amazon&region=US&placement=0452262933&asins=0452262933&linkId=1a4c0f904738be65f9d418e7e6e08383&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff"
     }
   ]
 }
