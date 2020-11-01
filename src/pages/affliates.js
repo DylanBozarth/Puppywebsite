@@ -30,9 +30,9 @@ function Affliates({ propdata }) {
       <h1 className="puppyname centertext">Products we reccomend</h1>
       <div className="row">
         {amazon.map((amazon) => (
-          <div className="col-sm-4" key={amazon.link}>
+          <div className="col text-center" key={amazon.link}>
             <iframe
-              style={{height: '300px', width: '300px'}}
+            title="item"
               marginwidth="0"
               marginheight="0"
               scrolling="no"
