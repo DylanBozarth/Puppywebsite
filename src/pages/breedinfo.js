@@ -10,23 +10,23 @@ function BreedInfo() {
       <div className="row puppyrow no-gutters prva">
       <div className="col-lg-4">
           <img
-            className="breedinfoimg img-thumbnail "
+            className="breedinfoimg  img-fluid "
             
             src="./puppies/flower.jpg"
             alt="poodle"
-          /><h3 className="breedinfo">Info dump </h3>
+          /><h3 className="breedinfo">Poodles</h3>
           <p className="breedinfo">
             The Poodle is a dog breed that comes in three varieties: Standard
             Poodle, Miniature Poodle, and Toy Poodle. The origin of the breed is
             still discussed, with a prominent dispute over whether the poodle
             descends from Germany as a type of water dog, or from the French
-            Barbet.[5]
+            Barbet.
           </p> 
           
         </div>
         <div className="col-lg-4">
         <img
-            className="breedinfoimg  img-thumbnail"
+            className="breedinfoimg img-fluid  "
            
             src="./puppies/sleepybow.JPG"
             alt="Labradoodle"
@@ -46,7 +46,7 @@ function BreedInfo() {
         <div className="col-lg-4">
         
           <img
-            className="breedinfoimg img-thumbnail"
+            className="breedinfoimg img-fluid"
             
             src="./puppies/smiledog.jpg"
             alt="Goldendoodle"
@@ -54,9 +54,9 @@ function BreedInfo() {
           <p className="breedinfo">
             A Goldendoodle is a dog crossbreed bred from a Golden Retriever and
             a Poodle, their name is a portmanteau of Golden Retriever and
-            Labradoodle.[1][2] Whilst primarily bred as companion dogs,
+            Labradoodle. Whilst primarily bred as companion dogs,
             Goldendoodles have been successfully trained as therapy dogs, guide
-            dogs[2] and other forms of assistance dogs.[3]
+            dogs and other forms of assistance dogs.
           </p>
           
       

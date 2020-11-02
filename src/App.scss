@@ -555,6 +555,7 @@ $scale-base-1: (1 + $scale / 100%);
   .quotetext {
     font-family: 'Dancing Script', cursive;
     font-size: 3vh !important;
+    color: black !important
   }
   .paws {
     background-image: url('./paws.png');
@@ -698,7 +699,16 @@ $scale-base-1: (1 + $scale / 100%);
   font-size: 4vh;
 }
 .answersubtitle {
-  color: black; 
+  color: black;
+  text-shadow:
+  0.05em 0 white,
+  0 0.05em white,
+  -0.05em 0 white,
+  0 -0.05em white,
+  -0.05em -0.05em white,
+  -0.05em 0.05em white,
+  0.05em -0.05em white,
+  0.05em 0.05em white;
   font-size: 2.5vh;
 }
 .answertitle {
@@ -745,8 +755,8 @@ text-align: center;
  
 }
 .abouttext {
-  text-shadow: white 0px 0px 6px;
-
+  text-shadow: black 0px 0px 6px;
+color: white !important;
 }
 .about{
    padding:5% 0;
@@ -995,9 +1005,19 @@ footer p{
   text-align: center;
 }
 .centertext2 {
-  color: black;
+  
   text-align: center;
   font-style: italic;
+  color: black;
+  text-shadow:
+  0.05em 0 white,
+  0 0.05em white,
+  -0.05em 0 white,
+  0 -0.05em white,
+  -0.05em -0.05em white,
+  -0.05em 0.05em white,
+  0.05em -0.05em white,
+  0.05em 0.05em white;
 }
 @keyframes slide {
    25% {
