@@ -44,14 +44,14 @@ function Puppies({ propdata }) {
   return (
     <div className="container-fluid innerpage">
       <div className="maintitle ">
-        <h1 className="centertext">All Puppies</h1>
+        <h1 className="centertext puppyname">All Puppies</h1>
       </div>
 
       <div className="puppyseperator">
         {litterName
           .filter((x) => x.name !== "")
           .map((litterName) => (
-            <h1>{litterName.name}</h1>
+            <h1 className="puppyname">{litterName.name}</h1>
           ))}
          <a className="centertext" href="#litter1">
           {" "}
@@ -129,7 +129,7 @@ function Puppies({ propdata }) {
         {litter2Name
           .filter((x) => x.name !== "")
           .map((litter2Name) => (
-            <h1>{litter2Name.name}</h1>
+            <h1 className="puppyname">{litter2Name.name}</h1>
           ))}
          <a className="centertext" href="#litter1">
           {" "}
@@ -207,7 +207,7 @@ function Puppies({ propdata }) {
         {litter3Name
           .filter((x) => x.name !== "")
           .map((litter3Name) => (
-            <h1>{litter3Name.name}</h1>
+            <h1 className="puppyname">{litter3Name.name}</h1>
           ))}
         <a className="centertext" href="#litter1">
           {" "}
@@ -285,7 +285,7 @@ function Puppies({ propdata }) {
         {litter4Name
           .filter((x) => x.name !== "")
           .map((litter4Name) => (
-            <h1>{litter4Name.name}</h1>
+            <h1 className="puppyname">{litter4Name.name}</h1>
           ))}
         <a className="centertext" href="#litter1"></a>
       </div>
@@ -356,7 +356,7 @@ function Puppies({ propdata }) {
         {litter5Name
           .filter((x) => x.name !== "")
           .map((litter5Name) => (
-            <h1>{litter5Name.name}</h1>
+            <h1 className="puppyname">{litter5Name.name}</h1>
           ))}
          <a className="centertext" href="#litter1">
           {" "}
@@ -434,7 +434,7 @@ function Puppies({ propdata }) {
         {litter6Name
           .filter((x) => x.name !== "")
           .map((litter6Name) => (
-            <h1>{litter6Name.name}</h1>
+            <h1 className="puppyname">{litter6Name.name}</h1>
           ))}
          <a className="centertext" href="#litter1">
           {" "}
@@ -512,7 +512,7 @@ function Puppies({ propdata }) {
         {litter7Name
           .filter((x) => x.name !== "")
           .map((litter7Name) => (
-            <h1>{litter7Name.name}</h1>
+            <h1 className="puppyname">{litter7Name.name}</h1>
           ))}
          <a className="centertext" href="#litter1">
           {" "}
@@ -589,7 +589,7 @@ function Puppies({ propdata }) {
       {litterName
           .filter((x) => x.name !== "")
           .map((litterName) => (
-        <h1 className="text-center" id="litter1">
+        <h1 className="text-center puppyname" id="litter1">
           Waitlist for {litterName.name}
         </h1>
       ))}
@@ -610,7 +610,7 @@ function Puppies({ propdata }) {
       {litter2Name
           .filter((x) => x.name !== "")
           .map((litter2Name) => (
-        <h1 className="text-center" id="litter2">
+        <h1 className="text-center puppyname" id="litter2">
           Waitlist for {litter2Name.name}
         </h1>
       ))}
@@ -631,7 +631,7 @@ function Puppies({ propdata }) {
       {litter3Name
           .filter((x) => x.name !== "")
           .map((litter3Name) => (
-        <h1 className="text-center" id="litter3">
+        <h1 className="text-center puppyname" id="litter3">
           Waitlist for {litter3Name.name}
         </h1>
       ))}
@@ -652,7 +652,7 @@ function Puppies({ propdata }) {
       {litter4Name
           .filter((x) => x.name !== "")
           .map((litter4Name) => (
-        <h1 className="text-center" id="litter3">
+        <h1 className="text-center puppyname" id="litter3">
           Waitlist for {litter4Name.name}
         </h1>
       ))}
@@ -673,7 +673,7 @@ function Puppies({ propdata }) {
       {litter5Name
           .filter((x) => x.name !== "")
           .map((litter5Name) => (
-        <h1 className="text-center" id="litter1">
+        <h1 className="text-center puppyname" id="litter1">
           Waitlist for {litter5Name.name}
         </h1>
       ))}
@@ -694,7 +694,7 @@ function Puppies({ propdata }) {
       {litter6Name
           .filter((x) => x.name !== "")
           .map((litter6Name) => (
-        <h1 className="text-center" id="litter1">
+        <h1 className="text-center puppyname" id="litter1">
           Waitlist for {litter6Name.name}
         </h1>
       ))}
@@ -715,7 +715,7 @@ function Puppies({ propdata }) {
       {litter7Name
           .filter((x) => x.name !== "")
           .map((litter7Name) => (
-        <h1 className="text-center" id="litter1">
+        <h1 className="text-center puppyname" id="litter1">
           Waitlist for {litter7Name.name}
         </h1>
       ))}
