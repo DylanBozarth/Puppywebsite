@@ -28,7 +28,7 @@ function Reviews({propdata}) {
               
               
               
-              <h4 className="puppyname centertext">"{reviews.testimonial}"</h4>
+              <h4 className="breedinfo centertext">"{reviews.testimonial}"</h4>
 <p className="puppyname centertext reviewname">-{reviews.owner}</p>
             </div>
           ))} 

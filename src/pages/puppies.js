@@ -105,12 +105,12 @@ function Puppies({ propdata }) {
             <div>{litter1IsOut.parents}</div>
           ))}
       </h3>
-      <div className="row">
+      <div className="row text-center">
         {parents
           .slice(0, 2)
           .filter((x) => x.name !== "")
           .map((parents) => (
-            <div className="parentcard col-sm-6" key={parents.name}>
+            <div className=" col-sm-6" key={parents.name}>
               <img
                 className="homecard frame img-fluid"
                 src={parents.image}
@@ -183,12 +183,12 @@ function Puppies({ propdata }) {
             <div>{litter2IsOut.parents}</div>
           ))}
       </h3>
-      <div className="row">
+      <div className="row text-center">
         {parents
           .slice(2, 4)
           .filter((x) => x.name !== "")
           .map((parents) => (
-            <div className="parentcard col-sm-6" key={parents.name}>
+            <div className="col-sm-6" key={parents.name}>
               <img
                 className="homecard frame img-fluid"
                 src={parents.image}
@@ -261,12 +261,12 @@ function Puppies({ propdata }) {
             <div>{litter3IsOut.parents}</div>
           ))}
       </h3>
-      <div className="row">
+      <div className="row text-center">
         {parents
           .slice(4, 6)
           .filter((x) => x.name !== "")
           .map((parents) => (
-            <div className="parentcard col-sm-6" key={parents.name}>
+            <div className=" col-sm-6" key={parents.name}>
               <img
                 className="homecard frame img-fluid"
                 src={parents.image}
@@ -332,7 +332,7 @@ function Puppies({ propdata }) {
             <div>{litter4IsOut.parents}</div>
           ))}
       </h3>
-      <div className="row">
+      <div className="row center-text">
         {parents
           .slice(6, 8)
           .filter((x) => x.name !== "")
@@ -410,12 +410,12 @@ function Puppies({ propdata }) {
             <div>{litter5IsOut.parents}</div>
           ))}
       </h3>
-      <div className="row">
+      <div className="row text-center">
         {parents
           .slice(8, 10)
           .filter((x) => x.name !== "")
           .map((parents) => (
-            <div className="parentcard col-sm-6" key={parents.name}>
+            <div className="col-sm-6" key={parents.name}>
               <img
                 className="homecard frame img-fluid"
                 src={parents.image}
@@ -488,12 +488,12 @@ function Puppies({ propdata }) {
             <div>{litter6IsOut.parents}</div>
           ))}
       </h3>
-      <div className="row">
+      <div className="row text-center">
         {parents
           .slice(10, 12)
           .filter((x) => x.name !== "")
           .map((parents) => (
-            <div className="parentcard col-sm-6" key={parents.name}>
+            <div className="col-sm-6" key={parents.name}>
               <img
                 className="homecard frame img-fluid"
                 src={parents.image}
