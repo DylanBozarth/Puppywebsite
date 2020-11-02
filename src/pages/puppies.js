@@ -337,7 +337,7 @@ function Puppies({ propdata }) {
           .slice(6, 8)
           .filter((x) => x.name !== "")
           .map((parents) => (
-            <div className="parentcard col-sm-6" key={parents.name}>
+            <div className=" col-sm-6" key={parents.name}>
               <img
                 className="homecard frame img-fluid"
                 src={parents.image}

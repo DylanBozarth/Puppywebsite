@@ -468,7 +468,7 @@
       "name": "Greg",
       "description": "A big doge",
       "breed": "Labradoodle",
-      "image": "./puppies/shiba.jpg",
+      "image": "./puppies/falldog.jpg",
       "geneticLink": "https://google.com"
     },
     {
@@ -478,14 +478,14 @@
       "breed": "Labradoodle",
       "image": "./puppies/sleepybow.JPG",
       "geneticLink": "https://google.com",
-      "firstpuppy": "./puppies/bluebow.JPG"
+      "firstpuppy": "./puppies/falldog.jpg"
     },
     {
       "Parents of litter 2": "",
       "name": "Samatha",
       "description": "A big doge",
       "breed": "Labradoodle",
-      "image": "./puppies/golddoodle.jpg",
+      "image": "./puppies/flower.jpg",
       "geneticLink": "https://google.com"
     },
     {
@@ -494,7 +494,7 @@
       "age": "12",
       "description": "A big doge",
       "breed": "Labradoodle",
-      "image": "./puppies/golddoodle.jpg",
+      "image": "./puppies/flower.jpg",
       "geneticLink": "https://google.com"
     },
     {
@@ -503,7 +503,7 @@
       "age": "12",
       "description": "A big doge",
       "breed": "Labradoodle",
-      "image": "./puppies/golddoodle.jpg",
+      "image": "./puppies/headshot.jpg",
       "geneticLink": "https://google.com"
     },
     {
@@ -512,7 +512,7 @@
       "age": "12",
       "description": "A big doge",
       "breed": "Labradoodle",
-      "image": "./puppies/golddoodle.jpg",
+      "image": "./puppies/headshot.jpg",
       "geneticLink": "https://google.com"
     },
     {
