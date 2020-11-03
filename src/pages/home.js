@@ -14,7 +14,7 @@ function Home() {
         <Kenburns />
       </div>
       <div className="paws container-fluid"></div>
-      <div className="quotetext quote container-fluid">"A dog is the only thing on earth that loves you more than you love yourself." </div>
+      <div className="quote quotetext ">"A dog is the only thing on earth that loves you more than you love yourself." </div>
       <div className="homebox2">
         <PuppySeg />
       </div>

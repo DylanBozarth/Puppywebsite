@@ -551,9 +551,13 @@ $scale-base-1: (1 + $scale / 100%);
     background-size: 100%;
     height: 20vh;
    margin-top: -13vh; 
-   color: black; 
+   color: black !important; 
+   
   }
   .quotetext {
+    background-image: url('./quoteborder.png');
+    background-size: 100%;
+    
     font-family: 'Dancing Script', cursive;
     font-size: 3vh !important;
     color: black !important;
