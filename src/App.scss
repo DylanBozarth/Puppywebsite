@@ -512,6 +512,7 @@ $scale-base-1: (1 + $scale / 100%);
   color:black !important;
   margin-top: 3vh;
 }
+
   .navbarmaster {
     
   z-index: 99;
@@ -758,6 +759,13 @@ text-align: center;
 .abouttext {
   text-shadow: black 0px 0px 6px;
 color: white !important;
+width: 75vw;
+}
+.right{
+  float: right;
+}
+div{
+  clear: both;
 }
 * {
   box-sizing: border-box;
