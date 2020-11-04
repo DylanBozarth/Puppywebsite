@@ -15,27 +15,18 @@ function About() {
       </div>
       <div className="aboutcontainer">
   <div clasNames="row">
-    <div className="column-66">
-    AAAAAAAAAA
-    </div>
-    <div className="column-33">
-   AAAAAAAAA
-    </div>
-  </div>
-</div>
-
-<div className="aboutcontainer">
-  <div className="row">
-    <div className="column-33">
-     WWWWWWWWWWWW
-    </div>
-    <div className="column-66">
-   WWWWWWWWWWWW
+    <div className="col-sm-6">
+      <div className="aboutcard">
+        <img src="./assets/aboutimages/familyporch.jpg" className="img-fluid"></img>
+        <p>Sample textSample textSample textSample textSample textSample textSample textSample textSample textSample textSample textSample textSample textSample textSample text </p>
+      </div>
+   </div>
+    <div className="col-sm-6">
+   wewr
     </div>
   </div>
 </div>
 
- 
  </div>
  
   );
