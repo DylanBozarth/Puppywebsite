@@ -759,10 +759,15 @@ text-align: center;
 .abouttext {
   text-shadow: black 0px 0px 6px;
 color: white !important;
-width: 75vw;
+width: 80%;
+text-align: left;
+font-size: 3vh;
 }
 .right{
   float: right;
+}
+.left {
+  float: left;
 }
 div{
   clear: both;
