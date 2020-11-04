@@ -23,8 +23,7 @@ function PuppySeg() {
               <h1 className="hometitle">About us</h1>
               <p className="homeinfo">
                 {" "}
-                More infoMore infoMore infoMore infoMore infoMore infoMore
-                infoMore infoMore infoMore infoMore info{" "}
+                Get the 411 on JYMR doodles{" "}
               </p>
               <IconContext.Provider
       value={{ color: 'black', size: '50px', className: "arrows"}}
@@ -43,8 +42,7 @@ function PuppySeg() {
               <h1 className="hometitle">Puppies</h1>
               <p className="homeinfo">
                 {" "}
-                More infoMore infoMore infoMore infoMore infoMore infoMore
-                infoMore infoMore infoMore infoMore info{" "}
+                See our current litters!{" "}
               </p>
               <IconContext.Provider
       value={{ color: 'black', size: '50px', className: "arrows"}}
@@ -66,10 +64,9 @@ function PuppySeg() {
                 src="./assets/pawtreecard.png"
               ></img>
               <h1 className="hometitle">Pawtree</h1>
-              <p className="homeinfo">
+              <p className="homeinfo ">
                 {" "}
-                More infoMore infoMore infoMore infoMore infoMore infoMore
-                infoMore infoMore infoMore infoMore info{" "}
+                Get the best nutrition for your dog{" "}
               </p>
               <IconContext.Provider
       value={{ color: 'black', size: '50px', className: "arrows"}}

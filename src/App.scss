@@ -377,8 +377,17 @@ $scale-base-1: (1 + $scale / 100%);
 }
 
 .homeinfo {
-  color: black !important;
-  font-size: 3vh;
+  color: black !important; text-shadow:
+  0.03em 0 white,
+  0 0.03em white,
+  -0.03em 0 white,
+  0 -0.03em white,
+  -0.03em -0.03em white,
+  -0.03em 0.03em white,
+  0.03em -0.03em white,
+  0.03em 0.03em white;
+  font-size: 4vh;
+  
 }
 .arrows {
   margin-left: -30px;
