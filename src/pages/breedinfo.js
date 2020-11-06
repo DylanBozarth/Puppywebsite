@@ -15,7 +15,7 @@ function BreedInfo() {
             src="./puppies/flower.jpg"
             alt="poodle"
           /><h3 className="breedinfo">Poodles</h3>
-          <p className="breedinfo">
+          <p className="homeinfo ">
             The Poodle is a dog breed that comes in three varieties: Standard
             Poodle, Miniature Poodle, and Toy Poodle. The origin of the breed is
             still discussed, with a prominent dispute over whether the poodle
@@ -31,8 +31,8 @@ function BreedInfo() {
             src="./puppies/sleepybow.JPG"
             alt="Labradoodle"
           /><h3 className="breedinfo">Labradoodles</h3>
-          <p className="breedinfo">
-            A Labradoodle (/ˈlæbrəduːdəl/) is a crossbreed dog created by
+          <p className="homeinfo ">
+            A Labradoodle is a crossbreed dog created by
             crossing the Labrador Retriever and the Standard, Miniature, or Toy
             poodle. The term first appeared in 1955, but was not initially
             popular. Labradoodles are sometimes good choice for those with
@@ -51,7 +51,7 @@ function BreedInfo() {
             src="./puppies/smiledog.jpg"
             alt="Goldendoodle"
           /><h3 className="breedinfo">GoldenDoodle </h3>
-          <p className="breedinfo">
+          <p className="homeinfo ">
             A Goldendoodle is a dog crossbreed bred from a Golden Retriever and
             a Poodle, their name is a portmanteau of Golden Retriever and
             Labradoodle. Whilst primarily bred as companion dogs,

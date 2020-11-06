@@ -17,7 +17,7 @@ function Guardians() {
           <img className="homecard frame" src="./assets/1.jpg" alt="Aaron" />
           <h1 className="puppyname">Aaron</h1>
 
-          <p className="puppysubtitle">
+          <p className="homeinfo">
             Aaron has over 20 years of relavent puppy experience
           </p>
         </div>
@@ -25,13 +25,13 @@ function Guardians() {
           <img className="homecard frame" src="./assets/2.jpg" alt="Aaron" />
           <h1 className="puppyname">Tom</h1>
 
-          <p className="puppysubtitle">Tom is part canine. </p>
+          <p className="homeinfo">Tom is part canine. </p>
         </div>
         <div className="col-sm-4">
           <img className="homecard frame" src="./assets/3.jpg" alt="Aaron" />
           <h1 className="puppyname">Emily</h1>
 
-          <p className="puppysubtitle">
+          <p className="homeinfo">
             Emily can communicate with puppies telepathically.{" "}
           </p>
         </div>
