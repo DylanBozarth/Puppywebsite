@@ -6,14 +6,18 @@ function RainbowBridge({ propdata }) {
   return (
     <div className="container-fluid innerpage">
       <div className="row">
-        {pastdogs.map((pastdogs) => (
+      {
+        pastdogs
+        .filter((x) => x.name !== "")
+        .map((pastdogs)=> (
           <Card
         imgUrl={pastdogs.image}
         title={pastdogs.name}
         description={pastdogs.description} 
       />
         ))}
-      </div>
+        
+      </div><h1 className="text-center">Coming soon</h1>
     </div>
   );
 }
