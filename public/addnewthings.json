@@ -220,13 +220,13 @@
   ],
   "END OF THIRD LITTER": "",
   "START OF forth litter": "",
-  "litter4Name": [{ "name": "" }],
-  "litter4Theme": [{ "image": "" }],
+  "litter4Name": [{ "name": "Cookie Crew" }],
+  "litter4Theme": [{ "image": "./puppies/cookiecrew/cookiecrewtheme.jpg" }],
   "litter4": [
     {
-      "name": "",
+      "name": "Cameo",
       "description": "",
-      "image": ""
+      "image": "./puppies/cookiecrew/cameo.jpg"
     },
     {
       "name": "",
