@@ -100,11 +100,11 @@ export const Navigation = () => {
                     
           
 
-                  <DropdownItem>
-                    <NavLink href="/guardians">
+                {/*   <DropdownItem>
+                   <NavLink href="/guardians">
                       <NavItem className="navdropdown">Puppy Guardians</NavItem>
                     </NavLink>
-                  </DropdownItem>
+                </DropdownItem> */}
                   <DropdownItem>
                     <NavLink href="/rainbowbridge">
                       <NavItem className="navdropdown">Our past greats</NavItem>
