@@ -89,9 +89,9 @@
       "image": "./puppies/disney/doc.jpg"
     },
     {
-      "name": "Dolly",
+      "name": "Dulce",
       "description": "Cute",
-      "image": "./puppies/disney/dolly.jpg"
+      "image": "./puppies/disney/dulce.jpg"
     },
     {
       "name": "Dorie",
@@ -105,9 +105,9 @@
     }
   ],
   "litter1Waitlist": [
-    { "name": "First", "date": "10/13/2020", "number": "1" },
-    { "name": "First", "date": "10/01/1997", "number": "2" },
-    { "name": "First", "date": "10/13/2020", "number": "3" }
+    { "name": "", "date": "", "number": "" },
+    { "name": "", "date": "", "number": "" },
+    { "name": "", "date": "", "number": "" }
   ],
   "litter1IsOut": [
     {
@@ -141,11 +141,7 @@
       "description": "Cute",
       "image": "./puppies/entertainmentdoods/elvis.jpg"
     },
-    {
-      "name": "Elvis Jr",
-      "description": "Cute",
-      "image": "./puppies/entertainmentdoods/elvisjr.jpg"
-    },
+    
     {
       "name": "Emma",
       "description": "Cute",
@@ -158,9 +154,9 @@
     }
   ],
   "litter2Waitlist": [
-    { "name": "Steve", "date": "10/13/2020", "number": "1" },
-    { "name": "Frank", "date": "10/01/1997", "number": "2" },
-    { "name": "Harry", "date": "10/13/2020", "number": "3" }
+    { "name": "", "date": "", "number": "" },
+    { "name": "", "date": "", "number": "" },
+    { "name": "", "date": "", "number": "" }
   ],
   "litter2IsOut": [
     {
@@ -206,9 +202,9 @@
     }
   ],
   "litter3Waitlist": [
-    { "name": "Steve", "date": "10/13/2020", "number": "1" },
-    { "name": "Frank", "date": "10/01/1997", "number": "2" },
-    { "name": "Harry", "date": "10/13/2020", "number": "3" }
+    { "name": "", "date": "", "number": "" },
+    { "name": "", "date": "", "number": "" },
+    { "name": "", "date": "", "number": "" }
   ],
   "litter3IsOut": [
     {
@@ -241,7 +237,7 @@
     {
       "name": "Carmella",
       "description": "",
-      "image": "./puppies/cookiecrew/carmella.jpg"
+      "image": "./puppies/cookiecrew/carmela.jpg"
     },
     {
       "name": "Cherry",
@@ -283,38 +279,58 @@
   ],
   "END OF Forth LITTER": "",
   "START OF fifth litter": "",
-  "litter5Name": [{ "name": "" }],
-  "litter5Theme": [{ "image": "" }],
+  "litter5Name": [{ "name": "The Fantasic food doods" }],
+  "litter5Theme": [{ "image": "./puppies/food/foodtheme.jpg" }],
   "litter5": [
     {
-      "name": "",
+      "name": "Flan",
       "description": "",
-      "image": ""
+      "image": "./puppies/food/foodtheme.jpg"
+    },
+    {
+      "name": "Flour",
+      "description": "",
+      "image": "./puppies/food/flour.jpg"
+    },
+    {
+      "name": "Fondue",
+      "description": "",
+      "image": "./puppies/food/fondue.jpg"
+    },
+    {
+      "name": "Frankie",
+      "description": "",
+      "image": "./puppies/food/frankie.jpg"
     },
     {
       "name": "",
       "description": "",
-      "image": ""
+      "image": "./puppies/food/foodtheme.jpg"
     },
     {
-      "name": "",
+      "name": "French Fry",
       "description": "",
-      "image": ""
+      "image": "./puppies/food/frenchfry.jpg"
     },
     {
-      "name": "",
+      "name": "Fresa",
       "description": "",
-      "image": ""
+      "image": "./puppies/food/fresa.jpg"
     },
     {
-      "name": "",
+      "name": "Frijol",
       "description": "",
-      "image": ""
+      "image": "./puppies/food/frijol.jpg"
     },
     {
-      "name": "",
+      "name": "Fruit loop",
       "description": "",
-      "image": ""
+      "image": "./puppies/food/fruitloop.jpg"
+    },
+    {
+      "name": "Fudge",
+      "description": "",
+      "image": "./puppies/food/fudge.jpg"
     }
   ],
   "litter5Waitlist": [
@@ -492,8 +508,7 @@
       "description": "A big doge",
       "breed": "Labradoodle",
       "image": "./puppies/sleepybow.JPG",
-      "geneticLink": "https://google.com",
-      "firstpuppy": "./puppies/falldog.jpg"
+      "geneticLink": "https://google.com"
     },
     {
       "Parents of litter 2": "",
@@ -509,7 +524,7 @@
       "age": "12",
       "description": "A big doge",
       "breed": "Labradoodle",
-      "image": "./puppies/flower.jpg",
+      "image": "./puppies/godcopilot.jpg",
       "geneticLink": "https://google.com"
     },
     {
@@ -527,7 +542,7 @@
       "age": "12",
       "description": "A big doge",
       "breed": "Labradoodle",
-      "image": "./puppies/headshot.jpg",
+      "image": "./puppies/smiledog.jpg",
       "geneticLink": "https://google.com"
     },
     {
