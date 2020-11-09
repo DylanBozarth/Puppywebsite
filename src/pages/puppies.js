@@ -590,7 +590,7 @@ function Puppies({ propdata }) {
           .filter((x) => x.name !== "")
           .map((litterName) => (
         <h1 className="text-center puppyname" id="litter1">
-          Waitlist for {litterName.name}
+         {/* Waitlist for {litterName.name} */}
         </h1>
       ))}
       <div className="row">
@@ -611,7 +611,7 @@ function Puppies({ propdata }) {
           .filter((x) => x.name !== "")
           .map((litter2Name) => (
         <h1 className="text-center puppyname" id="litter2">
-          Waitlist for {litter2Name.name}
+         {/* Waitlist for {litter2Name.name} */}
         </h1>
       ))}
       <div className="row">
@@ -632,7 +632,7 @@ function Puppies({ propdata }) {
           .filter((x) => x.name !== "")
           .map((litter3Name) => (
         <h1 className="text-center puppyname" id="litter3">
-          Waitlist for {litter3Name.name}
+        {/*  Waitlist for {litter3Name.name} */}
         </h1>
       ))}
       <div className="row">
@@ -653,7 +653,7 @@ function Puppies({ propdata }) {
           .filter((x) => x.name !== "")
           .map((litter4Name) => (
         <h1 className="text-center puppyname" id="litter3">
-          Waitlist for {litter4Name.name}
+        {/*  Waitlist for {litter4Name.name} */}
         </h1>
       ))}
       <div className="row">
@@ -674,7 +674,7 @@ function Puppies({ propdata }) {
           .filter((x) => x.name !== "")
           .map((litter5Name) => (
         <h1 className="text-center puppyname" id="litter1">
-          Waitlist for {litter5Name.name}
+         {/* Waitlist for {litter5Name.name} */}
         </h1>
       ))}
       <div className="row">
@@ -695,7 +695,7 @@ function Puppies({ propdata }) {
           .filter((x) => x.name !== "")
           .map((litter6Name) => (
         <h1 className="text-center puppyname" id="litter1">
-          Waitlist for {litter6Name.name}
+       {/*   Waitlist for {litter6Name.name} */}
         </h1>
       ))}
       <div className="row">
@@ -716,7 +716,7 @@ function Puppies({ propdata }) {
           .filter((x) => x.name !== "")
           .map((litter7Name) => (
         <h1 className="text-center puppyname" id="litter1">
-          Waitlist for {litter7Name.name}
+          {/* Waitlist for {litter7Name.name} */}
         </h1>
       ))}
       <div className="row">
