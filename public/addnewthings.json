@@ -75,32 +75,32 @@
   "litter1": [
     {
       "name": "Daisy",
-      "description": "Cute",
+      "description": "",
       "image": "./puppies/disney/daisy.jpg"
     },
     {
       "name": "Darwin",
-      "description": "This one is fiesty",
+      "description": "",
       "image": "./puppies/disney/darwin.jpg"
     },
     {
       "name": "Doc",
-      "description": "Cute",
+      "description": "",
       "image": "./puppies/disney/doc.jpg"
     },
     {
       "name": "Dulce",
-      "description": "Cute",
+      "description": "",
       "image": "./puppies/disney/dulce.jpg"
     },
     {
       "name": "Dorie",
-      "description": "Cute",
+      "description": "",
       "image": "./puppies/disney/dorie.jpg"
     },
     {
       "name": "Dulce",
-      "description": "Cute",
+      "description": "",
       "image": "./puppies/disney/dulce.jpg"
     }
   ],
@@ -112,8 +112,8 @@
   "litter1IsOut": [
     {
       "message": "",
-      "parents": "The proud parents",
-      "waitlist": "See wait list"
+      "parents": "",
+      "waitlist": ""
     }
   ],
   "END OF 1ST LITTER": "",
@@ -123,33 +123,33 @@
   "litter2": [
     {
       "name": "Eddie",
-      "description": "Cute",
+      "description": "",
       "image": "./puppies/entertainmentdoods/eddie.jpg"
     },
     {
       "name": "Ellen",
-      "description": "This one is fiesty",
+      "description": "",
       "image": "./puppies/entertainmentdoods/ellen.jpg"
     },
     {
       "name": "Elton",
-      "description": "Cute",
+      "description": "",
       "image": "./puppies/entertainmentdoods/elton.jpg"
     },
     {
       "name": "Elvis",
-      "description": "Cute",
+      "description": "",
       "image": "./puppies/entertainmentdoods/elvis.jpg"
     },
     
     {
       "name": "Emma",
-      "description": "Cute",
+      "description": "",
       "image": "./puppies/entertainmentdoods/emma.jpg"
     },
     {
       "name": "Estelle",
-      "description": "Cute",
+      "description": "",
       "image": "./puppies/entertainmentdoods/estelle.jpg"
     }
   ],
@@ -161,8 +161,8 @@
   "litter2IsOut": [
     {
       "message": "",
-      "parents": "The proud parents",
-      "waitlist": "See wait list"
+      "parents": "",
+      "waitlist": ""
     }
   ],
   "END OF SECOND LITTER": "",
@@ -172,12 +172,12 @@
   "litter3": [
     {
       "name": "Bates",
-      "description": "Cute",
+      "description": "",
       "image": "./puppies/boo/bates.jpg"
     },
     {
       "name": "Blade",
-      "description": "This one is fiesty",
+      "description": "",
       "image": "./puppies/boo/blade.jpg"
     },
     {
@@ -187,17 +187,17 @@
     },
     {
       "name": "Boogeyman",
-      "description": "Cute",
+      "description": "",
       "image": "./puppies/boo/boogeyman.jpg"
     },
     {
       "name": "Brody",
-      "description": "Cute",
+      "description": "",
       "image": "./puppies/boo/brody.jpg"
     },
     {
       "name": "Bundy",
-      "description": "Cute",
+      "description": "",
       "image": "./puppies/boo/bundy.jpg"
     }
   ],
@@ -209,8 +209,8 @@
   "litter3IsOut": [
     {
       "message": "",
-      "waitlist": "See wait list",
-      "parents": "The proud parents"
+      "waitlist": "",
+      "parents": ""
 
     }
   ],
@@ -496,54 +496,54 @@
   "parents": [
     {
       "Parents of litter 1": "",
-      "name": "Greg",
-      "description": "A big doge",
-      "breed": "Labradoodle",
-      "image": "./puppies/falldog.jpg",
-      "geneticLink": "https://google.com"
+      "name": "",
+      "description": "",
+      "breed": "",
+      "image": "",
+      "geneticLink": ""
     },
     {
       "Parents of litter 1": "",
-      "name": "Linda",
-      "description": "A big doge",
-      "breed": "Labradoodle",
-      "image": "./puppies/sleepybow.JPG",
-      "geneticLink": "https://google.com"
+      "name": "",
+      "description": "",
+      "breed": "",
+      "image": "",
+      "geneticLink": ""
     },
     {
       "Parents of litter 2": "",
-      "name": "Samatha",
-      "description": "A big doge",
-      "breed": "Labradoodle",
-      "image": "./puppies/flower.jpg",
-      "geneticLink": "https://google.com"
+      "name": "",
+      "description": "",
+      "breed": "",
+      "image": "",
+      "geneticLink": ""
     },
     {
       "Parents of litter 2": "",
-      "name": "Thomas",
-      "age": "12",
-      "description": "A big doge",
-      "breed": "Labradoodle",
-      "image": "./puppies/godcopilot.jpg",
-      "geneticLink": "https://google.com"
+      "name": "",
+      "age": "",
+      "description": "",
+      "breed": "",
+      "image": "",
+      "geneticLink": ""
     },
     {
       "Parents of litter 3": "",
-      "name": "Stacy",
-      "age": "12",
-      "description": "A big doge",
-      "breed": "Labradoodle",
-      "image": "./puppies/headshot.jpg",
-      "geneticLink": "https://google.com"
+      "name": "",
+      "age": "",
+      "description": "",
+      "breed": "",
+      "image": "",
+      "geneticLink": ""
     },
     {
       "Parents of litter 3": "",
-      "name": "Brad",
-      "age": "12",
-      "description": "A big doge",
-      "breed": "Labradoodle",
-      "image": "./puppies/smiledog.jpg",
-      "geneticLink": "https://google.com"
+      "name": "",
+      "age": "",
+      "description": "",
+      "breed": "",
+      "image": "",
+      "geneticLink": ""
     },
     {
       "Parents of litter 4": "",

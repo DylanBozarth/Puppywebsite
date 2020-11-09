@@ -55,11 +55,11 @@ export const Navigation = () => {
                       <NavItem className="navdropdown">Doodle facts</NavItem>
                     </NavLink>
                   </DropdownItem>
-                  <DropdownItem>
+                 {/* <DropdownItem>
                     <NavLink href="/affliates">
                       <NavItem className="navdropdown">Doodle supply list</NavItem>
-                    </NavLink>
-                  </DropdownItem>
+                 </NavLink> 
+                 </DropdownItem> */}
                   <DropdownItem>
                     <NavLink href="/FAQ">
                       <NavItem className="navdropdown">FAQ</NavItem>
@@ -90,11 +90,11 @@ export const Navigation = () => {
                       <NavItem className="navdropdown">Current litters</NavItem>
                     </NavLink>
                   </DropdownItem>
-                  <DropdownItem>
+                  {/* <DropdownItem>
                     <NavLink href="/parents">
                       <NavItem className="navdropdown">Meet the Pawrents</NavItem>
                     </NavLink>
-                  </DropdownItem>
+                  </DropdownItem> */}
                 
                   
                     
@@ -105,11 +105,11 @@ export const Navigation = () => {
                       <NavItem className="navdropdown">Puppy Guardians</NavItem>
                     </NavLink>
                 </DropdownItem> */}
-                  <DropdownItem>
+                 {/*  <DropdownItem>
                     <NavLink href="/rainbowbridge">
                       <NavItem className="navdropdown">Our past greats</NavItem>
                     </NavLink>
-                  </DropdownItem>
+                 </DropdownItem> */}
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavbarBrand href="/" className="">

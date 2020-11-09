@@ -10,20 +10,20 @@ function Kenburns() {
       <div className="slideshow">
         <div
           className="slideshow-image"
-          style={{ backgroundImage: "url(../puppies/firstday.jpg)" }}
+          style={{ backgroundImage: "url(../puppies/firstday.JPG)" }}
         ></div>
         <div
           className="slideshow-image"
-          style={{ backgroundImage: "url(../puppies/bluebow.jpg)" }}
-        ></div>
-        <div
-          className="slideshow-image"
-          style={{ backgroundImage: "url(../puppies/headshot.jpg)" }}
+          style={{ backgroundImage: "url(../puppies/bluebow.JPG)" }}
         ></div>
         <div
           className="slideshow-image"
           style={{ backgroundImage: "url(../puppies/flower.jpg)" }}
+        ></div><div
+          className="slideshow-image"
+          style={{ backgroundImage: "url(../puppies/headshot.jpg)" }}
         ></div>
+        
       </div>
 </div>
     )
