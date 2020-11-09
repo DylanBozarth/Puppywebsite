@@ -229,29 +229,44 @@
       "image": "./puppies/cookiecrew/cameo.jpg"
     },
     {
-      "name": "",
+      "name": "Cane",
       "description": "",
-      "image": ""
+      "image": "./puppies/cookiecrew/cane.jpg"
     },
     {
-      "name": "",
+      "name": "Canela",
       "description": "",
-      "image": ""
+      "image": "./puppies/cookiecrew/canela.jpg"
     },
     {
-      "name": "",
+      "name": "Carmella",
       "description": "",
-      "image": ""
+      "image": "./puppies/cookiecrew/carmella.jpg"
     },
     {
-      "name": "",
+      "name": "Cherry",
       "description": "",
-      "image": ""
+      "image": "./puppies/cookiecrew/cherry.jpg"
     },
     {
-      "name": "",
+      "name": "Chip",
       "description": "",
-      "image": ""
+      "image": "./puppies/cookiecrew/chip.jpg"
+    },
+    {
+      "name": "Chunk",
+      "description": "",
+      "image": "./puppies/cookiecrew/chunk.jpg"
+    },
+    {
+      "name": "Cici",
+      "description": "",
+      "image": "./puppies/cookiecrew/cici.jpg"
+    },
+    {
+      "name": "Coco",
+      "description": "",
+      "image": "./puppies/cookiecrew/coco.jpg"
     }
   ],
   "litter4Waitlist": [
