@@ -41,7 +41,7 @@ function About() {
        </div>
        <div className="row">
          <div className="col-sm-6">
-           <p className="abouttext text-center">
+           <p className="aboutinfo text-center">
        In 2007 we were introduced to our
           very first Standard Poodle, Royce and instantly fell head over heels
           in love with the breed. We then discovered Labradoodles and knew right
@@ -69,6 +69,23 @@ function About() {
           raising, breeding and whelping. </p>
 </div>
        </div>
+       <div className="row">
+
+<div className="col-sm-6"><p className="aboutinfo">We truly believe by allowing a child
+          the opportunity to care for a dog of their own they grow up to be more
+          compassionate, responsible and loving adults. Aside from tending to
+          our dogs and farm, our family enjoys traveling all over the Us and
+          Mexico, spending time in the beautiful outdoors, watching movies of
+          all genres and doing anything related to food. All our puppies are
+          born and raised in our home. We pride ourselves with ensuring we can
+          produce sound, quality pups from genetically health tested parents,
+          who have been given the foundational skills, confidence and love
+          needed to become a Service Dog, Emotional Support Animal or to be the
+          best Dood possible in their forever Pet Home!</p></div>
+       
+       <div className="col-sm-6">
+<img src="./assets/aboutimages/familyporch.jpg" className="img-fluid"></img>
+</div></div>
       </div>
       
     </div>
