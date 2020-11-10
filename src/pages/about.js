@@ -6,17 +6,14 @@ function About() {
   return (
     <div className="container-fluid innerpage">
       <div className="text-center">
-         <h1 className="puppyname">Good pups are raised by good hoomans</h1><img
-          className="aboutimage img-fluid "
-          src="./assets/aboutimages/familywhite.jpg"
-          alt="JYMR family "
-        />
+         <h1 className="puppyname">Good pups are raised by good hoomans</h1>
+         <br />
        <h3 className="text-center puppyname">JYMR doodles</h3>
        <div className="row">
          <div className='col'></div>
          <div className="col-lg-8 text-center">
            
-<p className="text-center breedinfo">Growing up in the country brought about unique opportunities in owning
+<p className="text-center aboutinfo">Growing up in the country brought about unique opportunities in owning
           and raising animals on both the farm and in our homes. Every year
           there is a new wave of babies of all shapes and sizes born on the farm
           and with them comes new lessons to learn and increasing
@@ -26,6 +23,51 @@ function About() {
 <img src="./assets/aboutimages/familycar.jpg" className="img-fluid"></img></div>
 
 <div className='col'></div>
+       </div>
+       <div className="row">
+<div className="col-sm-6">
+
+<img src="./assets/aboutimages/longhair.jpg" className="img-fluid"></img>
+</div>
+
+<div className="col-sm-6">
+<p className="text-center aboutinfo">We found out early into our breeding career of long haired chihuahuas
+          there are severe allergies in our family and a need for a Service Dog
+          arose. Both these situations brought us back to the drawing board to
+          yet again reformulate our plans. </p>
+</div>
+
+
+       </div>
+       <div className="row">
+         <div className="col-sm-6">
+           <p className="abouttext text-center">
+       In 2007 we were introduced to our
+          very first Standard Poodle, Royce and instantly fell head over heels
+          in love with the breed. We then discovered Labradoodles and knew right
+          away Doodles were going to be our calling. Over the next year we
+          researched endlessly to learn as much as we could on Hybrid Doodles.</p>
+       </div>
+       <div className="col-sm-6">
+       <img src="./puppies/labradoodleicon.jpg" className="img-fluid"></img>
+       </div>
+       </div>
+       <div className="row">
+       <div className="col-sm-6">
+
+<img src="./assets/aboutimages/familyporch.jpg" className="img-fluid"></img>
+</div>
+
+<div className="col-sm-6">
+<p className="text-center aboutinfo">Then in 2008, JYMR Doodles was born and with it our very first litter
+          of English Labradoodles. Fast forward to today and we have grown to
+          include English Goldendoodles and Poodles along with plans of adding a
+          few more surprises in the near future. Juan and Michelle have 4
+          amazing earth-side children who have been an intricate part of our
+          breeding program from the start. Each child has had the opportunity of
+          raising a breeding female of their own, learning every aspect of
+          raising, breeding and whelping. </p>
+</div>
        </div>
       </div>
       
