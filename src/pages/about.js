@@ -84,7 +84,7 @@ function About() {
           best Dood possible in their forever Pet Home!</p></div>
        
        <div className="col-sm-6">
-<img src="./assets/aboutimages/familyporch.jpg" className="img-fluid"></img>
+<img src="./assets/aboutimages/familyarmy.jpg" className="img-fluid"></img>
 </div></div>
       </div>
       
