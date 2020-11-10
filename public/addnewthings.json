@@ -99,9 +99,9 @@
       "image": "./puppies/disney/dorie.jpg"
     },
     {
-      "name": "Dulce",
+      "name": "Dumbo",
       "description": "",
-      "image": "./puppies/disney/dulce.jpg"
+      "image": "./puppies/disney/dumbo.jpg"
     }
   ],
   "litter1Waitlist": [
@@ -285,7 +285,7 @@
     {
       "name": "Flan",
       "description": "",
-      "image": "./puppies/food/foodtheme.jpg"
+      "image": "./puppies/food/flan.jpg"
     },
     {
       "name": "Flour",

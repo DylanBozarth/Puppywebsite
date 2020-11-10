@@ -44,7 +44,7 @@ function Puppies({ propdata }) {
   return (
     <div className="container-fluid innerpage">
       <div className="maintitle ">
-        <h1 className="centertext puppyname">All Puppies</h1>
+        
       </div>
 
       <div className="puppyseperator">
