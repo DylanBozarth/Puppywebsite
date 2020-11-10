@@ -8,7 +8,7 @@ function About() {
       <div className="text-center">
          <h1 className="puppyname">Good pups are raised by good hoomans</h1>
          <br />
-       <h3 className="text-center puppyname">JYMR doodles</h3>
+       <h3 className="text-center puppyname">JYMR Doodles</h3>
        <div className="row">
          <div className='col'></div>
          <div className="col-lg-8 text-center">

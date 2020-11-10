@@ -27,10 +27,10 @@ export const Footer = () => (
         <div className="footerlinks col-sm-6">
           <h6  className="center ">Quick Links</h6>
           <ul className="footer-links">
-            <li><NavLink href="/puppies" className="footerlink">All Puppies</NavLink></li>
+            <li><NavLink href="/puppies" className="footerlink">Current litters</NavLink></li>
             <li><NavLink href="/about" className="footerlink">About us</NavLink></li>
             <li><NavLink href="/reviews" className="footerlink">Reviews</NavLink></li>
-            <li><NavLink href="/FAQ" className="footerlink">Frequently asked questions</NavLink></li>
+            <li><NavLink href="/FAQ" className="footerlink">Frequently Asked Questions</NavLink></li>
             <li><NavLink href="/application" className="footerlink">Adoption Application</NavLink></li>
           </ul>
         </div>
