@@ -1,5 +1,5 @@
 {
-  "name": "website",
+  "name": "puppybackend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,5 +40,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "JYMR doodles, website for a labradoodle breeder in Utah, USA.  Entire website is dependent on the addnewthings.json file and can be easily changed to display entirely different dogs with few code changes.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imstupidpleasehelp/Puppywebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Imstupidpleasehelp/Puppywebsite/issues"
+  },
+  "homepage": "https://github.com/Imstupidpleasehelp/Puppywebsite#readme"
 }
