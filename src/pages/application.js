@@ -279,42 +279,36 @@ export default class Application extends React.Component {
           </div>
           <div className="formsection">
             <h6 className="formtitle">
-              Are you interested in our extended stay puppy training programs?
+              We believe training is crucial to creating a well rounded Doodle. <br /> 
+              How would you like to train your puppy?
             </h6>
             <label>
               <input
                 type="checkbox"
                 className="checkbox"
-                name="6 week training and boarding"
+                name="Wants extended board and train with JYMR"
               />
-              <p className="checkbox">Yes, the 6 week Train & Board </p>
+              <p className="checkbox">I'd like to arrange for an extended board and train with JYMR Doodles.</p>
             </label>
             <label>
               <input
                 type="checkbox"
                 className="checkbox"
-                name="3 week train and board"
+                name="Wants online puppy training course. "
               />
-              <p className="checkbox">Yes, the 3 week Train & Board</p>
+              <p className="checkbox">I'm interested in an all inclusive online puppy training course. </p>
             </label>
             <label>
               <input
                 type="checkbox"
                 className="checkbox"
-                name="Needs more info about training"
+                name="Wants to train the dog themself. "
               />
               <p className="checkbox">
-                I would like more info about the training programs
+                I would to train the puppy myself or use a trainer local to me. 
               </p>
             </label>
-            <label>
-              <input
-                type="checkbox"
-                className="checkbox"
-                name="Doesn't need training"
-              />
-              <p className="checkbox">I would like to train the puppy myself</p>
-            </label>
+           
           </div>
           <div className="formsection">
             <h6 className="formtitle">
@@ -326,16 +320,41 @@ export default class Application extends React.Component {
                 className="checkbox"
                 name="Will require shipping"
               />
-              <p className="checkbox">Yes </p>
+              <p className="checkbox">I plan on picking my puppy up in person. </p>
             </label>
             <label>
               <input
                 type="checkbox"
                 className="checkbox"
-                name="Will not need shipping"
+                name="Need a flight nanny to deliver puppy"
               />
-              <p className="checkbox">No</p>
+              <p className="checkbox">I would like to have a flight nanny deliver my puppy to an airport near me.</p>
             </label>
+            <label>
+              <input
+                type="checkbox"
+                className="checkbox"
+                name="Wants to fly to Salt lake city and pick up"
+              />
+              <p className="checkbox">I would like to fly into Salt Lake City airport and pick up my puppy.</p>
+            </label>
+            <label>
+              <input
+                type="checkbox"
+                className="checkbox"
+                name="Needs ground transport."
+              />
+              <p className="checkbox">I would like my puppy shipped to me via Cargo or Ground Transport.</p>
+            </label>
+            <textarea
+            type="text"
+            rows="4"
+            cols="35"
+            cd
+            name="Airports near customer" 
+            placeholder="Please list 2 airports near you">
+
+            </textarea>
           </div>
           <div className="formsection">
             <h6 className="formtitle">

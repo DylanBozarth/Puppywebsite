@@ -87,7 +87,7 @@ function Puppies({ propdata }) {
           .map((litter1) => (
             <div className="col-sm-4" key={litter1.name}>
               <img
-                className="homecard frame"
+                className="homecard frame img-fluid"
                 src={litter1.image}
                 alt={litter1.name}
               />
