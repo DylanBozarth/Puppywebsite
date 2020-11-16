@@ -165,7 +165,7 @@ function Puppies({ propdata }) {
           .map((litter2) => (
             <div className="col-sm-4" key={litter2.name}>
               <img
-                className="homecard frame"
+                className="homecard frame img-fluid "
                 src={litter2.image}
                 alt={litter2.name}
               />
@@ -243,7 +243,7 @@ function Puppies({ propdata }) {
           .map((litter3) => (
             <div className="col-sm-4" key={litter3.name}>
               <img
-                className="homecard frame"
+                className="homecard frame img-fluid "
                 src={litter3.image}
                 alt={litter3.name}
               />
@@ -314,7 +314,7 @@ function Puppies({ propdata }) {
           .map((litter4) => (
             <div className="col-sm-4" key={litter4.name}>
               <img
-                className="homecard frame"
+                className="homecard frame  img-fluid "
                 src={litter4.image}
                 alt={litter4.name}
               />
@@ -392,7 +392,7 @@ function Puppies({ propdata }) {
           .map((litter5) => (
             <div className="col-sm-4" key={litter5.name}>
               <img
-                className="homecard frame"
+                className="homecard frame img-fluid "
                 src={litter5.image}
                 alt={litter5.name}
               />
@@ -470,7 +470,7 @@ function Puppies({ propdata }) {
           .map((litter6) => (
             <div className="col-sm-4" key={litter6.name}>
               <img
-                className="homecard frame"
+                className="homecard frame img-fluid "
                 src={litter6.image}
                 alt={litter6.name}
               />
@@ -548,7 +548,7 @@ function Puppies({ propdata }) {
           .map((litter7) => (
             <div className="col-sm-4" key={litter7.name}>
               <img
-                className="homecard frame"
+                className="homecard frame img-fluid "
                 src={litter7.image}
                 alt={litter7.name}
               />
