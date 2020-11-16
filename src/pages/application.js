@@ -1,20 +1,16 @@
 import React from "react";
-import 'react-toastify/dist/ReactToastify.css';
-import {
-  NavLink
-} from "reactstrap";
+import "react-toastify/dist/ReactToastify.css";
+import { NavLink } from "reactstrap";
 
 export default class Application extends React.Component {
-  
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
     this.state = {
       status: "",
-      
     };
   }
-  
+
   render() {
     const { status } = this.state;
     return (
@@ -26,13 +22,14 @@ export default class Application extends React.Component {
           Deposits are $500 and will be added to your final purchase price. If
           you have questions please CONTACT US!
         </h4>
-       <NavLink href="/puppycontract" className="contractlink">View Puppy Contract</NavLink>
+        <NavLink href="/puppycontract" className="contractlink">
+          View Puppy Contract
+        </NavLink>
         <form
           onSubmit={this.submitForm}
           action="https://formspree.io/xoqpajbk"
           method="POST"
         >
-
           <div className="forminputs ">
             <div className="formsection">
               <h3 className="formtitle">Your Contact information</h3>
@@ -209,8 +206,13 @@ export default class Application extends React.Component {
           <div className="formsection">
             <h6 className="formtitle">Do you have a color preference?</h6>
             <label>
-            
-              <textarea type='text' rows="2" cols="45" name="Color Preference" placeholder={'If so, describe what color here'}></textarea>
+              <textarea
+                type="text"
+                rows="2"
+                cols="25"
+                name="Color Preference"
+                placeholder={"If so, describe what color here"}
+              ></textarea>
             </label>
             <label>
               <input
@@ -222,41 +224,41 @@ export default class Application extends React.Component {
             </label>
           </div>
           <div className="formsection">
-             <h6 className="formtitle">Purpose of the Adoption</h6>
-           <label>
-                  <input
-                    type="checkbox"
-                    className="checkbox"
-                    name="Companion purpose"
-                  />
-                <p className="checkbox">Companionship  </p>
-                </label>
-                <label>
-                <input
-                    type="checkbox"
-                    className="checkbox"
-                    name="Service purpose"
-                  />
-                <p className="checkbox">Service</p>
-                </label>
-                <label>
-                <input
-                    type="checkbox"
-                    className="checkbox"
-                    name="Therapy purpose"
-                  />
-                <p className="checkbox">Therapy</p>
-                </label>
-                <label>
-                <input
-                    type="checkbox"
-                    className="checkbox"
-                    name="Breeding purpose"
-                  />
-                <p className="checkbox">Breeding</p>
-                </label>
-                </div>
-                <div className="formsection">
+            <h6 className="formtitle">Purpose of the Adoption</h6>
+            <label>
+              <input
+                type="checkbox"
+                className="checkbox"
+                name="Companion purpose"
+              />
+              <p className="checkbox">Companionship </p>
+            </label>
+            <label>
+              <input
+                type="checkbox"
+                className="checkbox"
+                name="Service purpose"
+              />
+              <p className="checkbox">Service</p>
+            </label>
+            <label>
+              <input
+                type="checkbox"
+                className="checkbox"
+                name="Therapy purpose"
+              />
+              <p className="checkbox">Therapy</p>
+            </label>
+            <label>
+              <input
+                type="checkbox"
+                className="checkbox"
+                name="Breeding purpose"
+              />
+              <p className="checkbox">Breeding</p>
+            </label>
+          </div>
+          <div className="formsection">
             <h6 className="formtitle">Energy level</h6>
             <label>
               <input
@@ -264,9 +266,7 @@ export default class Application extends React.Component {
                 className="checkbox"
                 name="Low to medium energy preference"
               />
-              <p className="checkbox">
-                Low to medium energy{" "}
-              </p>
+              <p className="checkbox">Low to medium energy </p>
             </label>
             <label>
               <input
@@ -278,17 +278,16 @@ export default class Application extends React.Component {
             </label>
           </div>
           <div className="formsection">
-            <h6 className="formtitle">Are you interested in our extended stay puppy training programs?</h6>
+            <h6 className="formtitle">
+              Are you interested in our extended stay puppy training programs?
+            </h6>
             <label>
               <input
                 type="checkbox"
                 className="checkbox"
                 name="6 week training and boarding"
               />
-              <p className="checkbox">
-              Yes, the 6 week Train & Board
-{" "}
-              </p>
+              <p className="checkbox">Yes, the 6 week Train & Board </p>
             </label>
             <label>
               <input
@@ -304,8 +303,9 @@ export default class Application extends React.Component {
                 className="checkbox"
                 name="Needs more info about training"
               />
-              <p className="checkbox">I would like more info about the training programs
-</p>
+              <p className="checkbox">
+                I would like more info about the training programs
+              </p>
             </label>
             <label>
               <input
@@ -313,21 +313,20 @@ export default class Application extends React.Component {
                 className="checkbox"
                 name="Doesn't need training"
               />
-              <p className="checkbox">I would like to train the puppy myself
-</p>
+              <p className="checkbox">I would like to train the puppy myself</p>
             </label>
           </div>
           <div className="formsection">
-            <h6 className="formtitle">Will you need shipping within the United states?</h6>
+            <h6 className="formtitle">
+              Will you need shipping within the United states?
+            </h6>
             <label>
               <input
                 type="checkbox"
                 className="checkbox"
                 name="Will require shipping"
               />
-              <p className="checkbox">
-                Yes{" "}
-              </p>
+              <p className="checkbox">Yes </p>
             </label>
             <label>
               <input
@@ -339,7 +338,9 @@ export default class Application extends React.Component {
             </label>
           </div>
           <div className="formsection">
-            <h6 className="formtitle">How long are you willing to wait for your puppy</h6>
+            <h6 className="formtitle">
+              How long are you willing to wait for your puppy
+            </h6>
             <label>
               <input
                 type="checkbox"
@@ -347,8 +348,8 @@ export default class Application extends React.Component {
                 name="Willing to wait up to one year"
               />
               <p className="checkbox">
-              I will wait until the perfect puppy becomes available Up to a year
-{" "}
+                I will wait until the perfect puppy becomes available Up to a
+                year{" "}
               </p>
             </label>
             <label>
@@ -361,17 +362,16 @@ export default class Application extends React.Component {
             </label>
           </div>
           <div className="formsection">
-            <h6 className="formtitle">Does anyone in your family have allergies? </h6>
+            <h6 className="formtitle">
+              Does anyone in your family have allergies?{" "}
+            </h6>
             <label>
               <input
                 type="checkbox"
                 className="checkbox"
                 name="Severe allergies"
               />
-              <p className="checkbox">
-             Severe allegies
-{" "}
-              </p>
+              <p className="checkbox">Severe allegies </p>
             </label>
             <label>
               <input
@@ -382,27 +382,24 @@ export default class Application extends React.Component {
               <p className="checkbox">Mild allergies</p>
             </label>
             <label>
-              <input
-                type="checkbox"
-                className="checkbox"
-                name="No allergies"
-              />
+              <input type="checkbox" className="checkbox" name="No allergies" />
               <p className="checkbox">No allergies</p>
             </label>
           </div>
 
           <div className="formsection">
-            <h6 className="formtitle">Are you willing and able to provide a new puppy/dog with optimal health care, nutrition, and exercise? Including Grooming and keeping up with regular brushing?  </h6>
+            <h6 className="formtitle">
+              Are you willing and able to provide a new puppy/dog with optimal
+              health care, nutrition, and exercise? Including Grooming and
+              keeping up with regular brushing?{" "}
+            </h6>
             <label>
               <input
                 type="checkbox"
                 className="checkbox"
                 name="Promises to treat the dog well"
               />
-              <p className="checkbox">
-             Yes
-{" "}
-              </p>
+              <p className="checkbox">Yes </p>
             </label>
             <label>
               <input
@@ -412,14 +409,32 @@ export default class Application extends React.Component {
               />
               <p className="checkbox">No</p>
             </label>
-           
           </div>
-          <div className="formsection">
-            <textarea type='text' rows="4" cols="50" name="Family info" placeholder={'Tell us about your family!'}></textarea>
-            <textarea type="text" rows="4" cols="50"cd name="Comments or questions" placeholder={'Comments or questions'}></textarea>
+          <div className="">
+            <textarea
+              type="text"
+              rows="4"
+              cols="35"
+              name="Family info"
+              placeholder={"Tell us about your family!"}
+            ></textarea>
+            <textarea
+              type="text"
+              rows="4"
+              cols="35"
+              cd
+              name="Comments or questions"
+              placeholder={"Comments or questions"}
+            ></textarea>
           </div>
-          {status === "SUCCESS" ? <p>Form submitted, Thank you!</p> : <button >Submit</button>}
-          {status === "ERROR" && <p>{alert('please fill out the form completely')}</p>}
+          {status === "SUCCESS" ? (
+            <p>Form submitted, Thank you!</p>
+          ) : (
+            <button>Submit</button>
+          )}
+          {status === "ERROR" && (
+            <p>{alert("please fill out the form completely")}</p>
+          )}
         </form>
       </div>
     );
@@ -436,16 +451,14 @@ export default class Application extends React.Component {
       if (xhr.readyState !== XMLHttpRequest.DONE) return;
       if (xhr.status === 200) {
         form.reset();
-        this.setState({ status: "SUCCESS" })
-        alert('Thank you, we will contact you shortly!');
-        
+        this.setState({ status: "SUCCESS" });
+        alert("Thank you, we will contact you shortly!");
       } else {
-        this.setState({ status: "ERROR" }) 
-        alert('Please fill out the form completely');
+        this.setState({ status: "ERROR" });
+        alert("Please fill out the form completely");
       }
     };
     xhr.send(data);
     console.log(data);
-    
   }
 }
