@@ -10,7 +10,7 @@ export const Footer = () => (
     <div className="container">
       <div className="row">
         <div className="col-sm-12 col-md-6">
-          <h4 className="center">Great Doodles from great Hoomans</h4>
+          <h6 className="center">Great Doodles from great Hoomans</h6>
           <div className="container-fluid col">
           <img className="footerlogo img-fluid" alt="footerlogo" src="./assets/logosquare.jpg" width="480px" height="200px"></img>
           <ul className="social-icons">

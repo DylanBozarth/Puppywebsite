@@ -70,12 +70,12 @@
     }
   ],
   "START OF FIRST LITTER": "",
-  "litterName": [{ "name": "Disney litter" }],
+  "litterName": [{ "name": "Disney Doods" }],
   "litterTheme": [{ "image": "./puppies/disney/disneytheme.jpg" }],
   "litter1": [
     {
       "name": "Daisy",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/disney/daisy.jpg"
     },
     {
@@ -90,7 +90,7 @@
     },
     {
       "name": "Dulce",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/disney/dulce.jpg"
     },
     {
@@ -100,7 +100,7 @@
     },
     {
       "name": "Dumbo",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/disney/dumbo.jpg"
     }
   ],
@@ -123,28 +123,28 @@
   "litter2": [
     {
       "name": "Eddie",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/entertainmentdoods/eddie.jpg"
     },
     {
       "name": "Ellen",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/entertainmentdoods/ellen.jpg"
     },
     {
       "name": "Elton",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/entertainmentdoods/elton.jpg"
     },
     {
       "name": "Elvis",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/entertainmentdoods/elvis.jpg"
     },
     
     {
       "name": "Emma",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/entertainmentdoods/emma.jpg"
     },
     {
@@ -177,27 +177,27 @@
     },
     {
       "name": "Blade",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/boo/blade.jpg"
     },
     {
       "name": "Blair",
-      "description": "Cute",
+      "description": "Reserved",
       "image": "./puppies/boo/blair.jpg"
     },
     {
       "name": "Boogeyman",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/boo/boogeyman.jpg"
     },
     {
       "name": "Brody",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/boo/brody.jpg"
     },
     {
       "name": "Bundy",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/boo/bundy.jpg"
     }
   ],
@@ -221,17 +221,17 @@
   "litter4": [
     {
       "name": "Cameo",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/cookiecrew/cameo.jpg"
     },
     {
       "name": "Cane",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/cookiecrew/cane.jpg"
     },
     {
       "name": "Canela",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/cookiecrew/canela.jpg"
     },
     {
@@ -241,22 +241,22 @@
     },
     {
       "name": "Cherry",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/cookiecrew/cherry.jpg"
     },
     {
       "name": "Chip",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/cookiecrew/chip.jpg"
     },
     {
       "name": "Chunk",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/cookiecrew/chunk.jpg"
     },
     {
       "name": "Cici",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/cookiecrew/cici.jpg"
     },
     {
@@ -284,7 +284,7 @@
   "litter5": [
     {
       "name": "Flan",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/food/flan.jpg"
     },
     {
@@ -303,18 +303,13 @@
       "image": "./puppies/food/frankie.jpg"
     },
     {
-      "name": "",
-      "description": "",
-      "image": "./puppies/food/foodtheme.jpg"
-    },
-    {
       "name": "French Fry",
       "description": "",
       "image": "./puppies/food/frenchfry.jpg"
     },
     {
       "name": "Fresa",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/food/fresa.jpg"
     },
     {
@@ -324,12 +319,12 @@
     },
     {
       "name": "Fruit loop",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/food/fruitloop.jpg"
     },
     {
       "name": "Fudge",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/food/fudge.jpg"
     }
   ],

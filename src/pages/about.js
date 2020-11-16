@@ -20,14 +20,14 @@ function About() {
           responsibilities. With over 20 years experience being raised in a
           hobby breeding home we easily found our vision for what we wanted our
           JYMR Breeding Program to look like and how we felt it to run.</p>
-<img src="./assets/aboutimages/familycar.jpg" className="img-fluid"></img></div>
+<img src="./assets/aboutimages/familycar.jpg" alt="family" className="img-fluid"></img></div>
 
 <div className='col'></div>
        </div>
        <div className="row">
 <div className="col-sm-6">
 
-<img src="./assets/aboutimages/longhair.jpg" className="img-fluid"></img>
+<img src="./assets/aboutimages/longhair.jpg"  alt="Dog" className="img-fluid"></img>
 </div>
 
 <div className="col-sm-6">
@@ -49,13 +49,13 @@ function About() {
           researched endlessly to learn as much as we could on Hybrid Doodles.</p>
        </div>
        <div className="col-sm-6">
-       <img src="./puppies/labradoodleicon.jpg" className="img-fluid"></img>
+       <img src="./puppies/labradoodleicon.jpg"  alt="family" className="img-fluid"></img>
        </div>
        </div>
        <div className="row">
        <div className="col-sm-6">
 
-<img src="./assets/aboutimages/familyporch.jpg" className="img-fluid"></img>
+<img src="./assets/aboutimages/familyporch.jpg "  alt="family" className="img-fluid"></img>
 </div>
 
 <div className="col-sm-6">
@@ -84,7 +84,7 @@ function About() {
           best Dood possible in their forever Pet Home!</p></div>
        
        <div className="col-sm-6">
-<img src="./assets/aboutimages/familyarmy.jpg" className="img-fluid"></img>
+<img src="./assets/aboutimages/familyarmy.jpg"  alt="family" className="img-fluid"></img>
 </div></div>
       </div>
       
