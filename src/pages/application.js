@@ -445,5 +445,7 @@ export default class Application extends React.Component {
       }
     };
     xhr.send(data);
+    console.log(data);
+    
   }
 }
