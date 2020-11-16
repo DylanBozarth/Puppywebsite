@@ -670,14 +670,8 @@ $scale-base-1: (1 + $scale / 100%);
 .homecardbot {
   border: 2px solid $grey;
 }
-.homecard {
-  height: 23rem;
-  width: 18rem;
-}
-.homecardreview {
-  height: 23rem;
-  width: 18rem;
-}
+
+
 .homecard:hover {
   box-shadow: 0 20px 60px 0 rgba(0,0,0,.4);
   -webkit-transform: translate(0,-10px);
