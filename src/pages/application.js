@@ -34,12 +34,12 @@ export default class Application extends React.Component {
             <div className="formsection">
               <h3 className="formtitle">Your Contact information</h3>
               <label className="formtitle">Name:</label>
-              <input type="name" name="Name" />
+              <input type="name" name="Name" required />
 
               <label className="formtitle">Phone:</label>
-              <input type="number" name="Phone Number" />
+              <input type="number" name="Phone Number" required />
               <label className="formtitle">Email</label>
-              <input type="text" name="Email" />
+              <input type="text" name="Email" required  />
             </div>
             <div className="formsection">
               <h3 className="formtitle">Your location </h3>
