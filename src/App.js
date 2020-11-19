@@ -16,11 +16,11 @@ import Labradoodles from "./component/labradoodles";
 import Goldendoodles from "./component/goldendoodles";
 import Affliates from "./pages/affliates";
 import Reviews from "./pages/reviews";
-import Newlitter from "./pages/litter";
 import Guardians from "./pages/guardians";
 import PuppyContract from './component/puppycontract'
 import GuardianContract from "./component/guardianContract";
 import FAQPAGE from "./pages/faq";
+import Thanks from "./pages/thanks";
 
 class App extends Component {
   constructor(props) {
@@ -91,13 +91,7 @@ class App extends Component {
                 <Goldendoodles {...props} propdata={this.state.propdata} />
               )}
             />
-            <Route
-              exact
-              path="/litter"
-              render={(props) => (
-                <Newlitter {...props} propdata={this.state.propdata} />
-              )}
-            />
+          
             <Route
               exact
               path="/reviews"
@@ -125,6 +119,7 @@ class App extends Component {
             <Route exact path="/guardians" component={Guardians} />
             <Route exact path="/puppycontract" component={PuppyContract} />
             <Route exact path="/guardiancontract" component={GuardianContract} />
+            <Route exact path="/Thanks" component={Thanks} />
             <Route
               exact
               path="/rainbowbridge"
