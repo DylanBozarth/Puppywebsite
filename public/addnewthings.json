@@ -221,7 +221,7 @@
   "litter4": [
     {
       "name": "Cameo",
-      "description": "Reserved",
+      "description": "",
       "image": "./puppies/cookiecrew/cameo.jpg"
     },
     {
@@ -236,7 +236,7 @@
     },
     {
       "name": "Carmella",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/cookiecrew/carmela.jpg"
     },
     {
