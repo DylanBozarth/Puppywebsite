@@ -261,7 +261,7 @@
     },
     {
       "name": "Coco",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/cookiecrew/coco.jpg"
     }
   ],
@@ -314,7 +314,7 @@
     },
     {
       "name": "Frijol",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/food/frijol.jpg"
     },
     {
