@@ -8,15 +8,16 @@ function Reviews({propdata}) {
   const reviews = _.get(propdata, "reviews", []);
 
   return( 
-    <div className="container-fluid innerpage guardianpage">
+    <div className="container-fluid innerpage ">
 
 
   
 {reviews
           .filter((x) => x.image !== "")
           .map((reviews) => (
-            
+            <div className="row">
             <div className="col-lg-12" key={reviews.name}>
+              
               <div className="text-center">
               <img
                 className="img-fluid"
@@ -30,6 +31,7 @@ function Reviews({propdata}) {
               
               <h4 className="breedinfo text-center">"{reviews.testimonial}"</h4>
 <p className="puppyname centertext reviewname">-{reviews.owner}</p>
+            </div>
             </div>
           ))} 
           
