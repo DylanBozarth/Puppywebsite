@@ -664,6 +664,12 @@ $scale-base-1: (1 + $scale / 100%);
   font-size: 3vh;
   font-weight: bolder;
   text-align: center;
+  color: black !important;
+  text-shadow:
+  0.03em 0 white,
+  0 0.03em white,
+  -0.03em 0 white,
+  0 -0.03em white,
 }
 .homecard2 {
   border: 2px solid $teal;
