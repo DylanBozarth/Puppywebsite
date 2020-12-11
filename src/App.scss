@@ -671,6 +671,9 @@ $scale-base-1: (1 + $scale / 100%);
   -0.03em 0 white,
   0 -0.03em white,
 }
+.reallycenter {
+  text-align: center !important;
+}
 .homecard2 {
   border: 2px solid $teal;
   

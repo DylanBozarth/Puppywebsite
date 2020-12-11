@@ -49,17 +49,40 @@ function Reviews() {
             for you and will answer questions and assist you with information, I
             highly recommend JYMR DOODLES. My pups are very healthy and
             beautiful.
-          </p>
+          </p> 
+          <h3 className="reviewname reallycenter text-center">-John and Terry Zimmerman</h3>
         </div>
         
-      </div><h3 className="reviewname text-center">-John and Terry Zimmerman</h3>
+     
       <div className="col-lg-12 text-center">
           <img src="./puppies/emilyreview.jpg" className="img-fluid" alt="review"></img>
           
           <p className="reviewname">
            "We bought our F1B mini goldendoodle, Mila (formerly Ash), from JYMR Doodles. Mila was from the Bella and Leo litter, “The A Team.” Michelle and her team spend a lot of time socializing their puppies, and you can definitely tell. Our puppy, Mila, has a happy, outgoing, confident temperament. She has been easy and willing to train and groom. Mila stays calm during all types of sounds, like thunderstorms, music, construction, people knocking at the door, or neighborhood dogs barking. We’ve even had to chainsaw some trees in our yard while she was nearby, and it didn’t bother her a bit! She thinks everyone she meets, animals included, are her best friends. She already had great crate skills and knew a couple of basic commands when we picked her up at 8 weeks old. She slept through the night in her crate from the first week we got her, and she was mostly potty trained by 10 weeks, and now at 17 weeks, she uses a bell to ask to go out to go potty. Mila loves being held, petted, walked, and being around all people. We get compliments about her temperament and cooperation from our vet, groomer, and the entire neighborhood. Mila has also been great with riding in the car from day one. She’s been checked regularly by her vet, who has told us repeatedly that “Mila is in excellent health, and is such a happy puppy.” Our neighbor adopted a puppy that was the same age, at the same time from a DIFFERENT breeder who kept their puppies outside in a kennel, and you can definitely tell the difference from Mila, who was socialized from birth! Our neighbor has had to work extra hard on introducing crate skills and potty training for the first time, and managing their puppy’s anxiety over unusual or loud noises. Our experience with Mila has shown us the importance of early and proper socialization for puppies. Mila is a dream puppy. We researched breeders and waited to get a puppy for a long time until we felt that we had found the right fit, and we are glad we found JYMR DOODLES. We would DEFINITELY recommend JYMR Doodles to anyone looking for a happy, healthy puppy."
           </p>
-          <h3 className="reviewname text-center">-Emily and Jeff Utah</h3>
+          <h3 className="reviewname reallycenter text-center">-Emily and Jeff, Utah</h3>
+          
+        </div>
+        <div className="col-sm-6 text-center">
+          <img src="./puppies/noelle1review.jpg"  className="img-fluid" alt="review"></img>
+          
+          <p className="reviewname">
+          We’ve gotten two puppies from Michelle with JYMR Doodles, and we wouldn’t ever want to go with another breeder.
+Michelle and her team work so hard to ensure that their puppies and their parents are set up for success. 
+          </p>
+          <h3 className="reviewname reallycenter text-center">-Noelle,  Pleasant Grove Utah</h3>
+        </div>
+        <div className="col-sm-6 text-center">
+          <img src="./puppies/noelle2review.jpg" className="img-fluid"  alt="review"></img>
+          
+          <p className="reviewname">
+          She starts training early on and that has helped us have a smooth transition bringing our pups home.
+In addition to being adorable, the pups are well cared for, kept up to date on their shots, and given a clean bill of health by their vet before they join their families.
+Michelle has always been willing to answer any of my questions, and is both kind and professional.
+I’ve never been a dog person, but my little pups have won me over, and much of that credit goes to JYMR Doodles.
+You can’t go wrong with getting a puppy from JYMR Doodles.
+          </p>
+        </div>
         </div>
     </div>
   );
