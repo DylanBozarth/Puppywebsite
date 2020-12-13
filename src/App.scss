@@ -397,6 +397,7 @@ $scale-base-1: (1 + $scale / 100%);
   background: no-repeat 50% 50%;
   background-size: cover;
   animation-name: kenburns;
+  animation-delay: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: $total-time;

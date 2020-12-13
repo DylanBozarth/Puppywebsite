@@ -89,7 +89,7 @@ function Puppies({ propdata }) {
               <img
                 className="homecard frame img-fluid"
                 src={litter1.image}
-                alt={litter1.name}
+                alt="goldendoodle"
               />
               <h1 className="puppyname">{litter1.name}</h1>
 
@@ -114,7 +114,7 @@ function Puppies({ propdata }) {
               <img
                 className="homecard frame img-fluid"
                 src={parents.image}
-                alt={parents.name}
+                alt="labradoodle"
               />
               <h1 className="puppyname">{parents.name}</h1>
               <a className="puppysubtitle" href={parents.geneticLink}>
@@ -167,7 +167,7 @@ function Puppies({ propdata }) {
               <img
                 className="homecard frame img-fluid "
                 src={litter2.image}
-                alt={litter2.name}
+                alt="labrador"
               />
               <h1 className="puppyname">{litter2.name}</h1>
 
@@ -192,7 +192,7 @@ function Puppies({ propdata }) {
               <img
                 className="homecard frame img-fluid"
                 src={parents.image}
-                alt={parents.name}
+                alt="puppy parent"
               />
               <h1 className="puppyname">{parents.name}</h1>
               <a className="puppysubtitle" href={parents.geneticLink}>
@@ -245,7 +245,7 @@ function Puppies({ propdata }) {
               <img
                 className="homecard frame img-fluid "
                 src={litter3.image}
-                alt={litter3.name}
+                alt="doodle"
               />
               <h1 className="puppyname">{litter3.name}</h1>
 
