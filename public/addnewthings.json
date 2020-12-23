@@ -85,7 +85,7 @@
     },
     {
       "name": "Doc",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/disney/doc.jpg"
     },
     {
@@ -299,7 +299,7 @@
     },
     {
       "name": "Frankie",
-      "description": "",
+      "description": "Reserved",
       "image": "./puppies/food/frankie.jpg"
     },
     {
