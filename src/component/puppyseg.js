@@ -8,11 +8,11 @@ import {
 } from "reactstrap";
 function PuppySeg() {
     return(
-    <div className="puppysegment">
+    <div className="puppysegment container-fluid">
         
 
-        <div className="row puppyrow no-gutters  container-fluid">
-          <div className="col-sm-4 container-fluid">
+        <div className="row   ">
+          <div className="col-sm-4 ">
             <NavLink href="/about" className="nohighlight">
               <img
                 className="homecard img-fluid"
@@ -49,8 +49,8 @@ function PuppySeg() {
     ><MdKeyboardArrowRight  /> <MdKeyboardArrowRight /> <MdKeyboardArrowRight /></IconContext.Provider>
             </NavLink>
           </div>
-          <div className="col-sm-4 zoomin">
-            <a
+          <div className="col-sm-4 ">
+            <NavLink
               href="https://www.pawtree.com/jymrdoodles"
               target="_blank"
               className="nohighlight"
@@ -71,7 +71,7 @@ function PuppySeg() {
               <IconContext.Provider
       value={{ color: 'black', size: '50px', className: "arrows"}}
     ><MdKeyboardArrowRight  /> <MdKeyboardArrowRight /> <MdKeyboardArrowRight /></IconContext.Provider>
-            </a>
+            </NavLink>
           </div>
         </div>
         </div>
