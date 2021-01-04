@@ -7,7 +7,7 @@ function BreedInfo() {
   return (
     <div className="container-fluid innerpage">
       <h1 className="breedinfotitle ">Doodle facts</h1>
-      <div className="row puppyrow no-gutters prva">
+      <div className="row puppyrow ">
       <div className="col-sm-4">
           <img
             className="breedinfoimg  img-fluid "

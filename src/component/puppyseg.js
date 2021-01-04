@@ -50,7 +50,7 @@ function PuppySeg() {
             </NavLink>
           </div>
           <div className="col-sm-4 zoomin">
-            <a
+            <NavLink
               href="https://www.pawtree.com/jymrdoodles"
               target="_blank"
               className="nohighlight"
@@ -71,7 +71,7 @@ function PuppySeg() {
               <IconContext.Provider
       value={{ color: 'black', size: '50px', className: "arrows"}}
     ><MdKeyboardArrowRight  /> <MdKeyboardArrowRight /> <MdKeyboardArrowRight /></IconContext.Provider>
-            </a>
+            </NavLink>
           </div>
         </div>
         </div>

@@ -362,7 +362,7 @@ $scale-base-1: (1 + $scale / 100%);
   color: black !important;
   height: 10vh;
   font-size: 5vh;
-  
+  font-weight: bolder;
   line-height: 1.8;
   background-image: url('./titlebackground.png');
   background-size: 80% 160%;
@@ -385,7 +385,7 @@ $scale-base-1: (1 + $scale / 100%);
   0.03em -0.03em white,
   0.03em 0.03em white;
   font-size: 4vh;
-  
+  font-weight: bolder;
 }
 .arrows {
   margin-left: -30px;
@@ -729,6 +729,7 @@ $scale-base-1: (1 + $scale / 100%);
   0.05em -0.05em white,
   0.05em 0.05em white;
   font-size: 2.5vh;
+  font-weight: bolder;
 }
 .answertitle {
   color: black; 
@@ -1021,6 +1022,7 @@ footer p{
   padding-bottom: 15px;
   color:white;
 -webkit-text-stroke: 1px black;
+font-weight: bolder;
 }
 
 .breedinfo {
