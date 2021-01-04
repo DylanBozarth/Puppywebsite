@@ -7,7 +7,7 @@ function BreedInfo() {
   return (
     <div className="container-fluid innerpage">
       <h1 className="breedinfotitle ">Doodle facts</h1>
-      <div className="row puppyrow no-gutters prva">
+      <div className="row puppyrow ">
       <div className="col-sm-4">
           <img
             className="breedinfoimg  img-fluid "
@@ -50,7 +50,7 @@ function BreedInfo() {
             
             src="./puppies/smiledog.jpg"
             alt="Goldendoodle"
-          /><h3 className="breedinfo">GoldenDoodle </h3>
+          /><h3 className="breedinfo">GoldenDoodles </h3>
           <p className="homeinfo ">
             A Goldendoodle is a dog crossbreed bred from a Golden Retriever and
             a Poodle, their name is a portmanteau of Golden Retriever and
