@@ -9,7 +9,12 @@ function Puppies({ propdata }) {
   return (
     <div className="container-fluid innerpage">
      <h1 className="puppyname text-center">Upcoming litters</h1>
-     <img src="./parents/leoandbella.jpg" alt="parents" className="img-fluid"></img>
+     <div className="col-sm-4">
+     <img src="./parents/leoandbella.jpg" alt="parents" className="img-fluid"></img></div>
+     <div className="col-sm-8">
+       <h3 className="puppyname text-center">Waitlist</h3>
+       <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
+     </div>
     </div>
   );
 }
