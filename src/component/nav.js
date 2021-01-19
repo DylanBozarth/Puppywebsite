@@ -105,11 +105,11 @@ export const Navigation = () => {
                       <NavItem className="navdropdown">Puppy Guardians</NavItem>
                     </NavLink>
                 </DropdownItem> */}
-                 {/*  <DropdownItem>
+                  <DropdownItem>
                     <NavLink href="/rainbowbridge">
-                      <NavItem className="navdropdown">Our past greats</NavItem>
+                      <NavItem className="navdropdown">Our past pups</NavItem>
                     </NavLink>
-                 </DropdownItem> */}
+                 </DropdownItem> 
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavbarBrand href="/" className="">
