@@ -17,7 +17,7 @@ function Puppies({ propdata }) {
         </div>
         <div className="col-sm-8">
           <h3 className="puppyname text-center biggertext">Waitlist for Leo and Bella</h3>
-          <li className="puppyname bigtext">Test name</li> <li className="puppyname bigtext">Test name</li> <li className="puppyname bigtext">Test name</li> <li className="puppyname bigtext">Test name</li> <li className="puppyname bigtext">Test name</li>
+          <li className="puppyname bigtext">Open slot</li>  <li className="puppyname bigtext">Open slot</li>  <li className="puppyname bigtext">Open slot</li>  <li className="puppyname bigtext">Open slot</li>  <li className="puppyname bigtext">Open slot</li> 
         </div>
       </div>
     </div>
