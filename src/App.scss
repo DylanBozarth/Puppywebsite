@@ -691,8 +691,13 @@ $scale-base-1: (1 + $scale / 100%);
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
 }
+.biggertext {
+  font-size: 5vh;
+  font-weight: bolder;
+}
 .bigtext {
-  font-size: 3vh;
+  font-size: 3.5vh;
+  padding: .7rem;
   font-weight: bolder;
 }
 .puppytitle {
