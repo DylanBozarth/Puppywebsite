@@ -10,11 +10,20 @@ function Puppies() {
     <div className="container-fluid innerpage">
       <div className="row">
       <div className="col-sm-8">
-        <img src="./parents/leoandbella.jpg" alt="parents"></img>
-        
+        <img src="./parents/leoandbella.jpg" className="img-fluid" alt="parents"></img>
+        <img src="./parents/glittlepreview.jpg" className="img-fluid" alt="puppies"></img>
       </div>
-<h1>LIST</h1>
-     </div>
+      <div className="col-sm-4">
+<h1 className="text-center homeinfo ">Reserve list </h1>
+<div className=""></div>
+<li>Available</li>
+<li>Available</li>
+<li>Available</li>
+<li>Available</li>
+<li>Available</li>
+<li>Available</li>
+<li>Available</li>
+     </div></div>
     </div>
   );
 }
