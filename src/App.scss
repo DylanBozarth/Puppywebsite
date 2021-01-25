@@ -1389,3 +1389,16 @@ iframe {
 .wipe:hover {
   color: #124a58;
 }
+.waitlist {
+  color: black !important; text-shadow:
+  0.03em 0 white,
+  0 0.03em white,
+  -0.03em 0 white,
+  0 -0.03em white,
+  -0.03em -0.03em white,
+  -0.03em 0.03em white,
+  0.03em -0.03em white,
+  0.03em 0.03em white;
+  font-size: 4vh;
+  font-weight: bolder;
+}
