@@ -18,12 +18,7 @@ function Puppies() {
             className="img-fluid"
             alt="parents"
           ></img>
-          <div className="col-sm-4">
-          <img
-            src="./parents/glitterpreview.jpg"
-            className="img-fluid"
-            alt="puppies"
-          ></img></div>
+         
         </div>
         <div className="col-sm-4">
           <h1 className="text-center homeinfo ">Reserve list </h1>
@@ -38,6 +33,12 @@ function Puppies() {
           </div>
           <NavLink className="homeinfo text-center" href="/application">Puppy adoption Application</NavLink>
         </div>
+        <div className="col-sm-4">
+          <img
+            src="./parents/glitterpreview.jpg"
+            className="img-fluid"
+            alt="puppies"
+          ></img></div>
       </div>
     </div>
   );

@@ -119,7 +119,7 @@ class App extends Component {
             <Route exact path="/guardians" component={Guardians} />
             <Route exact path="/puppycontract" component={PuppyContract} />
             <Route exact path="/guardiancontract" component={GuardianContract} />
-            <Route exact path="/Thanks" component={Thanks} />
+            <Route exact path="/Thanksgod" component={Thanks} />
             <Route
               exact
               path="/rainbowbridge"
