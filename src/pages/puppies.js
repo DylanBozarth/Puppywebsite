@@ -70,11 +70,7 @@ function Puppies() {
           </NavLink>
         </div>
         <div className="col-sm-4">
-          <img
-            src="./parents/glitterpreview.jpg"
-            className="img-fluid"
-            alt="puppies"
-          ></img>
+          
         </div>
       </div>
     </div>
