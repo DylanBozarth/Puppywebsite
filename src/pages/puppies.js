@@ -41,6 +41,7 @@ function Puppies() {
             className="img-fluid"
             alt="puppies"
           ></img>
+          <p class="homeinfo">Mini English Goldendoodles</p>
         </div>
       </div>
       <br /><br /><br /><br />
@@ -70,7 +71,7 @@ function Puppies() {
           </NavLink>
         </div>
         <div className="col-sm-4">
-          
+       <p class="homeinfo"> Standard Goldendoodles</p>
         </div>
       </div>
     </div>
