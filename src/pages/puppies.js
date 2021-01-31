@@ -23,8 +23,8 @@ function Puppies() {
         <div className="col-sm-4">
           <h1 className="text-center homeinfo ">Reserve list </h1>
           <div className="waitlist">
-            <li>Available</li>
-            <li>Available</li>
+            <li>Janell -Undecided</li>
+            <li>Mia -Female</li>
             <li>Available</li>
             <li>Available</li>
             <li>Available</li>
