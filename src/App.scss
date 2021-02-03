@@ -697,6 +697,18 @@ $scale-base-1: (1 + $scale / 100%);
  font-size: 4vh;
   
 }
+.jymrtitle {
+  font-size: 6vh;
+  text-align: center;
+  color: white;
+	font-size: 40px;
+	text-shadow: -1px 1px 5px #000,
+				  1px 1px 5px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+  margin-bottom: 5%;
+
+}
 .puppyname {
   color: white;
   text-shadow:
