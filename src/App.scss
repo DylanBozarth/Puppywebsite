@@ -24,6 +24,7 @@ body {
 .innerpage {
   background-image: url('./topbackground.png');
   background-size: 100%;
+  overflow-x: hidden;
 }
 .innercard {
   border-image: url('./TEST.png') 111 round;
@@ -1033,7 +1034,10 @@ footer p{
 -webkit-text-stroke: 1px black;
 font-weight: bolder;
 }
-
+.aboutpage {
+  
+  overflow-x: hidden;
+}
 .breedinfo {
 color:white;
 -webkit-text-stroke: .8px black;
