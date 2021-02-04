@@ -12,18 +12,27 @@ function FAQPAGE({ propdata }) {
     <div className=" answerpage ">
       <div className="container">
         <h1 className="FAQtitle">Frequently Asked Questions</h1>
-        <div className="centertext2">
+        <div className="">
           <p>
-            We are unable to control Mother Nature and the timing of heat cycles
-            on our girls. Due to this, estimated litters may be born 3-6 months
-            earlier or later than planned.
+          Due to the Complexity of Dog Genetics, JYMR Doodles CANNOT GUARANTEE any of the following
+but we will our best to accommodate your desires for all the items below:
           </p>
-          <p>Prices subject to change prior to placing your deposit</p>
-          <p>
-            We are open to placing our puppies in breeding homes for a nominal
-            fee. Please email us directly if you would like to buy a puppy for
-            breeding and we can discuss the options.{" "}
-          </p>
+          
+          <li>The number of puppies or their genders born in a litter
+          </li>
+          <li>The colors or markings each puppy is born with
+          </li>
+          <li>Heights and Weights within each size category is only an estimate based on parent’s,
+grandparent’s and past puppies’ sizes. Outliers can and do happen where puppies fall
+outside of the anticipated size range
+          </li>
+          <li>Final adult coat and color can change based on which genes are passed down from the
+parents.
+          </li>
+          <li>
+          Planned Studs or particular paired breeding until it takes place and pregnancy has been
+confirmed
+          </li>
         </div>
         <div className="row">
           {Faq.map((Faq) => (
