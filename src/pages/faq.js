@@ -78,7 +78,10 @@ function FAQPAGE({ propdata }) {
                   offer discounts on the final purchase price of your puppy
                   after you place your first order. We provide more information
                   to you when it is closer to your puppy pick up date. More
-                  details can also be found <NavLink href="https://www.pawtree.com/jymrdoodles/myrecommendation/Standard-Package?fbclid=IwAR1x9IKyAO0ojODicSbSXWO7305bY4A3jnFoJZvPQaAHLBcMmMnqhjZXhPY">HERE.</NavLink>
+                  details can also be found{" "}
+                  <NavLink href="https://www.pawtree.com/jymrdoodles/myrecommendation/Standard-Package?fbclid=IwAR1x9IKyAO0ojODicSbSXWO7305bY4A3jnFoJZvPQaAHLBcMmMnqhjZXhPY">
+                    HERE.
+                  </NavLink>
                 </p>
               </Collapsible>
             </div>{" "}
@@ -109,18 +112,20 @@ function FAQPAGE({ propdata }) {
             <div>
               <Collapsible trigger="What are the MUST HAVES when I bring home my puppy?">
                 <p className="answersubtitle text-center">
-                  In the beginning puppies don’t need much than their hoomans to
-                  be happy and healthy. We are working to add direct links to
-                  our recommended products on our Affiliates Page, but in the
-                  meantime here is a list of the basics. We recommend you wait
-                  until you bring your puppy home and get to know their
-                  personality and they are further into their House Breaking and
+                  In the beginning puppies don’t need much more than their
+                  hoomans to be happy and healthy. We are working to add direct
+                  links to our recommended products on our Affiliates Page, but
+                  in the meantime here is a list of the basics. We recommend you
+                  wait until you bring your puppy home, get to know their
+                  personality, they are further into their House Breaking and
                   Training before you go out and buy lots of things they may not
                   like or never use.
                   <br /> <br />
-                   <NavLink href="https://www.pawtree.com/jymrdoodles/myrecommendation/Standard-Package?fbclid=IwAR1x9IKyAO0ojODicSbSXWO7305bY4A3jnFoJZvPQaAHLBcMmMnqhjZXhPY"><li className="answersubtitle">
-                   PawTree food and supplements (link)
-                  </li></NavLink>
+                  <NavLink href="https://www.pawtree.com/jymrdoodles/myrecommendation/Standard-Package?fbclid=IwAR1x9IKyAO0ojODicSbSXWO7305bY4A3jnFoJZvPQaAHLBcMmMnqhjZXhPY">
+                    <li className="answersubtitle">
+                      PawTree food and supplements (link)
+                    </li>
+                  </NavLink>
                   <li className="answersubtitle">
                     A Crate with Easy to Wash Bedding ie: Towels or Thin
                     Blankets
