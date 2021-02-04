@@ -36,7 +36,7 @@ function FAQPAGE({ propdata }) {
             pregnancy has been confirmed
           </li>
         </div>
-        {/*  what can I feed my puppy?*/}
+        {/*  what can I feed my puppy? missing link and pawtree link under MUST HAVES*/}
         <div className="row">
           <div className="col-lg-4">
             <div>
@@ -78,7 +78,7 @@ function FAQPAGE({ propdata }) {
                   offer discounts on the final purchase price of your puppy
                   after you place your first order. We provide more information
                   to you when it is closer to your puppy pick up date. More
-                  details can also be found HERE.
+                  details can also be found <NavLink href="https://www.pawtree.com/jymrdoodles/myrecommendation/Standard-Package?fbclid=IwAR1x9IKyAO0ojODicSbSXWO7305bY4A3jnFoJZvPQaAHLBcMmMnqhjZXhPY">HERE.</NavLink>
                 </p>
               </Collapsible>
             </div>{" "}
@@ -119,7 +119,7 @@ function FAQPAGE({ propdata }) {
                   like or never use.
                   <br /> <br />
                   <li className="answersubtitle">
-                    PawTree food and supplements
+                    <NavLink href="https://www.pawtree.com/jymrdoodles/myrecommendation/Standard-Package?fbclid=IwAR1x9IKyAO0ojODicSbSXWO7305bY4A3jnFoJZvPQaAHLBcMmMnqhjZXhPY">PawTree</NavLink> food and supplements
                   </li>
                   <li className="answersubtitle">
                     A Crate with Easy to Wash Bedding ie: Towels or Thin
