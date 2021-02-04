@@ -1,10 +1,6 @@
 import React from "react";
 import Collapsible from "react-collapsible";
-import {
-  
-  NavLink
- 
-} from "reactstrap";
+import { NavLink } from "reactstrap";
 import _ from "lodash";
 function FAQPAGE({ propdata }) {
   const Faq = _.get(propdata, "Faq", []);
@@ -13,28 +9,54 @@ function FAQPAGE({ propdata }) {
       <div className="container">
         <h1 className="FAQtitle">Frequently Asked Questions</h1>
         <div className="">
-          <p>
-          Due to the Complexity of Dog Genetics, JYMR Doodles CANNOT GUARANTEE any of the following
-but we will our best to accommodate your desires for all the items below:
+          <p className="answersubtitle">
+            Due to the Complexity of Dog Genetics, JYMR Doodles CANNOT GUARANTEE
+            any of the following but we will our best to accommodate your
+            desires for all the items below:
           </p>
-          
-          <li>The number of puppies or their genders born in a litter
+
+          <li className="answersubtitle">
+            The number of puppies or their genders born in a litter
           </li>
-          <li>The colors or markings each puppy is born with
+          <li className="answersubtitle">
+            The colors or markings each puppy is born with
           </li>
-          <li>Heights and Weights within each size category is only an estimate based on parent’s,
-grandparent’s and past puppies’ sizes. Outliers can and do happen where puppies fall
-outside of the anticipated size range
+          <li className="answersubtitle">
+            Heights and Weights within each size category is only an estimate
+            based on parent’s, grandparent’s and past puppies’ sizes. Outliers
+            can and do happen where puppies fall outside of the anticipated size
+            range
           </li>
-          <li>Final adult coat and color can change based on which genes are passed down from the
-parents.
+          <li className="answersubtitle">
+            Final adult coat and color can change based on which genes are
+            passed down from the parents.
           </li>
-          <li>
-          Planned Studs or particular paired breeding until it takes place and pregnancy has been
-confirmed
+          <li className="answersubtitle">
+            Planned Studs or particular paired breeding until it takes place and
+            pregnancy has been confirmed
           </li>
         </div>
+        {/*  what can I feed my puppy?*/}
         <div className="row">
+          <div className="col-lg-4">
+            <div>
+              <Collapsible trigger="How do deposits work?">
+                <p className="answersubtitle">
+                  Once you have filled out our puppy application (Here) a $500
+                  deposit is required in order to be placed on your desired
+                  litter reservation list. Deposits are non-refundable but can
+                  be transferred to another available puppy or litter for up to
+                  two years. <br /> Deposits can be made via Venmo @jymrdoodles,
+                  CashApp $jymrdoodles, Zelle 8016029847 or with Cash. <br /> We
+                  no longer are able to accept Paypal or Checks. Once a deposit
+                  is made you will be placed next in line on your desired
+                  litter's reservation list and puppy picks are made in that
+                  order. JYMR Doodles reserves the right to retain first pick of
+                  any litter born.
+                </p>
+              </Collapsible>
+            </div>{" "}
+          </div>
           {Faq.map((Faq) => (
             <div className="col-lg-4">
               <div key={Faq.answer}>
@@ -44,6 +66,23 @@ confirmed
               </div>{" "}
             </div>
           ))}
+          <div className="col-lg-4">
+            <div>
+              <Collapsible trigger="What should I feed my puppy?">
+                <p className="answersubtitle">
+                  All JYMR Doodles’ adults and puppies are fed a very high
+                  quality, Nutrient Dense, All Natural, Holistic Food purchased
+                  directly from our website. We offer a 5 year Genetic Health
+                  Guarantee when our puppies are kept on pawTree dog food
+                  purchased through the provided link to their site. We also
+                  offer discounts on the final purchase price of your puppy
+                  after you place your first order. We provide more information
+                  to you when it is closer to your puppy pick up date. More
+                  details can also be found HERE.
+                </p>
+              </Collapsible>
+            </div>{" "}
+          </div>
           <div className="col-lg-4">
             <div>
               <Collapsible trigger="What comes with my puppy?">
@@ -60,7 +99,7 @@ confirmed
                   </li>
                   <li>Microchip with Lifetime Registration</li>
                   <li>Puppy Swag Bag</li>
-                  <li>Access to our Password Protected Training Portal</li>
+
                   <li>Lifetime Support from JYMR Doodles</li>
                 </p>
               </Collapsible>
@@ -68,31 +107,33 @@ confirmed
           </div>
           <div className="col-lg-4">
             <div>
-              <Collapsible trigger="What is the process to get onto the Waiting List? ">
-                <p className="answersubtitle">
-                  The quick answer:
-                  <li>
-                  Fill out our Puppy Request form found HERE. 
-                  </li>
-                  <li>Place the $500 deposit (non-refundable) via Venmo @jymrdoodles Last four digits: 9847</li>
-                  <li>Anxiously watch our Instagram and Facebook pages and wait for us to contact you about your upcoming puppy’s litter.</li>
-                  <li> Full Payment is due at time the final puppy choices have been made. Approx: 6-7wks of age.</li>
-                  <li>
-                  All puppies receive their comprehensive vet check and cleared to go to their new homes at 8 weeks.
-
-                  </li>
-                  
-                </p>
-              </Collapsible>
-            </div>{" "}
-          </div>
-          <div className="col-lg-4">
-            <div>
               <Collapsible trigger="What are the MUST HAVES when I bring home my puppy?">
-                <p className="answersubtitle">
-                 
-                  Please visit our <NavLink href="/affliates">Recommendations Tab</NavLink> for links to all the products we recommend to our Puppy Families. 
-                  
+                <p className="answersubtitle text-center">
+                  In the beginning puppies don’t need much than their hoomans to
+                  be happy and healthy. We are working to add direct links to
+                  our recommended products on our Affiliates Page, but in the
+                  meantime here is a list of the basics. We recommend you wait
+                  until you bring your puppy home and get to know their
+                  personality and they are further into their House Breaking and
+                  Training before you go out and buy lots of things they may not
+                  like or never use.
+                  <br /> <br />
+                  <li className="answersubtitle">
+                    PawTree food and supplements
+                  </li>
+                  <li className="answersubtitle">
+                    A Crate with Easy to Wash Bedding ie: Towels or Thin
+                    Blankets
+                  </li>
+                  <li className="answersubtitle">Food and Water Bowl</li>
+                  <li className="answersubtitle">Collar and Leash</li>
+                  <li className="answersubtitle">A Few Chew Toys</li>
+                  <li className="answersubtitle">
+                    A Plan for Training Your Puppy
+                  </li>
+                  <li className="answersubtitle">
+                    Metal Comb and Slicker Brush
+                  </li>
                 </p>
               </Collapsible>
             </div>{" "}

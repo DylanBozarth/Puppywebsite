@@ -10,61 +10,50 @@
     },
     {
       "question": "Standard Sized Puppies: ",
-      "answer": "Prices on our Standard Puppies range between $1,800-$2,400 with most being priced at $2,000 Standard adult weight starts at 45lbs. and goes up. Their height is approx. 21in. to 26in. tall at the shoulder."
+      "answer": "Prices on our Standard Puppies range between $2,000-$2,500 Standard adult weight typically starts at 45 pounds and height at 21 inches at the shoulder and goes up from there. We do have standard parents who have thrown puppies or petite standards that fall more in the Moyan size range."
     },
     {
       "question": "Moyan Sized Puppies:",
-      "answer": "Prices on our Moyan Puppies range between $2,000-$2,500 Moyan adult weight ranges between 30lbs. to 50 lbs. Their height is approx. 18in. to 21in. tall at the shoulder."
+      "answer": "Prices on our Moyan (Medium) Puppies range between $2,300-$2,600. Moyan adult weight typically ranges between 30 pounds and 50 pounds and their height approximately 18 inches to 21 inches tall at the shoulder. The Moyan size is more of an in between size from Minis to Standards and be a bit more difficult to predict."
     },
     {
-      "question": "Small/Miniature Puppies:",
-      "answer": "Prices on our Mini Puppies range between $2,300-$2,800 Mini adult weight ranges between 20lbs. to 35lbs. Their height is approx. 15in. to 17in. tall fat the shoulder."
+      "question": "Miniature Puppies:",
+      "answer": "Prices on our Mini Puppies range between $2,500-$2,800, Mini adult weight typically ranges between 20 pounds and 35 pounds. Their height is approximately 14 inches to 18 inches tall at the shoulder."
     },
     {
       "question": "Micro-Miniature Puppies:",
-      "answer": "Prices on our Micro-Mini Puppies range between $2,500-$3,000. Mini adult weight ranges between 20lbs. to 35lbs. Their height is approx. 15in. to 17in. tall fat the shoulder."
-    },
-    {
-      "question": "How do deposits work?",
-      "answer": " A $500 deposit is required in order to be placed on a puppy pick list or to reserve a puppy for you. Deposits are non-refundable but can be transferred to another puppy or litter for up to two years. You will be placed next in line on the desired litter's waitlist regardless of your spot on the original waitlist."
+      "answer": "Prices on our Micro-Mini Puppies range between $2,600-$3,000. Micro-Mini adult weight typically remains under 20 pounds and their height stays under 17 inches tall at the shoulder."
     },
     {
       "question": "Do you deliver or ship your puppies?",
-      "answer": "The simple answer to your question is YES! Distance usually is not a problem for us to safely place a puppy in their Furever Home. We have placed puppies in homes all over the US and Canada!"
+      "answer": "The simple answer to your question is YES for an additional fee! The great thing is there are always options in getting one of our AMAZING pups to you! Whether it be via Flight Nanny, Airline Cargo, Airport Pick-up or Ground Transport flexibility is the key and we will do everything we can to make it go as smoothly as possible."
     },
     {
       "question": "What is a Flight Nanny?",
-      "answer": "FLIGHT NANNY: A Flight Nanny flies on the airplane with your puppy in the cabin. They will meet you at the airport nearest you. Cost for delivery via Flight Nanny is determined by the Nanny and runs between $475-$600. We must book our Nanny’s 3-4 weeks in advance, so we need to know ASAP if you plan on using this option! "
+      "answer": "A Flight Nanny is a professionally trained individual who provides safe in-cabin transport for your puppy from our local airport to an airport near you. Your puppy remains with the Flight Nanny for the duration of the time they leave us until the puppy is handed over to you at a designated meeting area at destination airport near you. The cost for delivery via a Flight Nanny is determined by the Nanny. Most flights from Utah to any destination in the US typically runs between $500-$800. Please let us know right away if you plan on using this option for your puppy delivery. We MUST book our Nannies as far in advance as possible to unsure we get our desired dates."
     },
     {
       "question": "Shipping your puppy",
-      "answer": "Your puppy can fly in a crate via Cargo to the airport nearest you. There is a $400-$500 shipping fee for flying your puppy Cargo. The cost includes a crate, USDA Vet health certificate, airline ticket, and drop-off fee."
+      "answer": "If your puppy weighs over 20 pounds or you’d like to go with this option, your puppy can fly in a hard crate in the Cargo Area of the plane to the airport nearest you. There are restrictions with this option and whenever possible we prefer to go with the Flight Nanny Option first. The fee for Cargo is dependent on the size of the crate/dog but typically runs $450-$650. The cost includes the crate, USDA Vet Health Certificate, airline ticket, and drop-off fee."
     },
     {
       "question": "Airport Pick up",
-      "answer": "You can arrange to fly in to Provo or Salt Lake City Airports and we can meet you near the airline passenger drop-off with your puppy. You will need to bring an airline approved soft puppy crate with you. "
+      "answer": "We love the opportunity of meeting our puppy families and would be happy to meet you at the passenger drop-off with your new puppy at either the Provo or Salt Lake City Airport. You will need to bring an airline approved soft puppy crate with you."
     },
     {
       "question": "Ground Transport",
-      "answer": "We can arrange to meet you part way or deliver entirely to approved areas for a fee. Delivery costs will be determined based on distance and costs of travel. "
+      "answer": "To approved areas within driving distance and starting at a base fee of $200 plus cost/per mile and goes up depending on destination location. We can arrange to meet you part way or deliver your puppy to you. "
     },
     {
       "question": "Breeder air delivery",
-      "answer": "We are happy to deliver your puppy to the airport of your choice. Delivery cost is $450 plus the cost of a round trip flight."
+      "answer": "A member of our JYMR Doodles Team would be happy to deliver your puppy from the Salt Lake City  Airport to an airport of your choice. Our delivery fee is $400 to $600 plus the cost of a oneway ticket for your puppy and roundtrip ticket for the delivering team member."
     },
     {
       "question": "Do you require puppy to be Spayed/Neutered?",
-      "answer": "Yes, a spay/neuter is part of our purchase contract. We require ALL puppies to be Spayed/Neutered by 12 months of age or prior to reaching sexual maturity. A vasectomy is also acceptable, as well as a tubal ligation. We require proof of the procedure from your vet prior to releasing Registration Information. "
-    },
-    {
-      "question": "What should I feed my puppy?",
-      "answer": "Our puppies are fed a very high quality All Natural, Holistic Food which can be purchased directly from our website. We offer a 5 year Genetic Health Guarantee when our puppies are kept on our recommended food. We also offer discounts on the final purchase price of your puppy if you make you purchase prior to picking up your puppy. More details can be found HERE."
-    },
-    
-    {
-      "question": "Waiting on Nature",
-      "answer": "As breeders we are left at the mercy of waiting on Mother Nature to take her course with our dogs and puppies. We cannot guarantee exactly when puppies will be born, size of litters, genders, colors, markings of puppies or exact day they will go home. We cannot guarantee the exact size or coat of your puppy. Sometimes planned studs don't work out for various reasons and we cannot guarantee any particular paired breeding until it takes place and pregnancy is confirmed. We will do our best to accommodate your desires for all of the above. "
+      "answer": "Yes, a spay and neuter clause is part of our purchase contract. We require ALL puppies sold as pets to be Spayed or Neutered by 12 months of age or prior to reaching sexual maturity. A vasectomy is also acceptable, as well as a tubal ligation but research shows that leaving the ovaries in a female not being used for breeding can and often does create other issues leaving any breed at a higher risk of developing Cancer. We require proof of the procedure from your vet prior to releasing Registration Information for your puppy."
     }
+    
+    
   ],
   "START OF FIRST LITTER": "",
   "litterName": [{ "name": "Disney Doods" }],
