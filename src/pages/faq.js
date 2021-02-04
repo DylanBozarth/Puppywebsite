@@ -118,9 +118,9 @@ function FAQPAGE({ propdata }) {
                   Training before you go out and buy lots of things they may not
                   like or never use.
                   <br /> <br />
-                  <li className="answersubtitle">
-                    <NavLink href="https://www.pawtree.com/jymrdoodles/myrecommendation/Standard-Package?fbclid=IwAR1x9IKyAO0ojODicSbSXWO7305bY4A3jnFoJZvPQaAHLBcMmMnqhjZXhPY">PawTree</NavLink> food and supplements
-                  </li>
+                   <NavLink href="https://www.pawtree.com/jymrdoodles/myrecommendation/Standard-Package?fbclid=IwAR1x9IKyAO0ojODicSbSXWO7305bY4A3jnFoJZvPQaAHLBcMmMnqhjZXhPY"><li className="answersubtitle">
+                   PawTree food and supplements (link)
+                  </li></NavLink>
                   <li className="answersubtitle">
                     A Crate with Easy to Wash Bedding ie: Towels or Thin
                     Blankets

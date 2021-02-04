@@ -6,7 +6,7 @@ import PuppySeg from "../component/puppyseg";
 import Instafeed from "../component/instafeed";
 
 function Home() {
-  useTitle("JYMR doodles");
+  useTitle("JYMR Doodles");
 
   return (
     <div className="homepagemaster">
