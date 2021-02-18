@@ -25,8 +25,8 @@ function Puppies() {
           <div className="waitlist">
             <li>Janell -Undecided</li>
             <li>Mia -Female</li>
-            <li>Available</li>
-            <li>Available</li>
+            <li>Lowe Family-Undecided</li>
+            <li>Gwen-Female</li>
             <li>Available</li>
             <li>Available</li>
             <li>Available</li>
@@ -41,7 +41,7 @@ function Puppies() {
             className="img-fluid"
             alt="puppies"
           ></img>
-          <p class="homeinfo">Mini English Goldendoodles</p>
+          <p class="homeinfo">The Global Doods are F1b Mini English Goldendoodles. Their approximate adult weight will be 25-30lbs. </p>
         </div>
       </div>
       <br /><br /><br /><br />
@@ -58,7 +58,7 @@ function Puppies() {
         <div className="col-sm-4">
           <h1 className="text-center homeinfo ">Reserve list </h1>
           <div className="waitlist">
-            <li>Available</li>
+            <li>Brocca Family: Female</li>
             <li>Available</li>
             <li>Available</li>
             <li>Available</li>
@@ -71,7 +71,12 @@ function Puppies() {
           </NavLink>
         </div>
         <div className="col-sm-4">
-       <p class="homeinfo"> Standard Goldendoodles</p>
+        <img
+            src="./parents/heartpreview.jpg"
+            className="img-fluid"
+            alt="puppies"
+          ></img>
+       <p class="homeinfo">The Heart-Attack Doods are F1b Moyan-Standard Goldendoodles. Their approximate adult weight will be 45 pounds and up.</p>
         </div>
       </div>
     </div>
