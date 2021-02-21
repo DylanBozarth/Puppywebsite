@@ -56,38 +56,45 @@
     
   ],
   "CURRENT LITTERS START": "",
-  "globaldoodstheme": [{ "image": "./puppies/disney/disneytheme.jpg" }],
+  "globaldoodstheme": [{ "image": "./currentpuppies/globaldoods/theme.jpg" }],
   "globaldoods": [
     {
-      "name": "Daisy",
+      "name": "Gary",
       "description": "",
-      "image": "./puppies/disney/daisy.jpg"
+      "image": "./currentpuppies/globaldoods/gary.jpg"
     },
     {
-      "name": "Darwin",
+      "name": "Geneva",
       "description": "",
-      "image": "./puppies/disney/darwin.jpg"
+      "image": "./currentpuppies/globaldoods/geneva.jpg"
     },
     {
-      "name": "Doc",
+      "name": "Georgia",
       "description": "",
-      "image": "./puppies/disney/doc.jpg"
+      "image": "./currentpuppies/globaldoods/georgia.jpg"
     },
     {
-      "name": "Dulce",
+      "name": "Germany",
       "description": "",
-      "image": "./puppies/disney/dulce.jpg"
+      "image": "./currentpuppies/globaldoods/germany.jpg"
     },
     {
-      "name": "Dorie",
+      "name": "Gomez",
       "description": "",
-      "image": "./puppies/disney/dorie.jpg"
+      "image": "./currentpuppies/globaldoods/gomez.jpg"
     },
     {
-      "name": "Dumbo",
+      "name": "Gonder",
       "description": "",
-      "image": "./puppies/disney/dumbo.jpg"
+      "image": "./currentpuppies/globaldoods/gonder.jpg"
+    },
+    
+    {
+      "name": "Greece",
+      "description": "",
+      "image": "./currentpuppies/globaldoods/greece.jpg"
     }
+
   ],
   "PAST LITTERS": "",
   "START OF FIRST LITTER": "",

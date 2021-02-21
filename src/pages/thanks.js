@@ -43,7 +43,7 @@ function Thanks({ propdata }) {
         
       </div>
       <br /><br /><br /><br />
-      <h2 className="text-center puppyname">Lily and Dasher</h2>
+      <h2 className="text-center puppyname">Lily and Dasher </h2>
       <div className="row">
         
         <div className="col-sm-4">
