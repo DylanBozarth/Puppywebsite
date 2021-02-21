@@ -6,28 +6,24 @@ function RainbowBridge({ propdata }) {
   const litter1 = _.get(propdata, "litter1", []);
   const litterName = _.get(propdata, "litterName", []);
   const litterTheme = _.get(propdata, "litterTheme", []);
-  const litter1Waitlist = _.get(propdata, "litter1Waitlist", []);
   const litter1IsOut = _.get(propdata, "litter1IsOut", []);
   const parents = _.get(propdata, "parents", []);
   const litter2 = _.get(propdata, "litter2", []);
   const litter2Name = _.get(propdata, "litter2Name", []);
   const litter2Theme = _.get(propdata, "litter2Theme", []);
-  const litter2Waitlist = _.get(propdata, "litter2Waitlist", []);
   const litter2IsOut = _.get(propdata, "litter2IsOut", []);
   const litter3 = _.get(propdata, "litter3", []);
   const litter3Name = _.get(propdata, "litter3Name", []);
   const litter3Theme = _.get(propdata, "litter3Theme", []);
-  const litter3Waitlist = _.get(propdata, "litter3Waitlist", []);
   const litter3IsOut = _.get(propdata, "litter3IsOut", []);
   const litter4 = _.get(propdata, "litter4", []);
   const litter4Name = _.get(propdata, "litter4Name", []);
   const litter4Theme = _.get(propdata, "litter4Theme", []);
-  const litter4Waitlist = _.get(propdata, "litter4Waitlist", []);
   const litter4IsOut = _.get(propdata, "litter4IsOut", []);
   const litter5 = _.get(propdata, "litter5", []);
   const litter5Name = _.get(propdata, "litter5Name", []);
   const litter5Theme = _.get(propdata, "litter5Theme", []);
-  const litter5Waitlist = _.get(propdata, "litter5Waitlist", []);
+  
   const litter5IsOut = _.get(propdata, "litter5IsOut", []);
   
   useTitle("Your Next Dog");

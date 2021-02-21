@@ -55,6 +55,41 @@
     
     
   ],
+  "CURRENT LITTERS START": "",
+  "globaldoodstheme": [{ "image": "./puppies/disney/disneytheme.jpg" }],
+  "globaldoods": [
+    {
+      "name": "Daisy",
+      "description": "",
+      "image": "./puppies/disney/daisy.jpg"
+    },
+    {
+      "name": "Darwin",
+      "description": "",
+      "image": "./puppies/disney/darwin.jpg"
+    },
+    {
+      "name": "Doc",
+      "description": "",
+      "image": "./puppies/disney/doc.jpg"
+    },
+    {
+      "name": "Dulce",
+      "description": "",
+      "image": "./puppies/disney/dulce.jpg"
+    },
+    {
+      "name": "Dorie",
+      "description": "",
+      "image": "./puppies/disney/dorie.jpg"
+    },
+    {
+      "name": "Dumbo",
+      "description": "",
+      "image": "./puppies/disney/dumbo.jpg"
+    }
+  ],
+  "PAST LITTERS": "",
   "START OF FIRST LITTER": "",
   "litterName": [{ "name": "Disney Doods" }],
   "litterTheme": [{ "image": "./puppies/disney/disneytheme.jpg" }],
@@ -251,18 +286,8 @@
       "image": "./puppies/cookiecrew/coco.jpg"
     }
   ],
-  "litter4Waitlist": [
-    { "name": "", "date": "", "number": "" },
-    { "name": "", "date": "", "number": "" },
-    { "name": "", "date": "", "number": "" }
-  ],
-  "litter4IsOut": [
-    {
-      "message": "",
-      "parents": "",
-      "waitlist": ""
-    }
-  ],
+ 
+
   "END OF Forth LITTER": "",
   "START OF fifth litter": "",
   "litter5Name": [{ "name": "The Fantasic food doods" }],
