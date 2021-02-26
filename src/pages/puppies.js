@@ -9,7 +9,6 @@ import {
 function Puppies({propdata}) {
   useTitle("Your Next Dog");
  
-  useTitle("TEST PAGE PLZ IGNORE");
   const globaldoods = _.get(propdata, "globaldoods", []);
   const globaldoodstheme = _.get(propdata, "globaldoodstheme", []);
   return (
