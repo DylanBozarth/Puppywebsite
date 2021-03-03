@@ -12,24 +12,7 @@ function PuppySeg() {
         
 
         <div className="row puppyrow no-gutters  container-fluid">
-          <div className="col-sm-4 container-fluid">
-            <NavLink href="/about" className="nohighlight">
-              <img
-                className="homecard img-fluid"
-               
-                alt="puppy"
-                src="./assets/homecardabout.png"
-              ></img>
-              <h1 className="hometitle">About us</h1>
-              <p className="homeinfo">
-                {" "}
-                Get the 411 on JYMR doodles{" "}
-              </p>
-              <IconContext.Provider
-      value={{ color: 'black', size: '50px', className: "arrows"}}
-    ><MdKeyboardArrowRight  /> <MdKeyboardArrowRight /> <MdKeyboardArrowRight /></IconContext.Provider>
-            </NavLink>
-          </div>
+         
 
           <div className="col-sm-4">
             <NavLink href="/puppies" className="nohighlight">
@@ -43,6 +26,24 @@ function PuppySeg() {
               <p className="homeinfo">
                 {" "}
                 See our current litters!{" "}
+              </p>
+              <IconContext.Provider
+      value={{ color: 'black', size: '50px', className: "arrows"}}
+    ><MdKeyboardArrowRight  /> <MdKeyboardArrowRight /> <MdKeyboardArrowRight /></IconContext.Provider>
+            </NavLink>
+          </div>
+          <div className="col-sm-4">
+            <NavLink href="/about" className="nohighlight">
+              <img
+                className="homecard img-fluid"
+               
+                alt="puppy"
+                src="./assets/homecardabout.png"
+              ></img>
+              <h1 className="hometitle">About us</h1>
+              <p className="homeinfo">
+                {" "}
+                Get the 411 on JYMR doodles{" "}
               </p>
               <IconContext.Provider
       value={{ color: 'black', size: '50px', className: "arrows"}}
