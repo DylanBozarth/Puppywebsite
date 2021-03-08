@@ -11,7 +11,7 @@ function PuppySeg() {
     <div className="puppysegment">
         
 
-        <div className="row puppyrow no-gutters  container-fluid">
+        <div className="row puppyrow   container-fluid">
          
 
           <div className="col-sm-4">
@@ -50,7 +50,7 @@ function PuppySeg() {
     ><MdKeyboardArrowRight  /> <MdKeyboardArrowRight /> <MdKeyboardArrowRight /></IconContext.Provider>
             </NavLink>
           </div>
-          <div className="col-sm-4 zoomin">
+          <div className="col-sm-4">
             <NavLink
               href="https://www.pawtree.com/jymrdoodles"
               target="_blank"

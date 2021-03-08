@@ -8,7 +8,8 @@ import {
 } from "reactstrap";
 function Puppies({propdata}) {
   useTitle("Your Next Dog");
- 
+ const heartattack = _.get(propdata, 'heartattack', []);
+ const heartattacktheme = _.get(propdata, 'heartattacktheme', []);
   const globaldoods = _.get(propdata, "globaldoods", []);
   const globaldoodstheme = _.get(propdata, "globaldoodstheme", []);
   return (
@@ -47,39 +48,39 @@ function Puppies({propdata}) {
         
       </div>
       <br /><br /><br /><br />
-      <h2 className="text-center puppyname">Lily and Dasher </h2>
+      <h2 className="text-center puppyname">Lily and Dasher's new litter </h2>
+      <h2 className="text-center puppyname">The Heart Attack Doods</h2>
+      <div className="text-center">
+        {heartattacktheme
+          .filter((x) => x.image !== "")
+          .map((heartattacktheme) => (
+            <img
+              src={heartattacktheme.image}
+              className="img-fluid homecard frame"
+              alt="theme"
+            ></img>
+          ))}
+      </div>
       <div className="row">
+    
+      {heartattack
+          
+          .map((heartattack) => (
+            <div className="col-sm-4" key={heartattack.name}>
+              <img
+                className="homecard frame img-fluid"
+                src={heartattack.image}
+                alt="goldendoodle"
+              />
+              <h1 className="puppyname">{heartattack.name}</h1>
+
+              <p className="puppysubtitle">{heartattack.description}</p>
+            </div>
+          ))}
+     
+       
+       
         
-        <div className="col-sm-4">
-          <img
-            src="./parents/lilyandasher.jpg"
-            className="img-fluid"
-            alt="parents"
-          ></img>
-        </div>
-        <div className="col-sm-4">
-          <h1 className="text-center homeinfo ">Reserve list </h1>
-          <div className="waitlist">
-            <li>Brocca Family: Female</li>
-            <li>Available</li>
-            <li>Available</li>
-            <li>Available</li>
-            <li>Available</li>
-            <li>Available</li>
-            <li>Available</li>
-          </div>
-          <NavLink className="homeinfo text-center" href="/application">
-            Puppy adoption Application
-          </NavLink>
-        </div>
-        <div className="col-sm-4">
-        <img
-            src="./parents/heartpreview.jpg"
-            className="img-fluid"
-            alt="puppies"
-          ></img>
-       <p class="homeinfo">The Heart-Attack Doods are F1b Moyan-Standard Goldendoodles. Their approximate adult weight will be 45 pounds and up.</p>
-        </div>
       </div>
     </div>
   );

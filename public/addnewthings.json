@@ -96,6 +96,56 @@
     }
 
   ],
+  "heartattackstheme": [{ "image": "" }],
+  "heartattack": [
+    {
+      "name": "Honey",
+      "description": "",
+      "image": "./currentpuppies/heartattack/honey.jpg"
+    },
+    {
+      "name": "Hanky",
+      "description": "",
+      "image": "./currentpuppies/heartattack/hanky.jpg"
+    },
+    {
+      "name": "Harmony",
+      "description": "",
+      "image": "./currentpuppies/heartattack/harmony.jpg"
+    },
+    {
+      "name": "Heart",
+      "description": "",
+      "image": "./currentpuppies/heartattack/heart.jpg"
+    },
+    {
+      "name": "Hero",
+      "description": "",
+      "image": "./currentpuppies/heartattack/hero.jpg"
+    },
+    {
+      "name": "Hershey",
+      "description": "",
+      "image": "./currentpuppies/heartattack/hershey.jpg"
+    },
+    
+    {
+      "name": "Hugs",
+      "description": "",
+      "image": "./currentpuppies/heartattack/hugs.jpg"
+    },
+    {
+      "name": "Hermosa",
+      "description": "Reserved",
+      "image": "./currentpuppies/heartattack/hermosa.jpg"
+    },
+    {
+      "name": "Hunk",
+      "description": "",
+      "image": "./currentpuppies/heartattack/hunk.jpg"
+    }
+
+  ],
   "PAST LITTERS": "",
   "START OF FIRST LITTER": "",
   "litterName": [{ "name": "Disney Doods" }],
