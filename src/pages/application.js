@@ -165,26 +165,27 @@ export const Application = () => {
         <div className="formsection">
           <h6 className="formtitle">Desired dog size</h6>
           <label>
-            <input type="checkbox" className="checkbox" name="Up to 25 lbs " />
+            <input type="radio" className="checkbox" name="dogSize" onClick={(e) => setDogSize(e.target.nextSibling.textContent)} />
             <p className="checkbox">Up to 25 lbs (Micro Mini) </p>
           </label>
           <label>
-            <input type="checkbox" className="checkbox" name="20-35 lbs" />
+            <input type="radio" className="checkbox" name="dogSize" onClick={(e) => setDogSize(e.target.nextSibling.textContent)} />
             <p className="checkbox">20-35 lbs (mini)</p>
           </label>
           <label>
-            <input type="checkbox" className="checkbox" name="30-45 lbs" />
+            <input type="radio" className="checkbox" name="dogSize" onClick={(e) => setDogSize(e.target.nextSibling.textContent)} />
             <p className="checkbox">30-45 lbs (Moyan) </p>
           </label>
           <label>
-            <input type="checkbox" className="checkbox" name="45+ lbs" />
+            <input type="radio" className="checkbox" name="dogSize" onClick={(e) => setDogSize(e.target.nextSibling.textContent)} />
             <p className="checkbox">45+ lbs (Standard) </p>
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="No dog size preference"
+              name="dogSize"
+              onClick={(e) => setDogSize(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">No preference </p>
           </label>
@@ -193,33 +194,37 @@ export const Application = () => {
           <h6 className="formtitle">Generation interested in</h6>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="First generation preference"
+              name="generation"
+              onClick={(e) => setGenertation(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">F1 (first gen) </p>
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Second generation preference"
+              name="generation"
+              onClick={(e) => setGenertation(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">F1B (second gen) </p>
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Multi-generation preference"
+              name="generation"
+              onClick={(e) => setGenertation(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">Multi-generational </p>
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="No generation preference"
+              name="generation"
+              onClick={(e) => setGenertation(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">No preference </p>
           </label>
@@ -228,25 +233,28 @@ export const Application = () => {
           <h6 className="formtitle">Puppy Gender</h6>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Male Puppy preference"
+              name="gender"
+              onClick={(e) => setGender(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">Male </p>
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Female puppy preference"
+              name="gender"
+              onClick={(e) => setGender(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">Female</p>
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="No Gender preference"
+              name="gender"
+              onClick={(e) => setGender(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">No Preference</p>
           </label>
@@ -254,20 +262,16 @@ export const Application = () => {
         <div className="formsection">
           <h6 className="formtitle">Do you have a color preference?</h6>
           <label>
-            <textarea
-              type="text"
-              rows="2"
-              cols="25"
-              name="Color Preference"
-              placeholder={"If so, describe what color here"}
-            ></textarea>
+            <p className="formtitle">If so, describe it here.</p>
+            <input type="text" name="Color" onChange={(e) => setColor(e.target.value)}  />
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="No color preference"
-            />
+              name="Color"
+              onClick={(e) => setColor(e.target.nextSibling.textContent)}
+            /> 
             <p className="checkbox">No color preference</p>
           </label>
         </div>
@@ -275,33 +279,37 @@ export const Application = () => {
           <h6 className="formtitle">Purpose of the Adoption</h6>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Companion purpose"
+              name="purpose"
+              onClick={(e) => setPurpose(e.target.nextSibling.textContent)}
             />
-            <p className="checkbox">Companionship </p>
+            <p className="checkbox">Companionship </p> 
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Service purpose"
+              name="purpose"
+              onClick={(e) => setPurpose(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">Service</p>
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Therapy purpose"
+              name="purpose"
+              onClick={(e) => setPurpose(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">Therapy</p>
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Breeding purpose"
+              name="purpose"
+              onClick={(e) => setPurpose(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">Breeding</p>
           </label>
@@ -310,17 +318,19 @@ export const Application = () => {
           <h6 className="formtitle">Energy level</h6>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Low to medium energy preference"
+              name="energy"
+              onClick={(e) => setEnergy(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">Low to medium energy </p>
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="High energy preference"
+              name="energy"
+              onClick={(e) => setEnergy(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">Medium to high energy</p>
           </label>
