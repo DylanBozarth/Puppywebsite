@@ -17,14 +17,14 @@ export const Application = () => {
   const [Color, setColor] = useState("");
   const [Breed, setBreed] = useState("");
   const [Purpose, setPurpose] = useState("");
-  const [Energy, setEnergy] = useState('');
-  const [Training, setTraining] = useState('');
-  const [Shipping, setShipping] = useState('');
-  const [Wait, setWait] = useState('');
-  const [Allergies, setAllergies] = useState('');
-  const [promise, setPromise] = useState('');
-  const [Family, setFamily] = useState('');
-  const [Comments, setComments] = useState('');
+  const [Energy, setEnergy] = useState("");
+  const [Training, setTraining] = useState("");
+  const [Shipping, setShipping] = useState("");
+  const [Wait, setWait] = useState("");
+  const [Allergies, setAllergies] = useState("");
+  const [promise, setPromise] = useState("");
+  const [Family, setFamily] = useState("");
+  const [Comments, setComments] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -49,8 +49,8 @@ export const Application = () => {
       Wait,
       Allergies,
       promise,
-      Family, 
-      Comments
+      Family,
+      Comments,
     };
 
     axios
@@ -61,6 +61,9 @@ export const Application = () => {
       .then((response) => {
         console.log(response);
       });
+      alert('Thank you, we will contact you shortly! ');
+      window.location.replace("https://jymrdoodles.com");
+
   };
   return (
     <div className="form container-fluid ">
@@ -79,23 +82,51 @@ export const Application = () => {
           <div className="formsection">
             <h3 className="formtitle">Your Contact information</h3>
             <label className="formtitle">Name:</label>
-            <input type="name" name="Name" onChange={(e) => setName(e.target.value)} />
+            <input
+              type="name"
+              name="Name"
+              onChange={(e) => setName(e.target.value)}
+            />
 
-            <label className="formtitle" >Phone:</label>
-            <input type="number" name="Phone Number" onChange={(e) => setPhone(e.target.value)}  />
+            <label className="formtitle">Phone:</label>
+            <input
+              type="number"
+              name="Phone Number"
+              onChange={(e) => setPhone(e.target.value)}
+            />
             <label className="formtitle">Email</label>
-            <input type="text" name="Email" onChange={(e) => setEmail(e.target.value)}  />
+            <input
+              type="text"
+              name="Email"
+              onChange={(e) => setEmail(e.target.value)}
+            />
           </div>
           <div className="formsection">
             <h3 className="formtitle">Your location </h3>
             <label className="formtitle">City</label>
-            <input type="text" name="City" onChange={(e) => setCity(e.target.value)}  />
+            <input
+              type="text"
+              name="City"
+              onChange={(e) => setCity(e.target.value)}
+            />
             <label className="formtitle">Address</label>
-            <input type="text" name="Address" onChange={(e) => setAddress(e.target.value)}  />
+            <input
+              type="text"
+              name="Address"
+              onChange={(e) => setAddress(e.target.value)}
+            />
             <label className="formtitle">state</label>
-            <input type="text" name="state" onChange={(e) => setstate(e.target.value)}  />
+            <input
+              type="text"
+              name="state"
+              onChange={(e) => setstate(e.target.value)}
+            />
             <label className="formtitle">Zip code</label>
-            <input type="number" name="Zip code" onChange={(e) => setZipcode(e.target.value)}  />
+            <input
+              type="number"
+              name="Zip code"
+              onChange={(e) => setZipcode(e.target.value)}
+            />
           </div>
           <div className="formsection"></div>
         </div>
@@ -158,26 +189,45 @@ export const Application = () => {
                 />
                 <p className="checkbox">No preference</p>
               </label>
-             
             </div>
           </label>
         </div>
         <div className="formsection">
           <h6 className="formtitle">Desired dog size</h6>
           <label>
-            <input type="radio" className="checkbox" name="dogSize" onClick={(e) => setDogSize(e.target.nextSibling.textContent)} />
+            <input
+              type="radio"
+              className="checkbox"
+              name="dogSize"
+              onClick={(e) => setDogSize(e.target.nextSibling.textContent)}
+            />
             <p className="checkbox">Up to 25 lbs (Micro Mini) </p>
           </label>
           <label>
-            <input type="radio" className="checkbox" name="dogSize" onClick={(e) => setDogSize(e.target.nextSibling.textContent)} />
+            <input
+              type="radio"
+              className="checkbox"
+              name="dogSize"
+              onClick={(e) => setDogSize(e.target.nextSibling.textContent)}
+            />
             <p className="checkbox">20-35 lbs (mini)</p>
           </label>
           <label>
-            <input type="radio" className="checkbox" name="dogSize" onClick={(e) => setDogSize(e.target.nextSibling.textContent)} />
+            <input
+              type="radio"
+              className="checkbox"
+              name="dogSize"
+              onClick={(e) => setDogSize(e.target.nextSibling.textContent)}
+            />
             <p className="checkbox">30-45 lbs (Moyan) </p>
           </label>
           <label>
-            <input type="radio" className="checkbox" name="dogSize" onClick={(e) => setDogSize(e.target.nextSibling.textContent)} />
+            <input
+              type="radio"
+              className="checkbox"
+              name="dogSize"
+              onClick={(e) => setDogSize(e.target.nextSibling.textContent)}
+            />
             <p className="checkbox">45+ lbs (Standard) </p>
           </label>
           <label>
@@ -263,7 +313,11 @@ export const Application = () => {
           <h6 className="formtitle">Do you have a color preference?</h6>
           <label>
             <p className="formtitle">If so, describe it here.</p>
-            <input type="text" name="Color" onChange={(e) => setColor(e.target.value)}  />
+            <input
+              type="text"
+              name="Color"
+              onChange={(e) => setColor(e.target.value)}
+            />
           </label>
           <label>
             <input
@@ -271,7 +325,7 @@ export const Application = () => {
               className="checkbox"
               name="Color"
               onClick={(e) => setColor(e.target.nextSibling.textContent)}
-            /> 
+            />
             <p className="checkbox">No color preference</p>
           </label>
         </div>
@@ -284,7 +338,7 @@ export const Application = () => {
               name="purpose"
               onClick={(e) => setPurpose(e.target.nextSibling.textContent)}
             />
-            <p className="checkbox">Companionship </p> 
+            <p className="checkbox">Companionship </p>
           </label>
           <label>
             <input
@@ -343,9 +397,10 @@ export const Application = () => {
           </h6>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Wants extended board and train with JYMR"
+              name="training"
+              onClick={(e) => setTraining(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">
               I'd like to arrange for an extended board and train with JYMR
@@ -354,9 +409,10 @@ export const Application = () => {
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Wants online puppy training course. "
+              onClick={(e) => setTraining(e.target.nextSibling.textContent)}
+              name="training"
             />
             <p className="checkbox">
               I'm interested in an all inclusive online puppy training course.{" "}
@@ -364,9 +420,10 @@ export const Application = () => {
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Wants to train the dog themself. "
+              name="training"
+              onClick={(e) => setTraining(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">
               I would to train the puppy myself or use a trainer local to me.
@@ -379,9 +436,10 @@ export const Application = () => {
           </h6>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Will require shipping"
+              name="shipping"
+              onClick={(e) => setShipping(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">
               I plan on picking my puppy up in person.{" "}
@@ -389,9 +447,10 @@ export const Application = () => {
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Need a flight nanny to deliver puppy"
+              name="shipping"
+              onClick={(e) => setShipping(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">
               I would like to have a flight nanny deliver my puppy to an airport
@@ -400,9 +459,10 @@ export const Application = () => {
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Wants to fly to Salt lake city and pick up"
+              name="shipping"
+              onClick={(e) => setShipping(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">
               I would like to fly into Salt Lake City airport and pick up my
@@ -411,22 +471,15 @@ export const Application = () => {
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Needs ground transport."
+              name="shipping"
+              onClick={(e) => setShipping(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">
               I would like my puppy shipped to me via Cargo or Ground Transport.
             </p>
           </label>
-          <textarea
-            type="text"
-            rows="4"
-            cols="35"
-            cd
-            name="Airports near customer"
-            placeholder="Please list 2 airports near you"
-          ></textarea>
         </div>
         <div className="formsection">
           <h6 className="formtitle">
@@ -434,9 +487,10 @@ export const Application = () => {
           </h6>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Willing to wait up to one year"
+              name="wait"
+              onClick={(e) => setWait(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">
               I will wait until the perfect puppy becomes available Up to a year{" "}
@@ -444,9 +498,10 @@ export const Application = () => {
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Wants puppy ASAP"
+              name="wait"
+              onClick={(e) => setWait(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">I want my puppy ASAP!</p>
           </label>
@@ -457,18 +512,29 @@ export const Application = () => {
           </h6>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Severe allergies"
+              name="allergies"
+              onClick={(e) => setAllergies(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">Severe allegies </p>
           </label>
           <label>
-            <input type="checkbox" className="checkbox" name="Mild allergies" />
+            <input
+              type="radio"
+              className="checkbox"
+              name="allergies"
+              onClick={(e) => setAllergies(e.target.nextSibling.textContent)}
+            />
             <p className="checkbox">Mild allergies</p>
           </label>
           <label>
-            <input type="checkbox" className="checkbox" name="No allergies" />
+            <input
+              type="radio"
+              className="checkbox"
+              name="allergies"
+              onClick={(e) => setAllergies(e.target.nextSibling.textContent)}
+            />
             <p className="checkbox">No allergies</p>
           </label>
         </div>
@@ -481,38 +547,41 @@ export const Application = () => {
           </h6>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="Promises to treat the dog well"
+              name="promise"
+              onClick={(e) => setPromise(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">Yes </p>
           </label>
           <label>
             <input
-              type="checkbox"
+              type="radio"
               className="checkbox"
-              name="does NOT promise to treat the dog well "
+              name="promise"
+              onClick={(e) => setPromise(e.target.nextSibling.textContent)}
             />
             <p className="checkbox">No</p>
           </label>
         </div>
         <div className="">
-          <textarea
-            type="text"
-            rows="4"
-            cols="35"
-            name="Family info"
-            placeholder={"Tell us about your family!"}
-          ></textarea>
-          <textarea
-            type="text"
-            rows="4"
-            cols="35"
-            cd
-            name="Comments or questions"
-            placeholder={"Comments or questions"}
-          ></textarea>
-          <button type="submit" onClick={(e) => handleSubmit(e)}>Submit</button>
+          <p className="formtitle">Tell us about your family!</p>
+        <input
+              type="text"
+              name="family"
+            placeholder="Tell us about your family"
+              onChange={(e) => setFamily(e.target.value)}
+            />
+            <p className="formtitle">Questions or comments</p>
+         <input
+              type="name"
+              name="comments"
+              placeholder="questions or comments"
+              onChange={(e) => setComments(e.target.value)}
+            />
+          <button type="submit" onClick={(e) => handleSubmit(e)}>
+            Submit
+          </button>
         </div>
       </form>
     </div>
