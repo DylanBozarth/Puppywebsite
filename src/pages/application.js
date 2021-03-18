@@ -62,7 +62,7 @@ export const Application = () => {
         console.log(response);
       });
       alert('Thank you, we will contact you shortly! ');
-      window.location.replace("https://jymrdoodles.com");
+     
 
   };
   return (
