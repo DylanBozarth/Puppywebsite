@@ -8,7 +8,7 @@ import { Route, BrowserRouter } from "react-router-dom";
 import Parents from "./pages/parents";
 import About from "./pages/about";
 import { Footer } from "./component/footer";
-import Application from "./pages/application";
+import {Application} from "./pages/application";
 import BreedInfo from "./pages/breedinfo";
 import RainbowBridge from "./pages/rainbowbridge";
 import Poodles from "./component/poodles";
@@ -39,6 +39,10 @@ class App extends Component {
           propdata: res,
         });
       });
+      function toggleZoomScreen() {
+        document.body.style.zoom = "100%";
+    } 
+    toggleZoomScreen()
   }
 
   render() {
