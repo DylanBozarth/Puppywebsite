@@ -15,6 +15,7 @@ export const Application = () => {
   const [Generation, setGenertation] = useState("");
   const [Gender, setGender] = useState("");
   const [Color, setColor] = useState("");
+  const [Breed, setBreed] = useState("");
   const [Purpose, setPurpose] = useState("");
   const [Energy, setEnergy] = useState('');
   const [Training, setTraining] = useState('');
@@ -39,6 +40,7 @@ export const Application = () => {
       DogSize,
       Generation,
       Gender,
+      Breed,
       Color,
       Purpose,
       Energy,
@@ -104,52 +106,59 @@ export const Application = () => {
             <div className="radio container-fluid">
               <label>
                 <input
-                  type="checkbox"
+                  type="radio"
                   className="checkbox"
-                  name="Goldendoodle Preference"
+                  name="Breed"
+                  onClick={(e) => setBreed(e.target.nextSibling.textContent)}
                 />
                 <p className="checkbox">Goldendoodle</p>
               </label>
               <label>
                 <input
-                  type="checkbox"
+                  type="radio"
                   className="checkbox"
-                  name="English Goldendoodle Preference"
+                  name="Breed"
+                  onClick={(e) => setBreed(e.target.nextSibling.textContent)}
                 />
                 <p className="checkbox">English Goldendoodle</p>
               </label>
               <label>
                 <input
-                  type="checkbox"
+                  type="radio"
                   className="checkbox"
-                  name="Labradoodle Preference"
+                  name="Breed"
+                  onClick={(e) => setBreed(e.target.nextSibling.textContent)}
                 />
                 <p className="checkbox">Labradoodle</p>
               </label>
               <label>
                 <input
-                  type="checkbox"
+                  type="radio"
                   className="checkbox"
-                  name="Poodle preference"
+                  name="Breed"
+                  onClick={(e) => setBreed(e.target.nextSibling.textContent)}
                 />
                 <p className="checkbox">Poodle</p>
               </label>
               <label>
                 <input
-                  type="checkbox"
+                  type="radio"
                   className="checkbox"
-                  name="Other Preference"
+                  name="Breed"
+                  onClick={(e) => setBreed(e.target.nextSibling.textContent)}
                 />
                 <p className="checkbox">Other</p>
               </label>
               <label>
                 <input
-                  type="checkbox"
+                  type="radio"
                   className="checkbox"
-                  name="No breed preference"
+                  name="Breed"
+                  onClick={(e) => setBreed(e.target.nextSibling.textContent)}
                 />
                 <p className="checkbox">No preference</p>
               </label>
+             
             </div>
           </label>
         </div>
