@@ -4,49 +4,51 @@ import { NavLink } from "reactstrap";
 import axios from "axios";
 export const Application = () => {
   const [Name, setName] = useState("");
-  const [phone, setPhone] = useState("");
-  const [email, setEmail] = useState("");
-  const [city, setCity] = useState("");
-  const [address, setAddress] = useState("");
-  const [USstate, setUSState] = useState("");
-  const [puppy, setPuppy] = useState("");
-  const [dogSize, setDogSize] = useState("");
-  const [generation, setGenertation] = useState("");
-  const [gender, setGender] = useState("");
-  const [color, setColor] = useState("");
-  const [purpose, setPurpose] = useState("");
-  const [energy, setEnergy] = useState('');
-  const [training, setTraining] = useState('');
-  const [shipping, setShipping] = useState('');
-  const [wait, setWait] = useState('');
-  const [allergies, setAllergies] = useState('');
+  const [Phone, setPhone] = useState("");
+  const [Email, setEmail] = useState("");
+  const [City, setCity] = useState("");
+  const [Address, setAddress] = useState("");
+  const [state, setstate] = useState("");
+  const [Zipcode, setZipcode] = useState("");
+  const [Puppy, setPuppy] = useState("");
+  const [DogSize, setDogSize] = useState("");
+  const [Generation, setGenertation] = useState("");
+  const [Gender, setGender] = useState("");
+  const [Color, setColor] = useState("");
+  const [Purpose, setPurpose] = useState("");
+  const [Energy, setEnergy] = useState('');
+  const [Training, setTraining] = useState('');
+  const [Shipping, setShipping] = useState('');
+  const [Wait, setWait] = useState('');
+  const [Allergies, setAllergies] = useState('');
   const [promise, setPromise] = useState('');
-  const [family, setFamily] = useState('');
-  const [comments, setComments] = useState('');
+  const [Family, setFamily] = useState('');
+  const [Comments, setComments] = useState('');
   const handleSubmit = (e) => {
     e.preventDefault();
 
     const objt = {
       Name,
-      phone,
-      email,
-      city,
-      address,
-      USstate,
-      puppy,
-      dogSize,
-      generation,
-      gender,
-      color,
-      purpose,
-      energy,
-      training,
-      shipping,
-      wait,
-      allergies,
+      Phone,
+      Email,
+      City,
+      Address,
+      state,
+      Zipcode,
+      Puppy,
+      DogSize,
+      Generation,
+      Gender,
+      Color,
+      Purpose,
+      Energy,
+      Training,
+      Shipping,
+      Wait,
+      Allergies,
       promise,
-      family, 
-      comments
+      Family, 
+      Comments
     };
 
     axios
@@ -77,21 +79,21 @@ export const Application = () => {
             <label className="formtitle">Name:</label>
             <input type="name" name="Name" onChange={(e) => setName(e.target.value)} />
 
-            <label className="formtitle">Phone:</label>
-            <input type="number" name="Phone Number" />
+            <label className="formtitle" >Phone:</label>
+            <input type="number" name="Phone Number" onChange={(e) => setPhone(e.target.value)}  />
             <label className="formtitle">Email</label>
-            <input type="text" name="Email" />
+            <input type="text" name="Email" onChange={(e) => setEmail(e.target.value)}  />
           </div>
           <div className="formsection">
             <h3 className="formtitle">Your location </h3>
             <label className="formtitle">City</label>
-            <input type="text" name="City" />
+            <input type="text" name="City" onChange={(e) => setCity(e.target.value)}  />
             <label className="formtitle">Address</label>
-            <input type="text" name="Address" />
-            <label className="formtitle">State</label>
-            <input type="text" name="State" />
+            <input type="text" name="Address" onChange={(e) => setAddress(e.target.value)}  />
+            <label className="formtitle">state</label>
+            <input type="text" name="state" onChange={(e) => setstate(e.target.value)}  />
             <label className="formtitle">Zip code</label>
-            <input type="number" name="Zip code" />
+            <input type="number" name="Zip code" onChange={(e) => setZipcode(e.target.value)}  />
           </div>
           <div className="formsection"></div>
         </div>
