@@ -3,7 +3,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { NavLink } from "reactstrap";
 import axios from "axios";
 export const Application = () => {
-  const [name, setName] = useState("");
+  const [Name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [city, setCity] = useState("");
@@ -21,11 +21,13 @@ export const Application = () => {
   const [wait, setWait] = useState('');
   const [allergies, setAllergies] = useState('');
   const [promise, setPromise] = useState('');
+  const [family, setFamily] = useState('');
+  const [comments, setComments] = useState('');
   const handleSubmit = (e) => {
     e.preventDefault();
 
     const objt = {
-      name,
+      Name,
       phone,
       email,
       city,
@@ -43,6 +45,8 @@ export const Application = () => {
       wait,
       allergies,
       promise,
+      family, 
+      comments
     };
 
     axios
@@ -66,12 +70,12 @@ export const Application = () => {
       <NavLink href="/puppycontract" className="contractlink">
         View Puppy Contract
       </NavLink>
-      <form onSubmit={() => handleSubmit()}>
+      <form>
         <div className="forminputs ">
           <div className="formsection">
             <h3 className="formtitle">Your Contact information</h3>
             <label className="formtitle">Name:</label>
-            <input type="name" name="Name" />
+            <input type="name" name="Name" onChange={(e) => setName(e.target.value)} />
 
             <label className="formtitle">Phone:</label>
             <input type="number" name="Phone Number" />
@@ -487,6 +491,7 @@ export const Application = () => {
             name="Comments or questions"
             placeholder={"Comments or questions"}
           ></textarea>
+          <button type="submit" onClick={(e) => handleSubmit(e)}>Submit</button>
         </div>
       </form>
     </div>
