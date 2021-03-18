@@ -1,8 +1,26 @@
 import React, {useState} from "react";
 import "react-toastify/dist/ReactToastify.css";
 import { NavLink } from "reactstrap";
-
+import axios from 'axios';
 export const Application = () => {
+  const [name, setName] = useState('');
+	const [age, setAge] = useState('');
+	const [salary, setSalary] = useState('');
+	const [hobby, setHobby] = useState('');
+  const handleSubmit = (e) => {
+		e.preventDefault();
+
+		const objt = { name, age, salary, hobby };
+
+		axios
+			.post(
+				'https://sheet.best/api/sheets/da2cb741-7482-4620-98b7-deafac468069',
+				objt
+			)
+			.then((response) => {
+				console.log(response);
+			});
+	};
   return( 
 
     <div className="form container-fluid ">
