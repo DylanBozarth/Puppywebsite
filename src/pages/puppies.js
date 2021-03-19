@@ -15,6 +15,7 @@ function Puppies({propdata}) {
   return (
     <div className="container-fluid innerpage">
       <h2 className="text-center puppyname">The Global Doods</h2>
+    
       <div className="text-center">
         {globaldoodstheme
           .filter((x) => x.image !== "")
@@ -25,7 +26,7 @@ function Puppies({propdata}) {
               alt="theme"
             ></img>
           ))}
-      </div>
+      </div> 
       <div className="row">
     
       {globaldoods
@@ -42,11 +43,12 @@ function Puppies({propdata}) {
               <p className="puppysubtitle">{globaldoods.description}</p>
             </div>
           ))}
-     
+    
        
        
         
       </div>
+      
       <br /><br /><br /><br />
       <h2 className="text-center puppyname">Lily and Dasher's new litter </h2>
       <h2 className="text-center puppyname">The Heart Attack Doods</h2>
