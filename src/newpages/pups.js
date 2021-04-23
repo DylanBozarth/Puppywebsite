@@ -1,6 +1,16 @@
 import React, {useState} from 'react';
 import useTitle from "../hooks/useTitle";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 export const NewPups = () => {
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      };
     useTitle("Your Next Dog");
      
     const [heartattack, setHeartAttack] = useState([
@@ -78,6 +88,13 @@ export const NewPups = () => {
     </div>
     <div className="theme text-center"><img alt="labradoodles" src="./featuredPups/bernedoodles/chloeandgus.jpg" className="img-fluid homecard frame"></img></div> 
     <h3 className="text-center puppyname">Puppies are unnamed as of 4/23</h3>
-        </div>
+    <Slider {...settings}>
+      <div>
+          <img src="./featuredPups/bernedoodles/boys1.jpg" className="image-fluid homecard frame" alt="puppy"></img>
+        <p>Boy</p>
+      </div>
+      
+    </Slider>
+    </div>
     )
 }
