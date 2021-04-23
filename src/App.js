@@ -21,6 +21,8 @@ import PuppyContract from './component/puppycontract'
 import GuardianContract from "./component/guardianContract";
 import FAQPAGE from "./pages/faq";
 import Thanks from "./pages/thanks";
+import { NewPups } from "./newpages/pups";
+import { Featured } from "./newpages/featuredpups";
 
 class App extends Component {
   constructor(props) {
@@ -106,6 +108,8 @@ class App extends Component {
             <Route exact path="/about" component={About} />
             <Route exact path="/application" component={Application} />
             <Route exact path="/breedinfo" component={BreedInfo} />
+            <Route exact path="/newpups" component={NewPups} />
+            <Route exact path="/featured" component={Featured} />
             <Route
               exact
               path="/affliates"
