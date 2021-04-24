@@ -1,16 +1,7 @@
 import React, {useState} from 'react';
 import useTitle from "../hooks/useTitle";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+import Carousel from 'react-elastic-carousel'
 export const NewPups = () => {
-    var settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      };
     useTitle("Your Next Dog");
      
     const [heartattack, setHeartAttack] = useState([
@@ -64,7 +55,22 @@ export const NewPups = () => {
    
     return(
         <div className="innerpage container-fluid">
-            <div className="puppyname puppytitle text-center">Lily and Asher's <br /> Heart attack doods!</div>
+           
+
+    <div className="theme text-center"><img alt="labradoodles" src="./featuredPups/bernedoodles/chloeandgus.jpg" className="img-fluid homecard frame"></img></div> 
+    <h3 className="text-center puppyname">Puppies are unnamed as of 4/23</h3>
+    <Carousel itemsToShow={3}>
+ <div><img src="./featuredPups/bernedoodles/boys1.jpg" className="homecard frame img-fluid" alt="dog"></img> <p className="text-center puppyname puppytitle">Boy</p></div>
+ <div><img src="./featuredPups/bernedoodles/boys2.jpg" className="homecard frame img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Boy</p></div>
+ <div><img src="./featuredPups/bernedoodles/boys3.jpg" className="homecard frame img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Boy</p></div>
+ <div><img src="./featuredPups/bernedoodles/girls1.jpg" className="homecard frame img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
+ <div><img src="./featuredPups/bernedoodles/girls2.jpg" className="homecard frame img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
+ <div><img src="./featuredPups/bernedoodles/girls3.jpg" className="homecard frame img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
+ <div><img src="./featuredPups/bernedoodles/girls4.jpg" className="homecard frame img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
+ <div><img src="./featuredPups/bernedoodles/girls5.jpg" className="homecard frame img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
+</Carousel>
+<br />
+<div className="puppyname puppytitle text-center">Lily and Asher's <br /> Heart attack doods!</div>
 <div className="row">
     
     {heartattack
@@ -86,15 +92,6 @@ export const NewPups = () => {
      
       
     </div>
-    <div className="theme text-center"><img alt="labradoodles" src="./featuredPups/bernedoodles/chloeandgus.jpg" className="img-fluid homecard frame"></img></div> 
-    <h3 className="text-center puppyname">Puppies are unnamed as of 4/23</h3>
-    <Slider {...settings}>
-      <div>
-          <img src="./featuredPups/bernedoodles/boys1.jpg" className="image-fluid homecard frame" alt="puppy"></img>
-        <p>Boy</p>
-      </div>
-      
-    </Slider>
     </div>
     )
 }
