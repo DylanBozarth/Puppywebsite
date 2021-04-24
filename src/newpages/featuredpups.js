@@ -2,7 +2,7 @@ import React from 'react'
 export const Featured = () => {
     return(
         <div>
-            Featured!
+            Featured PUPPIES
         </div>
     )
 }
