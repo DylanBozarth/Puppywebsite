@@ -86,8 +86,13 @@ export const Navigation = () => {
                   </DropdownItem>
                  
                   <DropdownItem>
-                    <NavLink href="/puppies">
+                    <NavLink href="/newpups">
                       <NavItem className="navdropdown">Current litters</NavItem>
+                    </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/featured">
+                      <NavItem className="navdropdown">Featured Puppies</NavItem>
                     </NavLink>
                   </DropdownItem>
                   {/* <DropdownItem>

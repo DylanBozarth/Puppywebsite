@@ -683,7 +683,27 @@ $scale-base-1: (1 + $scale / 100%);
 .homecardbot {
   border: 2px solid $grey;
 }
+.carousel {
+  position: relative;
+  overflow: visible;
+}
+.bigphoto {
+  width: 100%;
+  height: 40vh;
+}
 
+.homecardexpand:hover {
+ 
+  position: absolute;
+  transform: scale(2);
+  z-index: 99 !important;
+  overflow: visible;
+}
+  
+  [class*=homecard]{
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
 
 .homecard:hover {
   box-shadow: 0 20px 60px 0 rgba(0,0,0,.4);
