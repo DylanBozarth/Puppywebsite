@@ -10,6 +10,7 @@ function Home() {
 
   return (
     <div className="homepagemaster">
+      
       <div className="homebox1">
         <Kenburns />
       </div>
