@@ -169,6 +169,15 @@ export const Application = () => {
                   name="Breed"
                   onClick={(e) => setBreed(e.target.nextSibling.textContent)}
                 />
+                <p className="checkbox">Bernedoodle</p>
+              </label>
+              <label>
+                <input
+                  type="radio"
+                  className="checkbox"
+                  name="Breed"
+                  onClick={(e) => setBreed(e.target.nextSibling.textContent)}
+                />
                 <p className="checkbox">Poodle</p>
               </label>
               <label>
