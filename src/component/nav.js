@@ -90,6 +90,11 @@ export const Navigation = () => {
                       <NavItem className="navdropdown">Current litters</NavItem>
                     </NavLink>
                   </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/featured">
+                      <NavItem className="navdropdown">Featured Puppies</NavItem>
+                    </NavLink>
+                  </DropdownItem>
                   {/* <DropdownItem>
                     <NavLink href="/parents">
                       <NavItem className="navdropdown">Meet the Pawrents</NavItem>

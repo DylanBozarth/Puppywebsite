@@ -59,8 +59,8 @@ export const NewPups = () => {
 
     <div className="theme text-center"><img alt="labradoodles" src="./featuredPups/bernedoodles/chloeandgus.jpg" className="img-fluid homecard frame"></img></div> 
     <h3 className="text-center puppyname">Puppies are unnamed as of 4/23</h3>
-    <Carousel itemsToShow={3}>
- <div><img src="./featuredPups/bernedoodles/boys1.jpg" className="homecard frame img-fluid" alt="dog"></img> <p className="text-center puppyname puppytitle">Boy</p></div>
+    <Carousel itemsToShow={1}>
+ <div><img src="./featuredPups/bernedoodles/boys1.jpg" className="homecardexpand frame img-fluid" alt="dog"></img> <p className="text-center puppyname puppytitle">Boy</p></div>
  <div><img src="./featuredPups/bernedoodles/boys2.jpg" className="homecard frame img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Boy</p></div>
  <div><img src="./featuredPups/bernedoodles/boys3.jpg" className="homecard frame img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Boy</p></div>
  <div><img src="./featuredPups/bernedoodles/girls1.jpg" className="homecard frame img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
