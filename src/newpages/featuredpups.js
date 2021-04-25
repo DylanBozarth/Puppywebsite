@@ -8,6 +8,7 @@ import Carousel from 'react-elastic-carousel'
 export const Featured = () => {
     return(
         <div className="innerpage container-fluid ">
+            <h3 className="text-center puppyname puppytitle">Introducing Bernedoodles!</h3>
              <div className="theme text-center"><img alt="labradoodles" src="./featuredPups/bernedoodles/chloeandgus.jpg" className="img-fluid homecard frame"></img></div> 
             <div className="text-center"><NavLink to="/application" className="text-center puppyname  puppytitle">Reserve your puppy now!</NavLink></div>
             <Carousel itemsToShow={1}>
