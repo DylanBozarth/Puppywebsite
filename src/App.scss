@@ -683,11 +683,16 @@ $scale-base-1: (1 + $scale / 100%);
 .homecardbot {
   border: 2px solid $grey;
 }
+.carousel {
+  position: relative;
+  overflow: visible;
+}
 .homecardexpand:hover {
  
-  
+  position: absolute;
   transform: scale(2);
   z-index: 99 !important;
+  overflow: visible;
 }
   
   [class*=homecard]{
