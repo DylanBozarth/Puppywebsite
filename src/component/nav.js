@@ -86,7 +86,7 @@ export const Navigation = () => {
                   </DropdownItem>
                  
                   <DropdownItem>
-                    <NavLink href="/puppies">
+                    <NavLink href="/newpups">
                       <NavItem className="navdropdown">Current litters</NavItem>
                     </NavLink>
                   </DropdownItem>
