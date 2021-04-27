@@ -23,6 +23,41 @@ export const Featured = () => {
  <div><img src="./featuredPups/bernedoodles/girls4.jpg" className=" img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
  <div><img src="./featuredPups/bernedoodles/girls5.jpg" className="img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
 </Carousel>
+<h5 className="text-center puppyname puppytitle">Some special doods!</h5>
+<div className="row">
+
+    <div className="col-sm-6">
+    <h5 className="text-center puppyname puppytitle">Harmony </h5>
+    <Carousel itemsToShow={1}>
+ <div><img src="./featuredPups/harmony.jpg" className="  frame  img-fluid" alt="dog"></img></div>
+ <div><img src="./featuredPups/harmony2.jpg" className="  frame img-fluid" alt="dog"></img></div>
+ 
+</Carousel>
+    </div>
+    <div className="col-sm-6">
+    <h5 className="text-center puppyname puppytitle">Heart</h5>
+    <Carousel itemsToShow={1}>
+    
+ <div><img src="./featuredPups/heart1.jpg" className=" frame  img-fluid" alt="dog"></img></div>
+ <div><img src="./featuredPups/heart2.jpg" className=" frame img-fluid" alt="dog"></img></div>
+ <div><img src="./featuredPups/heart3.jpg" className=" frame img-fluid" alt="dog"></img></div>
+ 
+ 
+</Carousel>
+    </div>
+</div>
+<div className="col-sm-6">
+    <h5 className="text-center puppyname puppytitle">Hero</h5>
+    <Carousel itemsToShow={1}>
+    
+ <div><img src="./featuredPups/hero/hero1.jpg" className=" frame  img-fluid" alt="dog"></img></div>
+ <div><img src="./featuredPups/hero/hero2.jpg" className=" frame img-fluid" alt="dog"></img></div>
+ <div><img src="./featuredPups/hero/hero3.jpg" className=" frame img-fluid" alt="dog"></img></div>
+ <div><img src="./featuredPups/hero/hero4.jpg" className=" frame img-fluid" alt="dog"></img></div>
+ 
+ 
+</Carousel>
+    </div>
 <div className="text-center"><NavLink to="/application" className="text-center puppyname  puppytitle">Reserve your puppy now!</NavLink></div>
         </div>
     )
