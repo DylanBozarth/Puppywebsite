@@ -66,7 +66,7 @@ class App extends Component {
               exact
               path="/puppies"
               render={(props) => (
-                <Puppies {...props} propdata={this.state.propdata} />
+                <NewPups {...props} propdata={this.state.propdata} />
               )}
             />
             <Route
