@@ -23,7 +23,7 @@ export const Featured = () => {
  <div><img src="./featuredPups/bernedoodles/girls4.jpg" className=" img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
  <div><img src="./featuredPups/bernedoodles/girls5.jpg" className="img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
 </Carousel>
-<h5 className="text-center puppyname puppytitle">Some special doods!</h5>
+<h5 className="text-center puppyname puppytitle">Some other special doods!</h5>
 <div className="row">
 
     <div className="col-sm-6">
