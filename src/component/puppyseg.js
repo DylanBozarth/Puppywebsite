@@ -15,7 +15,7 @@ function PuppySeg() {
          
 
           <div className="col-sm-4">
-            <NavLink href="/puppies" className="nohighlight">
+            <NavLink href="/newpups" className="nohighlight">
               <img
                 className="homecard img-fluid"
                 

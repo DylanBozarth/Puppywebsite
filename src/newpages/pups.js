@@ -1,6 +1,11 @@
 import React, {useState} from 'react';
 import useTitle from "../hooks/useTitle";
-import Carousel from 'react-elastic-carousel'
+import Carousel from 'react-elastic-carousel';
+import {
+  
+  NavLink
+ 
+} from "reactstrap";
 export const NewPups = () => {
     useTitle("Your Next Dog");
      
@@ -56,7 +61,7 @@ export const NewPups = () => {
     return(
         <div className="innerpage container-fluid">
            
-
+           <h3 className="text-center puppyname">Featured litter</h3>
     <div className="theme text-center"><img alt="labradoodles" src="./featuredPups/bernedoodles/chloeandgus.jpg" className="img-fluid homecard frame"></img></div> 
     <h3 className="text-center puppyname">Puppies are unnamed as of 4/23</h3>
     <Carousel itemsToShow={1} className="carousel">
