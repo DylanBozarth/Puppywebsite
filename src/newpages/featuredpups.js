@@ -9,8 +9,10 @@ export const Featured = () => {
     return(
         <div className="innerpage container-fluid ">
             <h3 className="text-center puppyname puppytitle">Introducing Bernedoodles!</h3>
+            <h5 className="text-center puppyname puppytitle">The Jaw Dropper Doods </h5>
              <div className="theme text-center"><img alt="labradoodles" src="./featuredPups/bernedoodles/chloeandgus.jpg" className="img-fluid homecard frame"></img></div> 
-            <div className="text-center"><NavLink to="/application" className="text-center puppyname  puppytitle">Reserve your puppy now!</NavLink></div>
+             <h5 className="text-center puppyname puppytitle">Names are to be decided </h5>
+            
             <Carousel itemsToShow={1}>
  <div><img src="./featuredPups/bernedoodles/boys1.jpg" className="  img-fluid" alt="dog"></img> <p className="text-center puppyname puppytitle">Boy</p></div>
  <div><img src="./featuredPups/bernedoodles/boys2.jpg" className=" img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Boy</p></div>
@@ -21,7 +23,7 @@ export const Featured = () => {
  <div><img src="./featuredPups/bernedoodles/girls4.jpg" className=" img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
  <div><img src="./featuredPups/bernedoodles/girls5.jpg" className="img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
 </Carousel>
-
+<div className="text-center"><NavLink to="/application" className="text-center puppyname  puppytitle">Reserve your puppy now!</NavLink></div>
         </div>
     )
 }
