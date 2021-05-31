@@ -5,18 +5,18 @@ import Kenburns from "../component/kenburns";
 import PuppySeg from "../component/puppyseg";
 import Instafeed from "../component/instafeed";
 
-import swal from 'sweetalert';
+//import swal from 'sweetalert';
 
 
 function Home() {
   useTitle("JYMR Doodles");
 useEffect(() => {
-  let PopIt = () => {
+  {/*let PopIt = () => {
     swal("Be sure to check out our featured pups!", {
       buttons: [true],
     });
   };
-  PopIt();
+PopIt(); */}
 }, [])
 
   return (
