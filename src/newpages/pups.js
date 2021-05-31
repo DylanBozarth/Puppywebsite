@@ -5,58 +5,11 @@ import {
   
   NavLink
  
-} from "reactstrap";
+} from "react-router-dom";
 export const NewPups = () => {
     useTitle("Your Next Dog");
      
-    const [jawDropper, setJaw] = useState([
-        {
-        name: "Honey",
-            description: "",
-            image: "./currentpuppies/jawDropper/honey.jpg"
-          },
-          {
-            name: "Hanky",
-            description: "",
-            image: "./currentpuppies/jawDropper/hanky.jpg"
-          },
-          {
-            name: "Harmony",
-            description: "",
-            image: "./currentpuppies/jawDropper/harmony.jpg"
-          },
-          {
-            name: "Heart",
-            description: "",
-        image: "./currentpuppies/jawDropper/heart.jpg"
-          },
-          {
-            name: "Hero",
-            description: "",
-            image: "./currentpuppies/jawDropper/hero.jpg"
-          },
-          {
-            name: "Hershey",
-            description: "",
-            image: "./currentpuppies/jawDropper/hershey.jpg"
-          },
-          
-          {
-            name: "Hugs",
-            description: "",
-            image: "./currentpuppies/jawDropper/hugs.jpg"
-          },
-          {
-            name: "Hermosa",
-            description: "Reserved",
-            image: "./currentpuppies/jawDropper/hermosa.jpg"
-          },
-          {
-            name: "Hunk",
-            description: "",
-            image: "./currentpuppies/jawDropper/hunk.jpg"
-          }
-    ])
+   
    
     return(
         <div className="innerpage container-fluid puppypage">
@@ -197,6 +150,7 @@ export const NewPups = () => {
            <h4  className="puppyname">Izzy <br />
            Available</h4></div>
     </div>
+    <h2 className="text-center"><NavLink to="/application" className="puppyname text-center">Get me my puppy now!</NavLink></h2>
     </div>
     )
 }

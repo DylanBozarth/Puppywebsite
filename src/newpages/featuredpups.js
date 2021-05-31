@@ -73,7 +73,7 @@ export const Featured = () => {
         <div className="col-sm-2"></div>
       </div>
       <h5 className="text-center puppyname puppytitle">
-        <NavLink to="/pups"> Check out our other doods!</NavLink>
+        <NavLink to="/newpups"> Check out our other doods!</NavLink>
       </h5>
     </div>
   );
