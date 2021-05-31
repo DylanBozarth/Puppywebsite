@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./App.scss";
 import { Navigation } from "./component/nav";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Puppies from "./pages/puppies";
 import Home from "./pages/home";
 import { Route, BrowserRouter } from "react-router-dom";
 import Parents from "./pages/parents";
@@ -41,10 +40,8 @@ class App extends Component {
           propdata: res,
         });
       });
-      function toggleZoomScreen() {
-        document.body.style.zoom = "100%";
-    } 
-    toggleZoomScreen()
+     
+    
   }
 
   render() {

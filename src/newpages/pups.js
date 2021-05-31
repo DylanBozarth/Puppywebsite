@@ -9,93 +9,91 @@ import {
 export const NewPups = () => {
     useTitle("Your Next Dog");
      
-    const [heartattack, setHeartAttack] = useState([
+    const [jawDropper, setJaw] = useState([
         {
         name: "Honey",
             description: "",
-            image: "./currentpuppies/heartattack/honey.jpg"
+            image: "./currentpuppies/jawDropper/honey.jpg"
           },
           {
             name: "Hanky",
             description: "",
-            image: "./currentpuppies/heartattack/hanky.jpg"
+            image: "./currentpuppies/jawDropper/hanky.jpg"
           },
           {
             name: "Harmony",
             description: "",
-            image: "./currentpuppies/heartattack/harmony.jpg"
+            image: "./currentpuppies/jawDropper/harmony.jpg"
           },
           {
             name: "Heart",
             description: "",
-        image: "./currentpuppies/heartattack/heart.jpg"
+        image: "./currentpuppies/jawDropper/heart.jpg"
           },
           {
             name: "Hero",
             description: "",
-            image: "./currentpuppies/heartattack/hero.jpg"
+            image: "./currentpuppies/jawDropper/hero.jpg"
           },
           {
             name: "Hershey",
             description: "",
-            image: "./currentpuppies/heartattack/hershey.jpg"
+            image: "./currentpuppies/jawDropper/hershey.jpg"
           },
           
           {
             name: "Hugs",
             description: "",
-            image: "./currentpuppies/heartattack/hugs.jpg"
+            image: "./currentpuppies/jawDropper/hugs.jpg"
           },
           {
             name: "Hermosa",
             description: "Reserved",
-            image: "./currentpuppies/heartattack/hermosa.jpg"
+            image: "./currentpuppies/jawDropper/hermosa.jpg"
           },
           {
             name: "Hunk",
             description: "",
-            image: "./currentpuppies/heartattack/hunk.jpg"
+            image: "./currentpuppies/jawDropper/hunk.jpg"
           }
     ])
    
     return(
-        <div className="innerpage container-fluid">
-           
+        <div className="innerpage container-fluid puppypage">
+           <h3 className="text-center puppyname">Featured Puppy</h3>
+           <Carousel itemsToShow={1}>
+             <img src="./currentpuppies/heartattack/harmony.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/heartattack/harmony2.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/heartattack/harmony3.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/heartattack/harmony4.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/heartattack/harmony5.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+           </Carousel>
+           <h4 className="text-center puppyname">Harmony from the Heart Attack doods!</h4>
+           <br />
            <h3 className="text-center puppyname">Featured litter</h3>
     <div className="theme text-center"><img alt="labradoodles" src="./featuredPups/bernedoodles/chloeandgus.jpg" className="img-fluid homecard frame"></img></div> 
-    <h3 className="text-center puppyname">Puppies are unnamed as of 4/23</h3>
-    <Carousel itemsToShow={1} className="carousel">
- <div><img src="./featuredPups/bernedoodles/boys1.jpg" className="   img-fluid" alt="dog"></img> <p className="text-center puppyname puppytitle">Boy</p></div>
- <div><img src="./featuredPups/bernedoodles/boys2.jpg" className="  img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Boy</p></div>
- <div><img src="./featuredPups/bernedoodles/boys3.jpg" className="img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Boy</p></div>
- <div><img src="./featuredPups/bernedoodles/girls1.jpg" className="  img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
- <div><img src="./featuredPups/bernedoodles/girls2.jpg" className=" img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
- <div><img src="./featuredPups/bernedoodles/girls3.jpg" className="  img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
- <div><img src="./featuredPups/bernedoodles/girls4.jpg" className="  img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
- <div><img src="./featuredPups/bernedoodles/girls5.jpg" className="  img-fluid" alt="dog"></img><p className="text-center puppyname puppytitle">Girl</p></div>
-</Carousel>
-<br />
-<div className="puppyname puppytitle text-center">Lily and Asher's <br /> Heart attack doods!</div>
-<div className="row">
+    {/*<h3 className="text-center puppyname">Puppies are unnamed as of 4/23</h3> */}
     
-    {heartattack
-        
-        .map((heartattack) => (
-          <div className="col-sm-4" key={heartattack.name}>
-            <img
-              className="homecard frame img-fluid"
-              src={heartattack.image}
-              alt="goldendoodle"
-            />
-            <h1 className="puppyname">{heartattack.name}</h1>
-
-            <p className="puppysubtitle">{heartattack.description}</p>
-          </div>
-        ))}
-   
-     
-     
-      
+<div className="puppyname puppytitle text-center">Jaw Dropper Doods! <br /> F1B mini bernedoodles</div>
+<div className="row">
+  <div className="col-sm-4">
+<Carousel itemsToShow={1}>
+             <img src="./currentpuppies/jawDropper/jade1.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/jade2.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/jade3.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+            
+           </Carousel> 
+           <h4  >Jade <br />
+           Available</h4></div>
+           <div className="col-sm-4">
+<Carousel itemsToShow={1}>
+             <img src="./currentpuppies/jawDropper/jaxx1.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/jaxx2.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/jaxx3.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+            
+           </Carousel> 
+           <h4>Jaxx <br />
+           Available</h4></div>
     </div>
     </div>
     )
