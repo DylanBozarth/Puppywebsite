@@ -94,6 +94,70 @@ export const NewPups = () => {
            </Carousel> 
            <h4>Jaxx <br />
            Available</h4></div>
+           <div className="col-sm-4">
+<Carousel itemsToShow={1}>
+             <img src="./currentpuppies/jawDropper/jena1.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/jena2.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/jena3.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+            
+           </Carousel> 
+           <h4>Jena <br />
+           Reserved</h4></div>
+           <div className="col-sm-4">
+<Carousel itemsToShow={1}>
+             <img src="./currentpuppies/jawDropper/jara1.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/jara2.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/jara3.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+            
+           </Carousel> 
+           <h4>Jara <br />
+           Reserved</h4></div>
+           
+           <div className="col-sm-4">
+<Carousel itemsToShow={1}>
+             <img src="./currentpuppies/jawDropper/jose1.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/jose2.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/jose3.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+            
+           </Carousel> 
+           <h4>Jose <br />
+           Available</h4></div>
+           <div className="col-sm-4">
+<Carousel itemsToShow={1}>
+             <img src="./currentpuppies/jawDropper/juan1.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/juan2.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/juan3.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+            
+           </Carousel> 
+           <h4>Juan <br />
+           Available</h4></div>
+           <div className="col-sm-4">
+<Carousel itemsToShow={1}>
+             <img src="./currentpuppies/jawDropper/judd1.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/judd2.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/judd3.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+            
+           </Carousel> 
+           <h4>Judd <br />
+           Available</h4></div>
+           <div className="col-sm-4">
+<Carousel itemsToShow={1}>
+             <img src="./currentpuppies/jawDropper/juli1.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/juli2.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/juli3.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+            
+           </Carousel> 
+           <h4>Juli <br />
+          Available</h4></div>
+          <div className="col-sm-4">
+<Carousel itemsToShow={1}>
+             <img src="./currentpuppies/jawDropper/joni1.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/joni2.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+             <img src="./currentpuppies/jawDropper/joni3.jpg" className="homecard frame img-fluid" alt="puppy"></img>
+            
+           </Carousel> 
+           <h4>Joni <br />
+           Reserved</h4></div>
     </div>
     </div>
     )
