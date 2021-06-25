@@ -19,7 +19,6 @@ import Guardians from "./pages/guardians";
 import PuppyContract from './component/puppycontract'
 import GuardianContract from "./component/guardianContract";
 import FAQPAGE from "./pages/faq";
-import Thanks from "./pages/thanks";
 import { NewPups } from "./newpages/pups";
 import { Featured } from "./newpages/featuredpups";
 
@@ -124,13 +123,7 @@ class App extends Component {
             <Route exact path="/guardians" component={Guardians} />
             <Route exact path="/puppycontract" component={PuppyContract} />
             <Route exact path="/guardiancontract" component={GuardianContract} />
-            <Route
-              exact
-              path="/thanksgod"
-              render={(props) => (
-                <Thanks {...props} propdata={this.state.propdata} />
-              )}
-            />
+           
             <Route
               exact
               path="/rainbowbridge"

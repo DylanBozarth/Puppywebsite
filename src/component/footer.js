@@ -9,7 +9,7 @@ export const Footer = () => (
     <footer className="site-footer">
     <div className="container">
       <div className="row">
-        <div className="col-sm-12 col-md-6">
+        <div className=" col-md-6">
           <h6 className="center">Great Doodles from great Hoomans</h6>
           <div className="container-fluid col">
           <img className="footerlogo img-fluid" alt="footerlogo" src="./assets/logosquare.jpg" width="480px" height="200px"></img>
@@ -36,12 +36,11 @@ export const Footer = () => (
         </div>
       </div>
     
-      <div className="row">
         <div className="text-center">
           <p className="copyright-text text-center" >Copyright &copy; 2020 All Rights Reserved by 
        JYMR doodles
           </p>
-        </div>
+      
 
         
       
