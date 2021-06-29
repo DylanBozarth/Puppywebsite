@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./App.scss";
 import { Navigation } from "./component/nav";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from "./pages/home";
 import { Route, BrowserRouter } from "react-router-dom";
 import Parents from "./pages/parents";
 import About from "./pages/about";
@@ -21,6 +20,7 @@ import GuardianContract from "./component/guardianContract";
 import FAQPAGE from "./pages/faq";
 import { NewPups } from "./newpages/pups";
 import { Featured } from "./newpages/featuredpups";
+import { FrontPage } from "./newpages/frontpage";
 
 class App extends Component {
   constructor(props) {
@@ -55,7 +55,7 @@ class App extends Component {
               exact
               path="/"
               render={(props) => (
-                <Home {...props} propdata={this.state.propdata} />
+                <FrontPage {...props} propdata={this.state.propdata} />
               )}
             />
             <Route
