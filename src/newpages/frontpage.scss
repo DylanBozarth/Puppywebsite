@@ -11,20 +11,21 @@ body::-webkit-scrollbar {
 }
 // new navigation 
 .navbar-wrapper {
-  position: sticky; top: 0
+  position: sticky; top: 0;
+  padding-top: -1rem;
 }
 .nav-item {
-border: solid 5px red;
+
 overflow: visible;
+background-image: url('../backgroundImages/bone2.png');
+background-position: center;
+background-size: 50%;
+background-repeat: no-repeat;
+ overflow: visible;
+ padding: 1.7rem;
 }
 .new-nav-button {
-  background-image: url('../backgroundImages/bone2.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-   overflow: visible;
-   padding: 1rem;
-   width: 7rem;
+ color: white;
 }
 /* homepage effects */
 
