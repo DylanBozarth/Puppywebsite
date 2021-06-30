@@ -4,6 +4,7 @@ import PuppySeg from "../component/puppyseg";
 import Instafeed from "../component/instafeed";
 import "./frontpage.scss"
 import NewKenburns from '../newcomponents/newKenburns';
+import { FrontpageHalf } from '../newcomponents/frontPageHalf';
 export const FrontPage = () => {
     useTitle("JYMR Doodles");
 return (
@@ -14,8 +15,7 @@ return (
 
 <div className="col-sm-2"></div>
 </div>
-
-
+<FrontpageHalf />
     </div>
 )
 }

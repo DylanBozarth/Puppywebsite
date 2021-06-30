@@ -46,16 +46,7 @@ class App extends Component {
       <div>
         <BrowserRouter>
           <div className="container">
-            <div className="text-center">
-              {" "}
-              <img
-                src="./assets/headerlogo.png"
-                width="190px"
-                height="190px"
-                className="img-fluid"
-                alt="doodle logo"
-              ></img>
-            </div>
+           
             <NewNav />
           </div>
           <div className="page">
