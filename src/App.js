@@ -6,7 +6,7 @@ import { Route, BrowserRouter } from "react-router-dom";
 import Parents from "./pages/parents";
 import About from "./pages/about";
 import { Footer } from "./component/footer";
-import {Application} from "./pages/application";
+import { Application } from "./pages/application";
 import BreedInfo from "./pages/breedinfo";
 import RainbowBridge from "./pages/rainbowbridge";
 import Poodles from "./component/poodles";
@@ -15,13 +15,13 @@ import Goldendoodles from "./component/goldendoodles";
 import Affliates from "./pages/affliates";
 import Reviews from "./pages/reviews";
 import Guardians from "./pages/guardians";
-import PuppyContract from './component/puppycontract'
+import PuppyContract from "./component/puppycontract";
 import GuardianContract from "./component/guardianContract";
 import FAQPAGE from "./pages/faq";
 import { NewPups } from "./newpages/pups";
 import { Featured } from "./newpages/featuredpups";
 import { FrontPage } from "./newpages/frontpage";
-
+import { NewNav } from "./newcomponents/newnav";
 class App extends Component {
   constructor(props) {
     super(props);
@@ -39,8 +39,6 @@ class App extends Component {
           propdata: res,
         });
       });
-     
-    
   }
 
   render() {
@@ -48,7 +46,17 @@ class App extends Component {
       <div>
         <BrowserRouter>
           <div className="container">
-            <Navigation />
+            <div className="text-center">
+              {" "}
+              <img
+                src="./assets/headerlogo.png"
+                width="190px"
+                height="190px"
+                className="img-fluid"
+                alt="doodle logo"
+              ></img>
+            </div>
+            <NewNav />
           </div>
           <div className="page">
             <Route
@@ -93,7 +101,7 @@ class App extends Component {
                 <Goldendoodles {...props} propdata={this.state.propdata} />
               )}
             />
-          
+
             <Route
               exact
               path="/reviews"
@@ -122,8 +130,12 @@ class App extends Component {
             />
             <Route exact path="/guardians" component={Guardians} />
             <Route exact path="/puppycontract" component={PuppyContract} />
-            <Route exact path="/guardiancontract" component={GuardianContract} />
-           
+            <Route
+              exact
+              path="/guardiancontract"
+              component={GuardianContract}
+            />
+
             <Route
               exact
               path="/rainbowbridge"
@@ -131,7 +143,6 @@ class App extends Component {
                 <RainbowBridge {...props} propdata={this.state.propdata} />
               )}
             />
-            
           </div>
         </BrowserRouter>
         <Footer />
