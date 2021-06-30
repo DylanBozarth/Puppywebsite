@@ -28,6 +28,9 @@ background-repeat: no-repeat;
 .new-nav-button {
  color: white;
 }
+.noShow {
+  display: none;
+}
 /* homepage effects */
 
 $items: 4;
@@ -170,6 +173,29 @@ text-shadow: 1.5px 0 0 #000, 0 -1px 0 #000, 0 1.5px 0 #000, -1px 0 0 #000;
 
 }
 .puppyCardText {
-  color: black;
+  
   font-size: 4vh;
+  color: white;
+  text-shadow:
+  0.05em 0 black,
+  0 0.05em black,
+  -0.05em 0 black,
+  0 -0.05em black,
+  -0.05em -0.05em black,
+  -0.05em 0.05em black,
+  0.05em -0.05em black,
+  0.05em 0.05em black;
+}
+.nav-button-text  {
+  font-size: 2.2vh;
+  color: black;
+  text-shadow:
+  0.05em 0 white,
+  0 0.05em white,
+  -0.05em 0 white,
+  0 -0.05em white,
+  -0.05em -0.05em white,
+  -0.05em 0.05em white,
+  0.05em -0.05em white,
+  0.05em 0.05em white;
 }

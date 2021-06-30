@@ -1,14 +1,52 @@
 import React from "react";
+import {useState} from 'react'
 import useTitle from "../hooks/useTitle";
 import PuppySeg from "../component/puppyseg";
 import Instafeed from "../component/instafeed";
 import "./frontpage.scss";
 import NewKenburns from "../newcomponents/newKenburns";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 export const FrontPage = () => {
+  
   useTitle("JYMR Doodles");
   return (
     <div className="frontPage">
+      {/* start of option bar */}
+      <div className="row">
+        <div className="col-sm-4">
+          <NavLink to="/newpups">
+            <img
+              src="./assets/puppycard.png"
+              alt="puppy"
+              className="img-fluid puppyCard"
+            ></img>{" "}
+            <p className="puppyCardText">Browse our current litters!</p>
+          </NavLink>
+        </div>
+        <div className="col-sm-4">
+          <NavLink to="about">
+            <img
+              src="./assets/homecardabout.png"
+              alt="puppy"
+              className="img-fluid puppyCard"
+            ></img>{" "}
+            <p className="puppyCardText">Get the 411 about JYMR doodles!</p>
+          </NavLink>
+        </div>
+        <div className="col-sm-4">
+          <a href="https://www.pawtree.com/jymrdoodles/myrecommendation/Standard-Package?fbclid=IwAR1x9IKyAO0ojODicSbSXWO7305bY4A3jnFoJZvPQaAHLBcMmMnqhjZXhPY">
+            <img
+              src="./assets/pawtreecard.png"
+              alt="puppy"
+              className="img-fluid puppyCard"
+            ></img>{" "}
+            <p className="puppyCardText">
+              Get the best nutrition for your dog!
+            </p>
+          </a>
+        </div>
+      </div>
+      {/* end of option bar */} {/* start of ken burns */}
       <div className="kenBox row text-center">
         <div className="col-sm-2"></div>
         <div className="col-sm-8">
@@ -18,6 +56,7 @@ export const FrontPage = () => {
         <div className="col-sm-2"></div>
       </div>
       {/* end of ken burns effect*/}
+      {/* start of quote*/}
       <div className="quoteWrapper">
         <div className="text-center nav-bar-logo">
           {" "}
@@ -35,33 +74,7 @@ export const FrontPage = () => {
         </div>
       </div>
       {/* end of quote and logo */}
-      <div className="row">
-          <Link to="/newpups">
-        <div className="col-sm-4">
-          <img
-            src="./assets/puppycard.png"
-            alt="puppy"
-            className="img-fluid puppyCard"
-          ></img>{" "}
-          <p className="puppyCardText">SEE THE PUPPIES</p>
-        </div></Link>
-        <div className="col-sm-4">
-          <img
-            src="./assets/homecardabout.png"
-            alt="puppy"
-            className="img-fluid puppyCard"
-          ></img>{" "}
-         <p className="puppyCardText">SEE THE PUPPIES</p>
-        </div>
-        <div className="col-sm-4">
-          <img
-            src="./assets/pawtreecard.png"
-            alt="puppy"
-            className="img-fluid puppyCard"
-          ></img>{" "}
-          <p className="puppyCardText">SEE THE PUPPIES</p>
-        </div>
-      </div>
+     
     </div>
   );
 };
