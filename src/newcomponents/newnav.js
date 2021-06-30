@@ -2,19 +2,21 @@ import React from "react";
 import "../newpages/frontpage.scss"
 export const NewNav = () => {
   return (
-    <ul class="nav nav-pills nav-fill">
-  <li class="nav-item new-nav-button">
-   aaaaaaaa
-  </li>
-  <li class="nav-item new-nav-button">
-    aaa
-  </li>
-  <li class="nav-item new-nav-button">
-  aaaaaaaaa
-  </li>
-  <li class="nav-item new-nav-button">
-   aaa
-  </li>
-</ul>
+      <div className="container-fluid">
+    <div className="  row">
+  <div className="nav-item col-sm-4">
+  <p className="new-nav-button">weewew</p>
+  </div>
+  <div className="nav-item col-sm-4">
+   <p className="new-nav-button">weewew</p> 
+  </div>
+  <div className="nav-item col-sm-4">
+  <p className="new-nav-button">weewew</p> 
+  </div>
+  <div className="nav-item col-sm-4 ">
+  <p className="new-nav-button">weewew</p> 
+  </div>
+  
+</div></div>
   );
 };
