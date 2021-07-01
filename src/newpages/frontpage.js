@@ -86,6 +86,8 @@ export const FrontPage = () => {
           </div>
           <div className="col-sm-2"></div>
       </div>
-    </div>
+   <NavLink to="/application"><div className="text-center">Adoption Application</div></NavLink>
+     </div>
+   
   );
 };
