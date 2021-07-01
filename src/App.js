@@ -22,6 +22,7 @@ import { NewPups } from "./newpages/pups";
 import { Featured } from "./newpages/featuredpups";
 import { FrontPage } from "./newpages/frontpage";
 import { NewNav } from "./newcomponents/newnav";
+import { NewFoot } from "./newcomponents/newFoot";
 class App extends Component {
   constructor(props) {
     super(props);
@@ -46,7 +47,6 @@ class App extends Component {
       <div>
         <BrowserRouter>
           <div className="container">
-           
             <NewNav />
           </div>
           <div className="page">
@@ -135,8 +135,10 @@ class App extends Component {
               )}
             />
           </div>
+          
+                <Footer />
+              
         </BrowserRouter>
-        <Footer />
       </div>
     );
   }

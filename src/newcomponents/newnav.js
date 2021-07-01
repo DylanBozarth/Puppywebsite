@@ -14,6 +14,10 @@ export const NewNav = () => {
     setOpen2(!open2);
     setOpen(false);
   };
+  const CloseIt = () => {
+    setOpen2(false);
+    setOpen(false);
+  }
   return (
     <div className="container-fluid">
       <div className="  row">
@@ -61,14 +65,14 @@ export const NewNav = () => {
             </NavLink>
           </div>
         </div>
-        <div className="nav-item col-sm-3">
+        <div className="nav-item col-sm-3" onClick={() => CloseIt()}>
           <NavLink to="/reviews" className=" puppyCardText">
             <p className="new-nav-button text-center nav-button-text">
               Reviews
             </p>
           </NavLink>
         </div>
-        <div className="nav-item col-sm-3">
+        <div className="nav-item col-sm-3" onClick={() => CloseIt()}>
           <a
             href="https://www.pawtree.com/jymrdoodles/myrecommendation/Standard-Package?fbclid=IwAR1x9IKyAO0ojODicSbSXWO7305bY4A3jnFoJZvPQaAHLBcMmMnqhjZXhPY"
             className="puppyCardText"
