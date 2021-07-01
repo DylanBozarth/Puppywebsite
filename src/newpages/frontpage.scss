@@ -72,6 +72,7 @@ $total-time: ($animation-time * $items);
 $scale-base-1: (1 + $scale / 100%);
 .kenBox {
   text-align: center;
+  padding-top: 1rem;
 }
 .slideshow2 {
   position: relative;
