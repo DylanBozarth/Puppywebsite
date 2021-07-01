@@ -10,15 +10,20 @@ body::-webkit-scrollbar {
 
 }
 // new navigation 
+.nav-bar-top {
+  width: 105%;
+  overflow: hidden;
+}
 .nav-button-text  {
-  font-size: 2.2vh;
+  font-size:  1.5vw 2vh;
+
   color: white;
   text-shadow:
   0.05em 0 black,
   0 0.05em black,
   -0.05em 0 black,
-  0 -0.05em black,
-  
+  0 -0.05em black;
+  font-family: 'Akaya Kanadaka', cursive;
 }
 .navbar-wrapper {
   position: sticky; top: 0;
@@ -29,7 +34,7 @@ body::-webkit-scrollbar {
 overflow: visible;
 background-image: url('../backgroundImages/bone2.png');
 background-position: center;
-background-size: 50%;
+background-size:13em;
 background-repeat: no-repeat;
  overflow: visible;
  padding: 1.7rem;
@@ -37,6 +42,9 @@ background-repeat: no-repeat;
 .new-nav-button {
  color: white;
  cursor: pointer;
+}
+.drop-down-text {
+  font-family: 'Akaya Kanadaka', cursive;
 }
 .dropdown1 {
   background-image: url('../backgroundImages/paws.png');
