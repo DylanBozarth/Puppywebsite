@@ -11,7 +11,16 @@ export const FrontPage = () => {
   useTitle("JYMR Doodles");
   return (
     <div className="frontPage">
-      {/* start of option bar */}
+      {/* start of ken burns */}
+      <div className="kenBox row text-center">
+        <div className="col-sm-2"></div>
+        <div className="col-sm-8">
+          <NewKenburns />
+        </div>
+
+        <div className="col-sm-2"></div>
+      </div>
+      {/* end of ken burns effect*/}{/* start of option bar */}
       <div className="row">
         <div className="col-sm-4">
           <NavLink to="/newpups">
@@ -46,16 +55,7 @@ export const FrontPage = () => {
           </a>
         </div>
       </div>
-      {/* end of option bar */} {/* start of ken burns */}
-      <div className="kenBox row text-center">
-        <div className="col-sm-2"></div>
-        <div className="col-sm-8">
-          <NewKenburns />
-        </div>
-
-        <div className="col-sm-2"></div>
-      </div>
-      {/* end of ken burns effect*/}
+      {/* end of option bar */} 
       {/* start of quote*/}
       <div className="quoteWrapper">
         <div className="text-center nav-bar-logo">

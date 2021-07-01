@@ -10,7 +10,16 @@ body::-webkit-scrollbar {
 
 }
 // new navigation 
-
+.nav-button-text  {
+  font-size: 2.2vh;
+  color: white;
+  text-shadow:
+  0.05em 0 black,
+  0 0.05em black,
+  -0.05em 0 black,
+  0 -0.05em black,
+  
+}
 .navbar-wrapper {
   position: sticky; top: 0;
   padding-top: -1rem;
@@ -27,6 +36,16 @@ background-repeat: no-repeat;
 }
 .new-nav-button {
  color: white;
+}
+.dropdown1 {
+  background-image: url('../backgroundImages/paws.png');
+  position: absolute;
+  z-index: 99;
+}
+.dropdown2 {
+  background-image: url('../backgroundImages/paws.png');
+  position: absolute;
+  z-index: 99;
 }
 .noShow {
   display: none;
@@ -185,17 +204,4 @@ text-shadow: 1.5px 0 0 #000, 0 -1px 0 #000, 0 1.5px 0 #000, -1px 0 0 #000;
   -0.05em 0.05em black,
   0.05em -0.05em black,
   0.05em 0.05em black;
-}
-.nav-button-text  {
-  font-size: 2.2vh;
-  color: black;
-  text-shadow:
-  0.05em 0 white,
-  0 0.05em white,
-  -0.05em 0 white,
-  0 -0.05em white,
-  -0.05em -0.05em white,
-  -0.05em 0.05em white,
-  0.05em -0.05em white,
-  0.05em 0.05em white;
 }
