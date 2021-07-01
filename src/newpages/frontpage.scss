@@ -36,16 +36,19 @@ background-repeat: no-repeat;
 }
 .new-nav-button {
  color: white;
+ cursor: pointer;
 }
 .dropdown1 {
   background-image: url('../backgroundImages/paws.png');
   position: absolute;
   z-index: 99;
+  padding: .5rem;
 }
 .dropdown2 {
   background-image: url('../backgroundImages/paws.png');
   position: absolute;
   z-index: 99;
+  padding: .5rem;
 }
 .noShow {
   display: none;
@@ -204,4 +207,12 @@ text-shadow: 1.5px 0 0 #000, 0 -1px 0 #000, 0 1.5px 0 #000, -1px 0 0 #000;
   -0.05em 0.05em black,
   0.05em -0.05em black,
   0.05em 0.05em black;
+}
+.puppyCardText:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+/* social media */
+.SMStuff {
+  padding: 2rem;
 }

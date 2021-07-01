@@ -100,7 +100,7 @@ font-family: 'Dancing Script';
   font-size:15px;
   line-height:24px;
   color:black !important;
-  margin-top: 15vh;
+  
   text-align: center;
 }
 .site-footer hr
@@ -659,6 +659,9 @@ $scale-base-1: (1 + $scale / 100%);
   0 0.03em white,
   -0.03em 0 white,
   0 -0.03em white,
+}
+.reviewPage {
+  padding: 1rem;
 }
 .reallycenter {
   text-align: center !important;

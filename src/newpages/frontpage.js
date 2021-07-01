@@ -1,5 +1,5 @@
 import React from "react";
-import {useState} from 'react'
+import { useState } from "react";
 import useTitle from "../hooks/useTitle";
 import PuppySeg from "../component/puppyseg";
 import Instafeed from "../component/instafeed";
@@ -7,7 +7,6 @@ import "./frontpage.scss";
 import NewKenburns from "../newcomponents/newKenburns";
 import { NavLink } from "react-router-dom";
 export const FrontPage = () => {
-  
   useTitle("JYMR Doodles");
   return (
     <div className="frontPage">
@@ -20,7 +19,8 @@ export const FrontPage = () => {
 
         <div className="col-sm-2"></div>
       </div>
-      {/* end of ken burns effect*/}{/* start of option bar */}
+      {/* end of ken burns effect*/}
+      {/* start of option bar */}
       <div className="row">
         <div className="col-sm-4">
           <NavLink to="/newpups">
@@ -33,7 +33,7 @@ export const FrontPage = () => {
           </NavLink>
         </div>
         <div className="col-sm-4">
-          <NavLink to="about">
+          <NavLink to="/about">
             <img
               src="./assets/homecardabout.png"
               alt="puppy"
@@ -49,13 +49,13 @@ export const FrontPage = () => {
               alt="puppy"
               className="img-fluid puppyCard"
             ></img>{" "}
-            <p className="puppyCardText">
+            <p className="puppyCardText ">
               Get the best nutrition for your dog!
             </p>
           </a>
         </div>
       </div>
-      {/* end of option bar */} 
+      {/* end of option bar */}
       {/* start of quote*/}
       <div className="quoteWrapper">
         <div className="text-center nav-bar-logo">
@@ -72,9 +72,20 @@ export const FrontPage = () => {
             love yourself"
           </p>
         </div>
+        
       </div>
       {/* end of quote and logo */}
-     
+      <div className="row SMStuff">
+        <div className="col-sm-2"></div>
+        <div className="col-sm-2">
+<a href="https://www.facebook.com/JYMRdoodles/"><img src="./assets/facebook.png" className="img-fluid" alt="facebook"></img></a>
+        </div>
+       <div className="col-sm-4"></div>
+        <div className="col-sm-2">
+       <a href="https://www.instagram.com/jymr_doodles/"> <img src="./assets/instagramlogo.png" className="img-fluid" alt="instagram"></img></a>
+          </div>
+          <div className="col-sm-2"></div>
+      </div>
     </div>
   );
 };

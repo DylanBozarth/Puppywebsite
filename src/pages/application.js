@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, } from "react";
 import "react-toastify/dist/ReactToastify.css";
 import { NavLink } from "reactstrap";
 import axios from "axios";
@@ -63,8 +63,9 @@ export const Application = () => {
       });
       alert('Thank you, we will contact you shortly! ');
      
-
+      
   };
+  
   return (
     <div className="form container-fluid ">
       <h1 className="formtitle">Puppy application</h1>

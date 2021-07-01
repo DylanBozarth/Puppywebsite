@@ -2,7 +2,7 @@ import React from "react";
 
 function Reviews() {
   return (
-    <div className="container-fluid innerpage ">
+    <div className="container-fluid innerpage  reviewPage">
       <div className="row">
         <div className="col-sm-12 text-center">
           <img src="./puppies/rosebudreview.jpg" className="img-fluid"  alt="review"></img>
