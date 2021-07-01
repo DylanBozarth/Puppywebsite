@@ -1,13 +1,22 @@
-import React from "react";
+import React, {useEffect} from "react";
 import useTitle from "../hooks/useTitle";
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  })
   useTitle("Reputable Breeders");
   return (
     <div className="container-fluid innerpage aboutpage">
       <div className="text-center">
          
        <h3 className="text-center  jymrtitle">JYMR Doodles<br /></h3><p className="aboutinfo">Good Pups are Raised by Good Hoomans</p> 
+      <div className="row">
+        <div className="col-sm-2">
+        </div>
+        <div className="col-sm-8"><img src="./assets/aboutimages/familycar.jpg" alt="family" className="img-fluid"></img></div>
+        </div> 
+        <div className="col-sm-2"></div>
        <div className="row">
          <div className='col'></div>
          <div className="col-lg-8 text-center">
@@ -19,7 +28,7 @@ these same experiences for our own family and we current raise a variety of anim
 Orem, Utah. Each year a new wave of babies are born and with them come increasing responsibilities while
 providing wonderful learning experiences to our family and opportunities for growth both personal and business
 related.</p>
-<img src="./assets/aboutimages/familycar.jpg" alt="family" className="img-fluid"></img></div>
+</div>
 
 <div className='col'></div>
        </div>

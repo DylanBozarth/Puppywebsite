@@ -28,6 +28,7 @@ body {
   background-image: url('./topbackground.png');
   background-size: 100%;
   overflow-x: hidden;
+  
 }
 .innercard {
   border-image: url('./TEST.png') 111 round;
@@ -99,7 +100,7 @@ font-family: 'Dancing Script';
   font-size:15px;
   line-height:24px;
   color:black !important;
-  margin-top: 15vh;
+  
   text-align: center;
 }
 .site-footer hr
@@ -294,16 +295,7 @@ text-align: center;
     margin-top: 2vh;
     font-size: 2vh;
   }
-.navbarlogo {
-  margin-top: -2vh;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-.navbarlogo2 {
-  display: none !important;
-  
-}
-/* end of navbar */
+
 
 /* homepage effects */
 
@@ -540,13 +532,7 @@ $scale-base-1: (1 + $scale / 100%);
     background-size: 55%;
     z-index: 99;
   }
-  .navbarlogo2 {
-    display: block !important;
-  }
-  .navbarlogo {
-    display: none !important;
-   margin-left: -1vw;
-  }
+  
   .navitem {
     background-image: url('./bone2.png') !important;
     background-size: 100% 100% !important;
@@ -673,6 +659,9 @@ $scale-base-1: (1 + $scale / 100%);
   0 0.03em white,
   -0.03em 0 white,
   0 -0.03em white,
+}
+.reviewPage {
+  padding: 1rem;
 }
 .reallycenter {
   text-align: center !important;

@@ -19,19 +19,21 @@ export const Navigation = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div className="container-fluid">
+    <div className="container">
       <div className="row">
         <div className="col"></div>
         <Navbar className="navbarmaster align-self-center" light expand="md">
           <NavbarToggler onClick={toggle} />
-          <NavbarBrand href="/" className="navbarlogo2 img-fluid">
-            <img
-              width="180px"
-              height="135px"
-              src="./assets/headerlogo.png"
-              alt="logo"
-            ></img>
-          </NavbarBrand>
+          <NavbarBrand href="/" className="">
+                <img
+                  width="180px"
+                  height="180px"
+                  src="./assets/headerlogo.png"
+                  className="navbarlogo img-fluid"
+                  alt="navbone"
+                ></img>
+              </NavbarBrand>
+          
           <Collapse isOpen={isOpen} navbar>
             <Nav className="" navbar>
               <UncontrolledDropdown nav inNavbar>
@@ -117,15 +119,7 @@ export const Navigation = () => {
                  </DropdownItem> 
                 </DropdownMenu>
               </UncontrolledDropdown>
-              <NavbarBrand href="/" className="">
-                <img
-                  width="180px"
-                  height="180px"
-                  src="./assets/headerlogo.png"
-                  className="navbarlogo"
-                  alt="navbone"
-                ></img>
-              </NavbarBrand>
+              
 
               <NavItem>
                 <NavLink href="/reviews" className="">

@@ -1,0 +1,234 @@
+.frontPage {
+   
+    background-image: url('../backgroundImages/topbackground.png');
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  display: none;
+  
+
+}
+// new navigation 
+.nav-button-text  {
+  font-size: 2.2vh;
+  color: white;
+  text-shadow:
+  0.05em 0 black,
+  0 0.05em black,
+  -0.05em 0 black,
+  0 -0.05em black,
+  
+}
+.navbar-wrapper {
+  position: sticky; top: 0;
+  padding-top: -1rem;
+}
+.nav-item {
+
+overflow: visible;
+background-image: url('../backgroundImages/bone2.png');
+background-position: center;
+background-size: 50%;
+background-repeat: no-repeat;
+ overflow: visible;
+ padding: 1.7rem;
+}
+.new-nav-button {
+ color: white;
+ cursor: pointer;
+}
+.dropdown1 {
+  background-image: url('../backgroundImages/paws.png');
+  position: absolute;
+  z-index: 99;
+  padding: .5rem;
+}
+.dropdown2 {
+  background-image: url('../backgroundImages/paws.png');
+  position: absolute;
+  z-index: 99;
+  padding: .5rem;
+}
+.noShow {
+  display: none;
+}
+/* homepage effects */
+
+$items: 4;
+$animation-time: 4s;
+$transition-time: 0.8s;
+$scale: 20%;
+
+$total-time: ($animation-time * $items);
+$scale-base-1: (1 + $scale / 100%);
+.kenBox {
+  text-align: center;
+}
+.slideshow2 {
+  position: relative;
+
+height: 75vh;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 20px;
+  border-bottom: 25px solid transparent;
+  border-image: url('../backgroundImages/whitesquare.png') 65 round;
+}
+
+.paws {
+  background-image: url('../backgroundImages/paws.png');
+  background-size: 100% 100%; 
+  height: 35vh;
+  margin-bottom: -8vh;
+}
+.slideshow-image2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: no-repeat 25% 25%;
+  background-size: cover;
+  animation-name: kenburns;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: $total-time;
+  opacity: 1;
+  transform: scale($scale-base-1);
+
+  @for $i from 1 through $items {
+    &:nth-child(#{$i}) {
+      animation-name: kenburns-#{$i};
+      z-index: ($items - $i);
+    }
+  }
+}
+
+@for $i from 1 through $items {
+  @keyframes kenburns-#{$i} {
+    $animation-time-percent: percentage($animation-time / $total-time);
+    $transition-time-percent: percentage($transition-time / $total-time);
+
+    $t1: ($animation-time-percent * ($i - 1) - $transition-time-percent / 2);
+    $t2: ($animation-time-percent * ($i - 1) + $transition-time-percent / 2);
+    @if ($t1 < 0%) {
+      $t1: 0%;
+    }
+    @if ($t2 < 0%) {
+      $t2: 0%;
+    }
+
+    $t3: ($animation-time-percent * ($i) - $transition-time-percent / 2);
+    $t4: ($animation-time-percent * ($i) + $transition-time-percent / 2);
+    @if ($t3 > 100%) {
+      $t3: 100%;
+    }
+    @if ($t4 > 100%) {
+      $t4: 100%;
+    }
+
+    $t5: (100% - $transition-time-percent / 2);
+    $t6: (($t4 - $t1) * 100% / $t5);
+
+    #{$t1} {
+      opacity: 1;
+      transform: scale($scale-base-1);
+    }
+    #{$t2} {
+      opacity: 1;
+    }
+    #{$t3} {
+      opacity: 1;
+    }
+    #{$t4} {
+      opacity: 0;
+      transform: scale(1);
+    }
+
+    @if ($i != $items) {
+      100% {
+        opacity: 0;
+        transform: scale($scale-base-1);
+      }
+    }
+
+    @if ($i == 1) {
+      $scale-plus: ($scale * (100% - $t5) / $t4);
+      $scale-plus-base-1: (1 + ($scale + $scale-plus) / 100%);
+
+      #{$t5} {
+        opacity: 0;
+        transform: scale($scale-plus-base-1);
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+}
+/* quotes */
+.quoteWrapper{
+  text-align: center;
+  background-image: url('../backgroundImages/paws.png')
+}
+.homeQuote {
+color: white;
+font-style: italic;
+margin-top: -2rem;
+font-size: 5vh;
+word-wrap: break-word;
+text-shadow: 1.5px 0 0 #000, 0 -1px 0 #000, 0 1.5px 0 #000, -1px 0 0 #000;
+}
+/* puppy cards */
+
+.puppyCard:hover {
+  top:2%;
+  bottom:2%;
+  left:2%;
+  right:2%;
+  -webkit-border-radius:15%;		
+  -moz-border-radius:15%;
+
+  -webkit-box-shadow:0px -1px 25px rgba(0,0,0,0.5), 0px 1px 25px rgba(0,0,0,0.7);
+  -moz-box-shadow:0px -1px 25px rgba(0,0,0,0.5), 0px 1px 25px rgba(0,0,0,0.7);
+  box-shadow:0px -1px 25px rgba(0,0,0,0.5), 0px 1px 25px rgba(0,0,0,0.7);
+
+}
+.puppyCardText {
+  
+  font-size: 4vh;
+  color: white;
+  text-shadow:
+  0.05em 0 black,
+  0 0.05em black,
+  -0.05em 0 black,
+  0 -0.05em black,
+  -0.05em -0.05em black,
+  -0.05em 0.05em black,
+  0.05em -0.05em black,
+  0.05em 0.05em black;
+}
+.puppyCardText:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+/* social media */
+.SMStuff {
+  padding: 2rem;
+}
+
+.SMLink {
+  bottom: 0;
+  position: relative;
+}
+.SMLink:Hover {
+  text-shadow:
+  0.05em 0 black,
+  0 0.05em black,
+  -0.05em 0 black,
+  0 -0.05em black,
+  -0.05em -0.05em black,
+  -0.05em 0.05em black,
+  0.05em -0.05em black,
+  0.05em 0.05em black;
+}

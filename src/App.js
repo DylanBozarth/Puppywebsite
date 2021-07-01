@@ -2,12 +2,11 @@ import React, { Component } from "react";
 import "./App.scss";
 import { Navigation } from "./component/nav";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from "./pages/home";
 import { Route, BrowserRouter } from "react-router-dom";
 import Parents from "./pages/parents";
 import About from "./pages/about";
 import { Footer } from "./component/footer";
-import {Application} from "./pages/application";
+import { Application } from "./pages/application";
 import BreedInfo from "./pages/breedinfo";
 import RainbowBridge from "./pages/rainbowbridge";
 import Poodles from "./component/poodles";
@@ -16,12 +15,13 @@ import Goldendoodles from "./component/goldendoodles";
 import Affliates from "./pages/affliates";
 import Reviews from "./pages/reviews";
 import Guardians from "./pages/guardians";
-import PuppyContract from './component/puppycontract'
+import PuppyContract from "./component/puppycontract";
 import GuardianContract from "./component/guardianContract";
 import FAQPAGE from "./pages/faq";
 import { NewPups } from "./newpages/pups";
 import { Featured } from "./newpages/featuredpups";
-
+import { FrontPage } from "./newpages/frontpage";
+import { NewNav } from "./newcomponents/newnav";
 class App extends Component {
   constructor(props) {
     super(props);
@@ -39,8 +39,6 @@ class App extends Component {
           propdata: res,
         });
       });
-     
-    
   }
 
   render() {
@@ -48,14 +46,15 @@ class App extends Component {
       <div>
         <BrowserRouter>
           <div className="container">
-            <Navigation />
+           
+            <NewNav />
           </div>
           <div className="page">
             <Route
               exact
               path="/"
               render={(props) => (
-                <Home {...props} propdata={this.state.propdata} />
+                <FrontPage {...props} propdata={this.state.propdata} />
               )}
             />
             <Route
@@ -93,7 +92,7 @@ class App extends Component {
                 <Goldendoodles {...props} propdata={this.state.propdata} />
               )}
             />
-          
+
             <Route
               exact
               path="/reviews"
@@ -122,8 +121,12 @@ class App extends Component {
             />
             <Route exact path="/guardians" component={Guardians} />
             <Route exact path="/puppycontract" component={PuppyContract} />
-            <Route exact path="/guardiancontract" component={GuardianContract} />
-           
+            <Route
+              exact
+              path="/guardiancontract"
+              component={GuardianContract}
+            />
+
             <Route
               exact
               path="/rainbowbridge"
@@ -131,7 +134,6 @@ class App extends Component {
                 <RainbowBridge {...props} propdata={this.state.propdata} />
               )}
             />
-            
           </div>
         </BrowserRouter>
         <Footer />
