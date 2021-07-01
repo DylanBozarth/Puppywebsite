@@ -75,38 +75,52 @@ export const FrontPage = () => {
       </div>
       {/* end of quote and logo */}
       <div className="row SMStuff">
-        <div className="col-sm-2"></div>
-        <div className="col-sm-2">
-          <a href="https://www.facebook.com/JYMRdoodles/"  target="_blank" rel="noopener noreferrer">
-            <img
-              src="./assets/facebook.png"
-              className="img-fluid SMLink"
-              alt="facebook"
-            ></img>
-          </a>
+        <div className="col-sm-3"></div>
+
+        <div className="col-sm-6">
+          {" "}
+          <NavLink to="/application" className="LinkDog">
+            <div className="text-center">
+              <img
+                src="./assets/cloud.png"
+                alt="goldendoodle"
+                className="img-fluid"
+              ></img>
+              <h3 className="puppyCardText">Adoption Application</h3>
+            </div>
+          </NavLink>
         </div>
-        <div className="col-sm-4"> <NavLink to="/application">
-        <div className="text-center">
-          <img
-            src="./assets/cloud.png"
-            alt="goldendoodle" className="img-fluid"
-          ></img>
-          <h3 className="puppyCardText">Adoption Application</h3>
-        </div>
-      </NavLink></div>
-        <div className="col-sm-2">
-          <a href="https://www.instagram.com/jymr_doodles/" target="_blank" rel="noopener noreferrer"> 
-            {" "}
-            <img
-              src="./assets/instagramlogo.png"
-              className="img-fluid SMLink"
-              alt="instagram"
-            ></img>
-          </a>
-        </div>
-        <div className="col-sm-2"></div>
+        <div className="col-sm-3"></div>
       </div>
-     
+      <div className="row">
+        <div className="col-sm-4"></div>
+        <div className="col-sm-2">
+        <a
+          href="https://www.instagram.com/jymr_doodles/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          <img
+            src="./assets/instagramlogo.png"
+            className="img-fluid SMLink"
+            alt="instagram"
+          ></img>
+        </a>{" "}</div>
+        <div className="col-sm-2">
+        <a
+          href="https://www.facebook.com/JYMRdoodles/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="./assets/facebook.png"
+            className="img-fluid SMLink"
+            alt="facebook"
+          ></img>
+        </a></div>
+        <div className="col-sm-4"></div>
+      </div>
     </div>
   );
 };
