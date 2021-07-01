@@ -34,9 +34,8 @@ body::-webkit-scrollbar {
 overflow: visible;
 background-image: url('../backgroundImages/bone2.png');
 background-position: center;
-background-size:13em;
+background-size: contain;
 background-repeat: no-repeat;
- overflow: visible;
  padding: 1.7rem;
 }
 .new-nav-button {

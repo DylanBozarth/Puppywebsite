@@ -67,7 +67,7 @@ export const FrontPage = () => {
             className="img-fluid"
             alt="doodle logo"
           ></img>
-          <p className="homeQuote">
+          <p className="homeQuote puppyCardText">
             "A dog is the only thing on Earth that loves you more than you can
             love yourself"
           </p>

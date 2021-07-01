@@ -25,7 +25,7 @@ export const Footer = () => (
         
 
         <div className="footerlinks col-md-6">
-          <h6  className="center ">Quick Links</h6>
+          <h4  className="center ">Quick Links</h4>
           <ul className="footer-links text-center">
             <li><NavLink href="/newpups" className="footerlink">Current litters</NavLink></li>
             <li><NavLink href="/about" className="footerlink">About us</NavLink></li>

@@ -88,6 +88,7 @@ font-family: 'Dancing Script';
 .footerlink {
   font-size: 4vh;
   text-align: center;
+  padding: 1rem;
 }
 .react-icons {
   vertical-align: middle;
@@ -97,10 +98,10 @@ font-family: 'Dancing Script';
   background-image: url('./paperheader.jpg') !important;
   background-size: 70%;
   padding:45px 0 20px;
-  font-size:15px;
+  font-size:3vh;
   line-height:24px;
   color:black !important;
-  
+  height: 100%;
   text-align: center;
 }
 .site-footer hr
@@ -135,10 +136,11 @@ font-family: 'Dancing Script';
   padding-left:0;
   list-style:none;
   text-align: center;
+  padding: 1px;
 }
 .footer-links li
 {
-  display:block;
+  
   text-align: center;
 }
 .footer-links a
