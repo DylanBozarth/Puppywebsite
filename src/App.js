@@ -136,7 +136,7 @@ class App extends Component {
             />
           </div>
           
-                <Footer />
+                <NewFoot/>
               
         </BrowserRouter>
       </div>

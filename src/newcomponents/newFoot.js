@@ -4,27 +4,29 @@ export const NewFoot = () => {
   return (
     <div className="newFooter">
       <div className="row">
-        <div className="col-sm-6">
+        <div className="col-sm-2"></div>
+        <div className="col-sm-4">
           <img
             src="./assets/logosquare.png"
             alt="Doodles"
             className="img-fluid"
           ></img>
         </div>
-        <div className="col-sm-6">
-        <h4  className="text-center ">Quick Links</h4>
+        <div className="col-sm-4">
+        <h3  className="text-center ">Quick Links</h3>
          <div className="text-center">
-            <NavLink to="/newpups">Current Litters</NavLink>
+            <NavLink to="/newpups" className="puppyCardText">Current Litters</NavLink>
             <br />
-            <NavLink to="/about">About us</NavLink> 
+            <NavLink to="/about" className="puppyCardText">About us</NavLink> 
             <br />
-            <NavLink to="/reviews">Reviews</NavLink>
+            <NavLink to="/reviews"  className="puppyCardText">Reviews</NavLink>
             <br />
-            <NavLink to="/FAQ">FAQ</NavLink>
+            <NavLink to="/FAQ"  className="puppyCardText">FAQ</NavLink>
             <br />
-            <NavLink to="/application">Adoption application</NavLink>
+            <NavLink to="/application"  className="puppyCardText">Adoption application</NavLink>
            </div>
         </div>
+        <div className="col-sm-2"></div>
       </div>
     </div>
   );

@@ -22,7 +22,7 @@ export const NewNav = () => {
     <div className="container-fluid">
       <div className="  row">
         <div className="nav-item col-sm-3" onClick={() => OpenNum1()}>
-          <p className="new-nav-button text-center nav-button-text puppyCardText">
+          <p className="new-nav-button text-center nav-button-text ">
             Infurmation
           </p>
           <div className={open1 === false ? `noShow` : `dropdown1 text-center`}>
@@ -46,7 +46,7 @@ export const NewNav = () => {
             OpenNum2();
           }}
         >
-          <p className="new-nav-button text-center nav-button-text puppyCardText">Dogs</p>
+          <p className="new-nav-button text-center nav-button-text ">Dogs</p>
           <div className={open2 === false ? `noShow` : `dropdown2 text-center`}>
             <NavLink to="/newpups" className="drop-down-text puppyCardText">
               <p className="drop-down-text puppyCardText">Current Litters</p>
