@@ -44,9 +44,9 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container-fluid">
         <BrowserRouter>
-          <div className="container">
+          <div className="">
             <NewNav />
           </div>
           <div className="page">
