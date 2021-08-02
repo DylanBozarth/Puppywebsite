@@ -1,7 +1,7 @@
 .frontPage {
    
     background-image: url('../backgroundImages/topbackground.png');
-    max-width: 100vw;
+    
     overflow-x: hidden;
 }
 body::-webkit-scrollbar {
@@ -12,7 +12,6 @@ body::-webkit-scrollbar {
 // new navigation 
 .nav-bar-top {
   width: 105%;
-  overflow: hidden;
 }
 .nav-button-text  {
   font-size: calc(14px + 1vw);
