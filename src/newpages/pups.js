@@ -13,18 +13,35 @@ export const NewPups = () => {
    
     return(
         <div className="innerpage container-fluid puppypage">
-           <h3 className="text-center puppyname">Featured Puppy</h3>
-           <Carousel itemsToShow={1}>
-             <img src="./currentpuppies/heartattack/harmony.jpg" className="homecard frame img-fluid" alt="puppy"></img>
-             <img src="./currentpuppies/heartattack/harmony2.jpg" className="homecard frame img-fluid" alt="puppy"></img>
-             <img src="./currentpuppies/heartattack/harmony3.jpg" className="homecard frame img-fluid" alt="puppy"></img>
-             <img src="./currentpuppies/heartattack/harmony4.jpg" className="homecard frame img-fluid" alt="puppy"></img>
-             <img src="./currentpuppies/heartattack/harmony5.jpg" className="homecard frame img-fluid" alt="puppy"></img>
-           </Carousel>
-           <h4 className="text-center puppyname">Harmony from the Heart Attack doods!</h4>
-           <br />
-           
-    <div className="theme text-center"><img alt="labradoodles" src="./featuredPups/bernedoodles/chloeandgus.jpg" className="img-fluid homecard frame"></img></div> 
+          <div className="puppyname puppytitle text-center">Plantatious Doods<br /> F1b Mini/Moyan English Goldendoodles</div>
+          <div className="row">
+            <div className="col-sm-4">
+          <Carousel itemsToShow={1} className=''>
+             <img src="./currentpuppies/platatousdoods/pumpkin.jpg" className="frame img-fluid" alt="puppy"></img>
+           </Carousel> <h4  className="puppyname">Pumpkin <br />
+           Available</h4> </div>
+           <div className="col-sm-4">
+           <Carousel itemsToShow={1} className=''>
+             <img src="./currentpuppies/platatousdoods/peach.jpg" className=" frame img-fluid" alt="puppy"></img>
+             
+           </Carousel>  <h4  className="puppyname">Peach <br />
+           Available</h4></div>
+           <div className="col-sm-4">
+           <Carousel itemsToShow={1} className=''>
+             <img src="./currentpuppies/platatousdoods/pecan.jpg" className=" frame img-fluid" alt="puppy"></img>
+           </Carousel> <h4  className="puppyname">Pecan <br />
+           Available</h4> </div>
+           <div className="col-sm-4">
+           <Carousel itemsToShow={1} className=''>
+             <img src="./currentpuppies/platatousdoods/pepper.jpg" className=" frame img-fluid" alt="puppy"></img>
+           </Carousel> <h4  className="puppyname">Pepper <br />
+           Available</h4> </div>
+           <div className="col-sm-4">
+           <Carousel itemsToShow={1} className=''>
+             <img src="./currentpuppies/platatousdoods/peanut.jpg" className="frame img-fluid" alt="puppy"></img>
+           </Carousel>  <h4  className="puppyname">Peanut <br />
+           Available</h4></div>
+   </div>
     {/*<h3 className="text-center puppyname">Puppies are unnamed as of 4/23</h3> */}
     
 <div className="puppyname puppytitle text-center">Jaw Dropper Doods! <br /> F1B mini bernedoodles</div>
