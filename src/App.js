@@ -3,21 +3,19 @@ import "./App.scss";
 import { Navigation } from "./component/nav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, BrowserRouter } from "react-router-dom";
-import Parents from "./pages/parents";
-import About from "./pages/about";
-import { Footer } from "./component/footer";
-import { Application } from "./pages/application";
-import BreedInfo from "./pages/breedinfo";
-import RainbowBridge from "./pages/rainbowbridge";
+import Parents from "./legacypages/parents";
+import About from "./legacypages/about";
+import { Application } from "./legacypages/application";
+import BreedInfo from "./legacypages/breedinfo";
+import RainbowBridge from "./legacypages/rainbowbridge";
 import Poodles from "./component/poodles";
 import Labradoodles from "./component/labradoodles";
 import Goldendoodles from "./component/goldendoodles";
-import Affliates from "./pages/affliates";
-import Reviews from "./pages/reviews";
-import Guardians from "./pages/guardians";
+import Reviews from "./legacypages/reviews";
+import Guardians from "./legacypages/guardians";
 import PuppyContract from "./component/puppycontract";
 import GuardianContract from "./component/guardianContract";
-import FAQPAGE from "./pages/faq";
+import FAQPAGE from "./legacypages/faq";
 import { NewPups } from "./newpages/pups";
 import { Featured } from "./newpages/featuredpups";
 import { FrontPage } from "./newpages/frontpage";
@@ -105,13 +103,7 @@ class App extends Component {
             <Route exact path="/breedinfo" component={BreedInfo} />
             <Route exact path="/newpups" component={NewPups} />
             <Route exact path="/featured" component={Featured} />
-            <Route
-              exact
-              path="/affliates"
-              render={(props) => (
-                <Affliates {...props} propdata={this.state.propdata} />
-              )}
-            />
+          
             <Route
               exact
               path="/faq"
